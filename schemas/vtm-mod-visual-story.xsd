@@ -1,0 +1,141 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2021, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   XML elements tied to describing the story, including keywords and themes.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='KeywordsType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Contains an array of one or more keyword elements
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice minOccurs='1' maxOccurs='unbounded'>
+   <xs:element name='generic' type='KeywordType'/>
+   <xs:element name='properNoun' type='KeywordPNType'/>
+   <xs:element name='group' type='KWGroupType'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='KWGroupType'>
+  <xs:choice minOccurs='1' maxOccurs='unbounded'>
+   <xs:element name='generic' type='KeywordType'/>
+   <xs:element name='properNoun' type='KeywordPNType'/>
+  </xs:choice>
+  <xs:attribute name='relevance' type='xs:integer' use='optional'/>
+  <xs:attribute name='collection' type='xs:token' use='optional'/>
+ </xs:complexType>
+
+ <xs:simpleType name='KeywordRelevance'>
+  <xs:restriction base='xs:integer'>
+   <xs:minInclusive value='1'/>
+   <xs:maxInclusive value='5'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:complexType name='KeywordType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Keyword Element Attributes
+     relevance : relevance score, 1-5 (1 = most relevance, default = 3)
+     collection : grouping of keywords into logical order
+     clarification : a word to help identify a keyword with an ambiguous definition
+     synonym : a word identical to the keyword
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:string'>
+    <xs:attribute name='collection' type='xs:token' use='optional'/>
+    <xs:attribute name='relevance' type='KeywordRelevance' use='optional'/>
+    <xs:attribute name='related' type='xs:string' use='optional'/>
+    <xs:attribute name='synonym' type='xs:string' use='optional'/>
+    <xs:attribute name='clarification' type='xs:string' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+<!-- 
+ <xs:complexType name='KeywordType3' mixed='true'>
+  <xs:choice minOccurs='0' maxOccurs='1'>
+   <xs:group ref='ProperNounGroup'/>
+  </xs:choice>
+  <xs:attribute name='collection' type='xs:token' use='optional'/>
+  <xs:attribute name='relevance' type='KeywordRelevance' use='optional'/>
+  <xs:attribute name='related' type='xs:token' use='optional'/>
+  <xs:attribute name='synonym' type='xs:token' use='optional'/>
+  <xs:attribute name='clarification' type='xs:token' use='optional'/>
+ </xs:complexType>
+-->
+
+ <xs:complexType name='KeywordPNType'>
+  <xs:choice minOccurs='1' maxOccurs='1'>
+   <xs:group ref='ProperNounGroup'/>
+  </xs:choice>
+  <xs:attribute name='collection' type='xs:token' use='optional'/>
+  <xs:attribute name='relevance' type='KeywordRelevance' use='optional'/>
+  <xs:attribute name='related' type='xs:string' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='ThemesType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Themes expressed throughout the movie.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='theme' type='xs:string' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='PlotType' mixed='true'>
+  <xs:choice minOccurs='0' maxOccurs='unbounded'>
+   <xs:element name='chr' type='xs:string'/>
+   <xs:element name='kw' type='xs:string'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='StoryType'>
+  <xs:sequence>
+   <xs:element name='logline' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:choice>
+    <xs:element name='overview' type='PlotType' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='plot' type='PlotType' minOccurs='0' maxOccurs='1'/>
+   </xs:choice>
+   <xs:element name='keywords' type='KeywordsType' minOccurs='0' maxOccurs='1'>
+    <xs:unique name='uKeyword'>
+     <xs:selector xpath='keyword|group/keyword'/>
+     <xs:field xpath='.'/>
+    </xs:unique>
+   </xs:element>
+   <xs:element name='themes' type='ThemesType' minOccurs='0' maxOccurs='1'>
+    <xs:unique name='uTheme'>
+     <xs:selector xpath='theme'/>
+     <xs:field xpath='.'/>
+    </xs:unique>
+   </xs:element>
+  </xs:sequence>
+ </xs:complexType>
+
+
+</xs:schema>

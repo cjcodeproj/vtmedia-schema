@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Mad Max</title>
+    <catalog>
+     <identification>
+      <id type='foobar'>123456</id>
+      <uuid>c322b700-f472-6d8e-f9b0-c7f361c37c02</uuid>
+     </identification>
+     <copyright>
+      <year>1979</year>
+      <holders>
+       <holder>American International Pictures, Inc</holder>
+      </holders>
+     </copyright>
+<!--
+     <universe>
+      <title>Mad Max Universe</title>
+      <series>
+       <title>Mad Max Triology</title>
+       <index>1</index>
+       <max>3</max>
+      </series>
+     </universe>
+-->
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Action</primary>
+      <secondary>Sci-Fi</secondary>
+      <specific>Distopian Highway</specific>
+      <subgenres>
+       <subgenre>cult classic</subgenre>
+       <subgenre>carspoitation</subgenre>
+      </subgenres>
+     </genres>
+     <certifications>
+      <certificate ref='25684'>
+       <rating code='R'>Restricted</rating>
+       <agency>
+        <name>MPAA</name>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+<!-- 
+    <info>
+     <universe>
+      <title>Max Max Universe</title>
+      <series>
+       <title>Mad Max Trilogy</title>
+       <index>1</index>
+       <max>3</max>
+       </series>
+     </universe>
+    </info>
+-->
+    <story>
+     <plot>
+       A lone <kw>policeman</kw> hunts down the <kw>biker gang</kw> that killed his family in post-apocalypse Australia.
+     </plot>
+     <keywords>
+      <generic>interceptor</generic>
+     </keywords>
+     <themes>
+      <theme>revenge</theme>
+      <theme>law and order</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>George</gn><fn>Miller</fn></director>
+     </directors>
+     <writers>
+      <writer role='screenplay'><gn>James</gn><fn>McCausland</fn></writer>
+      <writer role='screenplay'><gn>George</gn><fn>Miller</fn></writer>
+      <writer role='story'><gn>George</gn><fn>Miller</fn></writer>
+      <writer role='story'><gn>Byron</gn><fn>Kennedy</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Cliff</gn><fn>Hayes</fn></editor>
+      <editor><gn>Tony</gn><fn>Paterson</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>David</gn><fn>Eggby</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Mel</gn><fn>Gibson</fn></actor>
+       <as><gn>Max</gn></as>
+      </role>
+      <role>
+       <actor><gn>Joanne</gn><fn>Samuel</fn></actor>
+       <as><gn>Jessie</gn></as>
+      </role>
+      <role>
+       <actor><gn>Hugh</gn><fn>Keays-Byrne</fn></actor>
+       <as><nick>Toecutter</nick></as>
+      </role>
+      <role>
+       <actor><gn>Steve</gn><fn>Bisley</fn></actor>
+       <as><gn>Jim</gn><fn>Goose</fn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>

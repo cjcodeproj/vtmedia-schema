@@ -1,0 +1,193 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2021, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   Module for product inventory of physical media, and physical dimensions.
+   Containing elements contain details on publisher, release date, dimensions and inventory.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='ProductType'>
+  <xs:sequence>
+   <xs:group ref='ProductTypeGroup' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='SingleProductType'>
+ </xs:complexType>
+
+ <xs:group name='ProductTypeGroup'>
+  <xs:choice>
+   <xs:element name='cd' type='SingleProductType'/>
+   <xs:element name='casette' type='SingleProductType'/>
+   <xs:element name='record' type='SingleProductType'/>
+   <xs:element name='dvd' type='SingleProductType'/>
+   <xs:element name='bluray' type='SingleProductType'/>
+   <xs:element name='bluray3d' type='SingleProductType'/>
+   <xs:element name='hddvd' type='SingleProductType'/>
+   <xs:element name='ultrahd' type='SingleProductType'/>
+   <xs:element name='vhs' type='SingleProductType'/>
+   <xs:element name='beta' type='SingleProductType'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:complexType name='PIVideoDiskType'>
+  <xs:attribute name='id' type='xs:integer' use='optional'/>
+  <xs:attribute name='type' type='xs:token' use='optional'/>
+  <xs:attribute name='diometer' type='xs:float' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='PIVideoTapeType'>
+  <xs:attribute name='id' type='xs:integer' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='PICodeSheetType'>
+  <xs:sequence>
+   <xs:element name='service' type='xs:token' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:group name='PIMediumGroup'>
+  <xs:annotation>
+   <xs:documentation>
+    Any physical thing that can store media (dvd, book, casette, film reel)
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='dvd' type='PIVideoDiskType'/>
+   <xs:element name='bluray' type='PIVideoDiskType'/>
+   <xs:element name='ultrahd' type='PIVideoDiskType'/>
+   <xs:element name='bluray3d' type='PIVideoDiskType'/>
+   <xs:element name='hddvd' type='PIVideoDiskType'/>
+   <xs:element name='laserdisc' type='PIVideoDiskType'/>
+   <xs:element name='vhs' type='PIVideoTapeType'/>
+   <xs:element name='beta' type='PIVideoTapeType'/>
+   <xs:element name='codesheet' type='PICodeSheetType'/>
+   <xs:element name='insert' type='PICodeSheetType'/>
+   <xs:element name='booklet' type='PICodeSheetType'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:group name='PIStorageGroup'>
+  <xs:annotation>
+   <xs:documentation>
+    Anything that is the innermost storage container for physical media, like DVDs or casettes.
+   </xs:documentation>
+  </xs:annotation>
+ </xs:group>
+
+ <xs:complexType name='PIWrapperStorageType'>
+  <xs:choice minOccurs='1'>
+   <xs:element name='case' type='PIStorageType' maxOccurs='unbounded'/>
+   <xs:element name='envelope' type='PIStorageType' maxOccurs='unbounded'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='PIStorageType'>
+  <xs:choice minOccurs='1' maxOccurs='unbounded'>
+   <xs:group ref='PIMediumGroup'/>
+  </xs:choice>
+  <xs:attribute name='translucent' type='xs:boolean' use='optional'/>
+  <xs:attribute name='color' type='xs:token' use='optional'/>
+  <xs:attribute name='slipcover' type='xs:boolean' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='ProductInventoryType'>
+  <xs:choice minOccurs='1'>
+   <xs:element name='case' type='PIStorageType' maxOccurs='unbounded'/>
+   <xs:element name='envelope' type='PIStorageType' maxOccurs='unbounded'/>
+   <xs:element name='box' type='PIWrapperStorageType' maxOccurs='unbounded'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='PDSizeType'>
+  <xs:attribute name='length' type='xs:float' use='required'/>
+  <xs:attribute name='width' type='xs:float' use='required'/>
+  <xs:attribute name='height' type='xs:float' use='required'/>
+ </xs:complexType>
+
+
+ <xs:complexType name='ProductDimensionsType'>
+  <xs:sequence>
+   <xs:element name='size' type='PDSizeType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='weight' type='xs:float' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attribute name='units' type='xs:token' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='ProductSpecsType'>
+  <xs:sequence>
+   <xs:element name='publisher' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='dimensions' type='ProductDimensionsType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='inventory' type='ProductInventoryType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='ReleaseType'>
+  <xs:sequence>
+   <xs:element name='type' type='ProductType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='releaseDate' type='xs:date' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='publisher' type='xs:token' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='MediumType'>
+  <xs:sequence>
+   <xs:element name='release' type='ReleaseType' minOccurs='0'/>
+   <xs:element name='productId' type='ProductIdType' minOccurs='0'/>
+   <xs:element name='productSpecs' type='ProductSpecsType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='BarcodeType'>
+  <xs:simpleContent>
+   <xs:extension base='xs:string'>
+    <xs:attribute name='type' type='xs:string' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='SkuType'>
+  <xs:simpleContent>
+   <xs:extension base='xs:string'>
+    <xs:attribute name='retailer' type='xs:string' use='optional'/>
+    <xs:attribute name='type' type='xs:string' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='OtherIdType'>
+  <xs:sequence>
+   <xs:element name='name' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='value' type='xs:token' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='ProductIdType'>
+   <xs:sequence>
+    <xs:element name='barcode' type='BarcodeType' minOccurs='0' maxOccurs='unbounded'/>
+    <xs:element name='sku' type='SkuType' minOccurs='0' maxOccurs='unbounded'/>
+    <xs:element name='other' type='OtherIdType' minOccurs='0' maxOccurs='unbounded'/>
+   </xs:sequence>
+ </xs:complexType>
+
+
+</xs:schema>

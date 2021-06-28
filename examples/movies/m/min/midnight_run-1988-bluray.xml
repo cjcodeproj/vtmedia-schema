@@ -1,0 +1,194 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Midnight Run</main>
+   <edition>Collector's Edition</edition>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2016-04-01</from><range>P1M</range></date>
+      <purchase>
+       <retailer>Best Buy</retailer>
+       <price currency='USD'>20.00</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+   <filing>
+    <collection>Road Trip Movies</collection>
+   </filing>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+    <publisher>Shout Factory</publisher>
+   </release>
+   <productId>
+    <barcode type='upc'>926663164794</barcode>
+    <sku retailer='bby'>4771602</sku>
+   </productId>
+   <productSpecs>
+    <dimensions>
+     <size length='6.75' width='5.4' height='0.5'/>
+    </dimensions>
+    <inventory>
+     <case>
+      <bluray id='1'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Midnight Run</title>
+    <catalog>
+     <copyright>
+      <year>1988</year>
+      <holders>
+       <holder>Universal City Studios, Inc.</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Action</primary>
+      <secondary>Comedy</secondary>
+      <specific>Road Trip Adversary Hijinks</specific>
+      <subgenres>
+       <subgenre>neo-noir</subgenre>
+       <subgenre>adapted to a novel</subgenre>
+      </subgenres>
+     </genres>
+     <certifications>
+      <certificate ref='29281'>
+       <rating code='R'>Restricted</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT2H06M09S</overall>
+      <openingCredits startOffset='PT2M37S' overlap='true'>PT2M3S</openingCredits>
+      <endCredits>PT3M57S</endCredits>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <logline>A bounty hunter must bring back his prisoner within 5 days to make a court date, and secure a 
+     large payout.</logline>
+     <plot>
+     <chr>Jack Walsh</chr> is a <kw>bounty hunter</kw> travelingtraveling  cross-country to find and return a bonded accountant.  
+     Along the way, they are
+     pursued by the FBI, who wants to flip the accountant, the mafia, who wants the accountant dead, and a 
+     competing bounty hunter, who wants the payout for himself.
+     </plot>
+     <keywords>
+      <generic relevance='1'>bounty hunter</generic>
+      <generic relevance='1'>accountant</generic>
+      <properNoun relevance='1'><entity>FBI</entity></properNoun>
+      <properNoun><entity>Amtrack</entity></properNoun>
+      <generic>handcuffs</generic>
+      <generic>car</generic>
+      <generic>plane</generic>
+      <generic>biplane</generic>
+      <generic>train</generic>
+      <generic>train hopping</generic>
+      <generic>car chase</generic>
+      <generic>road block</generic>
+      <generic>sunglasses</generic>
+      <generic>bus</generic>
+      <generic>helicopter</generic>
+      <generic>bail bondsman</generic>
+      <generic>money laundering</generic>
+      <generic>embezzlement</generic>
+      <generic>mafia</generic>
+      <generic relevance='5'>lockpicking</generic>
+      <generic relevance='5'>DTMF decoding</generic>
+      <properNoun relevance='5' related='potato'><thing>Lyonnaise Potatoes</thing></properNoun>
+      <group collection='cities'>
+       <properNoun><place><ci>Los Angeles</ci></place></properNoun>
+       <properNoun><place><ci>New York</ci></place></properNoun>
+       <properNoun><place><ci>Philadelphia</ci></place></properNoun>
+       <properNoun><place><ci>Chicago</ci></place></properNoun>
+       <properNoun><place><ci>Amarillo</ci><st>Texas</st></place></properNoun>
+       <properNoun><place><ci>Channing</ci><st>Texas</st></place></properNoun>
+       <properNoun><place><ci>Flagstaff</ci><st>Arizona</st></place></properNoun>
+       <properNoun><place><ci>Sedona</ci><st>Arizona</st></place></properNoun>
+       <properNoun><place><ci>Las Vegas</ci></place></properNoun>
+      </group>
+      <group collection='transit hubs'>
+       <properNoun><place><name>JFK International Airport</name></place></properNoun>
+       <properNoun><place><name>Grand Central Station</name></place></properNoun>
+       <properNoun><place><name>McCarran International Airport</name></place></properNoun>
+       <properNoun><place><name>LAX</name></place></properNoun>
+      </group>
+     </keywords>
+     <themes>
+      <theme>right and wrong</theme>
+      <theme>antihero</theme>
+      <theme>difficult choices</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Martin</gn><fn>Brest</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>George</gn><fn>Gallo</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Chris</gn><fn>Lebenzon</fn></editor>
+      <editor><gn>Michael</gn><fn>Tronick</fn></editor>
+      <editor><gn>Billy</gn><fn>Weber</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Donald</gn><mn>E</mn><fn>Thorin</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Robert</gn><fn>De Niro</fn></actor>
+       <as><gn>Jack</gn><fn>Walsh</fn></as>
+      </role>
+      <role>
+       <actor><gn>Charles</gn><fn>Grodin</fn></actor>
+       <as><gn>Jonathan</gn><nick>The Duke</nick><fn>Mardukas</fn></as>
+      </role>
+      <role>
+       <actor><gn>Yaphet</gn><fn>Koto</fn></actor>
+       <as><preTitle>Special Agent</preTitle><gn>Alonzo</gn><fn>Mosely</fn></as>
+      </role>
+      <role>
+       <actor><gn>John</gn><fn>Ashton</fn></actor>
+       <as><gn>Marvin</gn><fn>Dorfler</fn></as>
+      </role>
+      <role>
+       <actor><gn>Joe</gn><fn>Pantoliano</fn></actor>
+       <as><gn>Eddie</gn><fn>Moscone</fn></as>
+      </role>
+      <role>
+       <actor><gn>Dennis</gn><fn>Farina</fn></actor>
+       <as><gn>Jimmy</gn><fn>Serrano</fn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
+  </contents>
+ </media>
+</medialist>

@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Unstoppable</title>
+    <catalog>
+     <copyright>
+      <year>2010</year>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Action</primary>
+      <secondary>Thriller</secondary>
+      <specific>Runaway Train Adventure</specific>
+      <subgenres>
+       <subgenre>inspired by true events</subgenre>
+      </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT0H0M0S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      A <kw>train engineer</kw> and a <kw>conductor</kw> put aside their differences as they race against time to 
+      stop a runaway train before it derails, causing an explosion that could kill thousands of people.  Along the 
+      way they try to deal with their unresolved issues and management blowback, while their heroic effort is 
+      chronicled by the local news.
+     </plot>
+     <keywords>
+      <generic>train</generic>
+      <generic>runaway train</generic>
+      <properNoun><place><st>Pennsylvania</st></place></properNoun>
+      <generic clarification='train'>engineer</generic>
+      <generic clarification='train'>conductor</generic>
+      <generic related='media'>tv news</generic>
+      <generic>disaster coverage</generic>
+      <generic clarification='labor'>unions</generic>
+      <generic>helicopters</generic>
+     </keywords>
+     <themes>
+      <theme>heroism</theme>
+      <theme>mortality</theme>
+      <theme>disaster</theme>
+      <theme>underdog</theme>
+      <theme>incompetent management</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Tony</gn><fn>Scott</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>Mark</gn><fn>Bomback</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Robert</gn><fn>Duffy</fn></editor>
+      <editor><gn>Chris</gn><fn>Lebenzon</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Ben</gn><fn>Seresin</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Denzel</gn><fn>Washington</fn></actor>
+       <as><gn>Frank</gn></as>
+      </role>
+      <role>
+       <actor><gn>Chris</gn><fn>Pine</fn></actor>
+       <as><gn>Will</gn></as>
+      </role>
+      <role>
+       <actor><gn>Rosario</gn><fn>Dawson</fn></actor>
+       <as><gn>Connie</gn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>

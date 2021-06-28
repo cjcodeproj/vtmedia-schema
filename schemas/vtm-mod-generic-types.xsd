@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2021, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:simpleType name='UUIDType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Fixed UUID string.
+    Regex pattern: [0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:length value='36' fixed='true'/>
+   <xs:pattern value='[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}' fixed='true'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:simpleType name='CountryCode'>
+  <xs:restriction base='xs:string'>
+   <xs:length value='2'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:complexType name='VariableDateType'>
+  <xs:choice>
+   <xs:element name='exact' type='xs:date'/>
+   <xs:sequence>
+    <xs:element name='from' type='xs:date'/>
+    <xs:choice>
+     <xs:element name='to' type='xs:date'/>
+     <xs:element name='range' type='xs:duration'/>
+    </xs:choice>
+   </xs:sequence>
+  </xs:choice>
+ </xs:complexType>
+
+</xs:schema>

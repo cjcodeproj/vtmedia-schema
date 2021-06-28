@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Parker</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2013-01-01</from><range>P1Y</range></date>
+      <purchase>
+       <retailer>Best Buy</retailer>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'> </barcode>
+    <sku retailer='abc'> </sku>
+   </productId>
+   <productSpecs>
+    <dimensions>
+      <size length='6.75' width='5.4' height='0.5'/>
+    </dimensions>
+    <inventory>
+     <case>
+      <bluray id='1'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href='parker-2013-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

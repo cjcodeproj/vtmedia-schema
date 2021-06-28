@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>The Last Starfighter</title>
+    <catalog>
+     <copyright>
+      <year>1984</year>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Sci-Fi</primary>
+      <specific>Space Adventure</specific>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT1H41M</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      An Earth <kw>teenager</kw> beats a <kw>video game</kw> and suddenly finds himself recruited to fight for space aliens 
+      against an invading force by piloting an advanced space fighter.
+     </plot>
+     <keywords>
+      <generic>video game</generic>
+      <generic>arcade game</generic>
+      <generic>aliens</generic>
+      <generic>clone</generic>
+      <generic>alien invasion</generic>
+      <generic>star fighters</generic>
+      <generic>trailer park</generic>
+     </keywords>
+     <themes>
+      <theme>responsibility</theme>
+      <theme>coming of age</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Nick</gn><fn>Castle</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>>Jonathan</gn><mn>R</mn><fn>Betuel</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Carroll</gn><mn>Timothy</mn><fn>O'Meara</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>King</gn><fn>Baggot</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Lance</gn><fn>Guest</fn></actor>
+       <as><gn>Alex</gn><fn>Rogan</fn></as>
+      </role>
+      <role>
+       <actor><gn>Catherine</gn><mn>Mary</mn><fn>Strwart</fn></actor>
+       <as><gn>Maggie</gn><fn>Gordon</fn></as>
+      </role>
+      <role>
+       <actor><gn>Robert</gn><fn>Preston</fn></actor>
+       <as><gn>Centauri</gn></as>
+      </role>
+      <role>
+       <actor><gn>Dan</gn><fn>O'Herlihy</fn></actor>
+       <as><gn>Grig</gn></as>
+      </role>
+      <role>
+       <actor><gn>Norman</gn><fn>Snow</fn></actor>
+       <as><gn>Xur</gn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>

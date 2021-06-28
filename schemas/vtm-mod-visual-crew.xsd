@@ -1,0 +1,153 @@
+<?xml version='1.0'?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:include schemaLocation='vtm-mod-pnouns.xsd'/>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2021, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:complexType name='DirectorsType'>
+  <xs:sequence>
+   <xs:element name='director' type='PNNameType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='ProducersType'>
+  <xs:choice minOccurs='1' maxOccurs='unbounded'>
+   <xs:element name='producer' type='PNNameType'/>
+   <xs:element name='execProducer' type='PNNameType'/>
+   <xs:element name='suprProducer' type='PNNameType'/>
+   <xs:element name='asscProducer' type='PNNameType'/>
+   <xs:element name='lineProducer' type='PNNameType'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='EditorsType'>
+  <xs:sequence>
+   <xs:element name='editor' type='PNNameType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='CinemaphotographersType'>
+  <xs:sequence>
+   <xs:element name='cinemaphotographer' type='PNNameType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='SourcesType'>
+  <xs:sequence>
+   <xs:element name='source' type='SourceType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='SourceType'>
+  <xs:sequence>
+   <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='from' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='authors' type='SourceAuthorsType' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='SourceAuthorsType'>
+  <xs:sequence>
+   <xs:element name='author' type='SourceAuthorType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='SourceAuthorType'>
+  <xs:complexContent>
+   <xs:extension base='PNNameType'>
+    <xs:attribute name='uncredited' type='xs:boolean' use='optional'/>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+
+ <xs:complexType name='WritersType'>
+  <xs:sequence>
+   <xs:element name='writer' type='WriterType' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:element name='sources' type='SourcesType' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='WriterType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Writers can be specific to either the screenplay, or the story
+   </xs:documentation>
+  </xs:annotation>
+  <xs:complexContent>
+   <xs:extension base='PNNameType'>
+    <xs:attribute name='role' type='xs:string' use='optional'/>
+    <xs:attribute name='uncredited' type='xs:boolean' use='optional'/>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+
+ <xs:complexType name='CharNarratorType'>
+ </xs:complexType>
+
+ <xs:complexType name='CharSelfType'>
+  <xs:attribute name='archivalFootage' type='xs:boolean' use='optional'/>
+  <xs:attribute name='fictionalVariant' type='xs:boolean' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='CharacterNameType'>
+  <xs:sequence>
+  <xs:choice>
+   <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='narrator' type='CharNarratorType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='self' type='CharSelfType' minOccurs='1' maxOccurs='1'/>
+   <xs:sequence>
+    <xs:element name='preTitle' type='xs:string' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='gn' type='xs:string' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='nick' type='xs:string' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='mn' type='xs:string' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='fn' type='xs:string' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='postTitle' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   </xs:sequence>
+  </xs:choice>
+  <xs:element name='variant' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='RoleType'>
+  <xs:sequence>
+   <xs:element name='actor' type='PNNameType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='as' type='CharacterNameType' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+  <xs:attribute name='billing' type='xs:integer' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='CastType'>
+  <xs:sequence>
+   <xs:element name='role' type='RoleType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='CrewType'>
+  <xs:sequence>
+   <xs:element name='directors' type='DirectorsType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='writers' type='WritersType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='producers' type='ProducersType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='editors' type='EditorsType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='cinemaphotographers' type='CinemaphotographersType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='cast' type='CastType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+</xs:schema>

@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2021, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   Optional element block designed to keep track of owned/individual copies of media.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='FilingType'>
+  <xs:sequence>
+   <xs:element name='catalog' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='collection' type='xs:string' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='QualityTypeEnum'>
+ </xs:complexType>
+
+ <xs:complexType name='QualityType'>
+  <xs:choice>
+   <xs:element name='new' type='QualityTypeEnum'/>
+   <xs:element name='used' type='QualityTypeEnum'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='PriceType'>
+  <xs:simpleContent>
+   <xs:extension base='xs:float'>
+    <xs:attribute name='currency' type='xs:string' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='LocalSkuType'>
+  <xs:simpleContent>
+   <xs:extension base='xs:string'>
+    <xs:attribute name='type' type='xs:string' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='AcqPurchaseType'>
+  <xs:sequence>
+   <xs:element name='retailer' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='location' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='reseller' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='price' type='PriceType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='sku' type='LocalSkuType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='order' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='invoice' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='AcqGiftType'>
+  <xs:sequence>
+   <xs:element name='from' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='AcquisitionType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    All aquisitions occur on a date, or within a date range.  They are either
+    a purchase or a gift.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='date' type='VariableDateType' minOccurs='0' maxOccurs='1'/>
+   <xs:choice minOccurs='0' maxOccurs='1'>
+    <xs:element name='purchase' type='AcqPurchaseType'/>
+    <xs:element name='gift' type='AcqGiftType'/>
+   </xs:choice>
+   <xs:element name='quality' type='QualityType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='StatusTypeEnum'>
+ </xs:complexType>
+
+ <xs:complexType name='ConditionStatusType'>
+  <xs:choice>
+   <xs:element name='mint' type='StatusTypeEnum'/>
+   <xs:element name='nearMint' type='StatusTypeEnum'/>
+   <xs:element name='veryFine' type='StatusTypeEnum'/>
+   <xs:element name='fine' type='StatusTypeEnum'/>
+   <xs:element name='veryGood' type='StatusTypeEnum'/>
+   <xs:element name='good' type='StatusTypeEnum'/>
+   <xs:element name='fair' type='StatusTypeEnum'/>
+   <xs:element name='poor' type='StatusTypeEnum'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='ConditionType'>
+  <xs:sequence>
+   <xs:element name='status' type='ConditionStatusType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='notes' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='InstanceType'>
+  <xs:sequence>
+   <xs:element name='local_id' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='acquisition' type='AcquisitionType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='authenticity' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='condition' type='ConditionType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='InstancesType'>
+  <xs:sequence>
+   <xs:element name='instance' type='InstanceType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='LibraryType'>
+  <xs:sequence>
+   <xs:element name='instances' type='InstancesType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='filing' type='FilingType' minOccurs='0'/>
+   <xs:element name='comments' type='xs:string' minOccurs='0'/>
+  </xs:sequence>
+ </xs:complexType>
+
+</xs:schema>
+

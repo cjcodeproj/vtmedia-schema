@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Killing Season</title>
+    <catalog>
+     <copyright>
+      <year>2013</year>
+      <holders>
+       <holder>Promised Land Productions, Inc.</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Action</primary>
+      <secondary>Thriller</secondary>
+      <secondary>Drama</secondary>
+      <specific> </specific>
+      <subgenres>
+       <subgenre>blockbuster</subgenre>
+      </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT1H30M41S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+     </plot>
+     <keywords>
+      <generic>wilderness</generic>
+      <generic>bowhunting</generic>
+      <generic>tree stand</generic>
+      <properNoun><entity>NATO</entity></properNoun>
+      <properNoun><event>Bosnian War</event></properNoun>
+      <properNoun><person><gn>Johnny</gn><fn>Cash</fn></person></properNoun>
+     </keywords>
+     <themes>
+      <theme> </theme>
+      <theme> </theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Mark</gn><mn>Steven</mn><fn>Johnson</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>Evan</gn><fn>Daugherty</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Sean</gn><fn>Albertson</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Peter</gn><fn>Menzies</fn><postTitle>Jr</postTitle></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Robert</gn><fn>De Niro</fn></actor>
+       <as><gn>Benjamin</gn><fn>Ford</fn></as>
+      </role>
+      <role>
+       <actor><gn>John</gn><fn>Travolta</fn></actor>
+       <as><gn>Emil</gn><fn>Kovac</fn></as>
+      </role>
+      <role>
+       <actor><gn>Milo</gn><fn>Ventimiglia</fn></actor>
+       <as><gn>Chris</gn><fn>Ford</fn></as>
+      </role>
+      <role>
+       <actor><gn>Elizabeth</gn><fn>Olin</fn></actor>
+       <as><gn>Sarah</gn><fn>Ford</fn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>

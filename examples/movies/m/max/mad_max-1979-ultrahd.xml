@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Mad Max</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2020-12-12</exact></date>
+      <purchase>
+       <retailer>Cheapo Records</retailer>
+       <location>Blaine, MN</location>
+       <price>33.99</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><ultrahd/></type>
+    <releaseDate>2020-11-24</releaseDate>
+    <publisher></publisher>
+   </release>
+   <productId>
+    <barcode type='upc'>738329251604</barcode>
+    <sku retailer='abc'> </sku>
+   </productId>
+   <productSpecs>
+    <dimensions units='english'>
+     <size length='6.75' width='5.4' height='0.5'/>
+    </dimensions>
+    <inventory>
+     <case>
+      <ultrahd id='1'/>
+      <bluray id='2'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href="mad_max-1979-movie.xml"/>
+  </contents>
+ </media>
+</medialist>

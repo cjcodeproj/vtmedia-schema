@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Media Schema</title>
+<link rel='stylesheet' href='../mainstyle.css' type='text/css'/>
+</head>
+<body>
+<h1>Movie Schema</h1>
+<p>
+The movie schema is designed for cataloging movies and films, both fictional and non-fictional.  
+It records information on genres, the cast and crew, story, 
+</p>
+
+<h2>Contents</h2>
+
+<ul>
+<li>Structure Overview</li>
+<li>Elements</li>
+  <ul>
+  <li>&lt;title&gt;</li>
+  <li>&lt;catalog&gt;</li>
+  <li>&lt;classification&gt;</li>
+  <li>&lt;technical&gt;</li>
+  <li>&lt;story&gt;</li>
+  <li>&lt;crew&gt;</li>
+  </ul>
+</ul>
+
+<h2>Structure Overview</h2>
+
+
+<div class='outer'>
+<ul class='structure'>
+  <li>&lt;contents&gt;</li>
+  <ul>
+    <li>&lt;movie xmlns='http://vectortron.com/xml/media/movie'&gt;</li>
+    <ul>
+      <li>&lt;title&gt;</li>
+      <li>&lt;catalog&gt;</li>
+      <li>&lt;classification&gt;</li>
+      <li>&lt;technical&gt;</li>
+      <li>&lt;story&gt;</li>
+      <li>&lt;crew&gt;</li>
+    </ul>
+    <li>&lt;/movie&gt;</li>
+  </ul>
+  <li>&lt;i/contents&gt;</li>
+ </ul>
+</div>
+
+</body>
+</html>

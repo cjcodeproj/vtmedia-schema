@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2021, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   Module for catalog references of content, including identification numbers, 
+   alternate titles, copyright information, external references 
+   (including libraries).
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='CatIdType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    The catalog ID token has an optional type argument that can be used to identify what kind 
+    of ID value is used.  The optional application argument identifies programs that can support the ID
+    value.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='type' type='xs:token' use='optional'/>
+    <xs:attribute name='application' type='xs:token' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='CatIdentificationType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A placeholder for ID values.  This type can accomodate one or more id elements,
+    a single UUID element, or both multiple id elements and a single uuid element.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence minOccurs='1'>
+   <xs:element name='id' type='CatIdType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='uuid' type='UUIDType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='CatTitlesType'>
+  <xs:annotation>
+   <xs:documentation  xml:lang='en-US'>
+     originalTitle: A title the movie was previously known as
+     variantTitle: A different representation of the current title, like subbing numbers for words.
+     alternateTitle:
+     productionTitle: A secret title used for the movie during production.
+     distrbutionTitle: A secret title used for the movie during distribution.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='originalTitle' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='variantTitle' type='xs:string' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='alternateTitle' type='xs:string' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='productionTitle' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='distributionTitle' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='CopyrightHoldersType'>
+  <xs:sequence>
+   <xs:element name='holder' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='CopyrightType'>
+  <xs:sequence>
+   <xs:element name='year' type='xs:integer' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='holders' type='CopyrightHoldersType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='country' type='CountryCode' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='filing' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='registrationNo' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='expires' type='xs:integer' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='CatLibraryNoType'>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='type' type='xs:token' use='required'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='CatLibraryRefType'>
+  <xs:sequence>
+   <xs:element name='library' type='xs:string' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='catalogNo' type='CatLibraryNoType' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:element name='link' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='CatExtRefType'>
+  <xs:sequence>
+   <xs:element name='libraryRecord' type='CatLibraryRefType' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='CatalogType'>
+  <xs:sequence>
+   <xs:element name='identification' type='CatIdentificationType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='altTitles' type='CatTitlesType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='copyright' type='CopyrightType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='extRefs' type='CatExtRefType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+</xs:schema>

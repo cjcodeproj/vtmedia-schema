@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>3 Days Of The Condor</title>
+    <catalog>
+     <altTitles>
+      <variantTitle>Three Days Of The Condor</variantTitle>
+     </altTitles>
+     <copyright>
+      <year>1975</year>
+      <holders>
+       <holder>Dino De Laurentis Corporation</holder>
+      </holders>
+      <country>US</country>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Thriller</primary>
+      <secondary> </secondary>
+      <specific>Spy Thriller</specific>
+      <subgenres>
+       <subgenre>based on a book</subgenre>
+      </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      A <kw>CIA analyst</kw> is on the run after his colleagues are all murdered.  His only way out is to figure out 
+      who murdered his co-workers and why.  His only ally is a woman he kidnaps during his escape.
+     </plot>
+     <keywords>
+      <properNoun><entity>CIA</entity></properNoun>
+      <generic>spy novels</generic>
+      <generic>phone phreaking</generic>
+      <generic>DTMF decosing</generic>
+      <generic>kidnapping</generic>
+      <generic>payphone</generic>
+      <generic>assassin</generic>
+      <properNoun><place><name>World Trade Center</name><ci>New York</ci></place></properNoun>
+     </keywords>
+     <themes>
+      <theme>trust</theme>
+      <theme>loyalty</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Sydney</gn><fn>Pollack</fn></director>
+     </directors>
+     <writers>
+      <writer role='screenplay'><gn>Lorenzo</gn><fn>Semple</fn><postTitle>Jr.</postTitle></writer>
+      <writer role='screenplay'><gn>David</gn><fn>Rayfiel</fn></writer>
+      <sources>
+       <source>
+        <title>Six Days Of The Condor</title>
+        <authors>
+         <author><gn>James</gn><fn>Grady</fn></author>
+        </authors>
+       </source>
+      </sources>
+     </writers>
+     <editors>
+      <editor><gn>Don</gn><fn>Guidce</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Owen</gn><fn>Roizman</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Robert</gn><fn>Redford</fn></actor>
+       <as><gn>Joe</gn><fn>Turner</fn></as>
+      </role>
+      <role>
+       <actor><gn>Faye</gn><fn>Dunaway</fn></actor>
+       <as><gn>Kathy</gn></as>
+      </role>
+      <role>
+       <actor><gn>Cliff</gn><fn>Robertson</fn></actor>
+       <as><fn>Higgins</fn></as>
+      </role>
+      <role>
+       <actor><gn>Max</gn><fn>von Sydow</fn></actor>
+       <as><fn>Joubert</fn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>

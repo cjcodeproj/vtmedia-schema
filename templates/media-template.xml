@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main></main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date></date>
+      <purchase>
+       <retailer> </retailer>
+       <price>0.99</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><ultrahd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>456</barcode>
+    <sku retailer='retailer'>123</sku>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <ultrahd/>
+      <bluray/>
+      <codesheet><service> </service></codesheet>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href="movie_title-year-movie.xml"/>
+  </contents>
+ </media>
+</medialist>

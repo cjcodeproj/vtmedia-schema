@@ -1,0 +1,141 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media'>
+ <media>
+  <title>
+   <main>Onward</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2020-08-03</exact></date>
+      <purchase>
+       <retailer>Target</retailer>
+       <price>29.99</price>
+       <order> </order>
+       <invoice> </invoice>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><ultrahd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>786936868258</barcode>
+    <sku retailer='target'>058518320</sku>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <ultrahd/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Onward</title>
+    <catalog>
+     <copyright>
+      <year>2020</year>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Adventure</primary>
+      <secondary>Comedy</secondary>
+      <specific>Road Trip Adventure</specific>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT1H42M</overall>
+     </runtime>
+     <visualFormat>
+      <animation>
+       <rendered/>
+      </animation>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      <chr>Ian</chr> and <chr>Barley</chr> are two brothers on a magical quest to temporarily resurrect their dead father.
+     </plot>
+     <keywords>
+      <generic>magic</generic>
+      <generic>magic staff</generic>
+     </keywords>
+     <themes>
+      <theme>family</theme>
+      <theme>loss</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Dan</gn><fn>Scanlon</fn></director>
+     </directors>
+     <writers>
+      <writer role='story'><gn>Dan</gn><fn>Scanlon</fn></writer>
+      <writer role='story'><gn>Keith</gn><fn>Bunin</fn></writer>
+      <writer role='story'><gn>Jason</gn><fn>Headley</fn></writer>
+      <writer role='screenplay'><gn>Dan</gn><fn>Scanlon</fn></writer>
+      <writer role='screenplay'><gn>Jason</gn><fn>Headley</fn></writer>
+      <writer role='screenplay'><gn>Keith</gn><fn>Bunin</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Cathering</gn><fn>Apple</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Sharon</gn><fn>Calahan</fn></cinemaphotographer>
+      <cinemaphotographer><gn>Adam</gn><fn>Habib</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Tom</gn><fn>Holland</fn></actor>
+       <as><gn>Ian</gn><fn>Lightfoot</fn></as>
+      </role>
+      <role>
+       <actor><gn>Chris</gn><fn>Pratt</fn></actor>
+       <as><gn>Barley</gn><fn>Lightfoot</fn></as>
+      </role>
+      <role>
+       <actor><gn>Julia</gn><fn>Louis-Dreyfus</fn></actor>
+       <as><gn>Laurel</gn><fn>Lightfoot</fn></as>
+      </role>
+      <role>
+       <actor><gn>Octavia</gn><fn>Spencer</fn></actor>
+       <as><title>The Manticore</title></as>
+      </role>
+      <role>
+       <actor><gn>Mel</gn><fn>Rodriguez</fn></actor>
+       <as><gn>Colt</gn><fn>Bronco</fn></as>
+      </role>
+      <role>
+       <actor><gn>Kyle</gn><fn>Bornheimer</fn></actor>
+       <as><gn>Wilden</gn><fn>Lightfoot</fn></as>
+      </role>
+      <role>
+       <actor><gn>Lena</gn><fn>Waithe</fn></actor>
+       <as><preTitle>Officer</preTitle><fn>Spector</fn></as>
+      </role>
+      <role>
+       <actor><gn>John</gn><fn>Ratzenberger</fn></actor>
+       <as><preTitle>Construction Worker</preTitle><fn>Fenwick</fn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
+  </contents>
+ </media>
+</medialist>

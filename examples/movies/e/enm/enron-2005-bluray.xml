@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Enron: The Smartest Guys In The Room</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2021-01-11</exact></date>
+      <purchase>
+       <retailer>Amazon</retailer>
+       <price>10.00</price>
+       <order> </order>
+       <invoice> </invoice>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'> </barcode>
+    <sku retailer='abc'> </sku>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray id='1'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href='enron-2005-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

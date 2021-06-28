@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main></main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date></date>
+      <purchase>
+       <retailer> </retailer>
+       <price>0.99</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><ultrahd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>456</barcode>
+    <sku retailer='retailer'>123</sku>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <ultrahd/>
+      <bluray/>
+      <codesheet><service> </service></codesheet>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title> </title>
+    <catalog>
+     <copyright>
+      <year>1900</year>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Action</primary>
+      <secondary>Sci-Fi</secondary>
+      <specific> </specific>
+      <subgenres>
+       <subgenre>blockbuster</subgenre>
+      </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT01H01M01S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+     </plot>
+     <keywords>
+      <generic> </generic>
+      <generic> </generic>
+      <generic> </generic>
+      <group>
+        <generic> </generic>
+        <generic> </generic>
+      </group>
+     </keywords>
+     <themes>
+      <theme> </theme>
+      <theme> </theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Firstname</gn><fn>Lastname</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>Firstname</gn><fn>Lastname</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Firstname</gn><fn>Lastname</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Firstname</gn><fn>Lastname</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Firstname</gn><mn>Middlename</mn><fn>Lastname</fn></actor>
+       <as><gn>CharFirstname</gn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
+  </contents>
+ </media>
+</medialist>

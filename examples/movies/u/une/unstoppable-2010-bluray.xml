@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Unstoppable</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2020-01-01</exact></date>
+      <purchase>
+       <retailer>Half Price Books</retailer>
+       <price>12.99</price>
+       <order> </order>
+       <invoice> </invoice>
+      </purchase>
+      <quality><used/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>024543716679</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case slipcover='true'>
+      <bluray id='1'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href='unstoppable-2010-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

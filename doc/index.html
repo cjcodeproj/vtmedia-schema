@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>Media Schema Project</title>
+<link rel='stylesheet' href='mainstyle.css' type='text/css'/>
+</head>
+<body>
+<h1>Media Schema Project</h1>
+
+<p>
+The media schema is a data format to facilitate the recording of media (such as movies, 
+television shows, or music) in a local data store.
+</p>
+
+<h2>Contents</h2>
+
+<ul>
+<li>Main Page</li>
+  <ul>
+  <li>Project Goals</li>
+  <li>The Data Structure</li>
+  <li>Example Data</li>
+  <li>Test Code</li>
+  <li>Templates</li>
+  <li>Documentation</li>
+  </ul>
+<li><a href="howto/">HowTo Articles</a></li>
+  <ul>
+  <li><a href="howto/howto_movie.html">How To Create A Movie</a></li>
+  </ul>
+<li>Maintaining A Dataset</li>
+  <ul>
+  <li>Validation Testing</li>
+  </ul>
+<li>Schema Reference</li>
+<ul>
+<li><a href="media/">Media Schema</a></li>
+<li><a href="movie/">Movie Schema</a></li>
+</ul>
+</ul>
+
+<h2>Project Goals</h2>
+
+<p>
+The media schema project is designed to achieve the following goals.
+</p>
+
+<ul>
+<li>Allow for the creation of a local dataset for physical media, whether it's a DVD, CD, book, or tape.</li>
+<li>Record both the contents of the media, as well as data pertaining to ownership, and filing.
+<li>Allow for simple data entry, debugging, and validation using currently existing tools.</li>
+<li>Allow for the easy exchange, publication or transfer of data between users using existing protocols.</li>
+<li>Use a data schema that is flexible, easy to understand, and extensible.</li>
+<li>Data is stored in a regular filesystem; no proprietary database is rquired.</li>
+<li>The schema should use standard structures suitable for the attributes common to the media being recorded.</li>
+<li>Data should be recorded in standard structures that allow for searching, indexing, and 
+comparison operations.</li>
+</ul>
+
+<h2>The Data Structure</h2>
+
+<p>
+The media schema is an XML schema with two important tags: <code>&lt;medialist&gt;</code>
+and <code>&lt;contents&gt;</code>.
+</p>
+<p>
+The <code>&lt;medialist&gt;</code> is the root element for storing data on one or more physical pieces of media, such as 
+vinyl albums, books, a DVD boxed set, or film reels.  
+</p>
+<p>
+The <code>&lt;contents&gt;</code> element is for the describing the artistic work, whether it's a song, story, or a movie. 
+The child elements underneath <code>&lt;contents&gt;</code> are maintained in separate schemas for improve 
+maintainability and due to the different characteristics of the media.  Each schema for the contents falls under a 
+separate XML namespace.
+</p>
+
+<table>
+<thead>
+<tr><th>Element</th><th>Namespace</th></tr>
+</thead>
+<tbody>
+<tr><td><code>&lt;medialist&gt;</code></td><td><code>http://vectortron.com/xml/media/media</code></td></tr>
+<tr><td><code>&lt;movie&gt;</code></td><td><code>http://vectortron.com/xml/media/movie</code></td></tr>
+</tbody>
+</table>
+
+<h2>Repository Files</h2>
+
+<h3>Example Data</h3>
+
+<p>
+This repositoty contains a <code>examples/</code> directory to illustrate how the schemas are used.
+</p>
+
+<p>
+The example data directory is designed to be kept small enough to be managable, but still provide a 
+strong cross section of data showing how the schema can be used.</p>
+
+<p>
+Anyone using these tools to build their own dataset should create a separate directory/repo structure outside of this 
+repository.</p>
+
+<h3>Test Code</h3>
+
+<p>
+There is a test directory with shell code for simple XML schema validation tests which can be used against the 
+example data or any other data created by the user.
+</p>
+<p>
+The data and the schemas have been tested with the following tools.
+</p>
+
+<table>
+<thead>
+<tr><th>Tool</th><th>XML Structure Validation</th><th>Schema Validation (XSD 1.0)</th><th>Example Data</th></tr>
+</thead>
+<tbody>
+<tr><td>xmllint</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>Python ElementTree</td><td>Yes</td><td>???</td><td>Yes</td></tr>
+<tr><td>PowerShell</td><td>Yes</td><td>???</td><td>Yes</td></tr>
+<tr><td>MS Visual Studio</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+</tbody>
+</table>
+
+<h3>Templates</h3>
+
+<p>The <code>templates/</code>  directory will contain simple templates that the end user can use to 
+create new records.</p>
+
+<h3>Documentation</h3>
+
+<p>
+All documentation regarding the schemas will be maintained in the <code>docs/</code> directory.
+</p>
+</body>
+</html>

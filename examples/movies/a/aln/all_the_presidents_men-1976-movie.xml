@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie' importance='primary'>
+    <title>All The President's Men</title>
+    <catalog>
+     <copyright>
+      <year>1976</year>
+      <holders>
+       <holder>Warner Bros., Inc.</holder>
+       <holder>Wildwood Enterprises, Inc.</holder>
+      </holders>
+     </copyright>
+     <extRefs>
+      <libraryRecord>
+       <library>Library Of Congress</library>
+       <catalogNo type='lccn'>2002637909</catalogNo>
+       <link>https://lccn.loc.gov/2002637909</link>
+      </libraryRecord>
+     </extRefs>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Drama</primary>
+      <secondary>Mystery</secondary>
+      <specific>Newspaper Mystery</specific>
+      <subgenres>
+       <subgenre>based on a true story</subgenre>
+       <subgenre>based on a book</subgenre>
+      </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT2H18M21S</overall>
+      <openingCredits startOffset='PT2M17S' overlap='true'>PT90S</openingCredits>
+      <endCredits>PT1M47S</endCredits>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+       Two news reporters investigate the Watergate burglary and discover a conspiracy leading all the way to the President Of The United States.
+     </plot>
+     <keywords>
+      <properNoun><thing>The Washington Post</thing></properNoun>
+      <properNoun><place><name>Watergate Hotel</name></place></properNoun>
+      <properNoun><thing>Watergate Conspiracy</thing></properNoun>
+      <properNoun><place><name>White House</name></place></properNoun>
+      <properNoun><place><name>Library Of Congress</name></place></properNoun>
+      <generic>newspaper</generic>
+      <generic>journalism</generic>
+      <generic>investigative journalism</generic>
+      <generic>scandal</generic>
+      <generic>parking garage</generic>
+      <generic>taxi cabs</generic>
+      <properNoun><entity>FBI</entity></properNoun>
+      <properNoun><entity>CIA</entity></properNoun>
+      <properNoun><entity>Department Of Justice</entity></properNoun>
+      <group>
+       <generic>Richard Nixon</generic>
+       <properNoun><person><gn>Richard</gn><fn>Nixon</fn></person></properNoun>
+       <properNoun><person><gn>Charles</gn><fn>Colson</fn></person></properNoun>
+       <properNoun><person><gn>Ken</gn><fn>Clawson</fn></person></properNoun>
+       <properNoun><person><gn>Clark</gn><fn>McGregor</fn></person></properNoun>
+       <properNoun><person><gn>Donald</gn><fn>Segretti</fn></person></properNoun>
+       <properNoun><person><gn>Hugh</gn><fn>Sloan</fn></person></properNoun>
+       <properNoun><person><gn>Mark</gn><fn>Felt</fn></person></properNoun>
+      </group>
+     </keywords>
+     <themes>
+      <theme>corruption</theme>
+      <theme>perseverence</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Alan</gn><mn>J</mn><fn>Pakula</fn></director>
+     </directors>
+     <writers>
+      <writer role='screenplay'><gn>William</gn><fn>Goldman</fn></writer>
+      <sources>
+       <source>
+        <title>All The President's Men</title>
+        <authors>
+         <author><gn>Carl</gn><fn>Bernstein</fn></author>
+         <author><gn>Bob</gn><fn>Woodward</fn></author>
+        </authors>
+       </source>
+      </sources>
+     </writers>
+     <editors>
+      <editor><gn>Robert</gn><mn>L</mn><fn>Wolfe</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Gordon</gn><fn>Willis</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Dustin</gn><fn>Hoffman</fn></actor>
+       <as><gn>Carl</gn><fn>Bernstein</fn></as>
+      </role>
+      <role>
+       <actor><gn>Robert</gn><fn>Redford</fn></actor>
+       <as><gn>Bob</gn><fn>Woodward</fn></as>
+      </role>
+      <role>
+       <actor><gn>Jack</gn><fn>Warden</fn></actor>
+       <as><gn>Harry</gn><fn>Rosenfeld</fn></as>
+      </role>
+      <role>
+       <actor><gn>Martin</gn><fn>Balsam</fn></actor>
+       <as><gn>Howard</gn><fn>Simons</fn></as>
+      </role>
+      <role>
+       <actor><gn>Hal</gn><fn>Holbrook</fn></actor>
+       <as><nick>Deep Throat</nick></as>
+      </role>
+      <role>
+       <actor><gn>Jason</gn><fn>Robards</fn></actor>
+       <as><gn>Ben</gn><fn>Bradlee</fn></as>
+      </role>
+      <role>
+       <actor><gn>Jane</gn><fn>Alexander</fn></actor>
+       <as><nick>The Bookeeper</nick></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>

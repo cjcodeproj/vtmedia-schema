@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>All The President's Men</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2014-01-01</from><range>P2Y</range></date>
+      <purchase>
+       <retailer>Best Buy</retailer>
+       <location>Coon Rapids, MN</location>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+    <releaseDate>2011-02-15</releaseDate>
+    <publisher>Warner Bros.</publisher>
+   </release>
+   <productId>
+    <barcode type='upc'>883929157976</barcode>
+    <barcode type='isbn'> </barcode>
+   </productId>
+   <productSpecs>
+    <dimensions>
+     <size length='6.75' width='5.4' height='0.5'/>
+    </dimensions>
+    <inventory>
+    <case>
+      <bluray id='1'/>
+      <booklet/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href='all_the_presidents_men-1976-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

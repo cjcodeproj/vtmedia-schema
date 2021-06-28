@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Stand By Me</main>
+   <edition>25th Anniversary Edition</edition>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2010-01-01</from><range>P5Y</range></date>
+      <purchase>
+       <retailer>Best Buy</retailer>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>043396263789</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case slipcover='true'>
+      <bluray id='1'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href="stand_by_me-1986-movie.xml"/>
+  </contents>
+ </media>
+</medialist>

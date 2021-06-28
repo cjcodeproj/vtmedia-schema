@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>2010</title>
+    <catalog>
+     <altTitles>
+      <originalTitle>2010: The Year We Make Contact</originalTitle>
+      <variantTitle>Two Thousand And Ten</variantTitle>
+     </altTitles>
+     <copyright>
+      <year>1984</year>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Sci-Fi</primary>
+      <specific>Space Exploration Adventure</specific>
+      <subgenres>
+       <subgenre>sequel</subgenre>
+       <subgenre>based on a novel</subgenre>
+     </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT0H0M0S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      A joint effort of American and Russian <kw>astronauts</kw> travel to <kw>Jupiter</kw> to investigate 
+      the mystery of a mysterious monolith, and find out why a previous mission to do the same had failed.
+     </plot>
+     <keywords>
+      <properNoun><place><planet>Jupier</planet></place></properNoun>
+      <properNoun><place><generic>IO</generic></place></properNoun>
+      <properNoun><place><generic>Europa</generic></place></properNoun>
+      <generic>cold war</generic>
+      <generic>spaceships</generic>
+     </keywords>
+     <themes>
+      <theme>cooperation</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Peter</gn><fn>Hyams</fn></director>
+     </directors>
+     <writers>
+      <writer role='screenplay'><gn>Peter</gn><fn>Hyams</fn></writer>
+      <sources>
+       <source>
+        <title>2010</title>
+        <authors>
+         <author><gn>Arthur</gn><mn>C</mn><fn>Clarke</fn></author>
+        </authors>
+       </source>
+      </sources>
+     </writers>
+     <editors>
+      <editor><gn>Mia</gn><fn>Goldman</fn></editor>
+      <editor><gn>James</gn><fn>Mitchell</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Peter</gn><fn>Hyams</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Roy</gn><fn>Scheider</fn></actor>
+       <as><preTitle>Dr.</preTitle><gn>Heywood</gn><fn>Floyd</fn></as>
+      </role>
+      <role>
+       <actor><gn>John</gn><fn>Lithgow</fn></actor>
+       <as><preTitle>Dr.</preTitle><gn>Heywood</gn><fn>Flord</fn></as>
+      </role>
+      <role>
+       <actor><gn>Helen</gn><fn>Mirren</fn></actor>
+       <as><preTitle>Dr.</preTitle><gn>Walter</gn><fn>Curnow</fn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>

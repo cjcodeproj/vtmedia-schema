@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>3 Days Of The Condor</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2010-01-01</from><range>P3Y</range></date>
+      <purchase>
+       <retailer>Barnes &amp; Noble</retailer>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>883929301331</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray id='1'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href="3_days_of_the_condor-1975-movie.xml"/>
+  </contents>
+ </media>
+</medialist>

@@ -1,0 +1,126 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2021, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:complexType name='GenresType'>
+  <xs:sequence>
+   <xs:element name='primary' type='xs:token' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='secondary' type='xs:token' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='setting' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='specific' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='subgenres' type='SubgenresType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='SubgenresType'>
+  <xs:sequence>
+   <xs:element name='subgenre' type='xs:token' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='FictionFlag'>
+ </xs:complexType>
+
+ <xs:complexType name='CategoryType'>
+  <xs:choice>
+   <xs:element name='fiction' type='FictionFlag'/>
+   <xs:element name='nonfiction' type='FictionFlag'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='SubjectPNType'>
+  <xs:choice minOccurs='1' maxOccurs='1'>
+   <xs:group ref='ProperNounGroup'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='SubjectsType'>
+  <xs:choice minOccurs='1' maxOccurs='unbounded'>
+   <xs:element name='generic' type='xs:token'/>
+   <xs:element name='properNoun' type='SubjectPNType'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='NoCertificatesType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Empty flag to indicate no certificates have been issues for this film.
+   </xs:documentation>
+  </xs:annotation>
+ </xs:complexType>
+
+ <xs:complexType name='RatingType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     A simple rating paired with an optional shortcode, as in R: Restricted.
+     The type is also used for advisory explanations.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='code' type='xs:token' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='RatingsDescriptorType'>
+  <xs:sequence>
+   <xs:element name='descriptor' type='RatingType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='CertificateAgencyType'>
+  <xs:sequence>
+   <xs:element name='name' type='xs:token' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='country' type='CountryCode' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='CertificateType'>
+  <xs:sequence>
+   <xs:choice>
+    <xs:element name='noRating' type='NoCertificatesType' minOccurs='1' maxOccurs='1'/>
+    <xs:element name='rating' type='RatingType' minOccurs='1' maxOccurs='1'/>
+   </xs:choice>
+   <xs:element name='definition' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='descriptors' type='RatingsDescriptorType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='agency' type='CertificateAgencyType' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attribute name='ref' type='xs:token' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='CertificationsType'>
+  <xs:choice>
+   <xs:element name='noCertificates' type='NoCertificatesType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='certificate' type='CertificateType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='ClassificationType'>
+  <xs:sequence>
+   <xs:element name='category' type='CategoryType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='genres' type='GenresType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='subjects' type='SubjectsType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='certifications' type='CertificationsType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+</xs:schema>

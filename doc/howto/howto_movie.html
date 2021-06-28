@@ -1,0 +1,668 @@
+<html>
+<head>
+<title>How To Create A Movie Record</title>
+<link rel="stylesheet" type="text/css" href="../mainstyle.css"/>
+</head>
+<body>
+<h1>How To Create A Movie Record</h1>
+
+<p>
+This page covers a quick tutorial walkthough on how to create an XML file on a movie, following one of the examples in the 
+reepository.  It follows the usage of the template file (media-movie-full.xml) with the user editing the file in their favorite 
+editor, plugging in the correct values in the right places, and then testing the data with the validation code.
+</p>
+
+<h2>Quick Overview</h2>
+<p>
+The schema is designed to split data on a work of art into two components: the work of art, and the physical medium containing the work of art.
+It's possible to split both components into separate files, and merge them using XML XInclude, or they can all be kept in the same file.  This 
+example is going to cover the one file method.</p>
+
+<h3>Element Breakdown</h3>
+<p>
+These are the major elements of the schema, their depth level, and whether they contain information on the physical medium, or the film 
+itself.
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Namespace</th><th>Element</th><th>Parent Element</th><th>Depth Level</th><th>Covers</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>http://vectortron.com/xml/media/media</td><td>&lt;medialist&gt;</td><td><em>(root element)</em></td>
+  <td>1</td><td class='redhl'>Physical Medium</td></tr>
+<tr>
+<td>http://vectortron.com/xml/media/media</td><td>&lt;media&gt;</td><td>&lt;medialist&gt;</td>
+  <td>2</td><td class='redhl'>Physical Medium</td></tr>
+<tr>
+<td>http://vectortron.com/xml/media/media</td><td>&lt;title&gt;</td><td>&lt;media&gt;</td>
+  <td>3</td><td class='redhl'>Physical Medium</td></tr>
+<tr>
+<td>http://vectortron.com/xml/media/media</td><td>&lt;library&gt;</td><td>&lt;media&gt;</td>
+  <td>3</td><td class='redhl'>Physical Medium</td></tr>
+<tr>
+<td>http://vectortron.com/xml/media/media</td><td>&lt;medium&gt;</td><td>&lt;media&gt;</td>
+  <td>3</td><td class='redhl'>Physical Medium</td></tr>
+<tr>
+<td>http://vectortron.com/xml/media/media</td><td>&lt;contents&gt;</td><td>&lt;media&gt;</td>
+  <td>3</td><td class='redhl'>Physical Medium</td></tr>
+<tr>
+<td>http://vectortron.com/xml/media/movie</td><td>&lt;movie&gt;</td><td>&lt;contents&gt;<br/><em>(root element for schema)</em></td>
+  <td>4</td><td class='bluehl'>Film</td></tr>
+<tr>
+<td>http://vectortron.com/xml/media/movie</td><td>&lt;title&gt;</td><td>&lt;movie&gt;</td>
+  <td>5</td><td class='bluehl'>Film</td></tr>
+<tr>
+<td>http://vectortron.com/xml/media/movie</td><td>&lt;catalog&gt;</td><td>&lt;movie&gt;</td>
+  <td>5</td><td class='bluehl'>Film</td></tr>
+<tr>
+<td>http:/vectortron.com/xml/media/movie</td><td>&lt;classification&gt;</td><td>&lt;movie&gt;</td>
+  <td>5</td><td class='bluehl'>Film</td></tr>
+<tr>
+<td>http://vectortron.com/xml/media/movie</td><td>&lt;technical&gt;</td><td>&lt;movie&gt;</td>
+  <td>5</td><td class='bluehl'>Film</td></tr>
+<tr>
+<td>http://vectortron.com/xml/media/movie</td><td>&lt;story&gt;</td><td>&lt;movie&gt;</td>
+  <td>5</td><td class='bluehl'>Film</td></tr>
+<tr>
+<td>http://vectortron.com/xml/media/movie</td><td>&lt;crew&gt;</td><td>&lt;movie&gt;</td>
+  <td>5</td><td class='bluehl'>Film</td></tr>
+</tbody>
+</table>
+
+<p>
+If you're new to XML, remember that XML tags are <strong>case sensitive</strong>, unlike HTML tags.  Using 
+<code>&lt;MOVIE&gt;</code> instead of <code>&lt;movie&gt;</code> will not work.
+</p>
+
+<p>
+There are examples in the schema where the movie element is split from the main file, but references using an XML XInclude elemnt.  Check the 
+examples directory to see use cases.
+</p>
+
+<h2>Directory Layout</h2>
+<p>
+The example files are laid out in the following directory structure.  Anyone planning on maintaining a large file library should consider 
+a structure like this.
+</p>
+<pre class='codesample'>
+movies/[a-z]/[a-z/[a-z][a-z][a-z]/underscore_title-year-device.xml
+movies/[a-z]/[a-z][a-z][a-z][a-z]/underscore_title-year-movie.xml
+</pre>
+
+<p>The directory layout under movies is a single directory for every letter of the alphabet, and then 3 letters using the first two letters of 
+the movie title, followed by the very last letter of the movie title, with the usual conditions applied to skipping the first word of the title 
+if it starts with "A" or "The".
+</p>
+<p>
+This is assuming two files if the movie is split from the medium used to store the movie.
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Movie Title</th><th>Year</th><th>Recommended Path</th><th>Recommended Filename</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Jaws</td><td>1975</td><td><code>movies/j/jas/</code></td><td><code>jaws-1975-bluray.xml</code></td></tr>
+<tr>
+<td>The Blues Brothers</td><td>1980</td><td><code>movies/b/bls/</code></td><td><code>the_blues_brothers-1980-bluray.xml</code></td></tr>
+<tr>
+<td>My Cousin Vinny</td><td>1992</td><td><code>movies/m/myy/</code></td><td><code>my_counsin_vinny-1992-bluray.xml</code></td></tr>
+<tr>
+<td>Unstoppable</td><td>2010</td><td><code>movies/u/une/</code></td><td><code>unstoppable-2010-bluray.xml</code></td></tr>
+</tbody>
+</table>
+<p>
+If by chance there are two movies with the same name released during the same year, then an integer incrementor will be needed after the year.
+If there are multiple media options of the same format for the same movie, then an incrementor will be needed after the media format.
+</p>
+<h2>Sample Movie: Midnight Run</h2>
+
+<p>The movie for this tutorial is <em>Midnight Run</em>, which is a fictional action movie from the year 1988.  It has been made available 
+on VHS tape, DVD, and Blu-Ray multiple times, but this example will focus on the Blu-Ray release from Shout Factory.</p>
+
+<p>
+What follows is a full breakdown of the file in the repository, with just enough explanation of the element structure to 
+adapt the schema to encode your own film data.  More detailed explanations of the elements will be available in the documentation,
+but this is just enough to get someone started.
+</p>
+
+<h3>XML Header, Root Element, Media Title</h3>
+
+<pre class='codesample'>
+&lt;?xml version='1.0'?&gt;
+&lt;medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'&gt;
+ &lt;media&gt;
+  &lt;title&gt;
+   &lt;main&gt;Midnight Run&lt;/main&gt;
+   &lt;edition&gt;Collector's Edition&lt;/edition&gt;
+  &lt;/title&gt;
+</pre>
+
+<p>
+The &lt;medialist&gt; element is root element of the document, designed to hold one or more &lt;media&gt; elements.  A single 
+&lt;media&gt; element describes a single packaged device carryone one or more movies (or other works of art).
+</p>
+<p>The first title element is for recording the name on the physical media, and any relation it may have to the movie.  The main title is
+Midnight Run, and this Blu-Ray is specifically a Collector's Edition because it contains extra features.</p>
+
+<h3>Library Block</h3>
+
+<pre class='codeblock'>
+  &lt;library&gt;
+   &lt;instances&gt;
+    &lt;instance&gt;
+     &lt;acquisition&gt;
+      &lt;date&gt;&lt;from&gt;2016-04-01&lt;/from&gt;&lt;range&gt;P1M&lt;/range&gt;&lt;/date&gt;
+      &lt;purchase&gt;
+       &lt;retailer&gt;Best Buy&lt;/retailer&gt;
+       &lt;price currency='USD'&gt;20.00&lt;/price&gt;
+      &lt;/purchase&gt;
+      &lt;quality&gt;&lt;new/&gt;&lt;/quality&gt;
+     &lt;/acquisition&gt;
+     &lt;condition&gt;
+      &lt;status&gt;&lt;fine/&gt;&lt;/status&gt;
+     &lt;/condition&gt;
+    &lt;/instance&gt;
+   &lt;/instances&gt;
+   &lt;filing&gt;
+    &lt;collection&gt;De Niro Comedies&lt;/collection&gt;
+   &lt;/filing&gt;
+  &lt;/library&gt;
+</pre>
+
+<p>
+The library block is for data pertained to individual copies of media.  The entire block is optional, and if you're creating 
+records for the purpose of sharing with others, it can be removed from the file.  It tracks where/when a movie was purchased, and the 
+condition, and any personal filing rules for the movie.  It can track multiple copies of the same movie, each one represented by 
+an &lt;instance&gt; element.
+</p>
+<p>
+In this case, the &lt;instances&gt; element is reporting that there is a single copy of this movie, that was purchased sometime 
+during the month of April 2016 from a Best Buy for $20 United States Dollars.  It was purchased 
+new, and is in good condition.  The owner of the copy keeps it in a collection of their library known as "De Niro Comedies".
+</p>
+
+<h3>Medium Block</h3>
+
+<pre class='codeblock'>
+  &lt;medium&gt;
+   &lt;release&gt;
+    &lt;type&gt;&lt;bluray/&gt;&lt;/type&gt;
+    &lt;publisher&gt;Shout Factory&lt;/publisher&gt;
+   &lt;/release&gt;
+   &lt;productId&gt;
+    &lt;barcode type='upc'&gt;926663164794&lt;/barcode&gt;
+    &lt;sku retailer='bby'&gt;4771602&lt;/sku&gt;
+   &lt;/productId&gt;
+   &lt;productSpecs&gt;
+    &lt;dimensions&gt;
+     &lt;size&gt; length='6.75' width='5.4' height=0.5'/&lt;size&gt;
+    &lt;/dimensions&gt;
+    &lt;inventory&gt;
+     &lt;case&gt;
+      &lt;bluray id='1'/&gt;
+     &lt;/case&gt;
+    &lt;/inventory&gt;
+   &lt;/productSpecs&gt;
+  &lt;/medium&gt;
+</pre>
+
+<p>
+The medium element describes the physical media as much as possible, including details on dimensions, inventory, and trackable codes.
+</p>
+
+<p>
+The &lt;release&gt; element identifies the product classification of what the product is, and who published it.  The 
+&lt;productId&gt; eleemnt identifies the values of the barcode on the back of the product (whether it's UPC, EAN, or even ISBN), 
+and the Stock Keep Unit (SKU) of the product assocaited with one or more retailers.
+</p>
+
+<p>
+The &lt;productSpecs&gt; element is for identifying the physical dimensions of the product, and the inventory of the product in a 
+hierarchial container tree.  For example, <em>Midnight Run</em> contains a single Blu-Ray disc inside a standard case.
+</p>
+
+<p>
+The dimension aspects of the product are laid out so length and width are determined by looking at the product from an above view as it's 
+lying flat, with the height being determined from the height of the case as it rests flat.  In this example, the media case is 6.75 inches 
+in length following the case spine, and 5.4 inches following the bottom of the case.  Typically in length/width measurements, the length 
+value is usually the larger number.
+</p>
+
+<h3>Contents Block</h3>
+
+<pre class='codeblock'>
+  &lt;contents&gt;
+   ...
+  &lt;/contents&gt;
+</pre>
+
+<p>
+The &lt;contents&gt; element is the container of all elements related to the work of art.  The &lt;movie&gt; element 
+under contents is managed by a separate schema and a different namespace.
+</p>
+
+<h3>Movie Block: Root Element, Title, and Catalog</h3>
+
+<pre class='codeblock'>
+   &lt;movie xmlns='http://vectortron.com/xml/media/movie'&gt;
+    &lt;title&gt;Midnight Run&lt;/title&gt;
+    &lt;catalog&gt;
+     &lt;copyright&gt;
+      &lt;year&gt;1988&lt;/year&gt;
+      &lt;holders&gt;
+       &lt;holder&gt;Universal City Studios, Inc.&lt;/holder&gt;
+      &lt;/holders&gt;
+     &lt;/copyright&gt;
+    &lt;/catalog&gt;
+</pre>
+
+<p>
+The title element contains the full title of the movie.  The catalog element contains copyright information, alternate title information, 
+and external catalog references to the same movie.
+</p>
+
+<h3>Movie Classification</h3>
+
+<pre class='codeblock'>
+    &lt;classification&gt;
+     &lt;category&gt;&lt;fiction/&gt;&lt;/category&gt;
+     &lt;genres&gt;
+      &lt;primary&gt;Action&lt;/primary&gt;
+      &lt;secondary&gt;Comedy&lt;/secondary&gt;
+      &lt;specific&gt;Road Trip Hijinks&lt;/specific&gt;
+      &lt;subgenres&gt;
+       &lt;subgenre&gt;neo-noir&lt;/subgenre&gt;
+       &lt;subgenre&gt;adapted to a novel&lt;/subgenre&gt;
+      &lt;/subgenres&gt;
+     &lt;/genres&gt;
+     &lt;certifications&gt;
+      &lt;certificate ref='29281'&gt;
+       &lt;rating code='R'&gt;Restricted&lt;/rating&gt;
+       &lt;agency&gt;
+        &lt;name&gt;MPAA&lt;/name&gt;
+        &lt;country&gt;US&lt;/country&gt;
+       &lt;/agency&gt;
+      &lt;/certificate&gt;
+     &lt;/certifications&gt;
+    &lt;/classification&gt;
+</pre>
+
+<p>
+The classification element identifies what kind of movie it is.  <em>Midnight Run</em> is classified as a fictional Action/Comedy movie 
+that could loosly be described as Road Trip Hijinks if somebody had to describe it to a friend.  The story of the film loosly 
+falls under the neo-noir genre, given the nature of the antihero protagonist.  The movie was also adapted into a novel.  It has 
+an R (Restricted) rating certificate from the MPAA, which covers films produced in the United States.
+</p>
+
+<h3>Movie Technical Details</h3>
+
+<pre class='codeblock'>
+    &lt;technical&gt;
+     &lt;runtime&gt;
+      &lt;overall&gt;PT2H06M09S&lt;/overall&gt;
+      &lt;openingCredits startOffset='PT2M37S' overlap='true'&gt;PT2M3S&lt;/openingCredits&gt;
+      &lt;endCredits&gt;PT3M57S&lt;/endCredits&gt;
+     &lt;/runtime&gt;
+     &lt;visualFormat&gt;
+      &lt;liveAction/&gt;
+      &lt;palette&gt;
+       &lt;color/&gt;
+      &lt;/palette&gt;
+     &lt;/visualFormat&gt;
+    &lt;/technical&gt;
+</pre>
+
+<p>
+The technical element covers the runtime details of the film, and the visual format of the film.  Under the &lt;runtime&gt; element, the only 
+mandatory element is &lt;overall&gt;, which reports on the entire length of the film in ISO-8601 duration format.  
+The openingCredits and endCredits elements are optional, but can provide important details.
+</p>
+<p>
+According to the above element, the runtime of Midnight Run has an overall length of 2 hours, 6 minutes, and 37 seconds.  The 
+opening credits for the movie begin 2 minutes and 37 seconds into the movie, run for 2 minutes and 3 seconds, and overlap the 
+main story of the film.  The ending credits are 3 minutes and 57 seconds, finishing right at the end of the movie.
+</p>
+<p>
+The &lt;visualFormat&gt; element tells the user Midnight Run is a live action film, shot in color.
+</p>
+
+<h3>Movie Story</h3>
+
+<pre class='codeblock'>
+    &lt;story&gt;
+     &lt;logline&gt;A bounty hunter must bring back his prisoner within 5 days to make a court date, and secure a 
+     large payout.&lt;/logline&gt;
+     &lt;plot&gt;
+     &lt;chr&gt;Jack Walsh&lt;/chr&gt; is a &lt;kw&gt;bounty hunter&lt;/kw&gt; traveling cross-country to find and return a 
+     bonded accountant.  Along the way, they are pursued by the FBI, who wants to flip the accountant, 
+     the mafia, who wants the accountant dead, and a competing bounty hunter, who wants the payout for himself.
+     &lt;/plot&gt;
+     &lt;keywords&gt;
+      &lt;generic relevance='1'&gt;bounty hunter&lt;/generic&gt;
+      &lt;generic relevance='1'&gt;accountant&lt;/generic&gt;
+      &lt;properNoun relevance='1'&gt;&lt;entity&gt;FBI&lt;/entity&gt;&lt;/properNoun&gt;
+      &lt;properNoun&gt;&lt;entity&gt;Amtrack&lt;/entity&gt;&lt;/properNoun&gt;
+      &lt;generic&gt;handcuffs&gt;/generic&gt;
+      &lt;generic&gt;car&lt;/generic&gt;
+      &lt;generic&gt;plane&lt;/generic&gt;
+      &lt;generic&gt;biplane&lt;/generic&gt;
+      &lt;generic&gt;train&lt;/generic&gt;
+      &lt;generic&gt;bus&lt;/generic&gt;
+      &lt;generic&gt;helicopter&lt;/generic&gt;
+      &lt;generic&gt;bail bondsman&lt;/generic&gt;
+      &lt;generic&gt;money laundering&lt;/generic&gt;
+      &lt;generic&gt;embezzlement&lt;/generic&gt;
+      &lt;generic&gt;mafia&lt;/generic&gt;
+      &lt;generic relevance='5'&gt;lockpicking&lt;/generic&gt;
+      &lt;generic relevance='5'&gt;DTMF decoding&lt;/generic&gt;
+      &lt;keyword relevance='5'&gt;lyonnaise potatoes&lt;/keyword&gt;
+      &lt;group collection='cities'&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;ci&gt;Los Angeles&lt;/ci&gt;&lt;/place&gt;&lt;/properNoun&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;ci&gt;New York&lt;/ci&gt;&lt;/place&gt;&lt;/properNoun&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;ci&gt;Philadelphia&lt;/ci&gt;&lt;/place&gt;&lt;/properNoun&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;ci&gt;Chicago&lt;/ci&gt;&lt;/place&gt;&lt;/properNoun&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;ci&gt;Amarillo&lt;/ci&gt;&lt;st&gt;Texas&lt;/st&gt;&lt;/place&gt;&lt;/properNoun&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;ci&gt;Channing&lt;/ci&gt;&lt;st&gt;Texas&lt;/st&gt;&lt;/place&gt;&lt;/properNoun&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;ci&gt;Flagstaff&lt;/ci&gt;&lt;st&gt;Arizona&lt;/st&gt;&lt;/place&gt;&lt;/properNoun&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;ci&gt;Sedona&lt;/ci&gt;&lt;st&gt;Arizona&lt;/st&gt;&lt;/place&gt;&lt;/properNoun&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;ci&gt;Las Vegas&lt;/ci&gt;&lt;/place&gt;&lt;/properNoun&gt;
+      &lt;/group&gt;
+      &lt;group collection='transit hubs'&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;name&gt;JFK International Airport&lt;/name&gt;&lt;/place&gt;&lt;/properNoun&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;name&gt;Grand Central Station&lt;/name&gt;&lt;/place&gt;&lt;/properNoun&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;name&gt;McCarran International Airport&lt;/name&gt;&lt;/place&gt;&lt;/properNoun&gt;
+       &lt;properNoun&gt;&lt;place&gt;&lt;name&gt;LAX&lt;/name&gt;&lt;/place&gt;&lt;/properNoun&gt;
+      &lt;/group&gt;
+     &lt;/keywords&gt;
+     &lt;themes&gt;
+      &lt;theme&gt;right and wrong&lt;/theme&gt;
+      &lt;theme&gt;antihero&lt;/theme&gt;
+      &lt;theme&gt;difficult choices&lt;/theme&gt;
+     &lt;/themes&gt;
+    &lt;/story&gt;
+</pre>
+
+<p>The story element identifies what the film is trying to convey, by summarizing the plot, the story themes, and identifies any 
+keywords from the story that might help the user determine whether they would like the film.
+</p>
+
+<p>
+The &lt;logline&gt; is an optional element that provides a very short summary designed to convey enough details within 
+a single sentence.
+</p>
+<p>
+The &lt;plot&gt; element describes the story in a little more detail.  It is a mixed content element that can store &lt;chr&gt; 
+(character) or &lt;kw&gt; (keyword) elements to highlight important points.
+</p>
+<p>The &lt;keywords&gt; element contains all keywords that may be associated with the movie.  They can be grouped together, they can 
+have a relevance value from 1 to 5 (1 being the highest), and they can use any word that is relevant to the film story.
+</p>
+<p>
+The &lt;generic&gt; element can hold any word or phrase, and the &lt;properNoun&gt; element can contain any proper noun, identified by 
+a specific element that designates a person, place, thing, entity, or event.  Proper nouns don't have to be used for keywords, but they 
+provide an extra level of detail that could be beneficial for anyone anylizing your data.
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Proper Noun Element</th><th>Examples</th><th>Possible Generic Alternatives</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;person&gt;</code></td><td>Abraham Lincoln</td><td>president</td></tr>
+<tr>
+<td><code>&lt;place&gt;</code></td><td>The Sears Tower; Helena, Montana; Egypt; Central Park</td><td>building, city, country, park</td></tr>
+<tr>
+<td><code>&lt;thing&gt;</code></td><td>Boeing 737, Sony PS3, Fanta, Tide</td><td>plane, videogame system, beverage, detergent</td></tr>
+<tr>
+<td><code>&lt;entity&gt;</code></td><td>MPAA, HFPA, Department Of Interior</td><td>ratings organization, press agency, government agency</td></tr>
+<tr>
+<td><code>&lt;event&gt;</code></td><td>Woodstock, Industrial Revolution, Halloween</td><td>concert, historical event, holiday</td></tr>
+</tbody>
+</table>
+ 
+<p>
+Most proper nouns accept a simple string value, but the exceptions are <code>&lt;place&gt;</code> and <code>&lt;person&gt;</code>.  The table 
+below covers the structure of what's allowable in a place element, and further down is a breakdown of a person element in the Movie Crew section.
+</p>
+
+<p>
+The values for <code>&lt;place&gt;</code> do not have to contain exact details.  A description of a place should have just enough detail to avoid 
+ambiguity.  For example, cities like London or Paris are popular enough that listing the country for either city is superfluous.
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Proper Noun (Place) Elements</th><th>Definition</th><th>Example</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;name&gt;</code></td><td>Location Name</td><td>Mount Rushmore, The North Pole</td></tr>
+<tr>
+<td><code>&lt;ci&gt;</code></td><td>City</td><td>Detroit, Nashville</td></tr>
+<tr>
+<td><code>&lt;co&gt;</code></td><td>County</td><td>Hazaard</td></tr>
+<tr>
+<td><code>&lt;st&gt;</code> or <code>&lt;pr&gt;</code></td><td>State Or Province</td><td>California, Ontario</td></tr>
+<tr>
+<td><code>&lt;cn&gt;</code></td><td>Country</td><td>Canada, Mexico</td></tr>
+<tr>
+<td><code>&lt;planet&gt;</code></td><td>Planet</td><td>Mars, Pluto</td></tr>
+</tbody>
+</table>
+
+<p>
+Thye values for <code>&lt;person&gt;</code> elements are set up to split up a full name into detailed parts, separating the 
+given name (or first name) of a person from the family name (or last name).
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Proper Noun (Person) Elements</th><th>Name Component</th><th>Use</th><th>Example</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;preTitle&gt;</code></td><td>Pre-Name Title</td><td>Optional</td><td>Dr., Mr., Ms.</td></tr>
+<tr>
+<td><code>&lt;gn&gt;</code></td><td>Given Name</td><td>Exptected</td><td>Robert, Mary</td></tr>
+<tr>
+<td><code>&lt;mn&gt;</code></td><td>Middle Name</td><td>Optional</td><td>Tim, Joan</td></tr>
+<tr>
+<td><code>&lt;fn&gt;</code></td><td>Family Name</td><td>Expected</td><td>De Niro, Paltrow</td></tr>
+<tr>
+<td><code>&lt;postTitle&gt;</code></td><td>Post-Name Title</td><td>Optional</td><td>Phd., Esq.</td></tr>
+</tbody>
+</table>
+<p>
+The <code>&lt;themes&gt;</code> element contains one or more themes conveyed in the story, each one in a <code>&lt;theme&gt;</code> child element.  The 
+element structure is less complex compared to the keywords, but they can also cover a narrow scope of information about what the 
+movie is trying to convey; so splitting the themes into a separate element helps set them apart from the keywords, and it prevents the 
+keywords element from being a dumping ground.
+</p>
+
+<p>
+The central story of <em>Midnight Run</em> involve a protagonist trying to make a better life through an undesirable job, knowing that 
+if he succeeds at it, he could become very right, despite the fact that completing the job could endanger the life of the man he has been 
+paid to apprehend.  The moral compass of the protagonist wavers, when he resorts to lying, conning, and stealing in order to get the job 
+done, all while convincing his traveling partner that he is doing the right thing.  Thus, some of the themes of the movie include the 
+<em>antihero</em>, <em>right and wrong</em>, and <em>difficult choices</em>.
+</p>
+
+<h3>Movie Crew</h3>
+
+<pre class='codeblock'>
+    &lt;crew&gt;
+     &lt;directors&gt;
+      &lt;director&gt;&lt;gn&gt;Martin&lt;/gn&gt;&lt;fn&gt;Brest&lt;/fn&gt;&lt;/director&gt;
+     &lt;/directors&gt;
+     &lt;writers&gt;
+      &lt;writer&gt;&lt;gn&gt;George&lt;/gn&gt;&lt;fn&gt;Gallo&lt;/fn&gt;&lt;/writer&gt;
+     &lt;/writers&gt;
+     &lt;editors&gt;
+      &lt;editor&gt;&lt;gn&gt;Chris&lt;/gn&gt;&lt;fn&gt;Lebenzon&lt;/fn&gt;&lt;/editor&gt;
+      &lt;editor&gt;&lt;gn&gt;Michael&lt;/gn&gt;&lt;fn&gt;Tronick&lt;/fn&gt;&lt;/editor&gt;
+      &lt;editor&gt;&lt;gn&gt;Billy&lt;/gn&gt;&lt;fn&gt;Weber&lt;/fn&gt;&lt;/editor&gt;
+     &lt;/editors&gt;
+     &lt;cinemaphotographers&gt;
+      &lt;cinemaphotographer&gt;&lt;gn&gt;Donald&lt;/gn&gt;&lt;mn&gt;E&lt;/mn&gt;&lt;fn&gt;Thorin&lt;/fn&gt;&lt;/cinemaphotographer&gt;
+     &lt;/cinemaphotographers&gt;
+     &lt;cast&gt;
+      &lt;role&gt;
+       &lt;actor&gt;&lt;gn&gt;Robert&lt;/gn&gt;&lt;fn&gt;De Niro&lt;/fn&gt;&lt;/actor&gt;
+       &lt;as&gt;&lt;gn&gt;Jack&lt;/gn&gt;&lt;fn&gt;Walsh&lt;/fn&gt;&lt;/as&gt;
+      &lt;/role&gt;
+      &lt;role&gt;
+       &lt;actor&gt;&lt;gn&gt;Charles&lt;/gn&gt;&lt;fn&gt;Grodin&lt;/fn&gt;&lt;/actor&gt;
+       &lt;as&gt;&lt;gn&gt;Jonathan&lt;/gn&gt;&lt;nick&gt;The Duke&lt;/nick&gt;&lt;fn&gt;Mardukas&lt;/fn&gt;&lt;/as&gt;
+      &lt;/role&gt;
+      &lt;role&gt;
+       &lt;actor&gt;&lt;gn&gt;Yaphet&lt;/gn&gt;&lt;fn&gt;Koto&lt;/fn&gt;&lt;/actor&gt;
+       &lt;as&gt;&lt;preTitle&gt;Special Agent&lt;/preTitle&gt;&lt;gn&gt;Alonzo&lt;/gn&gt;&lt;fn&gt;Mosely&lt;/fn&gt;&lt;/as&gt;
+      &lt;/role&gt;
+      &lt;role&gt;
+       &lt;actor&gt;&lt;gn&gt;John&lt;/gn&gt;&lt;fn&gt;Ashton&lt;/fn&gt;&lt;/actor&gt;
+       &lt;as&gt;&lt;gn&gt;Marvin&lt;/gn&gt;&lt;fn&gt;Dorfler&lt;/fn&gt;&lt;/as&gt;
+      &lt;/role&gt;
+      &lt;role&gt;
+       &lt;actor&gt;&lt;gn&gt;Joe&lt;/gn&gt;&lt;fn&gt;Pantoliano&lt;/fn&gt;&lt;/actor&gt;
+       &lt;as&gt;&lt;gn&gt;Eddie&lt;/gn&gt;&lt;fn&gt;Moscone&lt;/fn&gt;&lt;/as&gt;
+      &lt;/role&gt;
+      &lt;role&gt;
+       &lt;actor&gt;&lt;gn&gt;Dennis&lt;/gn&gt;&lt;fn&gt;Farina&lt;/fn&gt;&lt;/actor&gt;
+       &lt;as&gt;&lt;gn&gt;Jimmy&lt;/gn&gt;&lt;fn&gt;Serrano&lt;/fn&gt;&lt;/as&gt;
+      &lt;/role&gt;
+     &lt;/cast&gt;
+    &lt;/crew&gt;
+</pre>
+
+<h4>Part 1: Real Names</h4>
+
+<p>
+The names of all persons are broken up into components, given name, middle name, family name, and any associative titles that are needed.
+</p>
+
+<table>
+<thead>
+<tr><th>Element</th><th>Component</th><th>Use</th><th>Example</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;preTitle&gt;</td><td>Pre-Name Title</td><td>Optional</td><td>Dr.</td></tr>
+<tr>
+<td>&lt;gn&gt;</td><td>Given Name</td><td>Expected</td><td>Robert</td></tr>
+<tr>
+<td>&lt;mn&gt;</td><td>Middle Name</td><td>Optional</td><td>Sam</td></tr>
+<tr>
+<td>&lt;fn&gt;</td><td>Family Name</td><td>Expected</td><td>Grodin</td></tr>
+<tr>
+<td>&lt;postTitle&gt;</td><td>Post-Name Title</td><td>Optional</td><td>Phd.</td></tr>
+</tbody>
+</table>
+
+<p>The structure for a real name is identical to the allowed structure used for a Perosnal Noun Name,
+</p>
+
+<h4>Part 2: Crew</h4>
+
+<p>
+The movie crew elements has information on the directors, writers, editors, and cinemaphotographers.  Each element can support multiple 
+editors, writers, cinemaphotographers, and directors if necessary.
+</p>
+
+<h4>Part 3: Cast</h4>
+
+<p>
+The cast element contains information on all actors in the film and the characters they portray.  Every actor in the film is assumed to be 
+playing one (or maybe more) characters in the film.  Each actor is recorded using the &lt;actor&gt; element, and each character
+portrayed by the actor is recorded using the &lt;as&gt; element, or they may be portraying themselves.
+</p>
+
+<p>
+Character names are more flexible than real names because characters in films may not have full names, they may simply 
+go by a moniker.
+</p>
+
+<table>
+<thead>
+<tr><th>Element</th><th>Component</th><th>Use</th><th>Example</th></tr>
+</thead>
+<tbody>
+<tr>
+<th colspan='4' class='subhead'>Option 1: A Single Character Title</th></tr>
+<tr>
+<td>&lt;title&gt;</td><td>Full Title</td><td>Expected</td><td>Deadpool</td></tr>
+<tr>
+<th colspan='4' class='subhead'>Option 2: Actor Portraying Themselves</th></tr>
+<tr>
+<td>&lt;self&gt;</td><td>Self Portrayal</td><td>Expected</td><td>&nbsp;</td></tr>
+<tr>
+<th colspan='4' class='subhead'>Option 3: Actor Is The Narrator</th></tr>
+<tr>
+<td>&lt;narrator&gt;</td><td>Narrator</td><td>Expected</td><td>&nbsp;</td></tr>
+<tr>
+<th colspan='4' class='subhead'>Option 4: Actor Portraying A Character</th></tr>
+<tr>
+<td>&lt;preTitle&gt;</td><td>Pre-Name Title</td><td>Optional</td><td>Dr.</td></tr>
+<tr>
+<td>&lt;gn&gt;</td><td>Given Name</td><td>Optional</td><td>Robert</td></tr>
+<tr>
+<td>&lt;nick&gt;</td><td>Nickname</td><td>Optional</td><td>The Rock</td></tr>
+<tr>
+<td>&lt;mn&gt;</td><td>Middle Name</td><td>Optional</td><td>Sam</td></tr>
+<tr>
+<td>&lt;fn&gt;</td><td>Family Name</td><td>Optional</td><td>Grodin</td></tr>
+<tr>
+<td>&lt;postTitle&gt;</td><td>Post-Name Title</td><td>Optional</td><td>Phd.</td></tr>
+<tr>
+<td>&lt;variant&gt;</td><td>Aspect Of A Character</td><td>Optional</td><td>Darth Vader (voice)</td></tr>
+</tbody>
+</table>
+
+<h3>End Block And Validation Test</h3>
+
+<pre class='codeblock'>
+   &lt;/movie&gt;
+  &lt;/contents&gt;
+ &lt;/media&gt;
+&lt;/medialist&gt;
+</pre>
+
+<p>
+After finishing the movie file, it's possible to test your XML file to verify that everything is entered correctly.  Your file editor may 
+be able to validate the file directly, or you can use an external tool like xmllint.
+</p>
+
+<p>
+The first commend checks your file to make sure that all of the XML is properly formatted.
+</p>
+<pre class='shellsession'>
+ xmllint (filename).xml
+</pre>
+
+<p>
+Once the first command reports no errors, the second command will check to ensure that the XML file follows the rules of the schema.
+</p>
+
+<pre class='shellsession'>
+ xmllint --path /path/to/schema --schema media-schema.xsd (filename).xml
+</pre>
+
+<p>
+If you decided to split the work into multiple files, you need to specify the <code>--xinclude</code> option to xmllint.
+</p>
+
+<pre class='shellsession'>
+ xmllint --xinclude --path /path/to/schema --schema media-schema.xsd (filename).xml
+</pre>
+
+</body>
+</html>

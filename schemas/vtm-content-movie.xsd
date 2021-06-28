@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
+  xmlns='http://vectortron.com/xml/media/movie'
+  targetNamespace='http://vectortron.com/xml/media/movie' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2021, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:include schemaLocation='vtm-mod-pnouns.xsd'/>
+ <xs:include schemaLocation='vtm-mod-all-catalog.xsd'/>
+ <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
+ <xs:include schemaLocation='vtm-mod-visual-technical.xsd'/>
+ <xs:include schemaLocation='vtm-mod-visual-crew.xsd'/>
+ <xs:include schemaLocation='vtm-mod-visual-classification.xsd'/>
+ <xs:include schemaLocation='vtm-mod-visual-story.xsd'/>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Movie data.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:simpleType name='MovieImportanceType'>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='primary'/>
+   <xs:enumeration value='supplemental'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:complexType name='MovieType'>
+  <xs:sequence>
+   <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='catalog' type='CatalogType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='classification' type='ClassificationType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='technical' type='TechnicalType' minOccurs='0' maxOccurs='1'/>
+   <xs:choice>
+    <xs:element name='description' type='StoryType' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='story' type='StoryType' minOccurs='0' maxOccurs='1'/>
+   </xs:choice>
+   <xs:element name='crew' type='CrewType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attribute name='importance' type='MovieImportanceType' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='TrailerType'>
+  <xs:sequence>
+   <xs:element name='title' type='xs:token' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:element name='movie' type='MovieType'/>
+ <xs:element name='trailer' type='TrailerType'/>
+
+</xs:schema>

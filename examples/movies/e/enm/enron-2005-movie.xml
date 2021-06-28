@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Enron: The Smartest Guys In The Room</title>
+    <catalog>
+     <copyright>
+      <year>2005</year>
+      <holders>
+       <holder>HDNet Films, Inc.</holder>
+      </holders>
+      <country>US</country>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><nonfiction/></category>
+     <genres>
+      <primary>Documentary</primary>
+      <specific>Big Business</specific>
+      <subgenres>
+       <subgenre>based on a book</subgenre>
+      </subgenres>
+     </genres>
+     <subjects>
+      <generic>commodities</generic>
+      <generic>energy trading</generic>
+      <properNoun><entity>Enron</entity></properNoun>
+      <properNoun><person><gn>Ken</gn><fn>Lay</fn></person></properNoun>
+      <properNoun><person><gn>Jeff</gn><fn>Skilling</fn></person></properNoun>
+      <properNoun><person><gn>Andy</gn><fn>Fasteau</fn></person></properNoun>
+      <properNoun><person><gn>John Clifford</gn><fn>Banter</fn></person></properNoun>
+      <properNoun><person><gn>John Clifford</gn><fn>Banter</fn></person></properNoun>
+      <properNoun><entity>Enron</entity></properNoun>
+     </subjects>
+    </classification>
+    <description>
+     <overview>
+      An examination of the rise and fall of the <kw>Enron Corporation</kw>.
+     </overview>
+     <keywords>
+      <generic>rolling blackouts</generic>
+      <generic>energy trading</generic>
+      <generic>boiler room</generic>
+     </keywords>
+     <themes>
+      <theme>corruption</theme>
+     </themes>
+    </description>
+    <crew>
+     <directors>
+      <director><gn>Alex</gn><fn>Gibney</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>Alex</gn><fn>Gibney</fn></writer>
+      <sources>
+       <source>
+        <title>Enron: The Smartest Guys In The Room</title>
+        <authors>
+         <author><gn>Bethany</gn><fn>McLean</fn></author>
+         <author><gn>Peter</gn><fn>Elkind</fn></author>
+        </authors>
+       </source>
+      </sources>
+     </writers>
+     <editors>
+      <editor><gn>Alison</gn><fn>Ellwood</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Maryse</gn><fn>Alberti</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Peter</gn><fn>Coyote</fn></actor>
+       <as><narrator/></as>
+      </role>
+      <role>
+       <actor><gn>Arnold</gn><fn>Schwartzeneger</fn></actor>
+       <as><self archivalFootage='true'/></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>

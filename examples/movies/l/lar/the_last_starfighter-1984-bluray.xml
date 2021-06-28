@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>The Last Starfighter</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2020-11-11</exact></date>
+      <purchase>
+       <retailer>Cheapo Records - Blaine</retailer>
+       <price>38.99</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><veryFine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+    <publisher>Arrow Video</publisher>
+   </release>
+   <productId>
+    <barcode type='upc'>760137408987</barcode>
+   </productId>
+   <productSpecs>
+     <dimensions>
+       <size length='6.75' height='0.6' width='5.5'/>
+     </dimensions>
+     <inventory>
+       <case>
+          <bluray id='1'/>
+       </case>
+     </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+    <xi:include href='the_last_starfighter-1984-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Double Feature: Killing Season / Red Lights</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2021-06-01</from><to>2021-06-15</to></date>
+      <purchase>
+       <retailer> </retailer>
+       <price>7.95</price>
+      </purchase>
+      <quality><used/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+   <filing>
+    <collection>De Niro Serious</collection>
+   </filing>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>687797519863</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <ultrahd/>
+      <bluray/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href='killing_season-2013-movie.xml'/>
+   <xi:include href='red_lights-2011-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

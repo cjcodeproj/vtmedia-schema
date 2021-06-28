@@ -1,0 +1,168 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media'>
+ <media>
+  <title>
+   <main>Contact</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2020-01-01</from><range>P1Y</range></date>
+      <quality><new/></quality>
+     </acquisition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>88329064144</barcode>
+    <barcode type='isbn'>141988039X</barcode>
+    <other>
+     <name>catalog</name>
+     <value>3000023055</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray id='1'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Contact</title>
+    <catalog>
+     <copyright>
+      <year>1997</year>
+      <holders>
+       <holder>Warner Bros.</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Sci-Fi</primary>
+      <secondary>Drama</secondary>
+      <specific>Alien Contact</specific>
+      <subgenres>
+       <subgenre>based on a book</subgenre>
+      </subgenres>  
+     </genres>
+     <certifications>
+      <certificate ref='35448'>
+       <rating code='PG'>Parental Guidance Suggested</rating>
+       <definition>Some material may not be suitable for children</definition>
+       <descriptors>
+        <descriptor>Intense Action</descriptor>
+        <descriptor>Mild Language</descriptor>
+       </descriptors>
+       <agency>
+        <name>MPAA</name>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT2H30M</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <logline>An astronomer discovers a radio message proving the existance of alien life.</logline>
+     <plot>
+      An astronomer's search for extraterrestrial life leads to the discovery of a signal proving the 
+      existance of life in outer space, and the means to make contact with them.
+     </plot>
+     <keywords>
+      <generic>radio telescope</generic>
+      <generic>telescope</generic>
+      <generic>ham radio</generic>
+      <generic>wormholes</generic>
+      <generic>alien contact</generic>
+      <generic>message decryption</generic>
+      <generic>religion</generic>
+      <generic>theology</generic>
+      <group>
+       <properNoun><place><name>Very Large Array</name></place></properNoun>
+       <properNoun><place><name>Arecibo Observatory</name></place></properNoun>
+       <properNoun><place><name>Cape Canaveral</name></place></properNoun>
+       <properNoun><entity>NASA</entity></properNoun>
+       <properNoun><entity>NRAO</entity></properNoun>
+       <properNoun><entity>National Science Foundation</entity></properNoun>
+      </group>
+     </keywords>
+     <themes>
+      <theme>faith</theme>
+      <theme>understanding</theme>
+      <theme>truth seeking</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Robert</gn><fn>Zemeckis</fn></director>
+     </directors>
+     <writers>
+      <writer role='screenplay'><gn>James</gn><mn>V</mn><fn>Hart</fn></writer>
+      <writer role='screenplay'><gn>Michael</gn><fn>Goldenberg</fn></writer>
+      <sources>
+       <source>
+        <title>Contact</title>
+        <authors>
+         <author><gn>Carl</gn><fn>Sagan</fn></author>
+        </authors>
+       </source>
+       <source>
+        <title>Contact</title>
+        <authors>
+         <author><gn>Carl</gn><fn>Sagan</fn></author>
+         <author><gn>Ann</gn><fn>Druyan</fn></author>
+        </authors>
+       </source>
+      </sources>
+     </writers>
+     <editors>
+      <editor><gn>Authur</gn><fn>Schmidt</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Don</gn><fn>Burgess</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Jodie</gn><fn>Foster</fn></actor>
+       <as><preTitle>Dr</preTitle><gn>Eleanor</gn><fn>Arroway</fn></as>
+      </role>
+      <role>
+       <actor><gn>Matthew</gn><fn>McConaughey</fn></actor>
+       <as><gn>Palmer</gn><fn>Joss</fn></as>
+      </role>
+      <role>
+       <actor><gn>Tom</gn><fn>Skeritt</fn></actor>
+       <as><gn>David</gn><fn>Drumlin</fn></as>
+      </role>
+      <role>
+       <actor><gn>David</gn><fn>Morse</fn></actor>
+       <as><gn>Ted</gn><fn>Arroway</fn></as>
+      </role>
+      <role>
+       <actor><gn>William</gn><fn>Fichtner</fn></actor>
+       <as><gn>Kent</gn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
+  </contents>
+ </media>
+</medialist>

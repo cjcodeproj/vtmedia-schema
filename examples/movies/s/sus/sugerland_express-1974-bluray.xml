@@ -1,0 +1,152 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>The Sugarland Express</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2021-01-18</exact></date>
+      <purchase>
+       <retailer>Cheapo Records</retailer>
+       <location>Blaine, MN</location>
+       <price>12.99</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <authenticity>
+     </authenticity>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>025192235108</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray id='1'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>The Sugarland Express</title>
+    <catalog>
+     <copyright>
+      <year>1974</year>
+      <holders>
+       <holder>Universal Pictures</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Drama</primary>
+      <secondary>Action</secondary>
+      <secondary>Comedy</secondary>
+      <specific>Family Escape</specific>
+      <subgenres>
+       <subgenre>based on real events</subgenre>
+      </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT1H49M59S</overall>
+      <openingCredits startOffset='PT1M49S' overlap='true'>PT4M37S</openingCredits>
+      <endCredits>PT1M26S</endCredits>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      <chr>Lou Jean</chr>, desperate to get back custody of her child, springs her husband out of prison in the 
+      hopes of traveling all the way to <kw>Sugarland, Texas</kw>.  Unfortunately, the plan goes awry, and they are 
+      forced to kidnap a <kw>state trooper</kw>, and they are all pursued by state troopers and news media along 
+      the Texas highways.
+     </plot>
+     <keywords>
+      <generic>prison</generic>
+      <generic>prison escape</generic>
+      <generic>kidnapping</generic>
+      <generic>manhunt</generic>
+      <generic>high speed chase</generic>
+      <generic>low speed chase</generic>
+      <generic>drive-in movie</generic>
+      <generic>cartoons</generic>
+      <generic>used car lot</generic>
+      <properNoun><place><st>Texas</st></place></properNoun>
+      <properNoun><entity>Texas Highway Patrol</entity></properNoun>
+      <properNoun><place><st>Louisiana</st></place></properNoun>
+      <properNoun><place><ci>Sugarland</ci></place></properNoun>
+      <properNoun><entity>Arco</entity></properNoun>
+      <generic>custody dispute</generic>
+      <generic>caravan</generic>
+      <generic>roadblock</generic>
+      <generic>fried chicken</generic>
+      <generic>drive-thru restaurant</generic>
+     </keywords>
+     <themes>
+      <theme>fame</theme>
+      <theme>celebrity</theme>
+      <theme>justice</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Steven</gn><fn>Spielberg</fn></director>
+     </directors>
+     <writers>
+      <writer role='screenplay'><gn>Hal</gn><fn>Barwood</fn></writer>
+      <writer role='screenplay'><gn>Matthew</gn><fn>Robbins</fn></writer>
+      <writer role='story'><gn>Steven</gn><fn>Spielberg</fn></writer>
+      <writer role='story'><gn>Hal</gn><fn>Barwood</fn></writer>
+      <writer role='story'><gn>Matthew</gn><fn>Robbins</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Edward</gn><mn>M</mn><fn>Abroms</fn></editor>
+      <editor><gn>Verna</gn><fn>Fields</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Vilmos</gn><fn>Zsigmond</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Goldie</gn><fn>Hawn</fn></actor>
+       <as><gn>Lou Jean</gn></as>
+      </role>
+      <role>
+       <actor><gn>Ben</gn><fn>Johnson</fn></actor>
+       <as><preTitle>Captain</preTitle><fn>Tanner</fn></as>
+      </role>
+      <role>
+       <actor><gn>Michael</gn><fn>Sacks</fn></actor>
+       <as><nick>Slide</nick></as>
+      </role>
+      <role>
+       <actor><gn>William</gn><fn>Atherton</fn></actor>
+       <as><gn>Clovis</gn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
+  </contents>
+ </media>
+</medialist>

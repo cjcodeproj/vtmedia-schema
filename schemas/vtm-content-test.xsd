@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
+ xmlns='http://vectortron.com/xml/media/test'
+ targetNamespace='http://vectortron.com/xml/media/test' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2021, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation>
+   Empty content schema used for testing.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='TestType'>
+ </xs:complexType>
+
+ <xs:element name='test' type='TestType'/>
+ <xs:element name='betatest' type='TestType'/>
+
+</xs:schema>
+

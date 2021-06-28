@@ -1,0 +1,174 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media'>
+ <media>
+  <title>
+   <main>Death Proof</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2008-01-01</from><range>P1Y</range></date>
+      <purchase>
+       <retailer>Best Buy</retailer>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>796019817179</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Death Proof</title>
+    <catalog>
+     <copyright>
+      <year>2017</year>
+      <holders>
+       <holder>The Weinstein Company, LLC</holder>
+      </holders>
+     </copyright>
+    <!--
+     <universe>
+      <title>Grindhouse Universe</title>
+     </universe>
+     -->
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Horror</primary>
+      <secondary>Thriller</secondary>
+      <specific>Car Action</specific>
+      <subgenres>
+       <subgenre>carsploitation</subgenre>
+      </subgenres>
+     </genres>
+     <certifications>
+      <certificate ref='43396'>
+       <noRating/>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <story>
+     <logline>A man uses his car to kill women he obsesses over.</logline>
+     <plot>
+      Two differnt groups of girls have fun and hang out together without realizing that they are the prey of the 
+      dangerous <chr>Stuntman Mike</chr>, a man who enjoys killing women with his specially built cars.
+     </plot>
+     <keywords>
+      <generic clarification='cars'>stunt cars</generic>
+      <generic>murder</generic>
+      <generic>car chase</generic>
+      <generic>lap dance</generic>
+      <generic>vehicular homicide</generic>
+      <generic>alcohol</generic>
+      <generic relevance='4'>birthdays</generic>
+      <generic relevance='4'>cheerleader movies</generic>
+      <generic relevance='4'>movie crews</generic>
+      <group relevance='4'>
+       <properNoun><thing>Allure</thing></properNoun>
+       <properNoun><thing>Vogue</thing></properNoun>
+      </group>
+      <generic>ship's mast</generic>
+      <generic>hood ornament</generic>
+      <properNoun relevance='4'><person><gn>Robert</gn><fn>Frost</fn></person></properNoun>
+      <generic>Wilhelm Scream</generic>
+      <group collection='vehicles'>
+       <properNoun><thing>Chevy Nova</thing></properNoun>
+       <properNoun><thing>Dodge Challenger</thing></properNoun>
+       <properNoun><thing>Dodge Charger</thing></properNoun>
+       <properNoun><thing>Ford Mustang</thing></properNoun>
+      </group>
+      <generic relevance='4'>rubber duck</generic>
+      <group collection='car movies'>
+       <properNoun><thing>Vanishing Point</thing></properNoun>
+       <properNoun><thing>Gone In 60 Seconds</thing></properNoun>
+       <properNoun><thing>Convoy</thing></properNoun>
+      </group>
+     </keywords>
+     <themes>
+      <theme>violence</theme>
+      <theme>obsession</theme>
+      <theme>female bonding</theme>
+      <theme>girl power</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Quentin</gn><fn>Tarantino</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>Quentin</gn><fn>Tarantino</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Sally</gn><fn>Menke</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Quentin</gn><fn>Tarantino</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Kurt</gn><fn>Russell</fn></actor>
+       <as><gn>Stuntman Mike</gn></as>
+      </role>
+      <role>
+       <actor><gn>Zöe</gn><fn>Bell</fn></actor>
+       <as><gn>Zöe</gn><fn>Bell</fn></as>
+      </role>
+      <role>
+       <actor><gn>Rosario</gn><fn>Dawson</fn></actor>
+       <as><gn>Abernathy</gn></as>
+      </role>
+      <role>
+       <actor><gn>Vanessa</gn><fn>Ferlito</fn></actor>
+       <as><gn>Arlene</gn></as>
+      </role>
+      <role>
+       <actor><gn>Sydney</gn><fn>Tamiia Poitier</fn></actor>
+       <as><gn>Jungle Julia</gn></as>
+      </role>
+      <role>
+       <actor><gn>Tracie</gn><fn>Thoms</fn></actor>
+       <as><gn>Kim</gn></as>
+      </role>
+      <role>
+       <actor><gn>Rose</gn><fn>MNcGowan</fn></actor>
+       <as><gn>Pam</gn></as>
+      </role>
+      <role>
+       <actor><gn>Jordan</gn><fn>Ladd</fn></actor>
+       <as><gn>Shanna</gn></as>
+      </role>
+      <role>
+       <actor><gn>Monica</gn><fn>Staggs</fn></actor>
+       <as><gn>Lanna</gn><fn>Frank</fn></as>
+      </role>
+      <role>
+       <actor><gn>Quentin</gn><fn>Tarantino</fn></actor>
+       <as><gn>Warren</gn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
+  </contents>
+ </media>
+</medialist>

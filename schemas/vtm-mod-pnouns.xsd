@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2021, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   Schema types used for catagorizing proper nouns.
+   A proper noun can be either 
+     Person: living person
+     Place: location
+     Thing: named object
+     Group: group of people
+     Entity: collective thing
+     Event: something that happens
+   The elements will be used to expand on the flexibility of catalog 
+   subjects or keywords.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='ProperNounType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Root element for all proper nouns.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'/>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='PNNameEmptyType'>
+ </xs:complexType>
+
+ <xs:complexType name='PNPlaceType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Structured (or loose) type describing a location
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='generic' type='xs:token' maxOccurs='1'/>
+   <xs:sequence>
+    <xs:element name='name' type='xs:token' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='ci' type='xs:token' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='co' type='xs:token' minOccurs='0' maxOccurs='1'/>
+    <xs:choice minOccurs='0' maxOccurs='1'>
+     <xs:element name='st' type='xs:token'/>
+     <xs:element name='pr' type='xs:token'/>
+    </xs:choice>
+    <xs:element name='cn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='planet' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   </xs:sequence>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='PNNameType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Standard type for a real person's name.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='preTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:choice minOccurs='0' maxOccurs='1'>
+    <xs:element name='mn' type='xs:token'/>
+    <xs:element name='nmn' type='PNNameEmptyType'/>
+   </xs:choice>
+   <xs:choice minOccurs='0' maxOccurs='1'>
+    <xs:element name='fn' type='xs:token'/>
+    <xs:element name='nln' type='PNNameEmptyType'/>
+   </xs:choice>
+   <xs:element name='postTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:group name='ProperNounGroup'>
+  <xs:choice>
+   <xs:element name='person' type='PNNameType'/>
+   <xs:element name='place' type='PNPlaceType'/>
+   <xs:element name='thing' type='ProperNounType'/>
+   <xs:element name='group' type='ProperNounType'/>
+   <xs:element name='entity' type='ProperNounType'/>
+   <xs:element name='event' type='ProperNounType'/>
+  </xs:choice>
+ </xs:group>
+
+</xs:schema>

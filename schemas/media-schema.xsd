@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
+ xmlns='http://vectortron.com/xml/media/media'
+ xmlns:test='http://vectortron.com/xml/media/test'
+ xmlns:movie='http://vectortron.com/xml/media/movie'
+ targetNamespace='http://vectortron.com/xml/media/media' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2021, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:include schemaLocation='vtm-mod-media-inventory.xsd'/>
+ <xs:include schemaLocation='vtm-mod-library.xsd'/>
+ <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
+ <xs:import schemaLocation='vtm-content-test.xsd' namespace='http://vectortron.com/xml/media/test'/>
+ <xs:import schemaLocation='vtm-content-movie.xsd' namespace='http://vectortron.com/xml/media/movie'/>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Media data, mostly related to movies right now.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='ContentsType'>
+  <xs:choice minOccurs='1'>
+   <xs:element ref='test:test' maxOccurs='unbounded'/>
+   <xs:element ref='movie:movie' maxOccurs='unbounded'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='TitleType'>
+  <xs:sequence>
+   <xs:element name='main' type='xs:string' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='edition' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='series' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='collection' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='MediaType'>
+  <xs:sequence>
+   <xs:element name='title' type='TitleType' minOccurs='1'/>
+   <xs:element name='library' type='LibraryType' minOccurs='0'/>
+   <xs:element name='medium' type='MediumType' minOccurs='1'/>
+   <xs:element name='contents' type='ContentsType' minOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='MediaListType'>
+  <xs:sequence>
+   <xs:element name='media' type='MediaType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:element name='medialist' type='MediaListType'/>
+
+</xs:schema>

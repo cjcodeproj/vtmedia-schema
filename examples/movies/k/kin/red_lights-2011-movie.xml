@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Red Lights</title>
+    <catalog>
+     <copyright>
+      <year>2011</year>
+      <holders>
+       <holder>Versus Producciones Cinematografaficas SL</holder>
+       <holder>VS Entertainment, LLC</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Mystery</primary>
+      <secondary>Drama</secondary>
+      <secondary>Fantasy</secondary>
+      <specific>Paranormal Investigation</specific>
+      <subgenres>
+       <subgenre>blockbuster</subgenre>
+      </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT1H53M51S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+     </plot>
+     <keywords>
+      <generic>psychics</generic>
+      <generic>frauds</generic>
+      <generic>magic</generic>
+      <generic>con artists</generic>
+     </keywords>
+     <themes>
+      <theme>beliefs</theme>
+      <theme>truth</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Rogrigo</gn><fn>Cortés</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>Rodrigo</gn><fn>Cortés</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Rodrigo</gn><fn>Cortés</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Xavi</gn><fn>Giménez</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Cillian</gn><fn>Murphy</fn></actor>
+       <as><gn>Tom</gn><fn>Buckley</fn></as>
+      </role>
+      <role>
+       <actor><gn>Sigourney</gn><fn>Weaver</fn></actor>
+       <as><gn>Margaret</gn><fn>Matheson</fn></as>
+      </role>   
+      <role>
+       <actor><gn>Robert</gn><fn>De Niro</fn></actor>
+       <as><gn>Simon</gn><fn>Silver</fn></as>
+      </role>
+      <role>
+       <actor><gn>Toby</gn><fn>Jones</fn></actor>
+       <as><gn>Paul</gn><fn>Shackleton</fn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
