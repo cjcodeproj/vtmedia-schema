@@ -35,15 +35,30 @@ pre {
 	padding-right: 1em;
 }
 
+div.element {
+	margin-bottom: 8ex;
+}
+
 table {
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+table.element {
+	margin-left: 0;
+	margin-right: 0;
+	border-radius: 0.2em;
+	border: black solid;
 }
 
 table th {
 	background: black;
 	border: solid black;
 	color: white;
+}
+
+table.element th {
+	text-align: left;
 }
 
 table th.subhead {

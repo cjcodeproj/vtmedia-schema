@@ -1,0 +1,669 @@
+<html>
+<head>
+<title>Movie Schema: Catalog Element</title>
+<link rel='stylesheet' href='../mainstyle.css' type='text/css'/>
+</head>
+<body>
+<h1>Movie Schema: Catalog Element</h1>
+<p>
+The movie schema is designed for cataloging movies and films, both fictional and non-fictional.  
+It records information on genres, the cast and crew, story, 
+</p>
+
+<h2>Contents</h2>
+
+<ul>
+<li>Structure Overview</li>
+<li>Elements</li>
+  <ul>
+  <li>&lt;title&gt;</li>
+  <li>&lt;catalog&gt;</li>
+  <li>&lt;classification&gt;</li>
+  <li>&lt;technical&gt;</li>
+  <li>&lt;story&gt;</li>
+  <li>&lt;crew&gt;</li>
+  </ul>
+</ul>
+
+<h2>Structure Overview</h2>
+
+
+<pre class='codeblock'>
+  &lt;catalog&gt;
+    &lt;identification&gt;
+      &lt;id&gt; ... &lt;/id&gt;
+      &lt;uuid&gt; ... &lt;/uuid&gt;
+    &lt;/identification&gt;
+    &lt;altTitles&gt;
+      &lt;originalTitle&gt; ... &lt;/originalTitle&gt;
+      &lt;variantTitle&gt; ... &lt;/variantTitle&gt;
+      &lt;alternateTitle&gt; ... &lt;/alternateTitle&gt;
+      &lt;productionTitle&gt; .. &lt;/productionTitle&gt;
+      &lt;distributionTitle&gt; ... &lt;/distributionTitle&gt;
+    &lt;/altTitles&gt;
+    &lt;copyright&gt;
+      &lt;year&gt; .... &lt;/year&gt;
+      &lt;holders&gt;
+        &lt;holder&gt; ... &lt;/holder&gt;
+      &lt;/holders&gt;
+      &lt;country&gt; ... &lt;/country&gt;
+      &lt;filing&gt; ... &lt;/filing&gt;
+      &lt;registrationNo&gt; ... &lt;/registrationNo&gt;
+      &lt;expires&gt; ... &lt;/expires&gt;
+    &lt;/copyright&gt;
+    &lt;extRefs&gt;
+    &lt;/extRefs&gt;
+  &lt;/catalog&gt;
+</pre>
+
+<h2>Elements</h2>
+
+<!-- catalog -->
+
+<h3>Primary Element: Catalog</h3>
+
+<div class='element' id='element/catalog'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;catalog&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;movie&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;identification&gt;</code> <code>&lt;altTitles&gt;</code> <code>&lt;copyright&gt;</code> <code>&lt;extRefs&gt;</code> </td></tr>
+
+</tbody>
+</table>
+
+<p>The catalog element is for all information related to the title, the registration, and outside references to the film.  It allows for a local movie ID for the purpose 
+of maintaining a localized library system, and reference data to external libraries.  It also tracks copyright registrations, and alternate titles or title changes tied to 
+the movie.
+</p>
+</div>
+
+<h3>Identifcation Element</h3>
+
+<!-- catalog/identification -->
+
+<div class='element' id='element/catalog/identification'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;identification&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;catalog&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;id&gt;</code> <code>&lt;uuid&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+The identification element holds all information tied to a set of unique, local reference key to the movie.  Most instances will only have one child element, but 
+it is possible to have multiple identification keys.  At the very least, the element must contain one id element or one uuid element.
+</p>
+</div>
+
+<!-- catalog/identification/id -->
+<div class='element' id='element/catalog/identification/id'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td colspan='3'><code>&lt;id&gt;</code> </td></tr>
+<tr>
+<th>Module</th><td colspan='3'> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td colspan='3'>Optional, multiple occurences</td></tr>
+<tr>
+<th>Value</th><td colspan='3'>simple string (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;identification&gt;</code></td></tr>
+<tr>
+<th>Child Elements</th><td colspan='3'>None</td></tr>
+<tr>
+<th rowspan='3'>Attributes</th><th>Name</th><th>Type</th><th>Usage</th></tr>
+<tr>
+<td><code>type</code></td><td>string (xs:token)</td><td>optional</td></tr>
+<tr>
+<td><code>application</code></td><td>string (xs:token)</td><td>optional</td></tr>
+</tbody>
+</table>
+
+<p>
+The id element holds a unique identifier value for the movie.  The type and application attributes are designed to allow for multiple id values for the same movie, which could 
+be utilized by external tools or applications.
+</p>
+</div>
+
+<!-- catalog/identification/uuid -->
+<div class='element' id='element/catalog/identification/uuid'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;uuid&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>UUID (custom)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;identification&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+
+</tbody>
+</table>
+
+<p>
+The uuid element stores a UUID value, which could be used as a unique identifier for a movie.  Only one uuid element is allowed, as it's assumed that only one is necessary
+if it is used at all.
+</p>
+
+<p>
+The UUID conformity check is based on a regex pattern, and does not adhere 100% to the UUID format as far as checking for UUID version 1 or UUID version 4.  The generation 
+of the UUID value is up to the implementor.
+</p>
+</div>
+
+<h3>Alternate Titles</h3>
+
+<!-- catalog/altTitles -->
+<div class='element' id='element/catalog/altTitles'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;altTitles&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;catalog&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;originalTitle&gt;</code> <code>&lt;variantTitle&gt;</code> <code>&lt;alternateTitle&gt;</code>
+  <code>&lt;productionTitle&gt;</code> <code>&lt;distributionTitle&gt;</code> </td></tr>
+
+</tbody>
+</table>
+
+<p>
+The altTitles element contains data on alternate titles the movie may be recognised as; or variant expressions of the current title 
+that may be more suitable for readability, indexing, or speech to text operations.
+</p>
+</div>
+
+<!-- catalog/altTitles/originalTitle -->
+<div class='element' id='element/catalog/altTitles/originalTitle'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;originalTitle&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>title string (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;altTitles&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+
+</tbody>
+</table>
+
+<p>
+The originalTitle element covers rare situations when the name of a movie actually changes after release.
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Movie Title</th><th>Movie Year</th><th>Original Title</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Live. Die. Repeat.</td><td>2014</td><td>Edge Of Tomorrow</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- catalog/altTitles/variantTitle -->
+<div class='element' id='element/catalog/altTitles/variantTitle'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;variantTitle&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>title string (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;altTitles&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+
+</tbody>
+</table>
+
+<p>
+The variantTitle is designed to match the current main title of the movie, but with an alternate representation.  It is only 
+used in cases where the actual title is unusable for operations like index sorting, or text to speech
+conversion.  Titles that include numbers in the name, non-alphaetic characters, or emojii should have a variantTitle
+defined to convey what the title actually says.
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Movie Title</th><th>Movie Year</th><th>Variant Title</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Se7en</td><td>1995</td><td>Seven</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- catalog/altTitles/productionTitle -->
+<div class='element' id='element/catalog/altTitles/productionTitle'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;productionTitle&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>title string (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;altTitles&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+
+</tbody>
+</table>
+
+<p>
+The productionTitle is used for cases where a movie is produced under a different title.  The reasoning behind a production title 
+could be related to security during shooting, or post production.
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Movie Title</th><th>Movie Year</th><th>Production Title</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Ant Man and The Wasp</td><td>2018</td><td>Cherry Blue</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- catalog/altTitles/distributionTitle -->
+<div class='element' id='element/catalog/altTitles/distributionTitle'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;distributionTitle&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>title string (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;altTitles&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+
+</tbody>
+</table>
+
+<p>
+The distributionTitle describes very rare situations where a movie is shipped to a theater with a different name, usually 
+to prevent the movie from being pirated.  It is rarely used
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Movie Title</th><th>Movie Year</th><th>Distribution Title</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Star Wars I: The Phantom Menace</td><td>1999</td><td>The Doll House</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Copyright Information</h3>
+
+<!-- catalog/copyright -->
+
+<div class='element' id='element/catalog/copyright'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;copyright&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;catalog&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;year&gt;</code> <code>&lt;holders&gt;</code> <code>&lt;country&gt;</code> 
+  <code>&lt;filing&gt;</code> <code>&lt;registrationNo&gt;</code> <code>&lt;expires&gt;</code> </td></tr>
+
+</tbody>
+</table>
+
+<p>
+The copyright element details the copyright information tied to the movie.  It records the year of the copyright, the holders, 
+the registration number and filing information, and the year the copyright expires.
+</p>
+</div>
+
+<div class='element' id='element/catalog/copyright/year'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;year&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Required, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>year number (xs:gYear)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;copyright&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The year element records the year of the copyright.
+</p>
+</div>
+
+<!-- catalog/copyright/holders -->
+
+<div class='element' id='element/catalog/copyright/holders'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;holders&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;copyright&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;holder&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+The holders element tracks all holders of a given copyright, with one or more holder child elements, each containing a single entity
+recorded as the holder of the copyright.
+</p>
+</div>
+
+<!-- catalog/copyright/holders/holder -->
+
+<div class='element' id='element/catalog/copyright/holders/holder'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;holder&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Required, at least one occurence</td></tr>
+<tr>
+<th>Value</th><td>entity name (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;holders&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+Each holder element contains a single holder entity for a given copyright.
+</p>
+</div>
+
+<!-- catalog/copyright/filing -->
+<div class='element' id='element/catalog/copyright/filing'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;filing&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>filing entity (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;copyright&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The filing element identifies an organization where the copyright was registered.
+</p>
+</div>
+
+<!-- catalog/copyright/registrationNo -->
+<div class='element' id='element/catalog/copyright/registrationNo'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;registrationNo&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>string value (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;copyright&gt;</code></td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The registration number refers to the reference of the copyright as reported by the organization that handled 
+the copyright registration.
+</p>
+</div>
+
+<div class='element' id='element/catalog/copyright/expires'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;expires&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>year (xs:gYear)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;copyright&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The year when the copyright is expected to expire.
+</p>
+</div>
+
+<h3>External References</h3>
+
+<!-- catalog/extRefs -->
+<div class='element' id='element/catalog/extRefs'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;extRefs&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;catalog&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;libraryRecord&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+The extRefs element is used to list external references to the movie, usually library references.
+</p>
+</div>
+
+<!-- catalog/extRefs/libraryRecord -->
+<div class='element' id='element/catalog/extRefs/libraryRecord'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;libraryRecord&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one or more occurences</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;extRefs&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;library&gt;</code> <code>&lt;catalogNo&gt;</code> <code>&lt;link&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+Contains a single library reference to a movie.
+</p>
+</div>
+
+<!-- catalog/extRefs/libraryRecord/library -->
+<div class='element' id='element/catalog/extRefs/libraryRecord/library'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;library&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Required, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>library name (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;libraryRecord&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The library element contains the name of the library the record is from.
+</p>
+</div>
+
+<!-- catalog/extRefs/libraryRecord/catalogNo -->
+<div class='element' id='element/extRefs/libraryRecord/catalogNo'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td colspan='3'><code>&lt;catalogNo&gt;</code> </td></tr>
+<tr>
+<th>Module</th><td colspan='3'> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td colspan='3'>Required, one or more occurences</td></tr>
+<tr>
+<th>Value</th><td colspan='3'>simple string (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td colspan='3'> <code>&lt;libraryRecord&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th><td colspan='3'>None</td></tr>
+<tr>
+<th rowspan='2'>Attributes</th><th>Name</th><th>Type</th><th>Usage</th></tr>
+<tr>
+<td><code>type</code></td><td>string (xs:token)</td><td>required</td></tr>
+</tbody>
+</table>
+
+<p>
+The catalogNo element holds the unique reference to the movie used by the external library.  Multiple instances of the element can be used in 
+case the library has multiple filing records or methods for the same film.  The type identifies what type of reference is used
+by the library.
+</p>
+</div>
+
+<!-- catalog/extRefs/libraryRecord/link -->
+<div class='element' id='element/catalog/extRefs/libraryRecord/link'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;link&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>uri (xs:anyURI)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;libraryRecord&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+Contains an external link to the library record.
+</p>
+
+</div>
+
+</body>
+</html>
