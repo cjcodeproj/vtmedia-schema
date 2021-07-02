@@ -68,11 +68,11 @@
    </xs:documentation>
   </xs:annotation>
   <xs:sequence>
-   <xs:element name='originalTitle' type='xs:string' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='variantTitle' type='xs:string' minOccurs='0' maxOccurs='unbounded'/>
-   <xs:element name='alternateTitle' type='xs:string' minOccurs='0' maxOccurs='unbounded'/>
-   <xs:element name='productionTitle' type='xs:string' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='distributionTitle' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='originalTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='variantTitle' type='xs:token' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='alternateTitle' type='xs:token' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='productionTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='distributionTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 
@@ -84,12 +84,12 @@
 
  <xs:complexType name='CopyrightType'>
   <xs:sequence>
-   <xs:element name='year' type='xs:integer' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='year' type='xs:gYear' minOccurs='1' maxOccurs='1'/>
    <xs:element name='holders' type='CopyrightHoldersType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='country' type='CountryCode' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='filing' type='xs:string' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='registrationNo' type='xs:string' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='expires' type='xs:integer' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='filing' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='registrationNo' type='xs:token' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='expires' type='xs:gYear' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 
@@ -103,9 +103,9 @@
 
  <xs:complexType name='CatLibraryRefType'>
   <xs:sequence>
-   <xs:element name='library' type='xs:string' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='library' type='xs:token' minOccurs='1' maxOccurs='1'/>
    <xs:element name='catalogNo' type='CatLibraryNoType' minOccurs='1' maxOccurs='unbounded'/>
-   <xs:element name='link' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='link' type='xs:anyURI' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 
