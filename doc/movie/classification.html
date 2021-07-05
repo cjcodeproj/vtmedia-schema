@@ -1,0 +1,818 @@
+<html>
+<head>
+<title>Movie Schema: Classification Element</title>
+<link rel='stylesheet' href='../mainstyle.css' type='text/css'/>
+</head>
+<body>
+<h1>Movie Schema: Classification Element</h1>
+<p>
+The movie schema is designed for cataloging movies and films, both fictional and non-fictional.  
+It records information on genres, the cast and crew, story, 
+</p>
+
+<h2>Contents</h2>
+
+<ul>
+<li><a href='#structure'>Structural Overview</a></li>
+<li><a href='#description'>Description</a></li>
+<li><a href='#elements'>Elements</a></li>
+</ul>
+
+<h2 id='structure'>Structural Overview</h2>
+
+<pre class='codeblock'>
+  &lt;classification&gt;
+    &lt;category&gt; ... &lt;/category&gt;
+    &lt;genres&gt;
+      &lt;primary&gt; ... &lt;/primary&gt;
+      &lt;secondary&gt; ... &lt;/seconary&gt;
+      &lt;settiing&gt; ... &lt;/setting&gt;
+      &lt;specific&gt; ... &lt;/specific&gt;
+      &lt;subgenres&gt;
+        &lt;subgenre&gt; ... &lt;/subgenre&gt;
+      &lt;/subgenres&gt;
+    &lt;/genres&gt;
+    &lt;subjects&gt;
+      &lt;generic&gt; ... &lt;/generic&gt;
+      &lt;properNoun&gt; ... &lt;/properNoun&gt;
+    &lt;/subjects&gt;
+    &lt;certifications&gt;
+      &lt;certificate ref='0000'&gt;
+        &lt;rating code='A'&gt; ... &lt;/rating&gt;
+        &lt;agency&gt;
+          &lt;name&gt; ... &lt;/name&gt;
+          &lt;country&gt; ... &lt;/country&gt;
+        &lt;/agency&gt;
+      &lt;/certificate&gt;
+    &lt;/certifications&gt;
+  &lt;/classification&gt;
+</pre>
+
+<h2 id='description'>Description</h2>
+
+<p>
+The classification element describes the film, by identifying whether it's fiction or non-fiction, the genres or type of film it is, any specific subjects the film
+covers, and any ratings certifications the film may have.
+</p>
+
+<h2 id='elements'>Elements</h2>
+
+<h3>Primary Element: Classification</h3>
+
+
+<!-- classification -->
+<div class='element' id='element/classification'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;classification&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;movie&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;category&gt;</code> <code>&lt;genres&gt;</code> <code>&lt;subjects&gt;</code> <code>&lt;certifications&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+The classification of the movie is a high level description of what the movie is, for the purpose of organizing.
+</p>
+
+</div>
+<!-- approximately 20 elements --> 
+
+<h3>Category Element</h3>
+
+<!-- classification/category -->
+<div class='element' id='element/classification/category'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;category&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;classification&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;fiction&gt;</code> or <code>&lt;nonfiction&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+An element that contains a single child element from two possibilities: fiction or nonfiction.
+</p>
+</div>
+
+<!-- classification/category/fiction -->
+<div class='element' id='element/classification/category/fiction'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;fiction&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Once</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;category&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+A flag element denoting that the film is fiction.
+</p>
+
+</div>
+
+<!-- classification/category/nonfiction -->
+<div class='element' id='element/classification/category/nonfiction'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;nonfiction&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Once</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;category&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+A flag element denoting that the film is non-fiction.
+</p>
+
+</div>
+
+<h3>Genres Elements</h3>
+
+<!-- classification/genres -->
+<div class='element' id='element/classification/genres'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;genres&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;classification&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;primary&gt;</code> <code>&lt;secondary&gt;</code> <code>&lt;setting&gt;</code> <code>&lt;specific&gt;</code> <code>&lt;subgenres&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+The genres element contain all elements used in describing the genre of the movie.  It is designed to be as flexible (or as rigid) as the implementor 
+needs.  The only child element that is required is the primary element; all others are optional.  Although the usage of all the tags can help 
+create a more rounded categorization of the type of movie.
+</p>
+
+<table>
+<thead>
+<tr><th>Category</th><th>Genre Examples</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Fiction</td><td>Action, Adventure, Drama, Sci-Fi, Romance, Comedy, Mystery, Thriller</td></tr>
+<tr>
+<td>Non-Fiction</td><td>Biography, Documentary, Instructional</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<!-- classification/genres/primary -->
+<div class='element' id='element/classification/genres/primary'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;primary&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Required, only one occurence</td></tr>
+<tr>
+<th>Value</th><td>movie genre (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;genres&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The primary genre that the movie falls under.  Every movie is going to have at least one genre.  This value should reflect the most accurate 
+applicable genre description of the movie.
+</p>
+
+<table>
+<caption>Bad Genre Choices For Fictional Movies</caption>
+<thead>
+<tr>
+<th>Genre</th><th>Desirability</th><th>Rationale</th><th>Recommendation</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Rom-Com</td><td>Not Recommended For Use</td><td>Literally a combination of 2 genres: Romance and Comedy</td>
+<td>Split the values into primary/secondary elements</td></tr>
+<tr>
+<td>War</td><td>Less desirable</td><td>War describes a setting</td>
+<td>Set Primary to best match genre, use Setting element for War</td></tr>
+<tr>
+<td>Animated</td><td>Not Recommended</td><td>Denotes a visual format instead of a genre</td>
+<td>See the technical element for denoting animated works</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- classification/genres/secondary -->
+<div class='element' id='element/classification/genres/secondary'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;secondary&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one or more occurences</td></tr>
+<tr>
+<th>Value</th><td>movie genre (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;genres&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The secondary genre that could be applied to the movie.
+</p>
+
+<table>
+<caption>Primary/Secondary Genre Examples</caption>
+<thead>
+<tr>
+<th>Movie Title</th><th>year</th><th>Primary Genre</th><th>Secondary Genre</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Jaws</td><td>1975</td><td>Thriller</td><td>Adventure</td></tr>
+<tr>
+<td>Blade Runner</td><td>1982</td><td>Sci-Fi</td><td>Action</td></tr>
+<tr>
+<td>Evil Under The Sun</td><td>1982</td><td>Mystery</td><td>Drama (or None)</td></tr>
+</tbody>
+</table>
+</div>
+
+<!-- classification/genres/setting -->
+<div class='element' id='element/classification/genres/setting'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;setting&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>movie setting (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;genres&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The setting element is an optional element identifying where the story takes place.  It could be used as 
+a placeholder for genres like War, Western, or even Crime; it all depends on the views of the 
+user doing the data entry, and any concerns they have for genre consistency.
+</p>
+
+</div>
+
+<!-- classification/genres/specific -->
+<div class='element' id='element/classification/genres/specific'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;specific&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>movie description (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;genres&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The specific element is designed as a freeform quick description of the movie that follows 
+no standards whatsoever.  It falls somewhere under the realm of being less 
+descriptive of a movie's logline, but more descriptive than what you might 
+find in a subgenre.
+</p>
+
+<table>
+<caption>Specific Element Examples</caption>
+<thead>
+<tr>
+<th>Movie Title</th><th>year</th><th>Primary Genre</th><th>Secondary Genre</th><th>Possible Specific Values</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Jaws</td><td>1975</td><td>Thriller</td><td>Adventure</td><td>Shark Hunting</td></tr>
+<tr>
+<td>Blade Runner</td><td>1982</td><td>Sci-Fi</td><td>Action</td><td>Stopping Killer Robots</td></tr>
+<tr>
+<td>Evil Under The Sun</td><td>1982</td><td>Mystery</td><td>Drama (or None)</td><td>Detective Murder Mystery</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<!-- classification/genres/subgenres -->
+<div class='element' id='element/classification/genres/subgenres'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;subgenres&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;genres&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;subgenre&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+The subgenres element is a container for one or more subgenre elements.
+</p>
+
+</div>
+
+<!-- classification/extRefs/libraryRecord/link -->
+<div class='element' id='element/classification/genres/subgenres/subgenre'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;subgenre&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Required, at least one occurence.</td></tr>
+<tr>
+<th>Value</th><td>movie subgenre (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;subgenres&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+A subgenre element can contain a genre description that is more specific than the 
+main genre.  It could also contain genres that describe aspects of the film.
+</p>
+
+<table>
+<caption>Primary/Secondary Genre Examples</caption>
+<thead>
+<tr>
+<th>Movie Title</th><th>year</th><th>Primary Genre</th><th>Secondary Genre</th><th>Possible Subgenres</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Jaws</td><td>1975</td><td>Thriller</td><td>Adventure</td><td>blockbuster, adapted from a novel</td></tr>
+<tr>
+<td>Blade Runner</td><td>1982</td><td>Sci-Fi</td><td>Action</td><td>noir</td></tr>
+<tr>
+<td>Evil Under The Sun</td><td>1982</td><td>Mystery</td><td>Drama (or None)</td><td>whodunnit</td></tr>
+</tbody>
+</table>
+</div>
+
+<!--
+  SUBJECTS
+-->
+
+<h3>Subjects Element</h3>
+
+<!-- classification/subjects/generic-->
+<div class='element' id='element/classification/subjects'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;subjects&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;classification&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;generic&gt;</code> <code>&lt;properNoun&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+Subjects are primarily used for non-fictional films, describing one or more subjects that are the primary focus of the film.  
+For an example, an autobiography of Florence Bascom, the subject is obviously Florence Bascom. Generic terms like 
+<em>botany</em> are filed using the <code>&lt;generic&gt;</code> element, where proper nouns use the 
+<code>&lt;properNoun&gt;</code> element.
+</p>
+<p>
+The schema does not enforce a limit, but the recommendation is that a film has no more than four subjects.
+</p>
+</div>
+
+<!-- classification/subjects/generic -->
+<div class='element' id='element/classification/subjects/generic'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;generic&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one or more occurences</td></tr>
+<tr>
+<th>Value</th><td>subject phrase (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;subjects&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+A generic subject term, like <em>skydiving</em>, <em>bass fishing</em>, or <em>hospital ward</em>.  They are typically nouns.
+</p>
+
+</div>
+
+<!-- classification/extRefs/libraryRecord/link -->
+<div class='element' id='element/subjects/properNoun'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;properNoun&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one or more occurences</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;subjects&gt;</code> </td></tr>
+<tr>
+<th>Child Element</th>
+<td> One of: <code>&lt;person&gt;</code> <code>&lt;place&gt;</code> <code>&lt;thing&gt;</code> 
+<code>&lt;group&gt;</code> <code>&lt;entity&gt;</code> or <code>&lt;event&gt;</code></td></tr>
+</tbody>
+</table>
+
+<p>
+Container element for a proper noun.  See the proper noun elements for more details.
+</p>
+
+</div>
+
+<h3>Subject Element: Proper Nouns</h3>
+
+<p>
+Proper nouns are specific references to individual nouns.  In the context of a classification subject, proper nouns have a higher 
+distinction over generic nouns because they are more specific, and it's easier for an end user to search for the exact material 
+they are looking for.
+</p>
+
+<table style='margin-bottom: 8ex;'>
+<thead>
+<tr>
+<th>Proper Noun Element</th><th>Examples</th><th>Possible Generic Alternatives</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;person&gt;</code></td><td>Abraham Lincoln</td><td>president</td></tr>
+<tr>
+<td><code>&lt;place&gt;</code></td><td>The Sears Tower; Helena, Montana; Egypt; Central Park</td><td>building, city, country, park</td></tr>
+<tr>
+<td><code>&lt;thing&gt;</code></td><td>Boeing 737, Sony PS3, Fanta, Tide</td><td>plane, videogame system, beverage, detergent</td></tr>
+<tr>
+<td><code>&lt;entity&gt;</code></td><td>MPAA, HFPA, Department Of Interior</td><td>ratings organization, press agency, government agency</td></tr>
+<tr>
+<td><code>&lt;event&gt;</code></td><td>Woodstock, Industrial Revolution, Halloween</td><td>concert, historical event, holiday</td></tr>
+</tbody>
+</table>
+
+<!-- classification/subjects/properNoun/multiple -->
+<div class='element' id='element/classification/subjects/properNoun/multiple'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;thing&gt;</code>, <code>&lt;entity&gt;</code> <code>&lt;group&gt;</code> <code>&lt;event&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-pnouns.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>proper noun string (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;properNoun&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+References a proper noun that cound be either a thing, entity, group, or event.
+</p>
+
+</div>
+
+
+<!-- classification/subjects/properNoun/person -->
+<div class='element' id='element/classification/subjects/properNoun/person'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;person&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-pnouns.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;properNoun&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;preTitle&gt;</code> <code>&lt;gn&gt;</code> <code>&lt;mn&gt;</code> 
+  <code>&lt;fn&gt;</code> <code>&lt;postTitle&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+References a proper noun for a person.
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Proper Noun (Person) Elements</th><th>Name Component</th><th>Use</th><th>Example</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;preTitle&gt;</code></td><td>Pre-Name Title</td><td>Optional</td><td>Dr., Mr., Ms.</td></tr>
+<tr>
+<td><code>&lt;gn&gt;</code></td><td>Given Name</td><td>Exptected</td><td>Robert, Mary</td></tr>
+<tr>
+<td><code>&lt;mn&gt;</code></td><td>Middle Name</td><td>Optional</td><td>Tim, Joan</td></tr>
+<tr>
+<td><code>&lt;fn&gt;</code></td><td>Family Name</td><td>Expected</td><td>De Niro, Paltrow</td></tr>
+<tr>
+<td><code>&lt;postTitle&gt;</code></td><td>Post-Name Title</td><td>Optional</td><td>Phd., Esq.</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<!-- classification/subjects/properNoun/place -->
+<div class='element' id='element/classification/subjects/properNoun/place'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;place&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-pnouns.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;properNoun&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;name&gt;</code> <code>&lt;ci&gt;</code> <code>&lt;co&gt;</code> <code>&lt;st&gt;</code> 
+  <code>&lt;pr&gt;</code> <code>&lt;cn&gt;</code> <code>&lt;planet&gt;</code></td></tr>
+</tbody>
+</table>
+
+<p>
+References a proper noun for a place.
+</p>
+
+<table>
+<thead>
+<tr>
+<th>Proper Noun (Place) Elements</th><th>Definition</th><th>Example</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;name&gt;</code></td><td>Location Name</td><td>Mount Rushmore, The North Pole</td></tr>
+<tr>
+<td><code>&lt;ci&gt;</code></td><td>City</td><td>Detroit, Nashville</td></tr>
+<tr>
+<td><code>&lt;co&gt;</code></td><td>County</td><td>Hazaard</td></tr>
+<tr>
+<td><code>&lt;st&gt;</code> or <code>&lt;pr&gt;</code></td><td>State Or Province</td><td>California, Ontario</td></tr>
+<tr>
+<td><code>&lt;cn&gt;</code></td><td>Country</td><td>Canada, Mexico</td></tr>
+<tr>
+<td><code>&lt;planet&gt;</code></td><td>Planet</td><td>Mars, Pluto</td></tr>
+</tbody>
+</table>
+
+</div>
+
+
+<h3>Certification Elements</h3>
+
+<!-- classification/classification/certifications -->
+<div class='element' id='element/classification/certifications'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;certifications&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;classification&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;certificate&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+References all ratings certificates that have been issued for the film in question.
+</p>
+</div>
+
+<!-- classification/certifications/certificate -->
+<div class='element' id='element/classification/certifications/certificate'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td colspan='3'><code>&lt;certificate&gt;</code> </td></tr>
+<tr>
+<th>Module</th><td colspan='3'> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td colspan='3'>Required, one or more occurences</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;certifications&gt;</code></td></tr>
+<tr>
+<th>Child Elements</th><td colspan='3'><code>&lt;rating&gt;</code> <code>&lt;agency&gt;</code></td></tr>
+<tr>
+<th rowspan='2'>Attributes</th><th>Name</th><th>Type</th><th>Usage</th></tr>
+<tr>
+<td><code>ref</code></td><td>string (xs:token)</td><td>optional</td></tr>
+</tbody>
+</table>
+
+<p>
+A certificate references a specific certificate issued by a rating agency.  The element references the issued rating, and the
+information on the agency that issued it.  The ref attribute references a unique identifier that some agencies use to 
+reference the certificate.  For example, the Motion Picture Association has a 5 digit number issued to all films they rate.
+</p>
+
+</div>
+
+<!-- classification/certificatations/certificate/rating -->
+<div class='element' id='classification/certifications/certificate/rating'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td colspan='3'><code>&lt;rating&gt;</code> </td></tr>
+<tr>
+<th>Module</th><td colspan='3'> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td colspan='3'>Optional, one occurence</td></tr>
+<tr>
+<th>Value</th><td colspan='3'>rating name (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;certificate&gt;</code></td></tr>
+<tr>
+<th>Child Elements</th><td colspan='3'>None</td></tr>
+<tr>
+<th rowspan='2'>Attributes</th><th>Name</th><th>Type</th><th>Usage</th></tr>
+<tr>
+<td><code>code</code></td><td>string (xs:token)</td><td>optional</td></tr>
+</tbody>
+</table>
+
+<p>
+The rating is the actual rating issued to a film.
+</p>
+
+</div>
+
+<!-- classification/certifications/certificate/agency -->
+<div class='element' id='element/classification/certifications/certificate/agency'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;link&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;certificate&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;name&gt;</code> <code>&lt;country&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+Contains an external link to the library record.
+</p>
+
+</div>
+
+<!-- classification/certifications/certificate/agency/name -->
+<div class='element' id='element/classification/certifications/certificate/agency/name '>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;name&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Required, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>agency name (xs:token)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;agency&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The name of the agency that issued the certificate.
+</p>
+
+</div>
+
+<!-- classification/certifications/certificate/agency/country -->
+<div class='element' id='element/classification/certifications/certificate/agency/country'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;country&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-visual-classification.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>country code (country code)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;agency&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The country code of the agency issuing the certificate.
+</p>
+
+</div>
+
+
+</body>
+</html>
