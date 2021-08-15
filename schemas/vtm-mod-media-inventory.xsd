@@ -86,15 +86,12 @@
   </xs:choice>
  </xs:group>
 
- <xs:group name='PIStorageGroup'>
+ <xs:complexType name='PIWrapperStorageType'>
   <xs:annotation>
    <xs:documentation>
-    Anything that is the innermost storage container for physical media, like DVDs or casettes.
+    Anything that holds multiple containers, like cases, or envelopes.
    </xs:documentation>
   </xs:annotation>
- </xs:group>
-
- <xs:complexType name='PIWrapperStorageType'>
   <xs:choice minOccurs='1'>
    <xs:element name='case' type='PIStorageType' maxOccurs='unbounded'/>
    <xs:element name='envelope' type='PIStorageType' maxOccurs='unbounded'/>
