@@ -15,7 +15,9 @@ The examples directory contains working examples using the schema.
 
 ### Doc
 
-The doc directory contains documentation on using the schema, and how to use it.
+The doc directory contains HTML documentation on using the schema, with examples.
+
+[HTML Preview](http://htmlpreview.github.io/?https://github.com/cjcodeproj/vtmedia-schema/blob/main/doc/index.html)
 
 ### Test
 
