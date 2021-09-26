@@ -93,6 +93,19 @@
   </xs:sequence>
  </xs:complexType>
 
+ <xs:complexType name='UniqueConstraintIndexType'>
+  <xs:annotation>
+   <xs:documentation>
+    An optional element to be used when the combination of Title and Copyright Year cannot
+    guarauntee a unique value in a dataset.  The unique value is a positive integer, one or greater.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='value' type='xs:positiveInteger' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='note' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
  <xs:complexType name='CatLibraryNoType'>
   <xs:simpleContent>
    <xs:extension base='xs:token'>
@@ -120,6 +133,7 @@
    <xs:element name='identification' type='CatIdentificationType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='altTitles' type='CatTitlesType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='copyright' type='CopyrightType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='ucIndex' type='UniqueConstraintIndexType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='extRefs' type='CatExtRefType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>

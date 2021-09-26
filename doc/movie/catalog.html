@@ -51,6 +51,10 @@ It records information on genres, the cast and crew, story,
       &lt;registrationNo&gt; ... &lt;/registrationNo&gt;
       &lt;expires&gt; ... &lt;/expires&gt;
     &lt;/copyright&gt;
+    &lt;ucIndex&gt;
+      &lt;value&gt; ... &lt;/value&gt;
+      &lt;note&gt; ... &lt;/note&gt;
+    &lt;/ucIndex&gt;
     &lt;extRefs&gt;
     &lt;/extRefs&gt;
   &lt;/catalog&gt;
@@ -533,6 +537,89 @@ the copyright registration.
 
 <p>
 The year when the copyright is expected to expire.
+</p>
+</div>
+
+<h3>Unique Contraint Index</h3>
+
+
+<!-- catalog/ucIndex/ -->
+<div class='element' id='element/catalog/ucIndex'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;ucIndex&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;catalog&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> <code>&lt;value&gt;</code> <code>&lt;note&gt;</code> </td></tr>
+</tbody>
+</table>
+
+<p>
+Provides an extra value for the purpose of ensuring a unique key.
+</p>
+
+<p>
+Normally the combination of a work title and the year it was copyrighted is suffient enough to guarantee a unique key.  In the rare 
+occurence when two works of art with the same name and same year are published, there will need to be an additional value appended 
+in order to guarauntee it is unique.
+</p>
+</div>
+
+<!-- catalog/ucIndex/value -->
+<div class='element' id='element/catalog/ucIndex/value'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;value&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Mandatory, only one occurence</td></tr>
+<tr>
+<th>Value</th><td>positiveInteger (xs:positiveInteger)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;ucIndex&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+The unique value that is appended to the key to guarauntee uniqueness.
+</p>
+</div>
+
+<!-- catalog/ucIndex/note -->
+<div class='element' id='element/catalog/ucIndex/note'>
+<table class='element'>
+<tbody>
+<tr>
+<th>Element</th><td><code>&lt;note&gt;</code></td></tr>
+<tr>
+<th>Module</th><td> vtm-mod-all-catalog.xsd </td></tr>
+<tr>
+<th>Usage</th><td>Optional, one occurence max</td></tr>
+<tr>
+<th>Value</th><td>string (xs:string)</td></tr>
+<tr>
+<th>Parent Element</th><td> <code>&lt;ucIndex&gt;</code> </td></tr>
+<tr>
+<th>Child Elements</th>
+<td> None </td></tr>
+</tbody>
+</table>
+
+<p>
+An optional string that can be used to further describe the uniqueness of the work of art.  It is not part of the key,
+but could be referenced to provide more details.
 </p>
 </div>
 
