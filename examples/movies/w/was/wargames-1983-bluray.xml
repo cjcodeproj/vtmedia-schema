@@ -1,0 +1,139 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media'>
+ <media>
+  <title>
+   <main>Wargames</main>
+  </title>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>88390436218</barcode>
+    <sku retailer='amazon' type='asin'>B0089J2818</sku>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Wargames</title>
+    <catalog>
+     <copyright>
+      <year>1983</year>
+      <holders>
+       <holder>United Artists Corporation</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Thriller</primary>
+      <secondary>Adventure</secondary>
+      <specific>Hacking Movie</specific>
+     </genres>
+     <certifications>
+      <certificate ref='27008'>
+       <rating code='PG'>Parental Guidance Suggested</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT01H52M42S</overall>
+     </runtime>
+    </technical>
+    <story>
+     <plot>
+      <chr>David</chr>, a teenage hacker, accidentally accesses the computer system responsible for running nuclear war simulations for 
+      the United States.  Thinking it's a game, he starts a war simulation that the <kw>Air Force</kw> thinks is a real event.
+     </plot>
+     <keywords>
+      <properNoun><thing>IMSAI Computer</thing></properNoun>
+      <properNoun related='military base'><place><name>NORAD</name></place></properNoun>
+      <properNoun><entity>Air Force</entity></properNoun>
+      <properNoun><entity>FBI</entity></properNoun>
+      <generic>computer hacking</generic>
+      <generic>artificial intelligence</generic>
+      <generic>high school</generic>
+      <generic>video arcade</generic>
+      <generic>missle silo</generic>
+      <generic>two-man rule</generic>
+      <generic clarification='computer hacking'>backdoor</generic>
+      <properNoun related='video game'><thing>Galaga</thing></properNoun>
+      <generic>modem</generic>
+      <generic>library</generic>
+      <generic>ferry</generic>
+      <generic>payphone</generic>
+      <generic>voice synthesis</generic>
+      <generic relevance='2'>wardialing</generic>
+      <properNoun><place><name>7-Eleven</name></place></properNoun>
+      <group relevance='4'>
+       <generic>dinosaurs</generic>
+       <generic>extinction</generic>
+      </group>
+      <group>
+       <generic>tic tac toe</generic>
+       <generic>chess</generic>
+      </group>
+      <group>
+       <properNoun><place><ci>Seattle</ci></place></properNoun>
+       <properNoun><place><ci>Goose Island</ci><st>Oregon</st></place></properNoun>
+      </group>
+     </keywords>
+     <themes>
+      <theme>cold war</theme>
+      <theme>automation</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>John</gn><fn>Badham</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>Lawrence</gn><fn>Lasker</fn></writer>
+      <writer><gn>Walter</gn><mn>F</mn><fn>Parkes</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Tom</gn><fn>Rolf</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>William</gn><mn>A</mn><fn>Fraker</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Matthew</gn><fn>Broderick</fn></actor>
+       <as><gn>David</gn></as>
+      </role>
+      <role>
+       <actor><gn>Ally</gn><fn>Sheedy</fn></actor>
+       <as><gn>Jennifer</gn></as>
+      </role>
+      <role>
+       <actor><gn>Dabney</gn><fn>Coleman</fn></actor>
+       <as><fn>McKittrick</fn></as>
+      </role>
+      <role>
+       <actor><gn>Barry</gn><fn>Corbin</fn></actor>
+       <as><preTitle>General</preTitle><fn>Beringer</fn></as>
+      </role>
+      <role>
+       <actor><gn>John</gn><fn>Wood</fn></actor>
+       <as><gn>Stephen</gn><fn>Falken</fn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
+  </contents>
+ </media>
+</medialist>

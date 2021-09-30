@@ -13,6 +13,30 @@ The schema directory contains all of the XML Schema XSD files.
 
 The examples directory contains working examples using the schema.
 
+Movie list
+```
+Title                                              Year Genre                                             
+================================================== ==== ==================================================
+Killing Season                                     2013 [FICTION] Action/Thriller/Drama "Reopening War Wounds"
+Red Lights                                         2011 [FICTION] Mystery/Drama/Fantasy "Paranormal Investigation"
+All The President's Men                            1976 [FICTION] Drama/Mystery "Newspaper Mystery"       
+Unstoppable                                        2010 [FICTION] Action/Thriller "Runaway Train Adventure"
+The Last Starfighter                               1984 [FICTION] Sci-Fi "Space Battle Adventure"         
+2010                                               1984 [FICTION] Sci-Fi "Space Exploration Adventure"    
+Enron: The Smartest Guys In The Room               2005 [NONFICTION] Documentary "Big Business"           
+Onward                                             2020 [FICTION] Adventure/Comedy "Road Trip Adventure"  
+The Sugarland Express                              1974 [FICTION] Drama/Action/Comedy "Family Escape"     
+Sneakers                                           1992 [FICTION] Thriller/Adventure "Techno Espionage Thriller"
+Stand By Me                                        1986 [FICTION] Adventure/Drama "Coming Of Age Quest"   
+Midnight Run                                       1988 [FICTION] Action/Comedy "Road Trip Adversary Hijinks"
+Mad Max                                            1979 [FICTION] Action/Sci-Fi "Distopian Highway"       
+Death Proof                                        2017 [FICTION] Horror/Thriller "Car Action"            
+Parker                                             2012 [FICTION] Action/Crime "Bad Guy Revenge"          
+Wargames                                           1983 [FICTION] Thriller/Adventure "Hacking Movie"      
+Contact                                            1997 [FICTION] Sci-Fi/Drama "Alien Contact"            
+3 Days Of The Condor                               1975 [FICTION] Thriller "Spy Thriller"                 
+```
+
 ### Doc
 
 The doc directory contains HTML documentation on using the schema, with examples.
