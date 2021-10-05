@@ -3,7 +3,7 @@
     <title>3 Days Of The Condor</title>
     <catalog>
      <altTitles>
-      <variantTitle>Three Days Of The Condor</variantTitle>
+      <variantTitle sortable='true'>Three Days Of The Condor</variantTitle>
      </altTitles>
      <copyright>
       <year>1975</year>

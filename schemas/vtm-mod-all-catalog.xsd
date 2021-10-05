@@ -69,11 +69,26 @@
   </xs:annotation>
   <xs:sequence>
    <xs:element name='originalTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='variantTitle' type='xs:token' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='variantTitle' type='VariantTitleType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='alternateTitle' type='xs:token' minOccurs='0' maxOccurs='unbounded'/>
    <xs:element name='productionTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
    <xs:element name='distributionTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='VariantTitleType'>
+  <xs:annotation>
+   <xs:documentation>
+    A holder for the variant of the film title.  Requires a special type due to attributes.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='sortable' type='xs:boolean' use='optional'/>
+    <xs:attribute name='textToSpeech' type='xs:boolean' use='optional'/>
+    <xs:attribute name='filenameComposition' type='xs:boolean' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
  </xs:complexType>
 
  <xs:complexType name='CopyrightHoldersType'>
