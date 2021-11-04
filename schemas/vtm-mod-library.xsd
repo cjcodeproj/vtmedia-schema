@@ -117,7 +117,7 @@
 
  <xs:complexType name='InstanceType'>
   <xs:sequence>
-   <xs:element name='local_id' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='localId' type='xs:string' minOccurs='0' maxOccurs='1'/>
    <xs:element name='acquisition' type='AcquisitionType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='authenticity' type='xs:string' minOccurs='0' maxOccurs='1'/>
    <xs:element name='condition' type='ConditionType' minOccurs='0' maxOccurs='1'/>

@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Blood Simple</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <localId>BS-57841-01</localId>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+    <releaseDate>2011-08-30</releaseDate>
+    <publisher>MGM</publisher>
+   </release>
+   <productId>
+    <barcode type='upc'>883904241430</barcode>
+    <sku retailer='amazon' type='asin'>B00553K9OO</sku>
+    <other>
+     <name>Blu-ray Cat</name>
+     <value>M124143</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href="blood_simple-1984-movie.xml"/>
+  </contents>
+ </media>
+</medialist>

@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Blood Simple</title>
+    <catalog>
+     <copyright>
+      <year>1984</year>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Thriller</primary>
+      <secondary>Drama</secondary>
+      <specific>Dangerous Affair</specific>
+      <subgenres>
+       <subgenre>cult classic</subgenre>
+       <subgenre>Sundance winnter</subgenre>
+      </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT01H01M01S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      A man and woman maintain an affair, but worry that the woman's dangerous husband has caught on.
+     </plot>
+     <keywords>
+      <generic>affair</generic>
+      <generic>private detective</generic>
+      <generic>night club</generic>
+      <generic>gun</generic>
+      <generic>body</generic>
+      <generic>shallow grave</generic>
+      <generic>lighter</generic>
+      <generic>rifle</generic>
+     </keywords>
+     <themes>
+      <theme>suspicion</theme>
+      <theme>jealousy</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Joel</gn><fn>Coen</fn></director>
+      <director><gn>Ethan</gn><fn>Coen</fn></director>
+      <!-- Note: Ethan uncredited -->
+     </directors>
+     <writers>
+      <writer><gn>Joel</gn><fn>Coen</fn></writer>
+      <writer><gn>Ethan</gn><fn>Coen</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Joel</gn><fn>Coen</fn></editor>
+      <editor><gn>Ethan</gn><fn>Coen</fn></editor>
+      <editor><gn>Don</gn><fn>Wiegmann</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Barry</gn><fn>Sonnenfeld</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>John</gn><fn>Getz</fn></actor>
+       <as><gn>Ray</gn></as>
+      </role>
+      <role>
+       <actor><gn>Frances</gn><fn>McDormand</fn></actor>
+       <as><gn>Abby</gn></as>
+      </role>
+      <role>
+       <actor><gn>Dan</gn><fn>Hedaya</fn></actor>
+       <as><gn>Julian</gn><fn>Marty</fn></as>
+      </role>
+      <role>
+       <actor><gn>M</gn><mn>Emmet</mn><fn>Walsh</fn></actor>
+       <as><preTitle>Private Detective</preTitle><gn>Loren</gn><fn>Visser</fn></as>
+      </role>
+      <role>
+       <actor><gn>Holly</gn><fn>Hunter</fn></actor>
+       <as><gn>Helene</gn><fn>Trend</fn><variant>voice</variant></as>
+       <!-- uncredited -->
+      </role>
+     </cast>
+    </crew>
+   </movie>

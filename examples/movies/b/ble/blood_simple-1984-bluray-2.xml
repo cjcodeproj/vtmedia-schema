@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Blood Simple</main>
+   <edition>Criterion Collection</edition>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <localId>BS-57841-02</localId>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+    <releaseDate>2016-09-20</releaseDate>
+    <publisher>Criterion</publisher>
+   </release>
+   <productId>
+    <barcode type='upc'>71551186216</barcode>
+    <sku retailer='amazon' type='asin'>B01H66WATO</sku>
+    <other>
+     <name>Criterion Spine Number</name>
+     <value>834</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href="blood_simple-1984-movie.xml"/>
+  </contents>
+ </media>
+</medialist>

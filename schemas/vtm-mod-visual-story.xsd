@@ -75,19 +75,6 @@
   </xs:simpleContent>
  </xs:complexType>
 
-<!-- 
- <xs:complexType name='KeywordType3' mixed='true'>
-  <xs:choice minOccurs='0' maxOccurs='1'>
-   <xs:group ref='ProperNounGroup'/>
-  </xs:choice>
-  <xs:attribute name='collection' type='xs:token' use='optional'/>
-  <xs:attribute name='relevance' type='KeywordRelevance' use='optional'/>
-  <xs:attribute name='related' type='xs:token' use='optional'/>
-  <xs:attribute name='synonym' type='xs:token' use='optional'/>
-  <xs:attribute name='clarification' type='xs:token' use='optional'/>
- </xs:complexType>
--->
-
  <xs:complexType name='KeywordPNType'>
   <xs:choice minOccurs='1' maxOccurs='1'>
    <xs:group ref='ProperNounGroup'/>

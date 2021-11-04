@@ -7,6 +7,7 @@
   <library>
    <instances>
     <instance>
+     <localId>UN-90572-01</localId>
      <acquisition>
       <date><exact>2020-01-01</exact></date>
       <purchase>
@@ -20,6 +21,16 @@
      <condition>
       <status><fine/></status>
      </condition>
+    </instance>
+    <instance>
+     <localId>UN-90572-02</localId>
+     <acquisition>
+      <date><from>2015-01-01</from><range>P6M</range></date>
+      <purchase>
+       <retailer>Best Buy</retailer>
+       <price>9.99</price>
+      </purchase>
+     </acquisition>
     </instance>
    </instances>
   </library>
