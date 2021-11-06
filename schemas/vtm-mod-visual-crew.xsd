@@ -106,21 +106,88 @@
  </xs:complexType>
 
  <xs:complexType name='CharacterNameType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     See inner documentation examples for name support.
+   </xs:documentation>
+  </xs:annotation>
   <xs:sequence>
   <xs:choice>
-   <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='title' type='xs:token' minOccurs='1' maxOccurs='1'/>
    <xs:element name='narrator' type='CharNarratorType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='self' type='CharSelfType' minOccurs='1' maxOccurs='1'/>
    <xs:sequence>
-    <xs:element name='preTitle' type='xs:string' minOccurs='0' maxOccurs='1'/>
-    <xs:element name='gn' type='xs:string' minOccurs='0' maxOccurs='1'/>
-    <xs:element name='nick' type='xs:string' minOccurs='0' maxOccurs='1'/>
-    <xs:element name='mn' type='xs:string' minOccurs='0' maxOccurs='1'/>
-    <xs:element name='fn' type='xs:string' minOccurs='0' maxOccurs='1'/>
-    <xs:element name='postTitle' type='xs:string' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='preTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     <xs:choice>
+      <xs:sequence>
+       <xs:annotation>
+        <xs:documentation xml:lang='en-US'>
+          Supported Names In This Sequence:
+
+          (1 ) Jennifer
+          (1a) Jennifer 'Mainframe'
+          (1a) Jennifer 'Mainframe' Trisha Hoffman
+          (1a) Jennifer 'Mainframe' Hoffman
+          (1b) Jennifer Trisha Hoffman
+          (1c) Jennifer Hoffman 'Mainframe'
+
+        </xs:documentation>
+       </xs:annotation>
+       <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+       <xs:choice minOccurs='0'>
+        <xs:sequence>
+         <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
+          <xs:choice minOccurs='0' maxOccurs='2'>
+           <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+           <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+          </xs:choice>
+        </xs:sequence>
+        <xs:sequence>
+         <xs:element name='mn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+         <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        </xs:sequence>
+        <xs:sequence>
+         <xs:element name='fn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+         <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        </xs:sequence>
+       </xs:choice>
+      </xs:sequence>
+      <xs:sequence>
+       <xs:annotation>
+        <xs:documentation xml:lang='en-US'>
+          Supported Names In This Sequence:
+
+          (2 ) 'Six Fingered' John
+          (2 ) 'Six Fingered' John Anthony
+          (2 ) 'Six Fingered John Anthony McDouglas
+
+        </xs:documentation>
+       </xs:annotation>
+       <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
+       <xs:choice maxOccurs='3'>
+        <xs:element name='gn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+       </xs:choice>
+      </xs:sequence>
+      <xs:sequence>
+       <xs:annotation>
+        <xs:documentation xml:lang='en-US'>
+          Supported Names In This Sequence:
+
+          (3 ) Grisham
+          (3 ) Grisham 'The Fixer'
+
+        </xs:documentation>
+       </xs:annotation>
+       <xs:element name='fn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+       <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      </xs:sequence>
+     </xs:choice>
+    <xs:element name='postTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
    </xs:sequence>
   </xs:choice>
-  <xs:element name='variant' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  <xs:element name='variant' type='xs:token' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 

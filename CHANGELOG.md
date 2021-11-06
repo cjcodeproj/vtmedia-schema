@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-18](https://github.com/cjcodeproj/vtmedia-schema/issues/18) CharacterName "nick" element needs to be more flexible
  - [schema-17](https://github.com/cjcodeproj/vtmedia-schema/issues/17) Element local_id (vtm-mod-library) should be localId
  - [schema-15](https://github.com/cjcodeproj/vtmedia-schema/issues/15) Add boolean options for catalog/variantTitle
  - [schema-9](https://github.com/cjcodeproj/vtmedia-schema/issues/9) Need unique numeric value in title-year index schema

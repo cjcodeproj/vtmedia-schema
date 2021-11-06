@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>The Great Escape</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <localId>GE-18970-2</localId>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+    <publisher>Criterion</publisher>
+   </release>
+   <productId>
+    <barcode type='upc'>715515245814</barcode>
+    <sku retailer='bned'>0715515245814</sku>
+    <other>
+     <name>Criterion Spine Number</name>
+     <value>1027</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href="the_great_escape-1963-movie.xml"/>
+  </contents>
+ </media>
+</medialist>

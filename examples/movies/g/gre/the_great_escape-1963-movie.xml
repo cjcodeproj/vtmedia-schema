@@ -1,0 +1,159 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>The Great Escape</title>
+    <catalog>
+     <copyright>
+      <year>1963</year>
+      <holders>
+       <holder>Mirish-Alpha</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Adventure</primary>
+      <secondary>Action</secondary>
+      <setting>War</setting>
+      <specific>POW Escape</specific>
+      <subgenres>
+       <subgenre>based on a book</subgenre>
+       <subgenre>based on a true story</subgenre>
+      </subgenres>
+     </genres>
+     <certifications>
+      <certificate ref='20399'>
+       <rating>Approved</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT02H53M13S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+     </plot>
+     <keywords>
+      <generic>POW</generic>
+      <generic>prison camp</generic>
+      <generic>escape attempts</generic>
+      <generic>razor wire</generic>
+      <generic>guard tower</generic>
+      <generic>isolation</generic>
+      <generic>tunnels</generic>
+      <generic>digging</generic>
+      <generic>pickpocket</generic>
+      <generic>scrounger</generic>
+      <generic>camera</generic>
+      <generic>forgery</generic>
+      <generic>forged documents</generic>
+      <generic>garden</generic>
+      <generic>air duct</generic>
+      <generic>claustrophobia</generic>
+      <generic>progressive myopia</generic>
+      <generic>train station</generic>
+      <generic>fighter plane</generic>
+      <generic>bicycle</generic>
+      <generic>land surveying</generic>   
+      <generic>rail cart</generic>
+      <generic>rope</generic>
+     </keywords>
+     <themes>
+      <theme> </theme>
+      <theme> </theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>John</gn><fn>Sturges</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>James</gn><fn>Clavell</fn></writer>
+      <writer><gn>W</gn><mn>R</mn><fn>Burnett</fn></writer>
+      <sources>
+       <source>
+        <title>The Great Escape</title>
+        <authors>
+         <author><gn>Paul</gn><fn>Brickhill</fn></author>
+        </authors>
+       </source>
+      </sources>
+     </writers>
+     <editors>
+      <editor><gn>Ferris</gn><fn>Webster</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Daniel</gn><mn>L</mn><fn>Fapp</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Steve</gn><fn>McQueen</fn></actor>
+       <as><preTitle>Captain</preTitle><gn>Virgil</gn><fn>Hilts</fn><nick>The Cooler King</nick></as>
+      </role>
+      <role>
+       <actor><gn>James</gn><fn>Garner</fn></actor>
+       <as><preTitle>Flight Lieutenant</preTitle><gn>Bob</gn><fn>Hendley</fn><nick>The Scrounger</nick></as>
+      </role>
+      <role>
+       <actor><gn>Richard</gn><fn>Attenborough</fn></actor>
+       <as><preTitle>Squadron Leader</preTitle><gn>Roger</gn><fn>Bartlett</fn><nick>The Big X</nick></as>
+      </role>
+      <role>
+       <actor><gn>James</gn><fn>Donald</fn></actor>
+       <as><preTitle>Group Captain</preTitle><fn>Ramsey</fn><nick>The SBO</nick></as>
+      </role>
+      <role>
+       <actor><gn>Charles</gn><fn>Bronson</fn></actor>
+       <as><preTitle>Flight Lieutenant</preTitle><gn>Danny</gn><fn>Welinski</fn><nick>Tunnel King</nick></as>
+      </role>
+      <role>
+       <actor><gn>Donald</gn><fn>Pleasence</fn></actor>
+       <as><preTitle>Flight Lieutenant</preTitle><gn>Colin</gn><fn>Blythe</fn><nick>The Forget</nick></as>
+      </role>
+      <role>
+       <actor><gn>James</gn><fn>Coburn</fn></actor>
+       <as><preTitle>Flying Officer</preTitle><fn>Sedgwick</fn><nick>The Manufacturer</nick></as>
+      </role>
+      <role>
+       <actor><gn>Hannes</gn><fn>Messemer</fn></actor>
+       <as><gn>Oberst</gn><fn>Von Luger</fn><nick>The Kommandant</nick></as>
+      </role>
+      <role>
+       <actor><gn>David</gn><fn>McCallum</fn></actor>
+       <as><preTitle>Lieutenant-Commander</preTitle><gn>Eric</gn><fn>Ashley-Pitt</fn><nick>Dispersal</nick></as>
+      </role>
+      <role>
+       <actor><gn>Gordon</gn><fn>Jackson</fn></actor>
+       <as><preTitle>Flight Lieutenant</preTitle><gn>Andy</gn><fn>MacDonald</fn><nick>Intelligence</nick></as>
+      </role>
+      <role>
+       <actor><gn>John</gn><fn>Leyton</fn></actor>
+       <as><preTitle>Flight Lieutenant</preTitle><gn>Willie</gn><fn>Dickies</fn><nick>Tunnel King</nick></as>
+      </role>
+      <role>
+       <actor><gn>Angus</gn><fn>Lennie</fn></actor>
+       <as><preTitle>Flying Offiver</preTitle><gn>Archie</gn><fn>Ives</fn><nick>The Mole</nick></as>
+      </role>
+      <role>
+       <actor><gn>Nigel</gn><fn>Stock</fn></actor>
+       <as><preTitle>Flight Lieutenant</preTitle><gn>Dennis</gn><fn>Cavendish</fn><nick>The Surveyor</nick></as>
+      </role>
+      <role>
+       <actor><gn>Robert</gn><fn>Graf</fn></actor>
+       <as><fn>Werner</fn><nick>The Ferret</nick></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>

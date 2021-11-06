@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Road House 2: Last Call</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <localId>RH-23349-1</localId>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+   <filing>
+    <collection>Bad Truck Stop Movies</collection>
+   </filing>
+  </library>
+  <medium>
+   <release>
+    <type><dvd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>027616151681</barcode>
+    <barcode type='isbn'>1424818311</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <dvd/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Road House 2: Last Call</title>
+    <catalog>
+     <altTitles>
+      <originalTitle>Road House 2</originalTitle>
+      <variantTitle>Road House Two: Last Call</variantTitle>
+     </altTitles>
+     <copyright>
+      <year>2006</year>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Action</primary>
+      <secondary>Crime</secondary>
+      <specific>Bar Bouncer Antics</specific>
+      <subgenres>
+       <subgenre>sequel</subgenre>
+      </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT01H01M01S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+     </plot>
+     <keywords>
+      <generic>bar</generic>
+      <generic>drug smuggling</generic>
+      <properNoun><entity>DEA</entity></properNoun>
+     </keywords>
+     <themes>
+      <theme>justice</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Scott</gn><fn>Ziehl</fn></director>
+     </directors>
+     <writers>
+      <writer role='story'><gn>Miles</gn><fn>Chapman</fn></writer>
+      <writer role='screenplay'><gn>Miles</gn><fn>Chapman</fn></writer>
+      <writer role='screenplay'><gn>Jonathan</gn><fn>Schaech</fn></writer>
+      <writer role='screenplay'><gn>Richard</gn><fn>Chizmar</fn></writer>
+      <sources>
+       <source>
+        <title>Characters</title>
+        <authors>
+         <author><gn>R</gn><mn>Lee</mn><fn>Hill</fn></author>
+        </authors>
+       </source>
+      </sources>
+     </writers>
+     <editors>
+      <editor><gn>Edgar</gn><fn>Burcksen</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Thomas</gn><mn>L</mn><fn>Callaway</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Jonathan</gn><fn>Schaech</fn></actor>
+       <as><gn>Shane</gn><fn>Tanner</fn></as>
+      </role>
+      <role>
+       <actor><gn>Ellen</gn><fn>Hollman</fn></actor>
+       <as><gn>Beau</gn></as>
+      </role>
+      <role>
+       <actor><gn>Richard</gn><fn>Norton</fn></actor>
+       <as><gn>Victor</gn><fn>Cross</fn></as>
+      </role>
+      <role>
+       <actor><gn>Jake</gn><fn>Busey</fn></actor>
+       <as><nick>Wild</nick><gn>Bill</gn></as>
+       <!-- nickname: Wild Bill -->
+      </role>
+      <role>
+       <actor><gn>Will</gn><fn>Patton</fn></actor>
+       <as><gn>Nate</gn><fn>Tanner</fn></as>
+      </role>
+      <role>
+       <actor><gn>Marisa</gn><fn>Quintanilla</fn></actor>
+       <as><gn>Nadja</gn></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
+  </contents>
+ </media>
+</medialist>

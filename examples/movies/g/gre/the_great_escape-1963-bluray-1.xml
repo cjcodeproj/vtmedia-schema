@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>The Great Escape</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <localId>GE-18970-1</localId>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+    <publisher>MGM</publisher>
+   </release>
+   <productId>
+    <barcode type='upc'>883904228479</barcode>
+    <sku retailer='bned'>0883904228479</sku>
+    <other>
+     <name>Blu-ray Cat</name>
+     <value>M122847</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href="the_great_escape-1963-movie.xml"/>
+  </contents>
+ </media>
+</medialist>
