@@ -2,6 +2,9 @@
    <movie xmlns='http://vectortron.com/xml/media/movie'>
     <title>3 Days Of The Condor</title>
     <catalog>
+     <identification>
+      <uuid>e2cefd2d-7cee-52ff-a5dd-4c3a8de322dc</uuid>
+     </identification>
      <altTitles>
       <variantTitle sortable='true'>Three Days Of The Condor</variantTitle>
      </altTitles>

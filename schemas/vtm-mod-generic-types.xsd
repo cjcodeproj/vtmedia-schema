@@ -23,11 +23,27 @@
    <xs:documentation xml:lang='en-US'>
     Fixed UUID string.
     Regex pattern: [0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}
+
+    Technically, an RFC 4122 compliant UUID implementation would use a slighly more restictive pattern:
+    [0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[8-9a-bA-B][0-9a-fA-F]{3}-[0-9a-fA-F]{12}
+
+    The RFC dictates that what is essentially the character in the 15th column position is 
+    1 through 5 specifying the UUID version (time based, random, namespace, or other).  The
+    character in the 20th column represents the variant.
+
+    For now I'm going with the more flexible regex, because there are uuidgen implementations
+    that seem to generate non-standard values when the random type is chosen.  Anyone generating
+    UUIDs for use in the schema are strongly encouraged to make sure their values match the
+    RFC 4122 specification.  Some websites, like uuidtools.com will test UUID values.
+
+    The Python uuid module implementation generates proper UUID values.
+
+    Ideally, this would get resolved with a dedicated UUID type in XMLSchema.
    </xs:documentation>
   </xs:annotation>
   <xs:restriction base='xs:token'>
    <xs:length value='36' fixed='true'/>
-   <xs:pattern value='[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}' fixed='true'/>
+   <xs:pattern value='[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}'/>
   </xs:restriction>
  </xs:simpleType>
 
