@@ -20,10 +20,15 @@
    </release>
    <productId>
     <barcode type='upc'>88329064144</barcode>
-    <barcode type='isbn'>141988039X</barcode>
+    <barcode type='isbn' scanlines='false'>141988039X</barcode>
     <other>
      <name>catalog</name>
      <value>3000023055</value>
+    </other>
+    <other>
+     <name>Proof Of Purchase</name>
+     <value>1000092338A</value>
+     <value>1000092338B</value>
     </other>
    </productId>
    <productSpecs>

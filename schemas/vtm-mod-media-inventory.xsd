@@ -154,10 +154,14 @@
   </xs:sequence>
  </xs:complexType>
 
+ <xs:complexType name='NoBarcodeType'>
+ </xs:complexType>
+
  <xs:complexType name='BarcodeType'>
   <xs:simpleContent>
    <xs:extension base='xs:string'>
     <xs:attribute name='type' type='xs:string' use='optional'/>
+    <xs:attribute name='scanlines' type='xs:boolean' default='true' use='optional'/>
    </xs:extension>
   </xs:simpleContent>
  </xs:complexType>
@@ -174,13 +178,16 @@
  <xs:complexType name='OtherIdType'>
   <xs:sequence>
    <xs:element name='name' type='xs:token' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='value' type='xs:token' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='value' type='xs:token' minOccurs='1' maxOccurs='5'/>
   </xs:sequence>
  </xs:complexType>
 
  <xs:complexType name='ProductIdType'>
    <xs:sequence>
-    <xs:element name='barcode' type='BarcodeType' minOccurs='0' maxOccurs='unbounded'/>
+    <xs:choice minOccurs='1'>
+     <xs:element name='nobarcodes' type='NoBarcodeType' maxOccurs='1'/>
+     <xs:element name='barcode' type='BarcodeType' maxOccurs='unbounded'/>
+    </xs:choice>
     <xs:element name='sku' type='SkuType' minOccurs='0' maxOccurs='unbounded'/>
     <xs:element name='other' type='OtherIdType' minOccurs='0' maxOccurs='unbounded'/>
    </xs:sequence>

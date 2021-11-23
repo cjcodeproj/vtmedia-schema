@@ -11,7 +11,7 @@
    </release>
    <productId>
     <barcode type='upc'>025192330421</barcode>
-    <barcode type='isbn'>0783280688</barcode>
+    <barcode type='isbn' scanlines='false'>0783280688</barcode>
    </productId>
    <productSpecs>
     <inventory>

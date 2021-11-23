@@ -29,7 +29,7 @@
    </release>
    <productId>
     <barcode type='upc'>883929157976</barcode>
-    <barcode type='isbn'> </barcode>
+    <barcode type='isbn' scanlines='false'>0780665805</barcode>
    </productId>
    <productSpecs>
     <dimensions>

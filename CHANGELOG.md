@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-19](https://github.com/cjcodeproj/vtmedia-schema/issues/19) Extensions under productId element for barcode flexibility
  - [schema-13](https://github.com/cjcodeproj/vtmedia-schema/issues/13) Investigate UUID regex pattern
  - [schema-18](https://github.com/cjcodeproj/vtmedia-schema/issues/18) CharacterName "nick" element needs to be more flexible
  - [schema-17](https://github.com/cjcodeproj/vtmedia-schema/issues/17) Element local_id (vtm-mod-library) should be localId
