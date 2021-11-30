@@ -1,0 +1,469 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>48 Hrs.</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2010-01-01</from><range>P2Y</range></date>
+      <purchase>
+       <retailer> </retailer>
+       <price>0.99</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>883929301737</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case slipcover='false'>
+      <bluray/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>48 Hrs.</title>
+    <catalog>
+     <altTitles>
+      <variantTitle sortable='true'>Forty-Eight Hours</variantTitle>
+     </altTitles>
+     <copyright>
+      <year>1982</year>
+      <holders>
+       <holder>Paramount Pictures Corporation</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Action</primary>
+      <secondary>Comedy</secondary>
+      <specific>Cop/Prisoner Matchup</specific>
+     </genres>
+     <certifications>
+      <certificate ref='26865'>
+       <rating code='R'>Restricted</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT01H36M36S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      Jack Cates must use the resources of Reggie Hammond, a petty criminal, in order to catch a prison escapee who is 
+      running rampant through the streets of San Francisco.
+     </plot>
+     <keywords>
+      <group collection='places'>
+       <properNoun><place><ci>San Francisco</ci></place></properNoun>
+       <properNoun><place><name>Chinatown</name><ci>San Francisco</ci></place></properNoun>
+       <properNoun><place><name>Filmore District</name><ci>San Francisco</ci></place></properNoun>
+       <properNoun><place><name>Mission District</name><ci>San Francisco</ci></place></properNoun>
+       <generic>hotel</generic>
+       <generic>alley</generic>
+       <generic>police precinct</generic>
+      </group>
+      <group collection='transit'>
+       <properNoun><thing>Cadillac DeVille</thing></properNoun>
+       <properNoun><thing>Porsche 356 Speedster</thing></properNoun>
+       <generic>city bus</generic>
+       <properNoun><entity>MUNI</entity></properNoun>
+       <generic>subway</generic>
+       <generic>subway station</generic>
+       <generic>parking garage</generic>
+       <properNoun><place><name>Church Street Muni Station</name><ci>San Francisco</ci></place></properNoun>
+      </group>
+      <group>
+       <generic>bar</generic>
+       <generic>bar fight</generic>
+       <generic>country bar</generic>
+       <generic>blues bar</generic>
+       <generic>live music</generic>
+       <generic>dancers</generic>
+      </group>
+      <group>
+        <generic>farm</generic>
+        <generic>prison farm</generic>
+        <generic>prison break</generic>
+        <properNoun><entity>San Francisco Police Department</entity></properNoun>
+        <generic>police detective</generic>
+        <generic>police harassment</generic>
+        <generic>police brutality</generic>
+        <generic>badge</generic>
+        <generic>kidnapping</generic>
+        <generic>hostage</generic>
+        <generic>shooting</generic>
+        <generic>shootout</generic>
+        <generic>stolen wallet</generic>
+        <generic>stolen bus</generic>
+        <generic>hidden money</generic>
+        <generic>car chase</generic>
+        <generic>bus chase</generic>
+        <generic>fist fight</generic>
+        <generic>gun</generic>
+        <generic>speed loader</generic>
+      </group>
+      <properNoun><thing>Zagnut Bar</thing></properNoun>
+     </keywords>
+     <themes>
+      <theme>reconcilliation</theme>
+      <theme>friendship</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Walter</gn><fn>Hill</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>Roger</gn><fn>Spottiswoode</fn></writer>
+      <writer><gn>Walter</gn><fn>Hill</fn></writer>
+      <writer><gn>Larry</gn><fn>Gross</fn></writer>
+      <writer><gn>Steven</gn><mn>E</mn><fn>de Souza</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Freeman</gn><mn>A</mn><fn>Davies</fn></editor>
+      <editor><gn>Mark</gn><fn>Warner</fn></editor>
+      <editor><gn>Billy</gn><fn>Weber</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Ric</gn><fn>Waite</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Nick</gn><fn>Nolte</fn></actor>
+       <as><gn>Jack</gn><fn>Cates</fn></as>
+      </role>
+      <role>
+       <actor><gn>Eddie</gn><fn>Murphy</fn></actor>
+       <as><gn>Reggie</gn><fn>Hammond</fn></as>
+      </role>
+      <role>
+       <actor><gn>Annette</gn><fn>O'Toole</fn></actor>
+       <as><gn>Elaine</gn></as>
+      </role>
+      <role>
+       <actor><gn>Frank</gn><fn>McRae</fn></actor>
+       <as><fn>Haden</fn></as>
+      </role>
+      <role>
+       <actor><gn>James</gn><fn>Remar</fn></actor>
+       <as><fn>Ganz</fn></as>
+      </role>
+      <role>
+       <actor><gn>David</gn><mn>Patrick</mn><fn>Kelly</fn></actor>
+       <as><gn>Luther</gn></as>
+      </role>
+      <role>
+       <actor><gn>Sonny</gn><fn>Landham</fn></actor>
+       <as><gn>Billy</gn><fn>Bear</fn></as>
+      </role>
+      <role>
+       <actor><gn>Brion</gn><fn>James</fn></actor>
+       <as><gn>Ben</gn><fn>Kehoe</fn></as>
+      </role>
+      <role>
+       <actor><gn>Kerry</gn><fn>Sherman</fn></actor>
+       <as><gn>Rosalie</gn></as>
+      </role>
+      <role>
+       <actor><gn>Jonathan</gn><fn>Banks</fn></actor>
+       <as><fn>Algren</fn></as>
+      </role>
+      <role>
+       <actor><gn>James</gn><fn>Keane</fn></actor>
+       <as><fn>Vanzant</fn></as>
+      </role>
+      <role>
+       <actor><gn>Tara</gn><fn>King</fn></actor>
+       <as><gn>Frizzy</gn></as>
+      </role>
+      <role>
+       <actor><gn>Greta</gn><fn>Blackburn</fn></actor>
+       <as><gn>Lisa</gn></as>
+      </role>
+      <role>
+       <actor><gn>Margot</gn><fn>Rose</fn></actor>
+       <as><gn>Casey</gn></as>
+      </role>
+      <role>
+       <actor><gn>Denise</gn><fn>Crosby</fn></actor>
+       <as><gn>Sally</gn></as>
+      </role>
+      <role>
+       <actor><gn>Peter</gn><fn>Jason</fn></actor>
+       <as><title>Cowboy Bartender</title></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
+  </contents>
+ </media>
+ <media>
+  <title>
+   <main>Another 48 Hrs.</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2018-01-01</from><range>P2Y</range></date>
+      <purchase>
+       <retailer> </retailer>
+       <price>0.99</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>191329201817</barcode>
+    <other>
+     <name>Spine Number</name>
+     <value>20</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case slipcover='true'>
+      <bluray/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Another 48 Hrs.</title>
+    <catalog>
+     <altTitles>
+      <variantTitle sortable='true'>Another Forty-Eight Hours</variantTitle>
+     </altTitles>
+     <copyright>
+      <year>1990</year>
+      <holders>
+       <holder>Paramount Pictures Corporation</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Action</primary>
+      <secondary>Comedy</secondary>
+      <specific>Cop/Prisoner Matchup Sequel</specific>
+      <subgenres>
+       <subgenre>sequel</subgenre>
+      </subgenres>
+     </genres>
+     <certifications>
+      <certificate ref='30193'>
+       <rating code='R'>Restricted</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT01H35M22S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      Detective Jack Cates is reunited with Reggie Hammond when he discovers that Reggie is the target of a hit man
+      working for the drug dealer that Reggie stole from years ago.
+     </plot>
+     <keywords>
+      <group collection='places'>
+       <properNoun><place><ci>San Francisco</ci></place></properNoun>
+       <properNoun><place><name>Mission District</name><ci>San Francisco</ci></place></properNoun>
+       <generic>hotel</generic>
+       <generic>alley</generic>
+       <generic>dirt track</generic>
+       <generic>hospital</generic>
+       <generic>police precinct</generic>
+       <generic>morgue</generic>
+      </group>
+      <group>
+       <properNoun><thing>Cadillac DeVille</thing></properNoun>
+       <properNoun><thing>Porsche 356 Speedster</thing></properNoun>
+       <generic>cable car</generic>
+      </group>
+      <group>
+        <properNoun><entity>San Francisco Police Department</entity></properNoun>
+        <properNoun><entity>California Highway Patrol</entity></properNoun>
+        <generic>biker gang</generic>
+        <generic>motorcycles</generic>
+        <generic>dirt bikes</generic>
+        <generic>bulletproof vest</generic>
+        <properNoun><entity>Internal Affairs</entity></properNoun>
+        <generic>disciplinary hearing</generic>
+        <generic>explosion</generic>
+        <generic>fire</generic>
+        <generic>bus crash</generic>
+        <generic>bus flip</generic>
+        <generic>pickpocket</generic>
+        <generic>fall from window</generic>
+        <generic>vehicle explosion</generic>
+        <generic>gun</generic>
+        <generic>shotgun</generic>
+        <generic>dirty cops</generic>
+        <generic>hidden money</generic>
+      </group>
+      <group>
+       <generic>prison</generic>
+       <generic>solitary confinement</generic>
+       <generic>prison visitation</generic>
+       <generic>prison bus</generic>
+       <generic>license plates</generic>
+      </group>
+      <group>
+       <generic>bar</generic>
+       <generic>nightclub</generic>
+       <generic>live music</generic>
+       <generic>bar fight</generic>
+       <generic>restaurant</generic>
+      </group>
+      <generic>cell phone</generic>
+      <generic>movie theater</generic>
+      <generic>pay phone</generic>
+     </keywords>
+     <themes>
+      <theme> </theme>
+      <theme> </theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Walter</gn><fn>Hill</fn></director>
+     </directors>
+     <writers>
+      <writer role='sceenplay'><gn>John</gn><fn>Fasano</fn></writer>
+      <writer role='screenplay'><gn>Jeb</gn><fn>Stuart</fn></writer>
+      <writer role='screenplay'><gn>Larry</gn><fn>Gross</fn></writer>
+      <writer role='story'><gn>Eddie</gn><fn>Murphy</fn></writer>
+      <sources>
+       <source>
+        <title>Characters</title>
+        <authors>
+         <author><gn>Roger</gn><fn>Spottiswoode</fn></author>
+         <author><gn>Walter</gn><fn>Hill</fn></author>
+         <author><gn>Larry</gn><fn>Gross</fn></author>
+         <author><gn>Steven</gn><mn>E</mn><fn>de Souza</fn></author>
+        </authors>
+       </source>
+      </sources>
+     </writers>
+     <editors>
+      <editor><gn>Donn</gn><fn>Aron</fn></editor>
+      <editor><gn>Carmel</gn><fn>Davies</fn></editor>
+      <editor><gn>Freeman</gn><mn>A</mn><fn>Davies</fn></editor>
+      <editor><gn>Tim</gn><fn>Ryder</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Matthew</gn><mn>F</mn><fn>Leonetti</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Eddie</gn><fn>Murphy</fn></actor>
+       <as><gn>Reggie</gn><fn>Hammond</fn></as>
+      </role>
+      <role>
+       <actor><gn>Nick</gn><fn>Nolte</fn></actor>
+       <as><gn>Jack</gn><fn>Cates</fn></as>
+      </role>
+      <role>
+       <actor><gn>Brion</gn><fn>James</fn></actor>
+       <as><gn>Ben</gn><fn>Kehoe</fn></as>
+      </role>
+      <role>
+       <actor><gn>Kevin</gn><fn>Tighe</fn></actor>
+       <as><gn>Blake</gn><fn>Wilson</fn></as>
+      </role>
+      <role>
+       <actor><gn>Ed</gn><fn>O'Ross</fn></actor>
+       <as><gn>Frank</gn><fn>Cruise</fn></as>
+      </role>
+      <role>
+       <actor><gn>David</gn><mn>Anthony</mn><fn>Marshall</fn></actor>
+       <as><gn>Willie</gn><fn>Hickok</fn></as>
+      </role>
+      <role>
+       <actor><gn>Andrew</gn><fn>Divoff</fn></actor>
+       <as><gn>Cherry</gn><fn>Ganz</fn></as>
+      </role>
+      <role>
+       <actor><gn>Bernie</gn><fn>Casey</fn></actor>
+       <as><gn>Kirkland</gn><fn>Smith</fn></as>
+      </role>
+      <role>
+       <actor><gn>Brent</gn><fn>Jennings</fn></actor>
+       <as><gn>Tyrone</gn><fn>Burroughs</fn></as>
+      </role>
+      <role>
+       <actor><gn>Ted</gn><fn>Markland</fn></actor>
+       <as><gn>Malcom</gn><fn>Price</fn></as>
+      </role>
+      <role>
+       <actor><gn>Tisha</gn><fn>Campbell</fn></actor>
+       <as><gn>Amy</gn><fn>Smith</fn></as>
+      </role>
+      <role>
+       <actor><gn>Felice</gn><fn>Orlandi</fn></actor>
+       <as><title>Warden</title></as>
+      </role>
+      <role>
+       <actor><gn>John</gn><mn>Del</mn><fn>Regno</fn></actor>
+       <as><title>Mechanic</title></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
+  </contents>
+ </media>
+</medialist>

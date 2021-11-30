@@ -17,14 +17,13 @@ Movie list
 ```
 Title                                              Year Genre                                             
 ================================================== ==== ==================================================
-2010                                               1984 [FICTION] Sci-Fi "Space Exploration Adventure"    
 All The President's Men                            1976 [FICTION] Drama/Mystery "Newspaper Mystery"       
-Blood Simple                                       1984 [FICTION] Thriller/Drama "Dangerous Affair"       
+Another 48 Hrs.                                    1990 [FICTION] Action/Comedy "Cop/Prisoner Matchup Sequel"
 Blood Simple                                       1984 [FICTION] Thriller/Drama "Dangerous Affair"       
 Contact                                            1997 [FICTION] Sci-Fi/Drama "Alien Contact"            
 Death Proof                                        2017 [FICTION] Horror/Thriller "Car Action"            
 Enron: The Smartest Guys In The Room               2005 [NONFICTION] Documentary "Big Business"           
-The Great Escape                                   1963 [FICTION] Adventure/Action "POW Escape"           
+48 Hrs.                                            1982 [FICTION] Action/Comedy "Cop/Prisoner Matchup"    
 The Great Escape                                   1963 [FICTION] Adventure/Action "POW Escape"           
 Killing Season                                     2013 [FICTION] Action/Thriller/Drama "Reopening War Wounds"
 The Last Starfighter                               1984 [FICTION] Sci-Fi "Space Battle Adventure"         
@@ -38,6 +37,7 @@ Sneakers                                           1992 [FICTION] Thriller/Adven
 Stand By Me                                        1986 [FICTION] Adventure/Drama "Coming Of Age Quest"   
 The Sugarland Express                              1974 [FICTION] Drama/Action/Comedy "Family Escape"     
 3 Days Of The Condor                               1975 [FICTION] Thriller "Spy Thriller"                 
+2010                                               1984 [FICTION] Sci-Fi "Space Exploration Adventure"    
 Unstoppable                                        2010 [FICTION] Action/Thriller "Runaway Train Adventure"
 Wargames                                           1983 [FICTION] Thriller/Adventure "Hacking Movie"      
 ```

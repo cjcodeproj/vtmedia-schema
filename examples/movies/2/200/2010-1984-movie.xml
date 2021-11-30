@@ -4,7 +4,7 @@
     <catalog>
      <altTitles>
       <originalTitle>2010: The Year We Make Contact</originalTitle>
-      <variantTitle>Two Thousand And Ten</variantTitle>
+      <variantTitle sortable='true'>Two Thousand And Ten</variantTitle>
      </altTitles>
      <copyright>
       <year>1984</year>

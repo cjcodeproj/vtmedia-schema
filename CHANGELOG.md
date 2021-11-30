@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-22](https://github.com/cjcodeproj/vtmedia-schema/issues/22) Add example of multiple media elements under a medialist element
  - [schema-19](https://github.com/cjcodeproj/vtmedia-schema/issues/19) Extensions under productId element for barcode flexibility
  - [schema-13](https://github.com/cjcodeproj/vtmedia-schema/issues/13) Investigate UUID regex pattern
  - [schema-18](https://github.com/cjcodeproj/vtmedia-schema/issues/18) CharacterName "nick" element needs to be more flexible
