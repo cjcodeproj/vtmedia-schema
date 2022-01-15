@@ -50,13 +50,17 @@
  </xs:group>
 
  <xs:complexType name='PIVideoDiskType'>
-  <xs:attribute name='id' type='xs:integer' use='optional'/>
+  <xs:attribute name='id' type='xs:positiveInteger' use='optional'/>
   <xs:attribute name='type' type='xs:token' use='optional'/>
   <xs:attribute name='diometer' type='xs:float' use='optional'/>
  </xs:complexType>
 
  <xs:complexType name='PIVideoTapeType'>
-  <xs:attribute name='id' type='xs:integer' use='optional'/>
+  <xs:attribute name='id' type='xs:positiveInteger' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='PIPrintPageType'>
+  <xs:attribute name='id' type='xs:positiveInteger' use='optional'/>
  </xs:complexType>
 
  <xs:complexType name='PICodeSheetType'>
@@ -65,10 +69,10 @@
   </xs:sequence>
  </xs:complexType>
 
- <xs:group name='PIMediumGroup'>
+ <xs:group name='PIMediumVideoGroup'>
   <xs:annotation>
-   <xs:documentation>
-    Any physical thing that can store media (dvd, book, casette, film reel)
+   <xs:documentation xml:lang='en-US'>
+    Any physical thing that can store AV media (dvd, film reel)
    </xs:documentation>
   </xs:annotation>
   <xs:choice>
@@ -80,38 +84,156 @@
    <xs:element name='laserdisc' type='PIVideoDiskType'/>
    <xs:element name='vhs' type='PIVideoTapeType'/>
    <xs:element name='beta' type='PIVideoTapeType'/>
-   <xs:element name='codesheet' type='PICodeSheetType'/>
-   <xs:element name='insert' type='PICodeSheetType'/>
-   <xs:element name='booklet' type='PICodeSheetType'/>
   </xs:choice>
  </xs:group>
 
- <xs:complexType name='PIWrapperStorageType'>
+ <xs:group name='PIMediumPrintGroup'>
   <xs:annotation>
-   <xs:documentation>
-    Anything that holds multiple containers, like cases, or envelopes.
+   <xs:documentation xml:lang='en-US'>
+    Any physical thing that can store print media.
    </xs:documentation>
   </xs:annotation>
-  <xs:choice minOccurs='1'>
-   <xs:element name='case' type='PIStorageType' maxOccurs='unbounded'/>
-   <xs:element name='envelope' type='PIStorageType' maxOccurs='unbounded'/>
+  <xs:choice>
+   <xs:element name='booklet' type='PIPrintPageType'/>
+   <xs:element name='insert' type='PIPrintPageType'/>
+   <xs:element name='codesheet' type='PICodeSheetType'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:complexType name='PILayerTwoStorageType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Anything that holds multiple layer one containers, like cases or envelopes.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice minOccurs='1' maxOccurs='unbounded'>
+   <xs:group ref='PILayerOneStorageGroup'/>
   </xs:choice>
  </xs:complexType>
 
- <xs:complexType name='PIStorageType'>
-  <xs:choice minOccurs='1' maxOccurs='unbounded'>
-   <xs:group ref='PIMediumGroup'/>
+ <xs:group name='PILayerOneStorageGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Anything that direcly holds the media, like a DVD foldcase, or 
+    a steelbook case.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='case' type='PIStorageGenericType'/>
+   <xs:element name='snapcase' type='PIStorageSnapCaseType'/>
+   <xs:element name='foldcase' type='PIStorageFoldCaseType'/>
+   <xs:element name='steelbook' type='PIStorageSteelBookType'/>
+   <xs:element name='digibook' type='PIStorageDigiBookType'/>
+   <xs:element name='envelope' type='PIStorageEnvelopeType'/>
   </xs:choice>
+ </xs:group>
+
+ <xs:complexType name='PIStorageGenericType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element: case
+
+    A generic case for medium storage, for when the
+    actual type is unknown, or the specifity is unimportant.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:group ref='PIMediumVideoGroup' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:group ref='PIMediumPrintGroup' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
   <xs:attribute name='translucent' type='xs:boolean' use='optional'/>
   <xs:attribute name='color' type='xs:token' use='optional'/>
   <xs:attribute name='slipcover' type='xs:boolean' use='optional'/>
  </xs:complexType>
 
+ <xs:complexType name='PIStorageSnapCaseType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element: snapcase
+
+    An older type of DVD case, composed of both plastic and cardboard.  Not commonly used
+    anymore, but still can be found in the used DVD market.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice minOccurs='1' maxOccurs='unbounded'>
+   <xs:group ref='PIMediumVideoGroup' minOccurs='1'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='PIStorageFoldCaseType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element: foldcase
+
+    The most common form of packaging for DVD/Blu-Ray media.  Can come with 
+    multiple colors, is usually translucent, and can be protected by a slipcover.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:group ref='PIMediumVideoGroup' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:group ref='PIMediumPrintGroup' minOccurs='0'/>
+  </xs:sequence>
+  <xs:attribute name='translucent' type='xs:boolean' use='optional'/>
+  <xs:attribute name='color' type='xs:token' use='optional'/>
+  <xs:attribute name='slipcover' type='xs:boolean' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='PIStorageSteelBookType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element: steelbook
+
+    A type of package capable of holding one or more discs, and optional print
+    media.  Can also sometimes come with a slipcover.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:group ref='PIMediumVideoGroup' minOccurs='1'/>
+   <xs:group ref='PIMediumPrintGroup' minOccurs='0'/>
+  </xs:sequence>
+  <xs:attribute name='slipcover' type='xs:boolean' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='PIStorageDigiBookType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element: digibook
+
+    A hard cardboard case, with a plastic insert for disk storage, also comes with a book
+    with supplemental material to read.  Mostly used for special edition Blu-Ray movies.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:group ref='PIMediumVideoGroup' minOccurs='1'/>
+   <xs:element name='booklet' type='PICodeSheetType' minOccurs='1'/>
+  </xs:sequence>
+  <xs:attribute name='slipcover' type='xs:boolean' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='PIStorageEnvelopeType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element: envelope
+
+    A cardboard or paper envelope meant to store a video disc.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice minOccurs='1' maxOccurs='unbounded'>
+   <xs:group ref='PIMediumVideoGroup'/>
+  </xs:choice>
+ </xs:complexType>
+
+<!-- end changes -->
+
  <xs:complexType name='ProductInventoryType'>
   <xs:choice minOccurs='1'>
+   <xs:element name='box' type='PILayerTwoStorageType' maxOccurs='unbounded'/>
+   <xs:group ref='PILayerOneStorageGroup' maxOccurs='unbounded'/>
+   <!-- 
    <xs:element name='case' type='PIStorageType' maxOccurs='unbounded'/>
    <xs:element name='envelope' type='PIStorageType' maxOccurs='unbounded'/>
-   <xs:element name='box' type='PIWrapperStorageType' maxOccurs='unbounded'/>
+   -->
+   <!-- <xs:element name='box' type='PIWrapperStorageType' maxOccurs='unbounded'/> -->
   </xs:choice>
  </xs:complexType>
 
