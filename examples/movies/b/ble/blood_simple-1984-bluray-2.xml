@@ -32,7 +32,8 @@
    <productSpecs>
     <inventory>
      <case>
-      <bluray/>
+      <bluray id='1'/>
+      <insert id='2'/>
      </case>
     </inventory>
    </productSpecs>

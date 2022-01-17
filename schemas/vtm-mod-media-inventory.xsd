@@ -205,7 +205,7 @@
   </xs:annotation>
   <xs:sequence>
    <xs:group ref='PIMediumVideoGroup' minOccurs='1'/>
-   <xs:element name='booklet' type='PICodeSheetType' minOccurs='1'/>
+   <xs:element name='booklet' type='PIPrintPageType' minOccurs='1'/>
   </xs:sequence>
   <xs:attribute name='slipcover' type='xs:boolean' use='optional'/>
  </xs:complexType>
