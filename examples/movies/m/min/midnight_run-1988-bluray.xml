@@ -33,6 +33,10 @@
    <productId>
     <barcode type='upc'>926663164794</barcode>
     <sku retailer='bby'>4771602</sku>
+    <other>
+     <name>Shout Select Spine Number</name>
+     <value>3</value>
+    </other>
    </productId>
    <productSpecs>
     <dimensions>

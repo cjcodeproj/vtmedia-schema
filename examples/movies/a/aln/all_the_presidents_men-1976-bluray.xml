@@ -36,10 +36,10 @@
      <size length='6.75' width='5.4' height='0.5'/>
     </dimensions>
     <inventory>
-    <case>
+     <digibook>
       <bluray id='1'/>
-      <booklet/>
-     </case>
+      <booklet id='2'/>
+     </digibook>
     </inventory>
    </productSpecs>
   </medium>
