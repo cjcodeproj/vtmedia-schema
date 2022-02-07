@@ -223,17 +223,10 @@
   </xs:choice>
  </xs:complexType>
 
-<!-- end changes -->
-
  <xs:complexType name='ProductInventoryType'>
   <xs:choice minOccurs='1'>
    <xs:element name='box' type='PILayerTwoStorageType' maxOccurs='unbounded'/>
    <xs:group ref='PILayerOneStorageGroup' maxOccurs='unbounded'/>
-   <!-- 
-   <xs:element name='case' type='PIStorageType' maxOccurs='unbounded'/>
-   <xs:element name='envelope' type='PIStorageType' maxOccurs='unbounded'/>
-   -->
-   <!-- <xs:element name='box' type='PIWrapperStorageType' maxOccurs='unbounded'/> -->
   </xs:choice>
  </xs:complexType>
 

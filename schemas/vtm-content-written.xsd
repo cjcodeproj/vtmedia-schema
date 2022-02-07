@@ -20,14 +20,6 @@
  </xs:annotation>
 
  <xs:include schemaLocation='vtm-mod-pnouns.xsd'/>
- <!--
- <xs:include schemaLocation='vtm-mod-all-catalog.xsd'/>
- <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
- <xs:include schemaLocation='vtm-mod-visual-technical.xsd'/>
- <xs:include schemaLocation='vtm-mod-visual-crew.xsd'/>
- <xs:include schemaLocation='vtm-mod-visual-classification.xsd'/>
- <xs:include schemaLocation='vtm-mod-visual-story.xsd'/>
- -->
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
