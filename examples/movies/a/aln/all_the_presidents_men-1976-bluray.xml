@@ -45,6 +45,27 @@
   </medium>
   <contents>
    <xi:include href='all_the_presidents_men-1976-movie.xml'/>
+   <essay xmlns='http://vectortron.com/xml/media/written'>
+    <title>Hot Off The Press: The Legacy Of "All The President's Men"</title>
+   </essay>
+   <essay xmlns='http://vectortron.com/xml/media/written'>
+    <title>Robert Redford as Bob Woodward</title>
+   </essay>
+   <essay xmlns='http://vectortron.com/xml/media/written'>
+    <title>Dustin Hoffman as Carl Bernstein</title>
+   </essay>
+   <essay xmlns='http://vectortron.com/xml/media/written'>
+    <title>Hal Holbrook as Deep Throat</title>
+   </essay>
+   <essay xmlns='http://vectortron.com/xml/media/written'>
+    <title>Jason Robards as Ben Bradlee</title>
+   </essay>
+   <essay xmlns='http://vectortron.com/xml/media/written'>
+    <title>Alan J. Pakula</title>
+   </essay>
+   <essay xmlns='http://vectortron.com/xml/media/written'>
+    <title>Deep Throat Unmasked</title>
+   </essay>
   </contents>
  </media>
 </medialist>

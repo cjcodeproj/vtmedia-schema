@@ -4,6 +4,9 @@
     <catalog>
      <copyright>
       <year>1984</year>
+      <holders>
+       <holder>River Road Productions</holder>
+      </holders>
      </copyright>
     </catalog>
     <classification>
@@ -20,7 +23,7 @@
     </classification>
     <technical>
      <runtime>
-      <overall>PT01H01M01S</overall>
+      <overall>PT01H35M35S</overall>
      </runtime>
      <visualFormat>
       <liveAction/>
