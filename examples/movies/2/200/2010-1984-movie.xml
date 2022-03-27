@@ -70,6 +70,12 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Peter</gn><fn>Hyams</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>David</gn><fn>Shire</fn></composer>
+     </music>
+     <casting>
+      <director><gn>Penny</gn><fn>Petty</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Roy</gn><fn>Scheider</fn></actor>

@@ -20,6 +20,18 @@
  </xs:annotation>
 
 
+ <xs:attributeGroup name='CrewAttributesGroup'>
+  <xs:attribute name='uncredited' type='xs:boolean'/>
+ </xs:attributeGroup>
+
+ <xs:complexType name='CrewNameType'>
+  <xs:complexContent>
+   <xs:extension base='PNNameType'>
+    <xs:attributeGroup ref='CrewAttributesGroup'/>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+
  <xs:complexType name='DirectorsType'>
   <xs:sequence>
    <xs:element name='director' type='PNNameType' minOccurs='1' maxOccurs='unbounded'/>
@@ -45,6 +57,24 @@
  <xs:complexType name='CinemaphotographersType'>
   <xs:sequence>
    <xs:element name='cinemaphotographer' type='PNNameType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='CastingType'>
+  <xs:sequence minOccurs='1'>
+   <xs:element name='director' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='consultant' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='casting' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='MusicType'>
+  <xs:sequence minOccurs='1'>
+   <xs:element name='composer' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='conductor' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:eleemnt name='music' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+
+   <!-- arranger ?? -->
   </xs:sequence>
  </xs:complexType>
 
@@ -212,6 +242,8 @@
    <xs:element name='producers' type='ProducersType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='editors' type='EditorsType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='cinemaphotographers' type='CinemaphotographersType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='music' type='MusicType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='casting' type='CastingType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='cast' type='CastType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>

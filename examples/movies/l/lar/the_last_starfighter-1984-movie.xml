@@ -56,6 +56,13 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>King</gn><fn>Baggot</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Craig</gn><fn>Safan</fn></composer>
+     </music>
+     <casting>
+      <director><gn>Irena</gn><fn>Mariano</fn></director>
+      <director><gn>Barbara</gn><fn>Miller</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Lance</gn><fn>Guest</fn></actor>

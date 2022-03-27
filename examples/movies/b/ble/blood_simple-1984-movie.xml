@@ -69,6 +69,13 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Barry</gn><fn>Sonnenfeld</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+     </music>
+     <casting>
+      <director><gn>Julie</gn><fn>Hughes</fn></director>
+      <director><gn>Barry</gn><fn>Moss</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>John</gn><fn>Getz</fn></actor>

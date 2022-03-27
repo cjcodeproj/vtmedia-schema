@@ -60,6 +60,12 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Xavi</gn><fn>Giménez</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Victor</gn><fn>Reyes</fn></composer>
+     </music>
+     <casting>
+      <director><gn>Ronna</gn><fn>Kress</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Cillian</gn><fn>Murphy</fn></actor>

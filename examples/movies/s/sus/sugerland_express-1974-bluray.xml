@@ -127,6 +127,13 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Vilmos</gn><fn>Zsigmond</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>John</gn><fn>Williams</fn></composer>
+     </music>
+     <casting>
+      <director uncredited='true'><gn>Mike</gn><fn>Fenton</fn></director>
+      <director uncredited='true'><gn>Shari</gn><fn>Rhodes</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Goldie</gn><fn>Hawn</fn></actor>

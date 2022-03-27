@@ -158,6 +158,12 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Ric</gn><fn>Waite</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>James</gn><fn>Horner</fn></composer>
+     </music>
+     <casting>
+      <director><gn>Judith</gn><fn>Holstra</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Nick</gn><fn>Nolte</fn></actor>
@@ -408,6 +414,12 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Matthew</gn><mn>F</mn><fn>Leonetti</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>James</gn><fn>Horner</fn></composer>
+     </music>
+     <casting>
+      <director><gn>Jackie</gn><fn>Burch</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Eddie</gn><fn>Murphy</fn></actor>

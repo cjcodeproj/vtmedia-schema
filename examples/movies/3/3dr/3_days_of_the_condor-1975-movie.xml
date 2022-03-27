@@ -76,6 +76,13 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Owen</gn><fn>Roizman</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Dave</gn><fn>Grusin</fn></composer>
+     </music>
+     <casting>
+      <director><gn>Shirley</gn><fn>Rich</fn></director>
+      <consultant><gn>Mary</gn><fn></fn></consultant>
+     </casting>
      <cast>
       <role>
        <actor><gn>Robert</gn><fn>Redford</fn></actor>

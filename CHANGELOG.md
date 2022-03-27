@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-23](https://github.com/cjcodeproj/vtmedia-schema/issues/23) More crew elements (part 1)
  - [schema-29](https://github.com/cjcodeproj/vtmedia-schema/issues/29) New content element: essay
  - [schema-24](https://github.com/cjcodeproj/vtmedia-schema/issues/24) More physical media storage options
  - [schema-22](https://github.com/cjcodeproj/vtmedia-schema/issues/22) Add example of multiple media elements under a medialist element

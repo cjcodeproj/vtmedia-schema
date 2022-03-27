@@ -61,6 +61,12 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Peter</gn><fn>Menzies</fn><postTitle>Jr</postTitle></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Christopher</gn><fn>Young</fn></composer>
+     </music>
+     <casting>
+      <casting><gn>Svetoslav</gn><fn>Svilenov</fn></casting> <!-- assistant? -->
+     </casting>
      <cast>
       <role>
        <actor><gn>Robert</gn><fn>De Niro</fn></actor>

@@ -51,6 +51,13 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Richard</gn><fn>Greatrex</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Trevor</gn><fn>Jones</fn></composer>
+     </music>
+     <casting>
+      <director><gn>Heike</gn><fn>Brandstatter</fn></director>
+      <director><gn>Coreen</gn><fn>Mayrs</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Jason</gn><fn>Statham</fn></actor>

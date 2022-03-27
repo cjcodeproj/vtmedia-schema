@@ -165,6 +165,13 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Donald</gn><mn>E</mn><fn>Thorin</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Danny</gn><fn>Elfman</fn></composer>
+     </music>
+     <casting>
+      <director><gn>Michael</gn><fn>Chinich</fn></director>
+      <director><gn>Bonnie</gn><fn>Timmermann</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Robert</gn><fn>De Niro</fn></actor>

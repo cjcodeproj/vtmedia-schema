@@ -143,6 +143,13 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>John</gn><fn>Lindley</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>James</gn><fn>Horner</fn></composer>
+     </music>
+     <casting>
+      <director><gn>Juel</gn><fn>Bestrop</fn></director>
+      <director><gn>Risa</gn><fn>Bramon Garcia</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Robert</gn><fn>Redford</fn></actor>

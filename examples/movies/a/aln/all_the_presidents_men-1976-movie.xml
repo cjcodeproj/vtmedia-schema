@@ -100,6 +100,12 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Gordon</gn><fn>Willis</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>David</gn><fn>Shire</fn></composer>
+     </music>
+     <casting>
+      <director><gn>Alan</gn><fn>Shayne</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Dustin</gn><fn>Hoffman</fn></actor>

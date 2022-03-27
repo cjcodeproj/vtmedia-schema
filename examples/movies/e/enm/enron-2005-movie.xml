@@ -66,6 +66,12 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Maryse</gn><fn>Alberti</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Matthew</gn><fn>Hauser</fn></composer>
+     </music>
+     <casting>
+      <casting><gn>Maryse</gn><fn>Alberti</fn></casting>
+     </casting>
      <cast>
       <role>
        <actor><gn>Peter</gn><fn>Coyote</fn></actor>
