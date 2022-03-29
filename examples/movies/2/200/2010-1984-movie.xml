@@ -73,6 +73,13 @@
      <music>
       <composer><gn>David</gn><fn>Shire</fn></composer>
      </music>
+     <artDept>
+      <productionDesigner><gn>Albert</gn><fn>Brenner</fn></productionDesigner>
+      <setDecorator><gn>Rick</gn><fn>Simpson</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Patricia</gn><fn>Norris</fn></costumeDesigner>
+     </wardrobe>
      <casting>
       <director><gn>Penny</gn><fn>Petty</fn></director>
      </casting>

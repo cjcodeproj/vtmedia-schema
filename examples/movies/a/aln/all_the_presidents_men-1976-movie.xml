@@ -103,6 +103,13 @@
      <music>
       <composer><gn>David</gn><fn>Shire</fn></composer>
      </music>
+     <artDept>
+      <productionDesigner><gn>George</gn><fn>Jenkins</fn></productionDesigner>
+      <setDecorator><gn>George</gn><fn>Gaines</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Firstname</gn><fn>Lastname</fn></costumeDesigner>
+     </wardrobe>
      <casting>
       <director><gn>Alan</gn><fn>Shayne</fn></director>
      </casting>

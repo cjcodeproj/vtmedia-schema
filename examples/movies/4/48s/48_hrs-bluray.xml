@@ -161,6 +161,13 @@
      <music>
       <composer><gn>James</gn><fn>Horner</fn></composer>
      </music>
+     <artDept>
+      <productionDesigner><gn>John</gn><fn>Vallone</fn></productionDesigner>
+      <setDecorator><gn>Richard</gn><mn>C.</mn><fn>Goddard</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Marilyn</gn><fn>Vance</fn></costumeDesigner>
+     </wardrobe>
      <casting>
       <director><gn>Judith</gn><fn>Holstra</fn></director>
      </casting>
@@ -417,6 +424,14 @@
      <music>
       <composer><gn>James</gn><fn>Horner</fn></composer>
      </music>
+     <artDept>
+      <productionDesigner><gn>Joseph</gn><mn>C.</mn><fn>Nemec</fn><postTitle>III</postTitle></productionDesigner>
+      <artDirector><gn>Gary</gn><fn>Wissner</fn></artDirector>
+      <setDecorator><gn>George</gn><mn>R.</mn><fn>Nelson</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Dan</gn><fn>Moore</fn></costumeDesigner>
+     </wardrobe>
      <casting>
       <director><gn>Jackie</gn><fn>Burch</fn></director>
      </casting>

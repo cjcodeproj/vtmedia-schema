@@ -87,6 +87,12 @@
      <music>
       <composer><gn>Brian</gn><fn>May</fn></composer>
      </music>
+     <artDept>
+      <artDirector><gn>Jon</gn><fn>Dowding</fn></artDirector>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Clare</gn><fn>Griffin</fn></costumeDesigner>
+     </wardrobe>
      <cast>
       <role>
        <actor><gn>Mel</gn><fn>Gibson</fn></actor>

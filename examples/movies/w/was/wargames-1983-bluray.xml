@@ -103,6 +103,7 @@
      <writers>
       <writer><gn>Lawrence</gn><fn>Lasker</fn></writer>
       <writer><gn>Walter</gn><mn>F</mn><fn>Parkes</fn></writer>
+      <writer uncredited='true'><gn>Walon</gn><fn>Green</fn></writer>
      </writers>
      <editors>
       <editor><gn>Tom</gn><fn>Rolf</fn></editor>
@@ -113,6 +114,14 @@
      <music>
       <composer><gn>Arthur</gn><mn>B.</mn><fn>Rubinstein</fn></composer>
      </music>
+     <artDept>
+      <productionDesigner><gn>Angelo</gn><mn>P.</mn><fn>Graham</fn></productionDesigner>
+      <artDirector><gn>James</gn><mn>J.</mn><fn>Murakami</fn></artDirector>
+      <setDecorator><gn>Jerry</gn><fn>Wunderlich</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Barry</gn><mn>Francis</mn><fn>Delaney</fn></costumeDesigner>
+     </wardrobe>
      <casting>
       <director><gn>Wallis</gn><fn>Nicita</fn></director>
      </casting>

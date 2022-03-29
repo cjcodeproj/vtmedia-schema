@@ -168,6 +168,14 @@
      <music>
       <composer><gn>Danny</gn><fn>Elfman</fn></composer>
      </music>
+     <artDept>
+      <productionDesigner><gn>Angelo</gn><mn>P.</mn>><fn>Graham</fn></productionDesigner>
+      <artDirector><gn>James</gn><mn>J.</mn><fn>Murakami</fn></artDirector>
+      <setDecorator><gn>George</gn><mn>R.</mn><fn>Nelson</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Gloria</gn><fn>Gresham</fn></costumeDesigner>
+     </wardrobe>
      <casting>
       <director><gn>Michael</gn><fn>Chinich</fn></director>
       <director><gn>Bonnie</gn><fn>Timmermann</fn></director>

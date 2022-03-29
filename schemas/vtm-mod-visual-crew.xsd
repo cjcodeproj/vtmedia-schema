@@ -34,29 +34,45 @@
 
  <xs:complexType name='DirectorsType'>
   <xs:sequence>
-   <xs:element name='director' type='PNNameType' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:element name='director' type='CrewNameType' minOccurs='1' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 
  <xs:complexType name='ProducersType'>
+  <!-- UNSTABLE INTERFACE - DO NOT USE -->
   <xs:choice minOccurs='1' maxOccurs='unbounded'>
-   <xs:element name='producer' type='PNNameType'/>
-   <xs:element name='execProducer' type='PNNameType'/>
-   <xs:element name='suprProducer' type='PNNameType'/>
-   <xs:element name='asscProducer' type='PNNameType'/>
-   <xs:element name='lineProducer' type='PNNameType'/>
+   <xs:element name='producer' type='CrewNameType'/>
+   <xs:element name='execProducer' type='CrewNameType'/>
+   <xs:element name='suprProducer' type='CrewNameType'/>
+   <xs:element name='asscProducer' type='CrewNameType'/>
+   <xs:element name='lineProducer' type='CrewNameType'/>
   </xs:choice>
  </xs:complexType>
 
  <xs:complexType name='EditorsType'>
   <xs:sequence>
-   <xs:element name='editor' type='PNNameType' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:element name='editor' type='CrewNameType' minOccurs='1' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 
  <xs:complexType name='CinemaphotographersType'>
   <xs:sequence>
-   <xs:element name='cinemaphotographer' type='PNNameType' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:element name='cinemaphotographer' type='CrewNameType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='ArtDeptType'>
+  <xs:sequence minOccurs='1'>
+   <xs:element name='productionDesigner' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='artDirector' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='setDecorator' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='WardrobeDeptType'>
+  <xs:sequence minOccurs='1'>
+   <xs:element name='costumeDesigner' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='wardrobe' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 
@@ -72,9 +88,7 @@
   <xs:sequence minOccurs='1'>
    <xs:element name='composer' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
    <xs:element name='conductor' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
-   <xs:eleemnt name='music' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
-
-   <!-- arranger ?? -->
+   <xs:element name='music' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 
@@ -94,16 +108,8 @@
 
  <xs:complexType name='SourceAuthorsType'>
   <xs:sequence>
-   <xs:element name='author' type='SourceAuthorType' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:element name='author' type='CrewNameType' minOccurs='1' maxOccurs='unbounded'/>
   </xs:sequence>
- </xs:complexType>
-
- <xs:complexType name='SourceAuthorType'>
-  <xs:complexContent>
-   <xs:extension base='PNNameType'>
-    <xs:attribute name='uncredited' type='xs:boolean' use='optional'/>
-   </xs:extension>
-  </xs:complexContent>
  </xs:complexType>
 
  <xs:complexType name='WritersType'>
@@ -120,9 +126,8 @@
    </xs:documentation>
   </xs:annotation>
   <xs:complexContent>
-   <xs:extension base='PNNameType'>
+   <xs:extension base='CrewNameType'>
     <xs:attribute name='role' type='xs:string' use='optional'/>
-    <xs:attribute name='uncredited' type='xs:boolean' use='optional'/>
    </xs:extension>
   </xs:complexContent>
  </xs:complexType>
@@ -243,6 +248,8 @@
    <xs:element name='editors' type='EditorsType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='cinemaphotographers' type='CinemaphotographersType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='music' type='MusicType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='artDept' type='ArtDeptType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='wardrobe' type='WardrobeDeptType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='casting' type='CastingType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='cast' type='CastType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>

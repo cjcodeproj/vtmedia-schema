@@ -130,6 +130,13 @@
      <music>
       <composer><gn>John</gn><fn>Williams</fn></composer>
      </music>
+     <artDept>
+      <artDirector><gn>Joe</gn><fn>Alves</fn></artDirector>
+     </artDept>
+     <wardrobe>
+      <wardrobe uncredited='true'><gn>Robert</gn><fn>Ellsworth</fn></wardrobe>
+      <wardrobe uncredited='true'><gn>James</gn><fn>Gilmore</fn></wardrobe>
+     </wardrobe>
      <casting>
       <director uncredited='true'><gn>Mike</gn><fn>Fenton</fn></director>
       <director uncredited='true'><gn>Shari</gn><fn>Rhodes</fn></director>

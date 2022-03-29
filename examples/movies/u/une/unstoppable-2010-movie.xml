@@ -69,8 +69,19 @@
       <cinemaphotographer><gn>Ben</gn><fn>Seresin</fn></cinemaphotographer>
      </cinemaphotographers>
      <music>
-      <composer>Harry</gn><fn>Gregson-Williams</fn></composer>
+      <composer><gn>Harry</gn><fn>Gregson-Williams</fn></composer>
      </music>
+     <artDept>
+      <productionDesigner><gn>Chris</gn><fn>Seagers</fn></productionDesigner>
+      <artDirector><gn>Julian</gn><fn>Ashby</fn></artDirector>
+      <artDirector><gn>Drew</gn><fn>Boughton</fn></artDirector>
+      <artDirector><gn>Denise</gn><fn>Hudson</fn></artDirector>
+      <artDirector><gn>Dawn</gn><fn>Swiderski</fn></artDirector>
+      <setDecorator><gn>Rosemary</gn><fn>Brandenburg</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Penny</gn><fn>Rose</fn></costumeDesigner>
+     </wardrobe>
      <casting>
       <director><gn>Denise</gn><fn>Chamian</fn></director>
      </casting>

@@ -76,6 +76,14 @@
      <music>
       <composer><gn>David</gn><fn>Buckley</fn></composer>
      </music>
+     <artDept>
+      <productionDesigner><gn>Missy</gn><fn>Stewart</fn></productionDesigner>
+      <artDirector><gn>Mara</gn><fn>LePere-Schloop</fn></artDirector>
+      <setDecorator><gn>Maria</gn><fn>Nay</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Melissa</gn><fn>Bruning</fn></costumeDesigner>
+     </wardrobe>
      <casting>
       <director><gn>Nancy</gn><fn>Klopper</fn></director>
      </casting>

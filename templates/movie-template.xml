@@ -36,8 +36,8 @@
       <generic> </generic>
       <generic> </generic>
       <group>
-        <generic> </generic>
-        <generic> </generic>
+       <generic> </generic>
+       <generic> </generic>
       </group>
      </keywords>
      <themes>
@@ -58,6 +58,20 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Firstname</gn><fn>Lastname</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Firstname</gn><fn>Lastname</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>Firstname</gn><fn>Lastname</fn></productionDesigner>
+      <artDirector><gn>Firstname</gn><fn>Lastname</fn></artDirector>
+      <setDecorator><gn>Firstname</gn><fn>Lastname</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Firstname</gn><fn>Lastname</fn></costumeDesigner>
+     </wardrobe>
+     <casting>
+      <director><gn>Firstname</gn><fn>Lastname</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Firstname</gn><mn>Middlename</mn><fn>Lastname</fn></actor>

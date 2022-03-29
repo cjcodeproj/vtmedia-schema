@@ -64,6 +64,15 @@
      <music>
       <composer><gn>Christopher</gn><fn>Young</fn></composer>
      </music>
+     <artDept>
+      <productionDesigner><gn>Kirk</gn><mn>M.</mn><fn>Petruccelli</fn></productionDesigner>
+      <artDirector><gn>Kes</gn><fn>Bonnet</fn></artDirector> <!-- supervising -->
+      <artDirector><gn>Thomas</gn><fn>Minton</fn></artDirector>
+      <setDecorator><gn>Melinda</gn><fn>Sanders</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Denise</gn><fn>Wingate</fn></costumeDesigner>
+     </wardrobe>
      <casting>
       <casting><gn>Svetoslav</gn><fn>Svilenov</fn></casting> <!-- assistant? -->
      </casting>

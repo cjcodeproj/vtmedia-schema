@@ -144,6 +144,21 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Don</gn><fn>Burgess</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Alan</gn><fn>Silvestri</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>Ed</gn><fn>Verreaux</fn></productionDesigner>
+      <artDirector><gn>Bruce</gn><fn>Crone</fn></artDirector>
+      <artDirector><gn>Lawrence</gn><mn>A.</mn><fn>Hubbs</fn></artDirector>
+      <setDecorator><gn>Michael</gn><fn>Taylor</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Joanna</gn><fn>Johnston</fn></costumeDesigner>
+     </wardrobe>
+     <casting>
+      <director><gn>Victoria</gn><fn>Burrows</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Jodie</gn><fn>Foster</fn></actor>

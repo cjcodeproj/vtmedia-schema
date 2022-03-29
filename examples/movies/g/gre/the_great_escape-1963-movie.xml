@@ -100,6 +100,13 @@
      <music>
       <composer><gn>Elmer</gn><fn>Bernstein</fn></composer>
      </music>
+     <artDept>
+      <artDirector><gn>Fernando</gn><fn>Carrere</fn></artDirector>
+      <setDecorator><gn>Kurt</gn><fn>Ripberger</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <wardrobe><gn>Bert</gn><fn>Henrikson</fn></wardrobe>
+     </wardrobe>
      <cast>
       <role>
        <actor><gn>Steve</gn><fn>McQueen</fn></actor>

@@ -72,6 +72,12 @@
      <music>
       <composer><gn>Carter</gn><fn>Burwell</fn></composer>
      </music>
+     <artDept>
+      <productionDesigner><gn>Jane</gn><fn>Musky</fn></productionDesigner>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Sara</gn><fn>Medina-Pape</fn></costumeDesigner>
+     </wardrobe>
      <casting>
       <director><gn>Julie</gn><fn>Hughes</fn></director>
       <director><gn>Barry</gn><fn>Moss</fn></director>
