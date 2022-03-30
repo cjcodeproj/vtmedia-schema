@@ -3,6 +3,19 @@
 An XML schema designed for the recording of the details of various forms of media, 
 including movies, television, books, and music.
 
+## Project Goals
+
+The schema is designed with the following goals.
+
+
+1. The ability to record details on a piece of media, details on the storage medium, and ownership information.
+2. Easy enough to create records without proprietary software dependencies.
+3. Simple data entry, validation, and debugging using tools of the end-user's choice.
+4. Allow for easy exchange, transfer, or publication of the dataset using existing protocols.
+5. The schema should be flexible, easy to comprehend, and extensible both inside and outside the project.
+6. Data should be recorded in logical structures, making it suitable for indexing, searching, and comparison operations.
+
+
 ## Directory Structure
 
 ### Schema
