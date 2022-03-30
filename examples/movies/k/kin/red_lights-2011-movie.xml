@@ -60,6 +60,21 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Xavi</gn><fn>Giménez</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Victor</gn><fn>Reyes</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>Anton</gn><fn>Laguna</fn></productionDesigner>
+      <artDirector><gn>Edward</gn><fn>Bonutto</fn></artDirector>
+      <artDirector><gn>Serafin</gn><fn>González</fn></artDirector>
+      <setDecorator><gn>Firstname</gn><fn>Lastname</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Patricia</gn><fn>Monné</fn></costumeDesigner>
+     </wardrobe>
+     <casting>
+      <director><gn>Ronna</gn><fn>Kress</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Cillian</gn><fn>Murphy</fn></actor>

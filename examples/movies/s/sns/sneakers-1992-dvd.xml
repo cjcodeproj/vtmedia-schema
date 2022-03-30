@@ -143,6 +143,21 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>John</gn><fn>Lindley</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>James</gn><fn>Horner</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>Patrizia</gn><fn>von Brandenstein</fn></productionDesigner>
+      <artDirector><gn>Dianne</gn><fn>Wager</fn></artDirector>
+      <setDecorator><gn>Samara</gn><fn>Schaffer</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Bernie</gn><fn>Pollack</fn></costumeDesigner>
+     </wardrobe>
+     <casting>
+      <director><gn>Juel</gn><fn>Bestrop</fn></director>
+      <director><gn>Risa</gn><fn>Bramon Garcia</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Robert</gn><fn>Redford</fn></actor>

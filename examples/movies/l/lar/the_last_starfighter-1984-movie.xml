@@ -56,6 +56,21 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>King</gn><fn>Baggot</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Craig</gn><fn>Safan</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>Ron</gn><fn>Cobb</fn></productionDesigner>
+      <artDirector><gn>Jim</gn><fn>Bissell</fn></artDirector>
+      <setDecorator><gn>Linda</gn><fn>Spheeris</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Robert</gn><fn>Fletcher</fn></costumeDesigner>
+     </wardrobe>
+     <casting>
+      <director><gn>Irena</gn><fn>Mariano</fn></director>
+      <director><gn>Barbara</gn><fn>Miller</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Lance</gn><fn>Guest</fn></actor>

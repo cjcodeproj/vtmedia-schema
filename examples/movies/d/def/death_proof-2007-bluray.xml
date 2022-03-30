@@ -125,6 +125,17 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Quentin</gn><fn>Tarantino</fn></cinemaphotographer>
      </cinemaphotographers>
+     <artDept>
+      <productionDesigner><gn>Steve</gn><fn>Joyner</fn></productionDesigner>
+      <artDirector><gn>Caylah</gn><fn>Eddleblute</fn></artDirector>
+      <setDecorator><gn>Jeanette</gn><fn>Scott</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Nina</gn><fn>Proctor</fn></costumeDesigner>
+     </wardrobe>
+     <casting>
+      <director><gn>Mary</gn><fn>Vernieu</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Kurt</gn><fn>Russell</fn></actor>

@@ -100,6 +100,21 @@
       <cinemaphotographer><gn>Sharon</gn><fn>Calahan</fn></cinemaphotographer>
       <cinemaphotographer><gn>Adam</gn><fn>Habib</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Jeff</gn><fn>Danna</fn></composer>
+      <composer><gn>Mychael</gn><fn>Danna</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>Noah</gn><fn>Klocek</fn></productionDesigner>
+      <artDirector><gn>Bert</gn><fn>Berry</fn></artDirector>
+      <artDirector><gn>Paul</gn><fn>Conrad</fn></artDirector>
+      <artDirector><gn>Huy</gn><fn>Nguyen</fn></artDirector>
+      <artDirector><gn>Matt</gn><fn>Nolte</fn></artDirector>
+     </artDept>
+     <casting>
+      <director><gn>Natalie</gn><fn>Lyon</fn></director>
+      <director><gn>Kevin</gn><fn>Reher</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Tom</gn><fn>Holland</fn></actor>

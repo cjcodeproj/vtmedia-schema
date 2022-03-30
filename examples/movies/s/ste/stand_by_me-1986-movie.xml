@@ -70,6 +70,20 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Thomas</gn><fn>Del Ruth</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Jack</gn><fn>Nitzsche</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>J.</gn><mn>Dennis</mn><fn>Washington</fn></productionDesigner>
+      <setDecorator><gn>Richard</gn><mn>D.</mn><fn>Kent</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <wardrobe><gn>Thomas</gn><fn>Costich</fn></wardrobe>
+     </wardrobe>
+     <casting>
+      <director><gn>Janet</gn><fn>Hirschenson</fn></director>
+      <director><gn>Jane</gn><fn>Jenkins</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Wil</gn><fn>Wheaton</fn></actor>

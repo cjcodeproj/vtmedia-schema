@@ -51,6 +51,22 @@
      <cinemaphotographers>
       <cinemaphotographer><gn>Richard</gn><fn>Greatrex</fn></cinemaphotographer>
      </cinemaphotographers>
+     <music>
+      <composer><gn>Trevor</gn><fn>Jones</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>Chris</gn><fn>August</fn></productionDesigner>
+      <artDirector><gn>Nancy</gn><fn>Ford</fn></artDirector>
+      <artDirector><gn>Paolo</gn><mn>G.</mn><fn>Venturi</fn></artDirector>
+      <setDecorator><gn>Terry</gn><fn>Ewasiuk</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Bobbie</gn><fn>Read</fn></costumeDesigner>
+     </wardrobe>
+     <casting>
+      <director><gn>Heike</gn><fn>Brandstatter</fn></director>
+      <director><gn>Coreen</gn><fn>Mayrs</fn></director>
+     </casting>
      <cast>
       <role>
        <actor><gn>Jason</gn><fn>Statham</fn></actor>
