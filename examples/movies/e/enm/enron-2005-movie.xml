@@ -30,7 +30,27 @@
       <properNoun><person><gn>John Clifford</gn><fn>Banter</fn></person></properNoun>
       <properNoun><entity>Enron</entity></properNoun>
      </subjects>
+     <certifications>
+      <certificate ref='42310'>
+       <rating code='R'>Restricted</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
     </classification>
+    <technical>
+     <runtime>
+      <overall>PT1H49M15S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
     <description>
      <overview>
       An examination of the rise and fall of the <kw>Enron Corporation</kw>.

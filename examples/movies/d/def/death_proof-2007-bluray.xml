@@ -68,6 +68,17 @@
       </certificate>
      </certifications>
     </classification>
+    <technical>
+     <runtime>
+      <overall>PT1H53M56S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
     <story>
      <logline>A man uses his car to kill women he obsesses over.</logline>
      <plot>

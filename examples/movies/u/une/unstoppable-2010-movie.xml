@@ -4,6 +4,11 @@
     <catalog>
      <copyright>
       <year>2010</year>
+      <holders>
+       <holder>Twentieth Century Fox Film Corporation</holder>
+       <holder>Dune Entertainment III LLC</holder>
+       <holder>TCF Hungary Film Exploitation Limited Liability Company</holder>
+      </holders>
      </copyright>
     </catalog>
     <classification>
@@ -16,10 +21,19 @@
        <subgenre>inspired by true events</subgenre>
       </subgenres>
      </genres>
+     <certifications>
+      <certificate ref='46285'>
+       <rating code='PG-13'>Parents Strongly Cautioned</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
     </classification>
     <technical>
      <runtime>
-      <overall>PT0H0M0S</overall>
+      <overall>PT1H38M30S</overall>
      </runtime>
      <visualFormat>
       <liveAction/>

@@ -55,10 +55,19 @@
        <subgenre>sequel</subgenre>
       </subgenres>
      </genres>
+     <certifications>
+      <certificate ref='42562'>
+       <rating code='R'>Restricted</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
     </classification>
     <technical>
      <runtime>
-      <overall>PT01H01M01S</overall>
+      <overall>PT1H26M01S</overall>
      </runtime>
      <visualFormat>
       <liveAction/>

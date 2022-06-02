@@ -55,6 +55,17 @@
      </universe>
     </info>
 -->
+    <technical>
+     <runtime>
+      <overall>PT1H33M</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
     <story>
      <plot>
        A lone <kw>policeman</kw> hunts down the <kw>biker gang</kw> that killed his family in post-apocalypse Australia.

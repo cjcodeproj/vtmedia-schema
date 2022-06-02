@@ -4,6 +4,9 @@
     <catalog>
      <copyright>
       <year>1986</year>
+      <holders>
+       <holder>Columbia Pictures Industries, Inc.</holder>
+      </holders>
      </copyright>
     </catalog>
     <classification>
@@ -16,10 +19,19 @@
        <subgenre>based on a book</subgenre>
       </subgenres>
      </genres>
+     <certifications>
+      <certificate ref='28071'>
+       <rating code='R'>Restricted</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
     </classification>
     <technical>
      <runtime>
-      <overall>PT0H0M0S</overall>
+      <overall>PT1H28M44S</overall>
      </runtime>
      <visualFormat>
       <liveAction/>

@@ -8,6 +8,9 @@
      </altTitles>
      <copyright>
       <year>1984</year>
+      <holders>
+       <holder>MGM/UA Entertainment Co.</holder>
+      </holders>
      </copyright>
     </catalog>
     <classification>
@@ -20,10 +23,19 @@
        <subgenre>based on a novel</subgenre>
      </subgenres>
      </genres>
+     <certifications>
+      <certificate ref='27321'>
+       <rating code='PG'>Parental Guidance Suggested</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
     </classification>
     <technical>
      <runtime>
-      <overall>PT0H0M0S</overall>
+      <overall>PT1H55M54S</overall>
      </runtime>
      <visualFormat>
       <liveAction/>

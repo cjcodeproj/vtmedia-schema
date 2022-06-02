@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-36](https://github.com/cjcodeproj/vtmedia-schema/issues/36) Missing copyright, MPA, technical, and runtime data
  - [schema-23](https://github.com/cjcodeproj/vtmedia-schema/issues/23) More crew elements
  - [schema-29](https://github.com/cjcodeproj/vtmedia-schema/issues/29) New content element: essay
  - [schema-24](https://github.com/cjcodeproj/vtmedia-schema/issues/24) More physical media storage options
