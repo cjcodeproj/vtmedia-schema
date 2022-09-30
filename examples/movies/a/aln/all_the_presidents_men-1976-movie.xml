@@ -85,7 +85,7 @@
      <writers>
       <writer role='screenplay'><gn>William</gn><fn>Goldman</fn></writer>
       <sources>
-       <source>
+       <source type='book'>
         <title>All The President's Men</title>
         <authors>
          <author><gn>Carl</gn><fn>Bernstein</fn></author>

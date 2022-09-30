@@ -65,7 +65,7 @@
       <writer role='screenplay'><gn>Lorenzo</gn><fn>Semple</fn><postTitle>Jr.</postTitle></writer>
       <writer role='screenplay'><gn>David</gn><fn>Rayfiel</fn></writer>
       <sources>
-       <source>
+       <source type='book'>
         <title>Six Days Of The Condor</title>
         <authors>
          <author><gn>James</gn><fn>Grady</fn></author>

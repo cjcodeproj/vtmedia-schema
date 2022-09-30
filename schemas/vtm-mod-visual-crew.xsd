@@ -100,11 +100,41 @@
 
  <xs:complexType name='SourceType'>
   <xs:sequence>
-   <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
-   <xs:element name='from' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:sequence minOccurs='0'>
+    <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
+    <xs:element name='from' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   </xs:sequence>
    <xs:element name='authors' type='SourceAuthorsType' minOccurs='1' maxOccurs='1'/>
   </xs:sequence>
+  <xs:attribute name='type' type='SourceMediaType' use='optional'/>
  </xs:complexType>
+
+ <xs:simpleType name='SourceMediaType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Supported types of source media.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='movie'/>
+   <xs:enumeration value='screenplay'/>
+   <xs:enumeration value='play'/>
+   <xs:enumeration value='novel'/>
+   <xs:enumeration value='book'/>
+   <xs:enumeration value='bookSeries'/>
+   <xs:enumeration value='story'/>
+   <xs:enumeration value='shortStory'/>
+   <xs:enumeration value='comicBook'/>
+   <xs:enumeration value='comicBookSeries'/>
+   <xs:enumeration value='newsArticle'/>
+   <xs:enumeration value='song'/>
+   <xs:enumeration value='poem'/>
+   <xs:enumeration value='radioShow'/>
+   <xs:enumeration value='podcast'/>
+   <xs:enumeration value='character'/>
+   <xs:enumeration value='characters'/>
+  </xs:restriction>
+ </xs:simpleType>
 
  <xs:complexType name='SourceAuthorsType'>
   <xs:sequence>

@@ -59,7 +59,7 @@
      <writers>
       <writer role='screenplay'><gn>John</gn><mn>J</mn><fn>McLaughlin</fn></writer>
       <sources>
-       <source>
+       <source type='book'>
         <title>Flashfire</title>
         <authors>
          <author><gn>Richard</gn><fn>Stark</fn></author>

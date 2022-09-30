@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-42](https://github.com/cjcodeproj/vtmedia-schema/issues/42) writers/source type information
  - [schema-37](https://github.com/cjcodeproj/vtmedia-schema/issues/37) Physical inventory enhancements
  - [schema-36](https://github.com/cjcodeproj/vtmedia-schema/issues/36) Missing copyright, MPA, technical, and runtime data
  - [schema-23](https://github.com/cjcodeproj/vtmedia-schema/issues/23) More crew elements

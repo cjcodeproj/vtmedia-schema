@@ -401,8 +401,7 @@
       <writer role='screenplay'><gn>Larry</gn><fn>Gross</fn></writer>
       <writer role='story'><gn>Eddie</gn><fn>Murphy</fn></writer>
       <sources>
-       <source>
-        <title>Characters</title>
+       <source type='characters'>
         <authors>
          <author><gn>Roger</gn><fn>Spottiswoode</fn></author>
          <author><gn>Walter</gn><fn>Hill</fn></author>

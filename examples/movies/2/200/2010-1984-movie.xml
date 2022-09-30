@@ -67,7 +67,7 @@
      <writers>
       <writer role='screenplay'><gn>Peter</gn><fn>Hyams</fn></writer>
       <sources>
-       <source>
+       <source type='book'>
         <title>2010</title>
         <authors>
          <author><gn>Arthur</gn><mn>C</mn><fn>Clarke</fn></author>

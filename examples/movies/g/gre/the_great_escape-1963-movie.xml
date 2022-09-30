@@ -83,7 +83,7 @@
       <writer><gn>James</gn><fn>Clavell</fn></writer>
       <writer><gn>W</gn><mn>R</mn><fn>Burnett</fn></writer>
       <sources>
-       <source>
+       <source type='book'>
         <title>The Great Escape</title>
         <authors>
          <author><gn>Paul</gn><fn>Brickhill</fn></author>
