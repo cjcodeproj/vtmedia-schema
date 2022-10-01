@@ -19,19 +19,13 @@
   </xs:documentation>
  </xs:annotation>
 
- <xs:include schemaLocation='vtm-mod-pnouns.xsd'/>
+ <xs:include schemaLocation='vtm-mod-all-catalog.xsd'/>
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
     Written word data.
   </xs:documentation>
  </xs:annotation>
-
- <xs:complexType name='AuthorsType'>
-  <xs:sequence>
-   <xs:element name='author' type='PNNameType' minOccurs='1' maxOccurs='unbounded'/>
-  </xs:sequence>
- </xs:complexType>
 
  <xs:complexType name='EssayType'>
   <xs:annotation>
@@ -41,7 +35,7 @@
   </xs:annotation>
   <xs:sequence>
    <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
-   <xs:element name='authors' type='AuthorsType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='catalog' type='CatalogType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 

@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-49](https://github.com/cjcodeproj/vtmedia-schema/issues/49) Extend essay element to support catalog element
  - [schema-48](https://github.com/cjcodeproj/vtmedia-schema/issues/48) Catalog element should have the option of holding authorship info
  - [schema-42](https://github.com/cjcodeproj/vtmedia-schema/issues/42) writers/source type information
  - [schema-37](https://github.com/cjcodeproj/vtmedia-schema/issues/37) Physical inventory enhancements
