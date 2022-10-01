@@ -4,7 +4,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2021, Chris Josephes
+    Copyright 2022, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License. 
@@ -19,7 +19,8 @@
  </xs:annotation>
 
  <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
-
+ <xs:include schemaLocation='vtm-mod-generic-crew-types.xsd'/>
+ 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
    Module for catalog references of content, including identification numbers, 
@@ -91,6 +92,18 @@
   </xs:simpleContent>
  </xs:complexType>
 
+ <xs:complexType name='CatAuthorType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Represwentation of individual authors for cases where authorship
+    is not expressed in other elements.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='author' type='CrewNameType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
  <xs:complexType name='CopyrightHoldersType'>
   <xs:sequence>
    <xs:element name='holder' minOccurs='1' maxOccurs='unbounded'/>
@@ -147,6 +160,7 @@
   <xs:sequence>
    <xs:element name='identification' type='CatIdentificationType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='altTitles' type='CatTitlesType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='authors' type='CatAuthorType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='copyright' type='CopyrightType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='ucIndex' type='UniqueConstraintIndexType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='extRefs' type='CatExtRefType' minOccurs='0' maxOccurs='1'/>

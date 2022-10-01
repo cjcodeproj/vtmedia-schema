@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:include schemaLocation='vtm-mod-pnouns.xsd'/>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2022, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License. 
+
+    To view a copy of this license, visit 
+    http://creativecommons.org/licenses/by-sa/4.0/ or 
+    send a letter to 
+    Creative Commons 
+    PO Box 1866 
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:attributeGroup name='CrewAttributesGroup'>
+  <xs:attribute name='uncredited' type='xs:boolean'/>
+ </xs:attributeGroup>
+
+ <xs:complexType name='CrewNameType'>
+  <xs:complexContent>
+   <xs:extension base='PNNameType'>
+    <xs:attributeGroup ref='CrewAttributesGroup'/>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+
+</xs:schema>
