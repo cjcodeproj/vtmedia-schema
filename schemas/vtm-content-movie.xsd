@@ -26,19 +26,13 @@
  <xs:include schemaLocation='vtm-mod-visual-crew.xsd'/>
  <xs:include schemaLocation='vtm-mod-visual-classification.xsd'/>
  <xs:include schemaLocation='vtm-mod-visual-story.xsd'/>
+ <xs:include schemaLocation='vtm-content-all.xsd'/>
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
     Movie data.
   </xs:documentation>
  </xs:annotation>
-
- <xs:simpleType name='MovieImportanceType'>
-  <xs:restriction base='xs:token'>
-   <xs:enumeration value='primary'/>
-   <xs:enumeration value='supplemental'/>
-  </xs:restriction>
- </xs:simpleType>
 
  <xs:complexType name='MovieType'>
   <xs:sequence>
@@ -52,7 +46,7 @@
    </xs:choice>
    <xs:element name='crew' type='CrewType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
-  <xs:attribute name='importance' type='MovieImportanceType' use='optional'/>
+  <xs:attributeGroup ref='ContentAttributeGroup'/>
  </xs:complexType>
 
  <xs:complexType name='TrailerType'>

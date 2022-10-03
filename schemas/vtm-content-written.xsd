@@ -20,6 +20,7 @@
  </xs:annotation>
 
  <xs:include schemaLocation='vtm-mod-all-catalog.xsd'/>
+ <xs:include schemaLocation='vtm-content-all.xsd'/>
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
@@ -37,6 +38,7 @@
    <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
    <xs:element name='catalog' type='CatalogType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
+  <xs:attributeGroup ref='ContentAttributeGroup'/>
  </xs:complexType>
 
  <xs:annotation>

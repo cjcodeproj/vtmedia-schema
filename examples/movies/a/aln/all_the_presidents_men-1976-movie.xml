@@ -1,7 +1,10 @@
 <?xml version='1.0'?>
-   <movie xmlns='http://vectortron.com/xml/media/movie' importance='primary'>
+   <movie xmlns='http://vectortron.com/xml/media/movie' id='atpm-1976'>
     <title>All The President's Men</title>
     <catalog>
+     <identification>
+      <uuid>ab8d0a3b-8d43-4a58-817e-79b9e4564081</uuid>
+     </identification>
      <copyright>
       <year>1976</year>
       <holders>
