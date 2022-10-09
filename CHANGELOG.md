@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-54](https://github.com/cjcodeproj/vtmedia-schema/issues/54) Tester test-documentation.sh is not working
  - [schema-53](https://github.com/cjcodeproj/vtmedia-schema/issues/53) id attributes for content elements
  - [schema-49](https://github.com/cjcodeproj/vtmedia-schema/issues/49) Extend essay element to support catalog element
  - [schema-48](https://github.com/cjcodeproj/vtmedia-schema/issues/48) Catalog element should have the option of holding authorship info
