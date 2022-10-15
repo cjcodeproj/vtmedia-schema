@@ -19,6 +19,8 @@
  </xs:annotation>
 
 
+ <xs:include schemaLocation='vtm-mod-generic-pnouns-keywords.xsd'/>
+
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
    XML elements tied to describing the story, including keywords and themes.

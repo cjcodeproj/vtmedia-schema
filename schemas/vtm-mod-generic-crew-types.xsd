@@ -2,8 +2,6 @@
 
 <xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
 
- <xs:include schemaLocation='vtm-mod-pnouns.xsd'/>
-
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
     Copyright 2022, Chris Josephes
@@ -19,6 +17,8 @@
     Mountain View, CA 94042, USA.
   </xs:documentation>
  </xs:annotation>
+
+ <xs:include schemaLocation='vtm-mod-generic-pnouns-keywords.xsd'/>
 
  <xs:attributeGroup name='CrewAttributesGroup'>
   <xs:attribute name='uncredited' type='xs:boolean'/>
