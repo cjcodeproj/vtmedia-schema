@@ -4,32 +4,44 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2021, Chris Josephes
+    Copyright 2022, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
-    4.0 International License. 
+    4.0 International License.
 
-    To view a copy of this license, visit 
-    http://creativecommons.org/licenses/by-sa/4.0/ or 
-    send a letter to 
-    Creative Commons 
-    PO Box 1866 
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
     Mountain View, CA 94042, USA.
   </xs:documentation>
  </xs:annotation>
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-   Schema types used for catagorizing proper nouns.
-   A proper noun can be either 
+   Schema types used for catagorizing proper nouns and keywords.
+
+   A proper noun can be either...
      Person: living person
      Place: location
      Thing: named object
      Group: group of people
      Entity: collective thing
      Event: something that happens
-   The elements will be used to expand on the flexibility of catalog 
-   subjects or keywords.
+
+   Proper nouns are used for detailed/specific keywords when
+   it is more suitable than generic keywords.
+
+
+   A keyword can be either...
+     Generic: a generic word
+     Proper Noun: one of the above described proper nouns.
+
+   Keywords provide a pool of relevant terms that
+   describe the work of art, or elements within the
+   work of art, and can also be used to compare
+   one work against another.
   </xs:documentation>
  </xs:annotation>
 
@@ -92,6 +104,11 @@
  </xs:complexType>
 
  <xs:group name='ProperNounGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     All suitable proper noun types.
+   </xs:documentation>
+  </xs:annotation>
   <xs:choice>
    <xs:element name='person' type='PNNameType'/>
    <xs:element name='place' type='PNPlaceType'/>
@@ -101,5 +118,93 @@
    <xs:element name='event' type='ProperNounType'/>
   </xs:choice>
  </xs:group>
+
+
+ <xs:complexType name='KeywordsType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Contains one or more keyword, proper noun, or group elements.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice minOccurs='1' maxOccurs='unbounded'>
+   <xs:element name='generic' type='KeywordType'/>
+   <xs:element name='properNoun' type='KeywordPNType'/>
+   <xs:element name='group' type='KWGroupType'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='KWGroupType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    The group type provides a simple mechanism to put
+    generic keywords or proper nouns in a group, which
+    may be useful if they all have a common trait.
+
+    It is possible to set a blanket relevance value
+    which should be inherited by every child element,
+    or a collection value, which can be used to tie
+    keywords into a named grouping.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice minOccurs='1' maxOccurs='unbounded'>
+   <xs:element name='generic' type='KeywordType'/>
+   <xs:element name='properNoun' type='KeywordPNType'/>
+  </xs:choice>
+  <xs:attribute name='relevance' type='xs:integer' use='optional'/>
+  <xs:attribute name='collection' type='xs:token' use='optional'/>
+ </xs:complexType>
+
+ <xs:simpleType name='KeywordRelevance'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Each keyword can have a relevance value from 1 (highest) to 5 (lowest),
+    relfecting the relevance of the keyword to the work of art.  By default,
+    if there is no value, it should be assumed to be 3.
+
+    For example, a movie that mostly features car chases, could have a
+    generic keyword "car chase", which should have a relevance value of 1.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:integer'>
+   <xs:minInclusive value='1'/>
+   <xs:maxInclusive value='5'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:complexType name='KeywordType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Keyword Element Attributes
+     relevance : relevance score, 1-5 (1 = most relevance, default = 3)
+     collection : grouping of keywords into logical order
+     clarification : a word to help identify a keyword with an ambiguous definition
+     synonym : a word identical to the keyword
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:string'>
+    <xs:attribute name='collection' type='xs:token' use='optional'/>
+    <xs:attribute name='relevance' type='KeywordRelevance' use='optional'/>
+    <xs:attribute name='related' type='xs:string' use='optional'/>
+    <xs:attribute name='synonym' type='xs:string' use='optional'/>
+    <xs:attribute name='clarification' type='xs:string' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='KeywordPNType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Complex type for an element that will contain a single
+    proper noun element.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice minOccurs='1' maxOccurs='1'>
+   <xs:group ref='ProperNounGroup'/>
+  </xs:choice>
+  <xs:attribute name='collection' type='xs:token' use='optional'/>
+  <xs:attribute name='relevance' type='KeywordRelevance' use='optional'/>
+  <xs:attribute name='related' type='xs:string' use='optional'/>
+ </xs:complexType>
 
 </xs:schema>
