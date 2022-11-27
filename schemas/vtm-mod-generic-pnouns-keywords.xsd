@@ -103,6 +103,57 @@
   </xs:sequence>
  </xs:complexType>
 
+ <xs:complexType name='PNArtType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Proper Noun representing a work of art.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='type' type='PNArtMediaType' use='optional'/>
+    <xs:attribute name='year' type='xs:gYear' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+
+ <xs:simpleType name='PNArtMediaType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Supported types of source media.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <!-- print -->
+   <xs:enumeration value='story'/>
+   <xs:enumeration value='book'/>
+   <xs:enumeration value='bookSeries'/>
+   <xs:enumeration value='comicBook'/>
+   <xs:enumeration value='comicBookSeries'/>
+   <!-- live performance -->
+   <xs:enumeration value='play'/>
+   <!-- av entertainment -->
+   <xs:enumeration value='movie'/>
+   <xs:enumeration value='televisionShow'/>
+   <!-- a entertainment -->
+   <xs:enumeration value='song'/>
+   <xs:enumeration value='album'/>
+   <!-- written prose -->
+   <xs:enumeration value='poem'/>
+   <!-- physical artwork -->
+   <xs:enumeration value='statue'/>
+   <xs:enumeration value='sculpture'/>
+   <xs:enumeration value='painting'/>
+   <!-- interactive artwork -->
+   <xs:enumeration value='videoGame'/>
+  </xs:restriction>
+  <!-- rejected values: 
+         magazine, newspaper, game, radioShow, podcast
+  -->
+ </xs:simpleType>
+
+
  <xs:group name='ProperNounGroup'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
@@ -112,6 +163,7 @@
   <xs:choice>
    <xs:element name='person' type='PNNameType'/>
    <xs:element name='place' type='PNPlaceType'/>
+   <xs:element name='art' type='PNArtType'/>
    <xs:element name='thing' type='ProperNounType'/>
    <xs:element name='group' type='ProperNounType'/>
    <xs:element name='entity' type='ProperNounType'/>

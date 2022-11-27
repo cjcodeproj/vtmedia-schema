@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-51](https://github.com/cjcodeproj/vtmedia-schema/issues/51) Proper Noun describing a work of art
  - [schema-55](https://github.com/cjcodeproj/vtmedia-schema/issues/55) Move keyword element definitions to a different file
  - [schema-54](https://github.com/cjcodeproj/vtmedia-schema/issues/54) Tester test-documentation.sh is not working
  - [schema-53](https://github.com/cjcodeproj/vtmedia-schema/issues/53) id attributes for content elements
