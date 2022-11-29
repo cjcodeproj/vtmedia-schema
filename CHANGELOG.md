@@ -1,7 +1,15 @@
 vtmedia-schema CHANGELOG
 =========================
 
-## CURRENT
+## RELEASE 2022.11
+ - [schema-61](https://github.com/cjcodeproj/vtmedia-schema/issues/61) Prep work for 2022.11 release
+ - [schema-51](https://github.com/cjcodeproj/vtmedia-schema/issues/51) Proper Noun describing a work of art
+ - [schema-55](https://github.com/cjcodeproj/vtmedia-schema/issues/55) Move keyword element definitions to a different file
+ - [schema-54](https://github.com/cjcodeproj/vtmedia-schema/issues/54) Tester test-documentation.sh is not working
+ - [schema-53](https://github.com/cjcodeproj/vtmedia-schema/issues/53) id attributes for content elements
+ - [schema-49](https://github.com/cjcodeproj/vtmedia-schema/issues/49) Extend essay element to support catalog element
+ - [schema-48](https://github.com/cjcodeproj/vtmedia-schema/issues/48) Catalog element should have the option of holding authorship info
+ - [schema-42](https://github.com/cjcodeproj/vtmedia-schema/issues/42) writers/source type information
  - [schema-37](https://github.com/cjcodeproj/vtmedia-schema/issues/37) Physical inventory enhancements
  - [schema-36](https://github.com/cjcodeproj/vtmedia-schema/issues/36) Missing copyright, MPA, technical, and runtime data
  - [schema-23](https://github.com/cjcodeproj/vtmedia-schema/issues/23) More crew elements

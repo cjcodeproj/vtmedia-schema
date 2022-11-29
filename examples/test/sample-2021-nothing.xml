@@ -37,7 +37,7 @@
    </productSpecs>
   </medium>
   <contents>
-   <test xmlns='http://vectortron.com/xml/media/test'/>
+   <test xmlns='http://vectortron.com/xml/media/test' id='test-content-1'/>
   </contents>
  </media>
 </medialist>

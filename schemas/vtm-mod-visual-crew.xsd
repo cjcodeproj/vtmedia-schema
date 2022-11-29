@@ -1,11 +1,9 @@
 <?xml version='1.0'?>
 <xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
 
- <xs:include schemaLocation='vtm-mod-pnouns.xsd'/>
-
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2021, Chris Josephes
+    Copyright 2022, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License. 
@@ -19,18 +17,8 @@
   </xs:documentation>
  </xs:annotation>
 
-
- <xs:attributeGroup name='CrewAttributesGroup'>
-  <xs:attribute name='uncredited' type='xs:boolean'/>
- </xs:attributeGroup>
-
- <xs:complexType name='CrewNameType'>
-  <xs:complexContent>
-   <xs:extension base='PNNameType'>
-    <xs:attributeGroup ref='CrewAttributesGroup'/>
-   </xs:extension>
-  </xs:complexContent>
- </xs:complexType>
+ <xs:include schemaLocation='vtm-mod-generic-pnouns-keywords.xsd'/>
+ <xs:include schemaLocation='vtm-mod-generic-crew-types.xsd'/>
 
  <xs:complexType name='DirectorsType'>
   <xs:sequence>
@@ -100,11 +88,41 @@
 
  <xs:complexType name='SourceType'>
   <xs:sequence>
-   <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
-   <xs:element name='from' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:sequence minOccurs='0'>
+    <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
+    <xs:element name='from' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   </xs:sequence>
    <xs:element name='authors' type='SourceAuthorsType' minOccurs='1' maxOccurs='1'/>
   </xs:sequence>
+  <xs:attribute name='type' type='SourceMediaType' use='optional'/>
  </xs:complexType>
+
+ <xs:simpleType name='SourceMediaType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Supported types of source media.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='movie'/>
+   <xs:enumeration value='screenplay'/>
+   <xs:enumeration value='play'/>
+   <xs:enumeration value='novel'/>
+   <xs:enumeration value='book'/>
+   <xs:enumeration value='bookSeries'/>
+   <xs:enumeration value='story'/>
+   <xs:enumeration value='shortStory'/>
+   <xs:enumeration value='comicBook'/>
+   <xs:enumeration value='comicBookSeries'/>
+   <xs:enumeration value='newsArticle'/>
+   <xs:enumeration value='song'/>
+   <xs:enumeration value='poem'/>
+   <xs:enumeration value='radioShow'/>
+   <xs:enumeration value='podcast'/>
+   <xs:enumeration value='character'/>
+   <xs:enumeration value='characters'/>
+  </xs:restriction>
+ </xs:simpleType>
 
  <xs:complexType name='SourceAuthorsType'>
   <xs:sequence>

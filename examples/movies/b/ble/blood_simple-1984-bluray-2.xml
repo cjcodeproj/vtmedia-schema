@@ -41,10 +41,12 @@
   <contents>
    <xi:include href="blood_simple-1984-movie.xml"/>
    <essay>
-    <title>"Down Here, You're On Your Own"</title>
-    <authors>
-     <author><gn>Nathaniel</gn><fn>Rich</fn></author>
-    </authors>
+    <title>Down Here, You're On Your Own</title>
+    <catalog>
+     <authors>
+      <author><gn>Nathaniel</gn><fn>Rich</fn></author>
+     </authors>
+    </catalog>
    </essay>
   </contents>
  </media>

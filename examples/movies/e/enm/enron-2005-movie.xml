@@ -71,7 +71,7 @@
      <writers>
       <writer><gn>Alex</gn><fn>Gibney</fn></writer>
       <sources>
-       <source>
+       <source type='book'>
         <title>Enron: The Smartest Guys In The Room</title>
         <authors>
          <author><gn>Bethany</gn><fn>McLean</fn></author>

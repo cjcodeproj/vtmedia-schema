@@ -83,7 +83,7 @@
       <writer><gn>James</gn><fn>Clavell</fn></writer>
       <writer><gn>W</gn><mn>R</mn><fn>Burnett</fn></writer>
       <sources>
-       <source>
+       <source type='book'>
         <title>The Great Escape</title>
         <authors>
          <author><gn>Paul</gn><fn>Brickhill</fn></author>
@@ -154,7 +154,7 @@
       </role>
       <role>
        <actor><gn>Angus</gn><fn>Lennie</fn></actor>
-       <as><preTitle>Flying Offiver</preTitle><gn>Archie</gn><fn>Ives</fn><nick>The Mole</nick></as>
+       <as><preTitle>Flying Officer</preTitle><gn>Archie</gn><fn>Ives</fn><nick>The Mole</nick></as>
       </role>
       <role>
        <actor><gn>Nigel</gn><fn>Stock</fn></actor>

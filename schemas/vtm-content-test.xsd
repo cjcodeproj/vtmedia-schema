@@ -19,6 +19,8 @@
   </xs:documentation>
  </xs:annotation>
 
+ <xs:include schemaLocation='vtm-content-all.xsd'/>
+
  <xs:annotation>
   <xs:documentation>
    Empty content schema used for testing.
@@ -26,6 +28,7 @@
  </xs:annotation>
 
  <xs:complexType name='TestType'>
+  <xs:attributeGroup ref='ContentAttributeGroup'/>
  </xs:complexType>
 
  <xs:element name='test' type='TestType'/>

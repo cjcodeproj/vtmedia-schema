@@ -97,11 +97,12 @@
       <generic relevance='4'>movie crews</generic>
       <group relevance='4'>
        <properNoun><thing>Allure</thing></properNoun>
-       <properNoun><thing>Vogue</thing></properNoun>
+       <properNoun><thing>Vogue Italia</thing></properNoun>
       </group>
       <generic>ship's mast</generic>
       <generic>hood ornament</generic>
       <properNoun relevance='4'><person><gn>Robert</gn><fn>Frost</fn></person></properNoun>
+      <properNoun><art type='poem' year='1922'>Stopping by Woods on a Snowy Evening</art></properNoun>
       <generic>Wilhelm Scream</generic>
       <group collection='vehicles'>
        <properNoun><thing>Chevy Nova</thing></properNoun>
@@ -111,9 +112,9 @@
       </group>
       <generic relevance='4'>rubber duck</generic>
       <group collection='car movies'>
-       <properNoun><thing>Vanishing Point</thing></properNoun>
-       <properNoun><thing>Gone In 60 Seconds</thing></properNoun>
-       <properNoun><thing>Convoy</thing></properNoun>
+       <properNoun><art type='movie' year='1971'>Vanishing Point</art></properNoun>
+       <properNoun><art type='movie' year='1974'>Gone In 60 Seconds</art></properNoun>
+       <properNoun><art type='movie' year='1978'>Convoy</art></properNoun>
       </group>
      </keywords>
      <themes>

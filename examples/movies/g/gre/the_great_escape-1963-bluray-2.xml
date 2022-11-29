@@ -31,12 +31,14 @@
     <inventory>
      <case>
       <bluray/>
+      <insert/>
      </case>
     </inventory>
    </productSpecs>
   </medium>
   <contents>
    <xi:include href="the_great_escape-1963-movie.xml"/>
+   <xi:include href="no_escape-essay.xml"/>
   </contents>
  </media>
 </medialist>

@@ -1,7 +1,10 @@
 <?xml version='1.0'?>
-   <movie xmlns='http://vectortron.com/xml/media/movie'>
+   <movie xmlns='http://vectortron.com/xml/media/movie' id='bs-1984'>
     <title>Blood Simple</title>
     <catalog>
+     <identification>
+      <uuid>345daa9a-f779-4e33-9c19-871230a5fccd</uuid>
+     </identification>
      <copyright>
       <year>1984</year>
       <holders>
