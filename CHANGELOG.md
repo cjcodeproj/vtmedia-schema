@@ -1,7 +1,8 @@
 vtmedia-schema CHANGELOG
 =========================
 
-## CURRENT
+## RELEASE 2022.11
+ - [schema-61](https://github.com/cjcodeproj/vtmedia-schema/issues/61) Prep work for 2022.11 release
  - [schema-51](https://github.com/cjcodeproj/vtmedia-schema/issues/51) Proper Noun describing a work of art
  - [schema-55](https://github.com/cjcodeproj/vtmedia-schema/issues/55) Move keyword element definitions to a different file
  - [schema-54](https://github.com/cjcodeproj/vtmedia-schema/issues/54) Tester test-documentation.sh is not working
