@@ -148,7 +148,7 @@
       </role>
       <role>
        <actor><gn>Ben</gn><fn>Johnson</fn></actor>
-       <as><preTitle>Captain</preTitle><fn>Tanner</fn></as>
+       <as><prefix>Captain</prefix><fn>Tanner</fn></as>
       </role>
       <role>
        <actor><gn>Michael</gn><fn>Sacks</fn></actor>

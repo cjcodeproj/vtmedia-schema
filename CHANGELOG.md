@@ -1,6 +1,10 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## CURRENT
+ - [schema-64](https://github.com/cjcodeproj/vtmedia-schema/issues/64) Updates to CharacterName
+
+
 ## RELEASE 2022.11
  - [schema-61](https://github.com/cjcodeproj/vtmedia-schema/issues/61) Prep work for 2022.11 release
  - [schema-51](https://github.com/cjcodeproj/vtmedia-schema/issues/51) Proper Noun describing a work of art

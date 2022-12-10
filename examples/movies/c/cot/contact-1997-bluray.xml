@@ -162,7 +162,7 @@
      <cast>
       <role>
        <actor><gn>Jodie</gn><fn>Foster</fn></actor>
-       <as><preTitle>Dr</preTitle><gn>Eleanor</gn><fn>Arroway</fn></as>
+       <as><prefix>Dr</prefix><gn>Eleanor</gn><fn>Arroway</fn></as>
       </role>
       <role>
        <actor><gn>Matthew</gn><fn>McConaughey</fn></actor>

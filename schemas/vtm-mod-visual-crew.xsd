@@ -170,7 +170,7 @@
    <xs:element name='narrator' type='CharNarratorType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='self' type='CharSelfType' minOccurs='1' maxOccurs='1'/>
    <xs:sequence>
-    <xs:element name='preTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='prefix' type='PNNamePrefixType' minOccurs='0' maxOccurs='1'/>
      <xs:choice>
       <xs:sequence>
        <xs:annotation>
@@ -197,6 +197,7 @@
         </xs:sequence>
         <xs:sequence>
          <xs:element name='mn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+         <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
          <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
         </xs:sequence>
         <xs:sequence>
@@ -237,7 +238,8 @@
        <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
       </xs:sequence>
      </xs:choice>
-    <xs:element name='postTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='suffix' type='PNNameSuffixType' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='addendum' type='xs:token' minOccurs='0' maxOccurs='1'/>
    </xs:sequence>
   </xs:choice>
   <xs:element name='variant' type='xs:token' minOccurs='0' maxOccurs='1'/>

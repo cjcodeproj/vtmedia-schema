@@ -81,6 +81,58 @@
   </xs:choice>
  </xs:complexType>
 
+ <xs:simpleType name='PNNamePrefixClassType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Valid types to identify a name prefix.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='honorific'/>
+   <xs:enumeration value='professional'/>
+   <xs:enumeration value='rank'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:complexType name='PNNamePrefixType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Prefix element type for a given name.  Supports an optional type attribute.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='type' type='PNNamePrefixClassType' use='optional'/>
+   </xs:extension> 
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:simpleType name='PNNameSuffixClassType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Valid types to identify a name suffix.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='honorific'/>
+   <xs:enumeration value='generational'/>
+   <xs:enumeration value='academic'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:complexType name='PNNameSuffixType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Suffix element type for a given name.  Supports an optional type attribute.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='type' type='PNNameSuffixClassType' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
  <xs:complexType name='PNNameType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>

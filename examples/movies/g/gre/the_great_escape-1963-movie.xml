@@ -110,59 +110,59 @@
      <cast>
       <role>
        <actor><gn>Steve</gn><fn>McQueen</fn></actor>
-       <as><preTitle>Captain</preTitle><gn>Virgil</gn><fn>Hilts</fn><nick>The Cooler King</nick></as>
+       <as><prefix>Captain</prefix><gn>Virgil</gn><fn>Hilts</fn><addendum>The Cooler King</addendum></as>
       </role>
       <role>
        <actor><gn>James</gn><fn>Garner</fn></actor>
-       <as><preTitle>Flight Lieutenant</preTitle><gn>Bob</gn><fn>Hendley</fn><nick>The Scrounger</nick></as>
+       <as><prefix>Flight Lieutenant</prefix><gn>Bob</gn><fn>Hendley</fn><addendum>The Scrounger</addendum></as>
       </role>
       <role>
        <actor><gn>Richard</gn><fn>Attenborough</fn></actor>
-       <as><preTitle>Squadron Leader</preTitle><gn>Roger</gn><fn>Bartlett</fn><nick>The Big X</nick></as>
+       <as><prefix>Squadron Leader</prefix><gn>Roger</gn><fn>Bartlett</fn><addendum>The Big X</addendum></as>
       </role>
       <role>
        <actor><gn>James</gn><fn>Donald</fn></actor>
-       <as><preTitle>Group Captain</preTitle><fn>Ramsey</fn><nick>The SBO</nick></as>
+       <as><prefix>Group Captain</prefix><fn>Ramsey</fn><addendum>The SBO</addendum></as>
       </role>
       <role>
        <actor><gn>Charles</gn><fn>Bronson</fn></actor>
-       <as><preTitle>Flight Lieutenant</preTitle><gn>Danny</gn><fn>Welinski</fn><nick>Tunnel King</nick></as>
+       <as><prefix>Flight Lieutenant</prefix><gn>Danny</gn><fn>Welinski</fn><addendum>Tunnel King</addendum></as>
       </role>
       <role>
        <actor><gn>Donald</gn><fn>Pleasence</fn></actor>
-       <as><preTitle>Flight Lieutenant</preTitle><gn>Colin</gn><fn>Blythe</fn><nick>The Forget</nick></as>
+       <as><prefix>Flight Lieutenant</prefix><gn>Colin</gn><fn>Blythe</fn><addendum>The Forger</addendum></as>
       </role>
       <role>
        <actor><gn>James</gn><fn>Coburn</fn></actor>
-       <as><preTitle>Flying Officer</preTitle><fn>Sedgwick</fn><nick>The Manufacturer</nick></as>
+       <as><prefix>Flying Officer</prefix><fn>Sedgwick</fn><addendum>The Manufacturer</addendum></as>
       </role>
       <role>
        <actor><gn>Hannes</gn><fn>Messemer</fn></actor>
-       <as><gn>Oberst</gn><fn>Von Luger</fn><nick>The Kommandant</nick></as>
+       <as><gn>Oberst</gn><fn>Von Luger</fn><addendum>The Kommandant</addendum></as>
       </role>
       <role>
        <actor><gn>David</gn><fn>McCallum</fn></actor>
-       <as><preTitle>Lieutenant-Commander</preTitle><gn>Eric</gn><fn>Ashley-Pitt</fn><nick>Dispersal</nick></as>
+       <as><prefix>Lieutenant-Commander</prefix><gn>Eric</gn><fn>Ashley-Pitt</fn><addendum>Dispersal</addendum></as>
       </role>
       <role>
        <actor><gn>Gordon</gn><fn>Jackson</fn></actor>
-       <as><preTitle>Flight Lieutenant</preTitle><gn>Andy</gn><fn>MacDonald</fn><nick>Intelligence</nick></as>
+       <as><prefix>Flight Lieutenant</prefix><gn>Andy</gn><fn>MacDonald</fn><addendum>Intelligence</addendum></as>
       </role>
       <role>
        <actor><gn>John</gn><fn>Leyton</fn></actor>
-       <as><preTitle>Flight Lieutenant</preTitle><gn>Willie</gn><fn>Dickies</fn><nick>Tunnel King</nick></as>
+       <as><prefix>Flight Lieutenant</prefix><gn>Willie</gn><fn>Dickies</fn><addendum>Tunnel King</addendum></as>
       </role>
       <role>
        <actor><gn>Angus</gn><fn>Lennie</fn></actor>
-       <as><preTitle>Flying Officer</preTitle><gn>Archie</gn><fn>Ives</fn><nick>The Mole</nick></as>
+       <as><prefix>Flying Officer</prefix><gn>Archie</gn><fn>Ives</fn><addendum>The Mole</addendum></as>
       </role>
       <role>
        <actor><gn>Nigel</gn><fn>Stock</fn></actor>
-       <as><preTitle>Flight Lieutenant</preTitle><gn>Dennis</gn><fn>Cavendish</fn><nick>The Surveyor</nick></as>
+       <as><prefix>Flight Lieutenant</prefix><gn>Dennis</gn><fn>Cavendish</fn><addendum>The Surveyor</addendum></as>
       </role>
       <role>
        <actor><gn>Robert</gn><fn>Graf</fn></actor>
-       <as><fn>Werner</fn><nick>The Ferret</nick></as>
+       <as><fn>Werner</fn><addendum>The Ferret</addendum></as>
       </role>
      </cast>
     </crew>

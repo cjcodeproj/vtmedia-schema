@@ -191,11 +191,11 @@
       </role>
       <role>
        <actor><gn>Stephen</gn><fn>Tobolowsky</fn></actor>
-       <as><preTitle>Dr</preTitle><gn>Werner</gn><fn>Brandes</fn></as>
+       <as><prefix>Dr</prefix><gn>Werner</gn><fn>Brandes</fn></as>
       </role>
       <role>
        <actor><gn>Donal</gn><fn>Logue</fn></actor>
-       <as><preTitle>Dr</preTitle><gn>Gunter</gn><fn>Janek</fn></as>
+       <as><prefix>Dr</prefix><gn>Gunter</gn><fn>Janek</fn></as>
       </role>
       <role>
        <actor><gn>James</gn><mn>Earl</mn><fn>Jones</fn></actor>

@@ -191,7 +191,7 @@
       </role>
       <role>
        <actor><gn>Yaphet</gn><fn>Koto</fn></actor>
-       <as><preTitle>Special Agent</preTitle><gn>Alonzo</gn><fn>Mosely</fn></as>
+       <as><prefix type='professional'>Special Agent</prefix><gn>Alonzo</gn><fn>Mosely</fn></as>
       </role>
       <role>
        <actor><gn>John</gn><fn>Ashton</fn></actor>
