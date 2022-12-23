@@ -140,7 +140,7 @@
    </xs:documentation>
   </xs:annotation>
   <xs:sequence>
-   <xs:element name='preTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='prefix' type='PNNamePrefixType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
    <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
    <xs:choice minOccurs='0' maxOccurs='1'>
@@ -151,7 +151,7 @@
     <xs:element name='fn' type='xs:token'/>
     <xs:element name='nln' type='PNNameEmptyType'/>
    </xs:choice>
-   <xs:element name='postTitle' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='suffix' type='PNNameSuffixType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 

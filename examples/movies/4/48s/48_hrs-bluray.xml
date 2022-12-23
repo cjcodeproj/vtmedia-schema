@@ -424,7 +424,7 @@
       <composer><gn>James</gn><fn>Horner</fn></composer>
      </music>
      <artDept>
-      <productionDesigner><gn>Joseph</gn><mn>C.</mn><fn>Nemec</fn><postTitle>III</postTitle></productionDesigner>
+      <productionDesigner><gn>Joseph</gn><mn>C.</mn><fn>Nemec</fn><suffix>III</suffix></productionDesigner>
       <artDirector><gn>Gary</gn><fn>Wissner</fn></artDirector>
       <setDecorator><gn>George</gn><mn>R.</mn><fn>Nelson</fn></setDecorator>
      </artDept>

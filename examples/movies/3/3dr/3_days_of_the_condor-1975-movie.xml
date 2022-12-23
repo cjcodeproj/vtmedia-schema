@@ -62,7 +62,7 @@
       <director><gn>Sydney</gn><fn>Pollack</fn></director>
      </directors>
      <writers>
-      <writer role='screenplay'><gn>Lorenzo</gn><fn>Semple</fn><postTitle>Jr.</postTitle></writer>
+      <writer role='screenplay'><gn>Lorenzo</gn><fn>Semple</fn><suffix>Jr.</suffix></writer>
       <writer role='screenplay'><gn>David</gn><fn>Rayfiel</fn></writer>
       <sources>
        <source type='book'>
@@ -85,7 +85,7 @@
      <artDept>
       <productionDesigner><gn>Stephen</gn><mn>B.</mn><fn>Grimes</fn></productionDesigner>
       <artDirector><gn>Gene</gn><fn>Rudolf</fn></artDirector>
-      <setDecorator><gn>George</gn><fn>DeTitta</fn><postTitle>Sr.</postTitle></setDecorator>
+      <setDecorator><gn>George</gn><fn>DeTitta</fn><suffix>Sr.</suffix></setDecorator>
      </artDept>
      <wardrobe>
       <costumeDesigner><gn>Joseph</gn><mn>G.</mn><fn>Aulisi</fn></costumeDesigner>

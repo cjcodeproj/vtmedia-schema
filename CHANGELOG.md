@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-65](https://github.com/cjcodeproj/vtmedia-schema/issues/65) Change PNNameType element names
  - [schema-64](https://github.com/cjcodeproj/vtmedia-schema/issues/64) Updates to CharacterName
 
 

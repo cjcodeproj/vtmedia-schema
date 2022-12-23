@@ -59,7 +59,7 @@
       <editor><gn>Sean</gn><fn>Albertson</fn></editor>
      </editors>
      <cinemaphotographers>
-      <cinemaphotographer><gn>Peter</gn><fn>Menzies</fn><postTitle>Jr</postTitle></cinemaphotographer>
+      <cinemaphotographer><gn>Peter</gn><fn>Menzies</fn><suffix>Jr</suffix></cinemaphotographer>
      </cinemaphotographers>
      <music>
       <composer><gn>Christopher</gn><fn>Young</fn></composer>
