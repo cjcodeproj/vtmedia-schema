@@ -104,7 +104,7 @@
       </role>
       <role>
        <actor><gn>Holly</gn><fn>Hunter</fn></actor>
-       <as><gn>Helene</gn><fn>Trend</fn><variant>voice</variant></as>
+       <as><gn>Helene</gn><fn>Trend</fn><aspect>voice</aspect></as>
        <!-- uncredited -->
       </role>
      </cast>
