@@ -1,6 +1,7 @@
 <?xml version='1.0'?>
 <xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
  xmlns='http://vectortron.com/xml/media/media'
+ xmlns:author='http://vectortron.com/xml/media/meta/authorship' 
  xmlns:test='http://vectortron.com/xml/media/test'
  xmlns:movie='http://vectortron.com/xml/media/movie'
  xmlns:written='http://vectortron.com/xml/media/written'
@@ -25,6 +26,7 @@
  <xs:include schemaLocation='vtm-mod-media-inventory.xsd'/>
  <xs:include schemaLocation='vtm-mod-library.xsd'/>
  <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
+ <xs:import schemaLocation='vtm-meta-authorship.xsd' namespace='http://vectortron.com/xml/media/meta/authorship'/>
  <xs:import schemaLocation='vtm-content-test.xsd' namespace='http://vectortron.com/xml/media/test'/>
  <xs:import schemaLocation='vtm-content-movie.xsd' namespace='http://vectortron.com/xml/media/movie'/>
  <xs:import schemaLocation='vtm-content-written.xsd' namespace='http://vectortron.com/xml/media/written'/>
@@ -53,6 +55,7 @@
 
  <xs:complexType name='MediaType'>
   <xs:sequence>
+   <xs:element ref='author:authorshipRecord' minOccurs='0' maxOccurs='1'/>
    <xs:element name='title' type='TitleType' minOccurs='1'/>
    <xs:element name='library' type='LibraryType' minOccurs='0'/>
    <xs:element name='medium' type='MediumType' minOccurs='1'/>
