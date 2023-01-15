@@ -8,6 +8,9 @@
     <name>Chris</name>
    </author>
   </authors>
+  <license>
+   <code type='spdx'>SPDX-License-Identifier: CC-BY-SA-4.0</code>
+  </license>
  </catalog>
  <summary>
   <lang>en-US</lang>

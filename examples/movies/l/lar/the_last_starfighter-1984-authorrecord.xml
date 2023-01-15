@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<authorshipRecord xmlns="http://vectortron.com/xml/media/meta/authorship">
+ <title>Record for 'The Last Starfighter'</title>
+ <catalog>
+  <id>laststarfighter-1</id>
+  <authors>
+   <author>
+    <name>Chris</name>
+   </author>
+  </authors>
+  <license>
+   <code type='spdx'>SPDX-License-Identifier: CC-BY-SA-4.0</code>
+  </license>
+ </catalog>
+ <summary>
+  <lang>en-US</lang>
+  <abstract>
+   Movie record for 'The Last Starfighter', for demonstration purposes.
+  </abstract>
+ </summary>
+</authorshipRecord>
