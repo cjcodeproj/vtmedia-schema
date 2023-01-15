@@ -210,3 +210,26 @@ translations of the data.
 David generates the files, specifying the `es` language value in the `<lang>` 
 element.  All of the other data regarding the movie, such as title, plot description, 
 and keywords are all written out in spanish.
+
+### Case Study: Anonymous Contributions
+
+Olivia has built a data repository based on a small, rare movie library.  She wants to 
+contribute some data, because the titles are hard to find information on.  She doesn't 
+care about authorship or copyright; she just wants the information in the public domain.
+
+It's possible to skip the `<authors>` element under the `<catalog>` element, but 
+the `<id>` element must be present, so there is still a way to uniquely identify the
+record.  The value for the `<id>` element could then be some unique string that has 
+no identifiable characteristics.  There should be a `<license>` element under
+the `<catalog>` element that specifies the work is in the public domain.
+
+```
+ <catalog>
+  <id>P9S8zFIfg1rIYpuiFbHAWIhI85LaGQwbOhnkFE</id>
+  <license>
+   <code type='spdx'>SPDX-License-Identifier: CC-PDDC</code>
+  </license>
+ </catalog>
+```
+
+
