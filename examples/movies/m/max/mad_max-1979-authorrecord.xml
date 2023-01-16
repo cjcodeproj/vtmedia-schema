@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<authorshipRecord xmlns="http://vectortron.com/xml/media/meta/authorship">
+ <title>Record for 'Mad Max'</title>
+ <catalog>
+  <id>madmax-1</id>
+  <authors>
+   <author>
+    <name>Chris</name>
+   </author>
+  </authors>
+  <license>
+   <code type='spdx'>SPDX-License-Identifier: CC-BY-SA-4.0</code>
+  </license>
+ </catalog>
+ <summary>
+  <lang>en-US</lang>
+  <abstract>
+   Movie record for 'Mad Max', for demonstration purposes.
+  </abstract>
+ </summary>
+ <changelog>
+  <change>
+   <date>2022-06-01</date>
+   <ticket href='https://github.com/cjcodeproj/vtmedia-schema/issues/36'>schema-36</ticket>
+   <authors>
+    <author>
+     <name>Chris</name>
+    </author>
+   </authors>
+   <notes>
+    Missing copyright, MPA, technical, and runtime data
+   </notes>
+  </change>
+  <change>
+   <date>2022-03-29</date>
+   <ticket href='https://github.com/cjcodeproj/vtmedia-schema/issues/23'>schema-23</ticket>
+   <authors>
+    <author>
+     <name>Chris</name>
+    </author>
+   </authors>
+   <notes>
+    More crew elements (part 2)
+   </notes>
+  </change>
+  <change>
+   <date>2022-03-27</date>
+   <ticket href='https://github.com/cjcodeproj/vtmedia-schema/issues/23'>schema-23</ticket>
+   <authors>
+    <author>
+     <name>Chris</name>
+    </author>
+   </authors>
+   <notes>
+    More crew elements
+   </notes>
+  </change>
+  <creation>
+   <date>2021-06-28</date>
+   <authors>
+    <author>
+     <name>Chris</name>
+    </author>
+   </authors>
+   <notes>
+    First commit
+   </notes>
+  </creation>
+ </changelog>
+</authorshipRecord>

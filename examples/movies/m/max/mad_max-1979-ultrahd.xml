@@ -1,6 +1,7 @@
 <?xml version='1.0'?>
 <medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
  <media>
+  <xi:include href='mad_max-1979-authorrecord.xml'/>
   <title>
    <main>Mad Max</main>
   </title>
