@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-39](https://github.com/cjcodeproj/vtmedia-schema/issues/39) Role support for "background"/"additionalVoices"
  - [schema-10](https://github.com/cjcodeproj/vtmedia-schema/issues/10) Change record within XML file
  - [schema-46](https://github.com/cjcodeproj/vtmedia-schema/issues/46) Consider 'aspect' element for crew/cast/as element
  - [schema-65](https://github.com/cjcodeproj/vtmedia-schema/issues/65) Change PNNameType element names

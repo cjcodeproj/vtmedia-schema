@@ -150,6 +150,15 @@
   </xs:complexContent>
  </xs:complexType>
 
+ <xs:complexType name='CharEmptyType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A special type for character values where the element is empty, with
+    no additional information.
+   </xs:documentation>
+  </xs:annotation>
+ </xs:complexType>
+
  <xs:complexType name='CharNarratorType'>
  </xs:complexType>
 
@@ -168,6 +177,8 @@
   <xs:choice>
    <xs:element name='title' type='xs:token' minOccurs='1' maxOccurs='1'/>
    <xs:element name='narrator' type='CharNarratorType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='background' type='CharEmptyType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='additionalVoices' type='CharEmptyType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='self' type='CharSelfType' minOccurs='1' maxOccurs='1'/>
    <xs:sequence>
     <xs:element name='prefix' type='PNNamePrefixType' minOccurs='0' maxOccurs='1'/>
