@@ -181,7 +181,7 @@
    <xs:element name='additionalVoices' type='CharEmptyType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='self' type='CharSelfType' minOccurs='1' maxOccurs='1'/>
    <xs:sequence>
-    <xs:element name='prefix' type='PNNamePrefixType' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='prefix' type='PNPersonalNamePrefixType' minOccurs='0' maxOccurs='1'/>
      <xs:choice>
       <xs:sequence>
        <xs:annotation>
@@ -249,7 +249,7 @@
        <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
       </xs:sequence>
      </xs:choice>
-    <xs:element name='suffix' type='PNNameSuffixType' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='suffix' type='PNPersonalNameSuffixType' minOccurs='0' maxOccurs='1'/>
     <xs:element name='addendum' type='xs:token' minOccurs='0' maxOccurs='1'/>
    </xs:sequence>
   </xs:choice>
@@ -260,7 +260,7 @@
 
  <xs:complexType name='RoleType'>
   <xs:sequence>
-   <xs:element name='actor' type='PNNameType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='actor' type='PNPersonalNameType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='as' type='CharacterNameType' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
   <xs:attribute name='billing' type='xs:integer' use='optional'/>
