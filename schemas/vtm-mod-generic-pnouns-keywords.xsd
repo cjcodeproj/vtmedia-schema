@@ -4,7 +4,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2022, Chris Josephes
+    Copyright 2023, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -81,7 +81,7 @@
   </xs:choice>
  </xs:complexType>
 
- <xs:simpleType name='PNNamePrefixClassType'>
+ <xs:simpleType name='PNPersonalNamePrefixClassType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
     Valid types to identify a name prefix.
@@ -94,7 +94,7 @@
   </xs:restriction>
  </xs:simpleType>
 
- <xs:complexType name='PNNamePrefixType'>
+ <xs:complexType name='PNPersonalNamePrefixType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
      Prefix element type for a given name.  Supports an optional type attribute.
@@ -102,12 +102,12 @@
   </xs:annotation>
   <xs:simpleContent>
    <xs:extension base='xs:token'>
-    <xs:attribute name='type' type='PNNamePrefixClassType' use='optional'/>
-   </xs:extension> 
+    <xs:attribute name='type' type='PNPersonalNamePrefixClassType' use='optional'/>
+   </xs:extension>
   </xs:simpleContent>
  </xs:complexType>
 
- <xs:simpleType name='PNNameSuffixClassType'>
+ <xs:simpleType name='PNPersonalNameSuffixClassType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
     Valid types to identify a name suffix.
@@ -120,7 +120,7 @@
   </xs:restriction>
  </xs:simpleType>
 
- <xs:complexType name='PNNameSuffixType'>
+ <xs:complexType name='PNPersonalNameSuffixType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
     Suffix element type for a given name.  Supports an optional type attribute.
@@ -128,31 +128,87 @@
   </xs:annotation>
   <xs:simpleContent>
    <xs:extension base='xs:token'>
-    <xs:attribute name='type' type='PNNameSuffixClassType' use='optional'/>
+    <xs:attribute name='type' type='PNPersonalNameSuffixClassType' use='optional'/>
    </xs:extension>
   </xs:simpleContent>
  </xs:complexType>
 
- <xs:complexType name='PNNameType'>
+ <xs:complexType name='PNPersonalNameType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
     Standard type for a real person's name.
    </xs:documentation>
   </xs:annotation>
   <xs:sequence>
-   <xs:element name='prefix' type='PNNamePrefixType' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
-   <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
-   <xs:choice minOccurs='0' maxOccurs='1'>
-    <xs:element name='mn' type='xs:token'/>
-    <xs:element name='nmn' type='PNNameEmptyType'/>
+   <xs:element name='prefix' type='PNPersonalNamePrefixType' minOccurs='0' maxOccurs='1'/>
+   <xs:choice>
+    <xs:sequence>   <!-- choice 1 -->
+     <xs:element name='pcn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+     <xs:sequence minOccurs='0' maxOccurs='1'>
+      <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+      <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     </xs:sequence>
+    </xs:sequence>
+    <xs:sequence>  <!-- choice 2 -->
+     <xs:element name='pgn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+     <xs:element name='gn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+    </xs:sequence>
+    <xs:sequence>  <!-- choice 3 -->
+     <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+     <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+    </xs:sequence>
    </xs:choice>
-   <xs:choice minOccurs='0' maxOccurs='1'>
-    <xs:element name='fn' type='xs:token'/>
-    <xs:element name='nln' type='PNNameEmptyType'/>
-   </xs:choice>
-   <xs:element name='suffix' type='PNNameSuffixType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='suffix' type='PNPersonalNameSuffixType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='PNMultipleChoiceType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Sequence that can handle either a group, entity, unknown, or personal name.
+    Usable for situations where the expected value can be variable.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='grp' type='xs:token'/>
+   <xs:element name='ent' type='xs:token'/>
+   <xs:element name='unkn' type='xs:token'/>
+   <xs:sequence>
+    <xs:element name='prefix' type='PNPersonalNamePrefixType' minOccurs='0' maxOccurs='1'/>
+    <xs:choice>
+     <xs:sequence>   <!-- choice 1 -->
+      <xs:element name='pcn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+      <xs:sequence minOccurs='0' maxOccurs='1'>
+       <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+       <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+       <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+       <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      </xs:sequence>
+     </xs:sequence>
+     <xs:sequence>  <!-- choice 2 -->
+      <xs:element name='pgn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+      <xs:element name='gn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     </xs:sequence>
+     <xs:sequence>  <!-- choice 3 -->
+      <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+      <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     </xs:sequence>
+    </xs:choice>
+    <xs:element name='suffix' type='PNPersonalNameSuffixType' minOccurs='0' maxOccurs='1'/>
+   </xs:sequence>
+  </xs:choice>
  </xs:complexType>
 
  <xs:complexType name='PNArtType'>
@@ -200,7 +256,7 @@
    <!-- interactive artwork -->
    <xs:enumeration value='videoGame'/>
   </xs:restriction>
-  <!-- rejected values: 
+  <!-- rejected values:
          magazine, newspaper, game, radioShow, podcast
   -->
  </xs:simpleType>
@@ -213,7 +269,7 @@
    </xs:documentation>
   </xs:annotation>
   <xs:choice>
-   <xs:element name='person' type='PNNameType'/>
+   <xs:element name='person' type='PNPersonalNameType'/>
    <xs:element name='place' type='PNPlaceType'/>
    <xs:element name='art' type='PNArtType'/>
    <xs:element name='thing' type='ProperNounType'/>

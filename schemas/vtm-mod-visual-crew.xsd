@@ -3,16 +3,16 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2022, Chris Josephes
+    Copyright 2023, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
-    4.0 International License. 
+    4.0 International License.
 
-    To view a copy of this license, visit 
-    http://creativecommons.org/licenses/by-sa/4.0/ or 
-    send a letter to 
-    Creative Commons 
-    PO Box 1866 
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
     Mountain View, CA 94042, USA.
   </xs:documentation>
  </xs:annotation>
@@ -74,9 +74,9 @@
 
  <xs:complexType name='MusicType'>
   <xs:sequence minOccurs='1'>
-   <xs:element name='composer' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='composer' type='CrewPersonOrGroupType' minOccurs='0' maxOccurs='unbounded'/>
    <xs:element name='conductor' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
-   <xs:element name='music' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='music' type='CrewPersonOrGroupType' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 
@@ -181,7 +181,7 @@
    <xs:element name='additionalVoices' type='CharEmptyType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='self' type='CharSelfType' minOccurs='1' maxOccurs='1'/>
    <xs:sequence>
-    <xs:element name='prefix' type='PNNamePrefixType' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='prefix' type='PNPersonalNamePrefixType' minOccurs='0' maxOccurs='1'/>
      <xs:choice>
       <xs:sequence>
        <xs:annotation>
@@ -249,7 +249,7 @@
        <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
       </xs:sequence>
      </xs:choice>
-    <xs:element name='suffix' type='PNNameSuffixType' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='suffix' type='PNPersonalNameSuffixType' minOccurs='0' maxOccurs='1'/>
     <xs:element name='addendum' type='xs:token' minOccurs='0' maxOccurs='1'/>
    </xs:sequence>
   </xs:choice>
@@ -260,7 +260,7 @@
 
  <xs:complexType name='RoleType'>
   <xs:sequence>
-   <xs:element name='actor' type='PNNameType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='actor' type='PNPersonalNameType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='as' type='CharacterNameType' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
   <xs:attribute name='billing' type='xs:integer' use='optional'/>

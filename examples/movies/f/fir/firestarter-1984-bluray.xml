@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Firestarter</main>
+  </title>
+  <medium>
+   <release>
+    <type><bluray/></type>
+    <publisher>Shout Factory</publisher>
+   </release>
+   <productId>
+    <barcode type='upc'>826663173970</barcode>
+    <sku retailer='bby'>5845145</sku>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href='firestarter-1984-movie.xml'/>
+  </contents>
+ </media>
+</medialist>
