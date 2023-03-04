@@ -1,0 +1,162 @@
+<?xml version='1.0'?>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Firestarter</title>
+    <catalog>
+     <copyright>
+      <year>1984</year>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Action</primary>
+      <secondary>Horror</secondary>
+      <secondary>Sci-Fi</secondary>
+      <specific>Telekenetic Kid</specific>
+      <subgenres>
+       <subgenre>based on a novel</subgenre>
+      </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT1H54M</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      A father is on the run as he tries to protect his daughter, who is wanted by
+      a government agency because of her rare telekinetic abilities.
+     </plot>
+     <keywords>
+      <group>
+       <generic>telekenesis</generic>
+       <generic>pyrokinesis</generic>
+       <generic>ESP</generic>
+      </group>
+      <group>
+       <generic>government agency</generic>
+       <generic>government agents</generic>
+       <generic>secret headquarters</generic>
+       <generic>cross country chase</generic>
+       <generic>prisoner</generic>
+       <generic>cohersion</generic>
+       <generic>bribes</generic>
+       <generic>experiments</generic>
+       <generic>testing</generic>
+      </group>
+      <group>
+       <generic>students</generic>
+       <generic>young couple</generic>
+       <generic>college students</generic>
+       <generic>medical experiments</generic>
+       <generic>drug study</generic>
+      </group>
+      <group>
+       <generic>father</generic>
+       <generic>daughter</generic>
+       <generic>mother</generic>
+      </group>
+     </keywords>
+     <themes>
+      <theme>revenge</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Mark</gn><mn>L.</mn><fn>Lester</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>Stanley</gn><fn>Mann</fn></writer>
+      <sources>
+       <source>
+        <title>Firestarter</title>
+        <authors>
+         <author><gn>Stephen</gn><fn>King</fn></author>
+        </authors>
+       </source>
+      </sources>
+     </writers>
+     <editors>
+      <editor><gn>David</gn><fn>Rawlins</fn></editor>
+      <editor><gn>Ronald</gn><fn>Sanders</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Guiseppe</gn><fn>Ruzzolini</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <music>
+      <music><grp>Tangerine Dream</grp></music>
+     </music>
+     <artDept>
+      <productionDesigner><gn>Giorgio</gn><fn>Postiglione</fn></productionDesigner>
+      <setDecorator><gn>Lynn</gn><fn>Wolverton-Parker</fn></setDecorator>
+     </artDept>
+     <casting>
+      <director><gn>Johanna</gn><fn>Ray</fn></director>
+     </casting>
+     <cast>
+      <role>
+       <actor><gn>David</gn><fn>Keith</fn></actor>
+       <as><gn>Andrew</gn><fn>McGee</fn></as>
+      </role>
+      <role>
+       <actor><gn>Drew</gn><fn>Barrymore</fn></actor>
+       <as><gn>Charlie</gn><fn>McGee</fn></as>
+      </role>
+      <role>
+       <actor><gn>Freddie</gn><fn>Jones</fn></actor>
+       <as><prefix>Dr.</prefix><gn>Joseph</gn><fn>Wanless</fn></as>
+      </role>
+      <role>
+       <actor><gn>Heather</gn><fn>Locklear</fn></actor>
+       <as><gn>Vicky</gn><fn>McGee</fn></as>
+      </role>
+      <role>
+       <actor><gn>Martin</gn><fn>Sheen</fn></actor>
+       <as><prefix>Captain</prefix><fn>Hollister</fn></as>
+      </role>
+      <role>
+       <actor><gn>George</gn><mn>C.</mn><fn>Scott</fn></actor>
+       <as><gn>John</gn><fn>Rainbird</fn></as>
+      </role>
+      <role>
+       <actor><gn>Art</gn><fn>Carney</fn></actor>
+       <as><gn>Irv</gn><fn>Manders</fn></as>
+      </role>
+      <role>
+       <actor><gn>Louise</gn><fn>Fletcher</fn></actor>
+       <as><gn>Norma</gn><fn>Manders</fn></as>
+      </role>
+      <role>
+       <actor><gn>Moses</gn><fn>Gunn</fn></actor>
+       <as><prefix>Dr.</prefix><fn>Pynchot</fn></as>
+      </role>
+      <role>
+       <actor><gn>Antonio</gn><fn>Fargas</fn></actor>
+       <as><title>Taxi Driver</title></as>
+      </role>
+      <role>
+       <actor><gn>Drew</gn><fn>Snyder</fn></actor>
+       <as><gn>Orville</gn><fn>Jamieson</fn></as>
+      </role>
+      <role>
+       <actor><gn>Curtis</gn><fn>Credel</fn></actor>
+       <as><fn>Bates</fn></as>
+      </role>
+      <role>
+       <actor><gn>Keith</gn><fn>Colbert</fn></actor>
+       <as><fn>Mayo</fn></as>
+      </role>
+      <role>
+       <actor><gn>Stanley</gn><fn>Mann</fn></actor>
+       <as><title>Motel Owner</title></as>
+      </role>
+     </cast>
+    </crew>
+   </movie>
