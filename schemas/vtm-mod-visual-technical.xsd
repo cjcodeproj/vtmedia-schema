@@ -4,16 +4,16 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2021, Chris Josephes
+    Copyright 2023, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
-    4.0 International License. 
+    4.0 International License.
 
-    To view a copy of this license, visit 
-    http://creativecommons.org/licenses/by-sa/4.0/ or 
-    send a letter to 
-    Creative Commons 
-    PO Box 1866 
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
     Mountain View, CA 94042, USA.
   </xs:documentation>
  </xs:annotation>
@@ -69,7 +69,7 @@
  <xs:complexType name='OCredDurationType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
-    Length of the title/opening credits sequence.  Includes an offset duration if the credits do not start 
+    Length of the title/opening credits sequence.  Includes an offset duration if the credits do not start
     at the beginning of the movie.  The overlap flag details whether or not the credits are overlaid
     over the story.
    </xs:documentation>
@@ -86,7 +86,7 @@
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
     Length of the ending credits.   It is assumed that the end credits run immediately at the end
-    until the length of the overall duration.  The startOffset flag is used in case the ending 
+    until the length of the overall duration.  The startOffset flag is used in case the ending
     credits begin before the actual end of the movie.
    </xs:documentation>
   </xs:annotation>
@@ -101,8 +101,8 @@
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
     Runtime length of movie, along with timing information for opening/closing credits
-    The overall length is the entire length of the movie, the openingCredits is the 
-    length of the opening credits sequence, with an offset marker if the credits do 
+    The overall length is the entire length of the movie, the openingCredits is the
+    length of the opening credits sequence, with an offset marker if the credits do
     not start right away.  The endingCredits is the length of the end credits sequence
     if the ending credits do not complete at the very end of the length determined by the
     overall length.

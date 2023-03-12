@@ -77,9 +77,9 @@
     </technical>
     <story>
      <plot>
-      <chr>Lou Jean</chr>, desperate to get back custody of her child, springs her husband out of prison in the 
-      hopes of traveling all the way to <kw>Sugarland, Texas</kw>.  Unfortunately, the plan goes awry, and they are 
-      forced to kidnap a <kw>state trooper</kw>, and they are all pursued by state troopers and news media along 
+      <chr>Lou Jean</chr>, desperate to get back custody of her child, springs her husband out of prison in the
+      hopes of traveling all the way to <kw>Sugarland, Texas</kw>.  Unfortunately, the plan goes awry, and they are
+      forced to kidnap a <kw>state trooper</kw>, and they are all pursued by state troopers and news media along
       the Texas highways.
      </plot>
      <keywords>
@@ -148,7 +148,7 @@
       </role>
       <role>
        <actor><gn>Ben</gn><fn>Johnson</fn></actor>
-       <as><preTitle>Captain</preTitle><fn>Tanner</fn></as>
+       <as><prefix>Captain</prefix><fn>Tanner</fn></as>
       </role>
       <role>
        <actor><gn>Michael</gn><fn>Sacks</fn></actor>

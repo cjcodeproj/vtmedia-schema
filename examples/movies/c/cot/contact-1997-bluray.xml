@@ -58,7 +58,7 @@
       <specific>Alien Contact</specific>
       <subgenres>
        <subgenre>based on a book</subgenre>
-      </subgenres>  
+      </subgenres>
      </genres>
      <certifications>
       <certificate ref='35448'>
@@ -88,7 +88,7 @@
     <story>
      <logline>An astronomer discovers a radio message proving the existance of alien life.</logline>
      <plot>
-      An astronomer's search for extraterrestrial life leads to the discovery of a signal proving the 
+      An astronomer's search for extraterrestrial life leads to the discovery of a signal proving the
       existance of life in outer space, and the means to make contact with them.
      </plot>
      <keywords>
@@ -162,7 +162,7 @@
      <cast>
       <role>
        <actor><gn>Jodie</gn><fn>Foster</fn></actor>
-       <as><preTitle>Dr</preTitle><gn>Eleanor</gn><fn>Arroway</fn></as>
+       <as><prefix>Dr</prefix><gn>Eleanor</gn><fn>Arroway</fn></as>
       </role>
       <role>
        <actor><gn>Matthew</gn><fn>McConaughey</fn></actor>

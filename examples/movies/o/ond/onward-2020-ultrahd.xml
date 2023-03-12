@@ -142,11 +142,11 @@
       </role>
       <role>
        <actor><gn>Lena</gn><fn>Waithe</fn></actor>
-       <as><preTitle>Officer</preTitle><fn>Spector</fn></as>
+       <as><prefix>Officer</prefix><fn>Spector</fn></as>
       </role>
       <role>
        <actor><gn>John</gn><fn>Ratzenberger</fn></actor>
-       <as><preTitle>Construction Worker</preTitle><fn>Fenwick</fn></as>
+       <as><prefix>Construction Worker</prefix><fn>Fenwick</fn></as>
       </role>
      </cast>
     </crew>

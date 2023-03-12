@@ -1,0 +1,169 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
+  xmlns='http://vectortron.com/xml/media/meta/authorship'
+  targetNamespace='http://vectortron.com/xml/media/meta/authorship' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2023, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    File: vtm-meta-authorship.xsd
+
+    Element structure to represent authorship information of data.
+
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='AuthorType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Record identifying a single author and various contact methods.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='name' type='xs:token' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='email' type='xs:token' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='url' type='xs:anyURI' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='fingerprint' type='xs:token' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='AuthorsListType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Author elements, possibly other info.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='author' type='AuthorType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='LicenseCodeType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Handling a simple code specific value that identifies a license.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='type' type='xs:token' use='required'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='LicenseType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Information for reporting a usage license.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='code' type='LicenseCodeType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='notice' type='xs:token' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='TicketType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A reference to an external ticketing system tied to a change,
+    with an optional href attribute to contain a hyperlink.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='href' type='xs:anyURI' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='MetaCatalogType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Simple filing information for authorship record
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:choice minOccurs='1' maxOccurs='2'>
+    <xs:element name='id' type='xs:token' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='authors' type='AuthorsListType' minOccurs='0' maxOccurs='1'/>
+   </xs:choice>
+   <xs:element name='license' type='LicenseType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='MetaSummaryType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Generic information on the record.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='lang' type='xs:language' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='abstract' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='internalNotes' type='xs:token' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='MetaChangeType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Data required for a single change record.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:choice minOccurs='1' maxOccurs='1'>
+   <xs:element name='timestamp' type='xs:dateTime'/>
+   <xs:element name='date' type='xs:date'/>
+   </xs:choice>
+   <xs:element name='ticket' type='TicketType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='authors' type='AuthorsListType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='notes' type='xs:token' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='MetaChangeLogType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Changelog record with most recent changes at top.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='change' type='MetaChangeType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='creation' type='MetaChangeType' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='MetaAuthorshipRecordType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Primary record to reflect authorship and history.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='title' type='xs:token' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='catalog' type='MetaCatalogType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='summary' type='MetaSummaryType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='changelog' type='MetaChangeLogType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:element name='authorshipRecord' type='MetaAuthorshipRecordType'/>
+
+</xs:schema>

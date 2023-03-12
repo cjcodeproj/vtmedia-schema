@@ -83,11 +83,11 @@
       </role>
       <role>
        <actor><gn>Henry</gn><fn>Fzerny</fn></actor>
-       <as><preTitle>Captain</preTitle><gn>Martin</gn><fn>Jenkins</fn></as>
+       <as><prefix>Captain</prefix><gn>Martin</gn><fn>Jenkins</fn></as>
       </role>
       <role>
        <actor><gn>Justine</gn><fn>Waddell</fn></actor>
-       <as><preTitle>Captain</preTitle><gn>Teddy</gn><fn>Galloway</fn></as>
+       <as><prefix>Captain</prefix><gn>Teddy</gn><fn>Galloway</fn></as>
       </role>
      </cast>
     </crew>

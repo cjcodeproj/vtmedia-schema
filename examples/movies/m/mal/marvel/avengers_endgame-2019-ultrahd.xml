@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Avengers: Endgame</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2019-01-01</from><range>P18M</range></date>
+      <purchase/>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><ultrahd/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <steelbook>
+      <ultrahd/>
+      <bluray/>
+      <bluray/>
+      <codesheet><service> </service></codesheet>
+     </steelbook>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href='avengers_endgame-2019-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

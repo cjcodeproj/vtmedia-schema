@@ -1,6 +1,18 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## RELEASE 2023.03
+ - [schema-73](https://github.com/cjcodeproj/vtmedia-schema/issues/73) Prep work for 2023.03 release
+ - [schema-72](https://github.com/cjcodeproj/vtmedia-schema/issues/72) Clean up a lot of trailing whitespace
+ - [schema-68](https://github.com/cjcodeproj/vtmedia-schema/issues/68) Quicker syntax notation between group or person
+ - [schema-31](https://github.com/cjcodeproj/vtmedia-schema/issues/31) Consider some form of Display Name for ProperNoun Name element
+ - [schema-39](https://github.com/cjcodeproj/vtmedia-schema/issues/39) Role support for "background"/"additionalVoices"
+ - [schema-10](https://github.com/cjcodeproj/vtmedia-schema/issues/10) Change record within XML file
+ - [schema-46](https://github.com/cjcodeproj/vtmedia-schema/issues/46) Consider 'aspect' element for crew/cast/as element
+ - [schema-65](https://github.com/cjcodeproj/vtmedia-schema/issues/65) Change PNNameType element names
+ - [schema-64](https://github.com/cjcodeproj/vtmedia-schema/issues/64) Updates to CharacterName
+
+
 ## RELEASE 2022.11
  - [schema-61](https://github.com/cjcodeproj/vtmedia-schema/issues/61) Prep work for 2022.11 release
  - [schema-51](https://github.com/cjcodeproj/vtmedia-schema/issues/51) Proper Noun describing a work of art

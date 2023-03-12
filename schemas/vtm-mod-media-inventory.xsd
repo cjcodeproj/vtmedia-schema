@@ -4,16 +4,16 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2021, Chris Josephes
+    Copyright 2023, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
-    4.0 International License. 
+    4.0 International License.
 
-    To view a copy of this license, visit 
-    http://creativecommons.org/licenses/by-sa/4.0/ or 
-    send a letter to 
-    Creative Commons 
-    PO Box 1866 
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
     Mountain View, CA 94042, USA.
   </xs:documentation>
  </xs:annotation>
@@ -116,7 +116,7 @@
  <xs:group name='PILayerOneStorageGroup'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
-    Anything that direcly holds the media, like a DVD foldcase, or 
+    Anything that direcly holds the media, like a DVD foldcase, or
     a steelbook case.
    </xs:documentation>
   </xs:annotation>
@@ -167,7 +167,7 @@
    <xs:documentation xml:lang='en-US'>
     Element: foldcase
 
-    The most common form of packaging for DVD/Blu-Ray media.  Can come with 
+    The most common form of packaging for DVD/Blu-Ray media.  Can come wit h
     multiple colors, is usually translucent, and can be protected by a slipcover.
    </xs:documentation>
   </xs:annotation>
