@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-72](https://github.com/cjcodeproj/vtmedia-schema/issues/72) Clean up a lot of trailing whitespace
  - [schema-68](https://github.com/cjcodeproj/vtmedia-schema/issues/68) Quicker syntax notation between group or person
  - [schema-31](https://github.com/cjcodeproj/vtmedia-schema/issues/31) Consider some form of Display Name for ProperNoun Name element
  - [schema-39](https://github.com/cjcodeproj/vtmedia-schema/issues/39) Role support for "background"/"additionalVoices"
