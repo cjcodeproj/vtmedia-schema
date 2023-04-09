@@ -102,15 +102,21 @@
      <cast>
       <role>
        <actor><gn>Denzel</gn><fn>Washington</fn></actor>
-       <as><gn>Frank</gn></as>
+       <character>
+        <name><gn>Frank</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Chris</gn><fn>Pine</fn></actor>
-       <as><gn>Will</gn></as>
+       <character>
+        <name><gn>Will</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Rosario</gn><fn>Dawson</fn></actor>
-       <as><gn>Connie</gn></as>
+       <character>
+        <name><gn>Connie</gn></name>
+       </character>
       </role>
      </cast>
     </crew>

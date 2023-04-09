@@ -97,19 +97,27 @@
      <cast>
       <role>
        <actor><gn>Robert</gn><fn>Redford</fn></actor>
-       <as><gn>Joe</gn><fn>Turner</fn></as>
+       <character>
+        <name><gn>Joe</gn><fn>Turner</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Faye</gn><fn>Dunaway</fn></actor>
-       <as><gn>Kathy</gn></as>
+       <character>
+        <name><gn>Kathy</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Cliff</gn><fn>Robertson</fn></actor>
-       <as><fn>Higgins</fn></as>
+       <character>
+        <name><fn>Higgins</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Max</gn><fn>von Sydow</fn></actor>
-       <as><fn>Joubert</fn></as>
+       <character>
+        <name><fn>Joubert</fn></name>
+       </character>
       </role>
      </cast>
     </crew>

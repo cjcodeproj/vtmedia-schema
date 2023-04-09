@@ -174,67 +174,99 @@
      <cast>
       <role>
        <actor><gn>Nick</gn><fn>Nolte</fn></actor>
-       <as><gn>Jack</gn><fn>Cates</fn></as>
+       <character>
+        <name><gn>Jack</gn><fn>Cates</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Eddie</gn><fn>Murphy</fn></actor>
-       <as><gn>Reggie</gn><fn>Hammond</fn></as>
+       <character>
+        <name><gn>Reggie</gn><fn>Hammond</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Annette</gn><fn>O'Toole</fn></actor>
-       <as><gn>Elaine</gn></as>
+       <character>
+        <name><gn>Elaine</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Frank</gn><fn>McRae</fn></actor>
-       <as><fn>Haden</fn></as>
+       <character>
+        <name><fn>Haden</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>James</gn><fn>Remar</fn></actor>
-       <as><fn>Ganz</fn></as>
+       <character>
+        <name><fn>Ganz</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>David</gn><mn>Patrick</mn><fn>Kelly</fn></actor>
-       <as><gn>Luther</gn></as>
+       <character>
+        <name><gn>Luther</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Sonny</gn><fn>Landham</fn></actor>
-       <as><gn>Billy</gn><fn>Bear</fn></as>
+       <character>
+        <name><gn>Billy</gn><fn>Bear</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Brion</gn><fn>James</fn></actor>
-       <as><gn>Ben</gn><fn>Kehoe</fn></as>
+       <character>
+        <name><gn>Ben</gn><fn>Kehoe</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Kerry</gn><fn>Sherman</fn></actor>
-       <as><gn>Rosalie</gn></as>
+       <character>
+        <name><gn>Rosalie</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Jonathan</gn><fn>Banks</fn></actor>
-       <as><fn>Algren</fn></as>
+       <character>
+        <name><fn>Algren</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>James</gn><fn>Keane</fn></actor>
-       <as><fn>Vanzant</fn></as>
+       <character>
+        <name><fn>Vanzant</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Tara</gn><fn>King</fn></actor>
-       <as><gn>Frizzy</gn></as>
+       <character>
+        <name><gn>Frizzy</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Greta</gn><fn>Blackburn</fn></actor>
-       <as><gn>Lisa</gn></as>
+       <character>
+        <name><gn>Lisa</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Margot</gn><fn>Rose</fn></actor>
-       <as><gn>Casey</gn></as>
+       <character>
+        <name><gn>Casey</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Denise</gn><fn>Crosby</fn></actor>
-       <as><gn>Sally</gn></as>
+       <character>
+        <name><gn>Sally</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Peter</gn><fn>Jason</fn></actor>
-       <as><title>Cowboy Bartender</title></as>
+       <character>
+        <unnamed>Cowboy Bartender</unnamed>
+       </character>
       </role>
      </cast>
     </crew>
@@ -437,55 +469,81 @@
      <cast>
       <role>
        <actor><gn>Eddie</gn><fn>Murphy</fn></actor>
-       <as><gn>Reggie</gn><fn>Hammond</fn></as>
+       <character>
+        <name><gn>Reggie</gn><fn>Hammond</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Nick</gn><fn>Nolte</fn></actor>
-       <as><gn>Jack</gn><fn>Cates</fn></as>
+       <character>
+        <name><gn>Jack</gn><fn>Cates</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Brion</gn><fn>James</fn></actor>
-       <as><gn>Ben</gn><fn>Kehoe</fn></as>
+       <character>
+        <name><gn>Ben</gn><fn>Kehoe</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Kevin</gn><fn>Tighe</fn></actor>
-       <as><gn>Blake</gn><fn>Wilson</fn></as>
+       <character>
+        <name><gn>Blake</gn><fn>Wilson</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Ed</gn><fn>O'Ross</fn></actor>
-       <as><gn>Frank</gn><fn>Cruise</fn></as>
+       <character>
+        <name><gn>Frank</gn><fn>Cruise</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>David</gn><mn>Anthony</mn><fn>Marshall</fn></actor>
-       <as><gn>Willie</gn><fn>Hickok</fn></as>
+       <character>
+        <name><gn>Willie</gn><fn>Hickok</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Andrew</gn><fn>Divoff</fn></actor>
-       <as><gn>Cherry</gn><fn>Ganz</fn></as>
+       <character>
+        <name><gn>Cherry</gn><fn>Ganz</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Bernie</gn><fn>Casey</fn></actor>
-       <as><gn>Kirkland</gn><fn>Smith</fn></as>
+       <character>
+        <name><gn>Kirkland</gn><fn>Smith</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Brent</gn><fn>Jennings</fn></actor>
-       <as><gn>Tyrone</gn><fn>Burroughs</fn></as>
+       <character>
+        <name><gn>Tyrone</gn><fn>Burroughs</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Ted</gn><fn>Markland</fn></actor>
-       <as><gn>Malcom</gn><fn>Price</fn></as>
+       <character>
+        <name><gn>Malcom</gn><fn>Price</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Tisha</gn><fn>Campbell</fn></actor>
-       <as><gn>Amy</gn><fn>Smith</fn></as>
+       <character>
+        <name><gn>Amy</gn><fn>Smith</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Felice</gn><fn>Orlandi</fn></actor>
-       <as><title>Warden</title></as>
+       <character>
+        <unnamed>Warden</unnamed>
+       </character>
       </role>
       <role>
        <actor><gn>John</gn><mn>Del</mn><fn>Regno</fn></actor>
-       <as><title>Mechanic</title></as>
+       <character>
+        <unnamed>Mechanic</unnamed>
+       </character>
       </role>
      </cast>
     </crew>

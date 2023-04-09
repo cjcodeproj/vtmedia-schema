@@ -161,45 +161,65 @@
      <cast>
       <role>
        <actor><gn>Robert</gn><fn>Redford</fn></actor>
-       <as><gn>Martin</gn><fn>Bishop</fn></as>
-       <as><gn>Martin</gn><fn>Brice</fn></as>
+       <character>
+        <name><gn>Martin</gn><fn>Bishop</fn></name>
+        <alias><gn>Martin</gn><fn>Brice</fn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Sidney</gn><fn>Poitier</fn></actor>
-       <as><gn>Donald</gn><fn>Crease</fn></as>
+       <character>
+        <name><gn>Donald</gn><fn>Crease</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>David</gn><fn>Strathairn</fn></actor>
-       <as><gn>Erwin</gn><nick>Whistler</nick><fn>Emory</fn></as>
+       <character>
+        <name><gn>Erwin</gn><nick>Whistler</nick><fn>Emory</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Dan</gn><fn>Aykroyd</fn></actor>
-       <as><gn>Darryl</gn><nick>Mother</nick><fn>Roscow</fn></as>
+       <character>
+        <name><gn>Darryl</gn><nick>Mother</nick><fn>Roscow</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>River</gn><fn>Phoenix</fn></actor>
-       <as><gn>Carl</gn><fn>Arbogast</fn></as>
+       <character>
+        <name><gn>Carl</gn><fn>Arbogast</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Mary</gn><fn>McDonnell</fn></actor>
-       <as><gn>Liz</gn></as>
-       <as><gn>Dorris</gn></as>
+       <character>
+        <name><gn>Liz</gn></name>
+        <alias><gn>Dorris</gn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Ben</gn><fn>Kingsley</fn></actor>
-       <as><fn>Cosmo</fn></as>
+       <character>
+        <name><fn>Cosmo</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Stephen</gn><fn>Tobolowsky</fn></actor>
-       <as><prefix>Dr</prefix><gn>Werner</gn><fn>Brandes</fn></as>
+       <character>
+        <name><prefix>Dr</prefix><gn>Werner</gn><fn>Brandes</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Donal</gn><fn>Logue</fn></actor>
-       <as><prefix>Dr</prefix><gn>Gunter</gn><fn>Janek</fn></as>
+       <character>
+        <name><prefix>Dr</prefix><gn>Gunter</gn><fn>Janek</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>James</gn><mn>Earl</mn><fn>Jones</fn></actor>
-       <as><gn>Bernard</gn><fn>Abbott</fn></as>
+       <character>
+        <name><gn>Bernard</gn><fn>Abbott</fn></name>
+       </character>
       </role>
      </cast>
     </crew>

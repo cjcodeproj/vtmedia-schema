@@ -90,15 +90,21 @@
      <cast>
       <role>
        <actor><gn>Jason</gn><fn>Statham</fn></actor>
-       <as><fn>Parker</fn></as>
+       <character>
+        <name><fn>Parker</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Jennifer</gn><fn>Lopez</fn></actor>
-       <as><gn>Leslie</gn><fn>Rodgers</fn></as>
+       <character>
+        <name><gn>Leslie</gn><fn>Rodgers</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Michael</gn><fn>Chiklis</fn></actor>
-       <as><fn>Melander</fn></as>
+       <character>
+        <name><fn>Melander</fn></name>
+       </character>
       </role>
      </cast>
     </crew>

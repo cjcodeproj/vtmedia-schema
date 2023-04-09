@@ -74,23 +74,33 @@
      <cast>
       <role>
        <actor><gn>Lance</gn><fn>Guest</fn></actor>
-       <as><gn>Alex</gn><fn>Rogan</fn></as>
+       <character>
+        <name><gn>Alex</gn><fn>Rogan</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Catherine</gn><mn>Mary</mn><fn>Stewart</fn></actor>
-       <as><gn>Maggie</gn><fn>Gordon</fn></as>
+       <character>
+        <name><gn>Maggie</gn><fn>Gordon</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Robert</gn><fn>Preston</fn></actor>
-       <as><gn>Centauri</gn></as>
+       <character>
+        <name><gn>Centauri</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Dan</gn><fn>O'Herlihy</fn></actor>
-       <as><gn>Grig</gn></as>
+       <character>
+        <name><gn>Grig</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Norman</gn><fn>Snow</fn></actor>
-       <as><gn>Xur</gn></as>
+       <character>
+        <name><gn>Xur</gn></name>
+       </character>
       </role>
      </cast>
     </crew>

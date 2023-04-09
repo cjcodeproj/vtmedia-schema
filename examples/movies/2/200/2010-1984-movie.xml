@@ -98,15 +98,21 @@
      <cast>
       <role>
        <actor><gn>Roy</gn><fn>Scheider</fn></actor>
-       <as><prefix>Dr.</prefix><gn>Heywood</gn><fn>Floyd</fn></as>
+       <character>
+        <name><prefix>Dr.</prefix><gn>Heywood</gn><fn>Floyd</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>John</gn><fn>Lithgow</fn></actor>
-       <as><prefix>Dr.</prefix><gn>Heywood</gn><fn>Flord</fn></as>
+       <character>
+        <name><prefix>Dr.</prefix><gn>Heywood</gn><fn>Flord</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Helen</gn><fn>Mirren</fn></actor>
-       <as><prefix>Dr.</prefix><gn>Walter</gn><fn>Curnow</fn></as>
+       <character>
+        <name><prefix>Dr.</prefix><gn>Walter</gn><fn>Curnow</fn></name>
+       </character>
       </role>
      </cast>
     </crew>

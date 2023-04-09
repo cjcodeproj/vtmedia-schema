@@ -156,219 +156,324 @@
      <cast>
       <role>
        <actor><gn>Robert</gn><fn>Downey</fn><suffix>Jr.</suffix></actor>
-       <as><gn>Tony</gn><fn>Stark</fn></as>
-       <as><title>Iron Man</title></as>
+       <character>
+        <name><gn>Tony</gn><fn>Stark</fn></name>
+        <alias><pgn>Iron Man</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Chris</gn><fn>Evans</fn></actor>
-       <as><gn>Steve</gn><fn>Rogers</fn></as>
-       <as><title>Captain America</title></as>
+       <character>
+        <name><gn>Steve</gn><fn>Rogers</fn></name>
+        <alias><pgn>Captain America</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Mark</gn><fn>Ruffalo</fn></actor>
-       <as><gn>Bruce</gn><fn>Banner</fn></as>
-       <as><title>Hulk</title></as>
+       <character>
+        <name><gn>Bruce</gn><fn>Banner</fn></name>
+        <alias><pgn>Hulk</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Chris</gn><fn>Hemsworth</fn></actor>
-       <as><gn>Thor</gn></as>
+       <character>
+        <name><gn>Thor</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Scarlett</gn><fn>Johansson</fn></actor>
-       <as><gn>Natasha</gn><fn>Romanoff</fn></as>
-       <as><title>Black Widow</title></as>
+       <character>
+        <name><gn>Natasha</gn><fn>Romanoff</fn></name>
+        <alias><pgn>Black Widow</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Jeremy</gn><fn>Renner</fn></actor>
-       <as><gn>Clint</gn><fn>Barton</fn></as>
-       <as><title>Hawkeye</title></as>
+       <character>
+        <name><gn>Clint</gn><fn>Barton</fn></name>
+        <alias><pgn>Hawkeye</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Don</gn><fn>Cheadle</fn></actor>
-       <as><gn>James</gn><fn>Rhodes</fn></as>
-       <as><title>War Machine</title></as>
+       <character>
+        <name><gn>James</gn><fn>Rhodes</fn></name>
+        <alias><pgn>War Machine</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Paul</gn><fn>Rudd</fn></actor>
-       <as><gn>Scott</gn><fn>Lang</fn></as>
-       <as><title>Ant-Man</title></as>
+       <character>
+        <name><gn>Scott</gn><fn>Lang</fn></name>
+        <alias><pgn>Ant-Man</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Benedict</gn><fn>Cumberbatch</fn></actor>
-       <as><prefix>Doctor</prefix><fn>Strange</fn></as>
+       <character>
+        <name><prefix>Doctor</prefix><fn>Strange</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Chadwick</gn><fn>Boseman</fn></actor>
-       <as><gn>T'Challa</gn></as>
-       <as><title>Black Panther</title></as>
+       <character>
+        <name><gn>T'Challa</gn></name>
+        <alias><pgn>Black Panther</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Brie</gn><fn>Larson</fn></actor>
-       <as><gn>Carol</gn><fn>Danvers</fn></as>
-       <as><title>Captain Marvel</title></as>
+       <character>
+        <name><gn>Carol</gn><fn>Danvers</fn></name>
+        <alias><pgn>Captain Marvel</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Tom</gn><fn>Holland</fn></actor>
-       <as><gn>Peter</gn><fn>Parker</fn></as>
-       <as><title>Spider-Man</title></as>
+       <character>
+        <name><gn>Peter</gn><fn>Parker</fn></name>
+        <alias><pgn>Spider-Man</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Karen</gn><fn>Gillan</fn></actor>
-       <as><gn>Nebula</gn></as>
+       <character>
+        <name><gn>Nebula</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Zoe</gn><fn>Saldana</fn></actor>
-       <as><gn>Gamora</gn></as>
+       <character>
+        <name><gn>Gamora</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Evangeline</gn><fn>Lily</fn></actor>
-       <as><gn>Hope</gn><fn>Van Dyne</fn></as>
-       <as><title>Wasp</title></as>
+       <character>
+        <name><gn>Hope</gn><fn>Van Dyne</fn></name>
+        <alias><pgn>Wasp</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Tessa</gn><fn>Thompson</fn></actor>
-       <as><gn>Valkyrie</gn></as>
+       <character>
+        <name><gn>Valkyrie</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Rene</gn><fn>Russo</fn></actor>
-       <as><gn>Frigga</gn></as>
+       <character>
+        <name><gn>Frigga</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Elizabeth</gn><fn>Olsen</fn></actor>
-       <as><gn>Wanda</gn><fn>Maximoff</fn></as>
-       <as><title>Scarlet Witch</title></as>
+       <character>
+        <name><gn>Wanda</gn><fn>Maximoff</fn></name>
+        <alias><pgn>The Scarlet Witch</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Anthony</gn><fn>Mackie</fn></actor>
-       <as><gn>Sam</gn><fn>Wilson</fn></as>
-       <as><title>Falcon</title></as>
+       <character>
+        <name><gn>Sam</gn><fn>Wilson</fn></name>
+        <alias><pgn>Falcon</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Sebastian</gn><fn>Stan</fn></actor>
-       <as><gn>Bucky</gn><fn>Barnes</fn></as>
-       <as><title>Winter Soldier</title></as>
+       <character>
+        <name><gn>Bucky</gn><fn>Barnes</fn></name>
+        <alias><pgn>Winter Soldier</pgn></alias>
+       </character>
       </role>
       <role>
        <actor><gn>Tom</gn><fn>Hiddleston</fn></actor>
-       <as><gn>Loki</gn></as>
+       <character>
+        <name><gn>Loki</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Danai</gn><fn>Gurira</fn></actor>
-       <as><gn>Okoye</gn></as>
+       <character>
+        <name><gn>Okoye</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Benedict</gn><fn>Wong</fn></actor>
-       <as><gn>Wong</gn></as>
+       <character>
+        <name><gn>Wong</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Pom</gn><fn>Klementieff</fn></actor>
-       <as><gn>Mantis</gn></as>
+       <character>
+        <name><gn>Mantis</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Dave</gn><fn>Bautista</fn></actor>
-       <as><gn>Drax</gn></as>
+       <character>
+        <name><gn>Drax</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Letitia</gn><fn>Wright</fn></actor>
-       <as><gn>Shuri</gn></as>
+       <character>
+        <name><gn>Shuri</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>John</gn><fn>Slattery</fn></actor>
-       <as><gn>Howard</gn><fn>Stark</fn></as>
+       <character>
+        <name><gn>Howard</gn><fn>Stark</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Tilda</gn><fn>Swinton</fn></actor>
-       <as><title>The Ancient One</title></as>
+       <character>
+        <name><pgn>The Ancient One</pgn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Jon</gn><fn>Favreau</fn></actor>
-       <as><nick>Happy</nick><fn>Hogan</fn></as>
+       <character>
+        <name><nick>Happy</nick><fn>Hogan</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Hayley</gn><fn>Atwell</fn></actor>
-       <as><gn>Peggy</gn><fn>Carter</fn></as>
+       <character>
+        <name><gn>Peggy</gn><fn>Carter</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Gwyneth</gn><fn>Paltro</fn></actor>
-       <as><gn>Pepper</gn><fn>Potts</fn></as>
+       <character>
+        <name><gn>Pepper</gn><fn>Potts</fn></name>
+       </character>
       </role>
       <role>
-       <actor><gn>Natalie</gn><fn>Portman</fn></actor>
-       <as><gn>Jane</gn><fn>Foster</fn></as>
-       <!-- archive footage -->
+       <actor archivalFootage='true'><gn>Natalie</gn><fn>Portman</fn></actor>
+       <character>
+        <name><gn>Jane</gn><fn>Foster</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Marisa</gn><fn>Tomei</fn></actor>
-       <as><prefix>Aunt</prefix><gn>May</gn></as>
+       <character>
+        <name><prefix>Aunt</prefix><gn>May</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Taika</gn><fn>Waititi</fn></actor>
-       <as><gn>Korg</gn><aspect>voice</aspect></as>
+       <character>
+        <name><gn>Korg</gn></name>
+        <aspect>voice</aspect>
+       </character>
       </role>
       <role>
        <actor><gn>Angela</gn><fn>Bassett</fn></actor>
-       <as><gn>Ramonda</gn></as>
+       <character>
+        <name><gn>Ramonda</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Michael</gn><fn>Douglas</fn></actor>
-       <as><gn>Hank</gn><fn>Pym</fn></as>
+       <character>
+        <name><gn>Hank</gn><fn>Pym</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Michelle</gn><fn>Pfeiffer</fn></actor>
-       <as><gn>Janet</gn><fn>Van Dyne</fn></as>
+       <character>
+        <name><gn>Janet</gn><fn>Van Dyne</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>William</gn><fn>Hurt</fn></actor>
-       <as><prefix>Secretary of State</prefix><gn>Thaddeus</gn><fn>Ross</fn></as>
+       <character>
+        <name><prefix>Secretary of State</prefix><gn>Thaddeus</gn><fn>Ross</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Cobie</gn><fn>Smulders</fn></actor>
-       <as><gn>Maria</gn><fn>Hill</fn></as>
+       <character>
+        <name><gn>Maria</gn><fn>Hill</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Sean</gn><fn>Gunn</fn></actor>
-       <as><gn>Rocket</gn><aspect>on-set</aspect></as>
-       <as><gn>Kraglin</gn></as>
+       <character>
+        <name><gn>Rocket</gn></name>
+        <aspect>on-set</aspect>
+       </character>
+       <character>
+        <name><gn>Kraglin</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Winston</gn><fn>Duke</fn></actor>
-       <as><gn>M'Baku</gn></as>
+       <character>
+        <name><gn>M'Baku</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Linda</gn><fn>Cardellini</fn></actor>
-       <as><gn>Laura</gn><fn>Barton</fn></as>
+       <character>
+        <name><gn>Laura</gn><fn>Barton</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Maximiliano</gn><fn>Hernandez</fn></actor>
-       <as><prefix>Agent</prefix><fn>Sitwell</fn></as>
+       <character>
+        <name><prefix>Agent</prefix><fn>Sitwell</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Frank</gn><fn>Grillo</fn></actor>
-       <as><gn>Brock</gn><fn>Rumlow</fn></as>
+       <character>
+        <name><gn>Brock</gn><fn>Rumlow</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Hiroyuki</gn><fn>Sanada</fn></actor>
-       <as><gn>Akihiko</gn></as>
+       <character>
+        <name><gn>Akihiko</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Tom</gn><fn>Vaughan-Lawlor</fn></actor>
-       <as><gn>Ebony</gn><fn>Maw</fn></as>
+       <character>
+        <name><gn>Ebony</gn><fn>Maw</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>James</gn><fn>D'arcy</fn></actor>
-       <as><gn>Jarvis</gn></as>
+       <character>
+        <name><gn>Jarvis</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Jacob</gn><fn>Batalon</fn></actor>
-       <as><gn>Ned</gn></as>
+       <character>
+        <name><gn>Ned</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Vin</gn><fn>Diesel</fn></actor>
-       <as><gn>Groot</gn><aspect>voice</aspect></as>
+       <character>
+        <name><gn>Groot</gn></name>
+        <aspect>voice</aspect>
+       </character>
       </role>
       <role>
        <actor><gn>Bradley</gn><fn>Cooper</fn></actor>
-       <as><gn>Rocket</gn><aspect>voice</aspect></as>
+       <character>
+        <name><gn>Rocket</gn></name>
+        <aspect>voice</aspect>
+       </character>
       </role>
      </cast>
     </crew>

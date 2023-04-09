@@ -99,28 +99,39 @@
      <cast>
       <role>
        <actor><gn>Wil</gn><fn>Wheaton</fn></actor>
-       <as><gn>Gordie</gn><fn>Lachance</fn></as>
+       <character>
+        <name><gn>Gordie</gn><fn>Lachance</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>River</gn><fn>Phoenix</fn></actor>
-       <as><gn>Chris</gn><fn>Chambers</fn></as>
+       <character>
+        <name><gn>Chris</gn><fn>Chambers</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Corey</gn><fn>Feldman</fn></actor>
-       <as><gn>Teddy</gn><fn>Duchamp</fn></as>
+       <character>
+        <name><gn>Teddy</gn><fn>Duchamp</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Jerry</gn><fn>O'Connell</fn></actor>
-       <as><gn>Vern</gn><fn>Tessio</fn></as>
+       <character>
+        <name><gn>Vern</gn><fn>Tessio</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Kiefer</gn><fn>Sutherland</fn></actor>
-       <as><gn>Ace</gn><fn>Merrill</fn></as>
+       <character>
+        <name><gn>Ace</gn><fn>Merrill</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Richard</gn><fn>Dreyfuss</fn></actor>
-       <as><title>The Writer</title></as>
-       <as><narrator/></as>
+       <character>
+        <unnamed>The Writer</unnamed>
+       </character>
       </role>
      </cast>
     </crew>

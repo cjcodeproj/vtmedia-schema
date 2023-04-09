@@ -107,19 +107,27 @@
      <cast>
       <role>
        <actor><gn>Mel</gn><fn>Gibson</fn></actor>
-       <as><gn>Max</gn></as>
+       <character>
+        <name><gn>Max</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Joanne</gn><fn>Samuel</fn></actor>
-       <as><gn>Jessie</gn></as>
+       <character>
+        <name><gn>Jessie</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Hugh</gn><fn>Keays-Byrne</fn></actor>
-       <as><nick>Toecutter</nick></as>
+       <character>
+        <name><nick>Toecutter</nick></name>
+       </character>
       </role>
       <role>
        <actor><gn>Steve</gn><fn>Bisley</fn></actor>
-       <as><gn>Jim</gn><fn>Goose</fn></as>
+       <character>
+        <name><gn>Jim</gn><fn>Goose</fn></name>
+       </character>
       </role>
      </cast>
     </crew>

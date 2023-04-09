@@ -118,35 +118,51 @@
      <cast>
       <role>
        <actor><gn>Tom</gn><fn>Holland</fn></actor>
-       <as><gn>Ian</gn><fn>Lightfoot</fn></as>
+       <character>
+        <name><gn>Ian</gn><fn>Lightfoot</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Chris</gn><fn>Pratt</fn></actor>
-       <as><gn>Barley</gn><fn>Lightfoot</fn></as>
+       <character>
+        <name><gn>Barley</gn><fn>Lightfoot</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Julia</gn><fn>Louis-Dreyfus</fn></actor>
-       <as><gn>Laurel</gn><fn>Lightfoot</fn></as>
+       <character>
+        <name><gn>Laurel</gn><fn>Lightfoot</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Octavia</gn><fn>Spencer</fn></actor>
-       <as><title>The Manticore</title></as>
+       <character>
+        <unnamed>The Manticore</unnamed>
+       </character>
       </role>
       <role>
        <actor><gn>Mel</gn><fn>Rodriguez</fn></actor>
-       <as><gn>Colt</gn><fn>Bronco</fn></as>
+       <character>
+        <name><gn>Colt</gn><fn>Bronco</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Kyle</gn><fn>Bornheimer</fn></actor>
-       <as><gn>Wilden</gn><fn>Lightfoot</fn></as>
+       <character>
+        <name><gn>Wilden</gn><fn>Lightfoot</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Lena</gn><fn>Waithe</fn></actor>
-       <as><prefix>Officer</prefix><fn>Spector</fn></as>
+       <character>
+        <name><prefix>Officer</prefix><fn>Spector</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>John</gn><fn>Ratzenberger</fn></actor>
-       <as><prefix>Construction Worker</prefix><fn>Fenwick</fn></as>
+       <character>
+        <name><prefix>Construction Worker</prefix><fn>Fenwick</fn></name>
+       </character>
       </role>
      </cast>
     </crew>

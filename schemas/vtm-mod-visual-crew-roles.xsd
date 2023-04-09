@@ -1,0 +1,304 @@
+<?xml version='1.0'?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2023, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:include schemaLocation='vtm-mod-generic-pnouns-keywords.xsd'/>
+ <xs:include schemaLocation='vtm-mod-generic-crew-types.xsd'/>
+
+ <xs:attributeGroup name='PortrayalAttributeGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Shared attributes for every portrayal made by an actor
+   </xs:documentation>
+  </xs:annotation>
+  <xs:attribute name='uncredited' type='xs:boolean' use='optional'/>
+ </xs:attributeGroup>
+
+
+ <xs:complexType name='ActorNameType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    An actor in a role.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:complexContent>
+   <xs:extension base='PNPersonalNameType'>
+    <xs:attribute name='archivalFootage' type='xs:boolean' use='optional'/>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+
+ <xs:complexType name='SelfType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A character appearing as themself, usually in
+    a documentary.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:attributeGroup ref='PortrayalAttributeGroup'/>
+ </xs:complexType>
+
+ <xs:complexType name='PortraysBackgroundType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    For one or more actors who portray background
+    characters that have no discernable features,
+    or unique identities.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:attributeGroup ref='PortrayalAttributeGroup'/>
+ </xs:complexType>
+
+ <xs:complexType name='PortraysNarratorType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A narrator.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:attributeGroup ref='PortrayalAttributeGroup'/>
+ </xs:complexType>
+
+
+ <xs:complexType name='SelfCharacterType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A character record for when an actor portrays a fictional version
+    of themself. (Ex: Elizabeth Shue in 'Hamlet 2', or Dustin
+    Hoffman in 'The Holiday')
+   </xs:documentation>
+  </xs:annotation>
+ </xs:complexType>
+
+
+ <xs:complexType name='CharacterNameType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     See inner documentation examples for name support.
+   </xs:documentation>
+  </xs:annotation>
+   <xs:sequence>
+    <xs:element name='prefix' type='PNPersonalNamePrefixType' minOccurs='0' maxOccurs='1'/>
+     <xs:choice>
+     <xs:sequence>
+      <xs:annotation>
+       <xs:documentation xml:lang='en-US'>
+         Sequence 1 (nickname in middle or end)
+
+         Supported Names In This Sequence:
+
+         (1 ) Jennifer
+         (1a) Jennifer 'Mainframe'
+         (1a) Jennifer 'Mainframe' Trisha Hoffman
+         (1a) Jennifer 'Mainframe' Hoffman
+         (1b) Jennifer Trisha Hoffman
+         (1c) Jennifer Hoffman 'Mainframe'
+
+       </xs:documentation>
+      </xs:annotation>
+      <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+      <xs:choice minOccurs='0'>
+       <xs:sequence>
+        <xs:choice>
+         <xs:sequence>
+          <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
+          <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+         </xs:sequence>
+         <xs:sequence>
+          <xs:element name='mn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+          <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+         </xs:sequence>
+        </xs:choice>
+        <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+       </xs:sequence>
+       <xs:sequence>
+        <xs:element name='fn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+        <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+       </xs:sequence>
+      </xs:choice>
+     </xs:sequence>
+     <xs:sequence>
+      <xs:annotation>
+       <xs:documentation xml:lang='en-US'>
+        Sequence 2 (preferred complete names)
+
+       </xs:documentation>
+      </xs:annotation>
+      <xs:element name='pcn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+      <xs:sequence minOccurs='0' maxOccurs='1'>
+       <xs:element name='gn' minOccurs='0' maxOccurs='1'/>
+       <xs:choice>
+        <xs:sequence>
+         <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+         <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        </xs:sequence>
+        <xs:sequence>
+         <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+         <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        </xs:sequence>
+       </xs:choice>
+       <xs:element name='fn' minOccurs='0' maxOccurs='1'/>
+      </xs:sequence>
+     </xs:sequence>
+     <xs:sequence>
+      <xs:annotation>
+       <xs:documentation xml:lang='en-US'>
+         Sequence 3 (preferred given names)
+
+       </xs:documentation>
+      </xs:annotation>
+      <xs:element name='pgn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+      <xs:element name='gn' minOccurs='0' maxOccurs='1'/>
+      <xs:choice>
+       <xs:sequence>
+        <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+       </xs:sequence>
+       <xs:sequence>
+        <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+       </xs:sequence>
+      </xs:choice>
+      <xs:element name='fn' minOccurs='0' maxOccurs='1'/>
+     </xs:sequence>
+
+     <xs:sequence>
+      <xs:annotation>
+       <xs:documentation xml:lang='en-US'>
+         Sequence 4 (nickname precedes name)
+
+         Supported Names In This Sequence:
+
+         (2 ) 'Six Fingered' John
+         (2 ) 'Six Fingered' John Anthony
+         (2 ) 'Six Fingered John Anthony McDouglas
+
+       </xs:documentation>
+      </xs:annotation>
+      <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
+      <xs:choice maxOccurs='3'>
+       <xs:element name='gn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+       <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+       <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      </xs:choice>
+     </xs:sequence>
+     <xs:sequence>
+      <xs:annotation>
+       <xs:documentation xml:lang='en-US'>
+         Sequence 5 (family name only, with optional nickname)
+
+         Supported Names In This Sequence:
+
+         (3 ) Grisham
+         (3 ) Grisham 'The Fixer'
+
+       </xs:documentation>
+      </xs:annotation>
+      <xs:element name='fn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+      <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     </xs:sequence>
+    </xs:choice>
+   <xs:element name='suffix' type='PNPersonalNameSuffixType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='addendum' type='xs:token' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+ <xs:complexType name='CharVariantType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A recorded variant for a character, for cases
+    where multiple actors portray distinct
+    versions of the same character.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'/>
+  </xs:simpleContent>
+ </xs:complexType>
+
+
+ <xs:complexType name='CharAspectType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A recorded aspect for a character, for cases
+    where an actor only performs part of
+    a character (usually the voice).
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'/>
+  </xs:simpleContent>
+ </xs:complexType>
+
+
+ <xs:complexType name='CharacterRefType'>
+  <xs:annotation>
+    <xs:documentation xml:lang='en-US'>
+     Record to identify a reference to a character.
+
+     A character can essentially be 3 options:
+      1) Actor portraying themselves.
+      2) Actor portraying an unnamed character
+      3) Actor portraying a character with one or more names
+
+      Both options (2) and (3) get the optional variant/aspect elements
+      to provide further details to the name.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:choice>
+    <xs:element name='self' type='SelfCharacterType'/>
+    <xs:sequence>
+     <xs:choice>
+      <xs:element name='unnamed' type='xs:token'/>
+      <xs:sequence>
+        <xs:element name='name' type='CharacterNameType' minOccurs='1' maxOccurs='1'/>
+        <xs:element name='alias' type='CharacterNameType' minOccurs='0' maxOccurs='unbounded'/>
+      </xs:sequence>
+     </xs:choice>
+     <xs:element name='variant' type='CharVariantType' minOccurs='0' maxOccurs='1'/>
+     <xs:element name='aspect' type='CharAspectType' minOccurs='0' maxOccurs='1'/>
+    </xs:sequence>
+   </xs:choice>
+  </xs:sequence>
+  <xs:attributeGroup ref='PortrayalAttributeGroup'/>
+ </xs:complexType>
+
+ <xs:complexType name='RoleType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Record of an actor in one (or more) roles.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='actor' type='ActorNameType' minOccurs='1' maxOccurs='1'/>
+   <xs:choice>
+    <xs:element name='narrator' type='PortraysNarratorType'/>
+    <xs:sequence>
+     <xs:element name='self' type='SelfType' minOccurs='0' maxOccurs='1'/>
+     <xs:element name='character' type='CharacterRefType' minOccurs='0' maxOccurs='unbounded'/>
+     <xs:element name='background' type='PortraysBackgroundType' minOccurs='0' maxOccurs='1'/>
+     <xs:element name='additionalVoices' type='PortraysBackgroundType' minOccurs='0' maxOccurs='1'/>
+    </xs:sequence>
+   </xs:choice>
+  </xs:sequence>
+ </xs:complexType>
+
+</xs:schema>
+
+

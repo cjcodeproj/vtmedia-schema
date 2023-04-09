@@ -162,23 +162,33 @@
      <cast>
       <role>
        <actor><gn>Jodie</gn><fn>Foster</fn></actor>
-       <as><prefix>Dr</prefix><gn>Eleanor</gn><fn>Arroway</fn></as>
+       <character>
+        <name><prefix>Dr</prefix><gn>Eleanor</gn><fn>Arroway</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Matthew</gn><fn>McConaughey</fn></actor>
-       <as><gn>Palmer</gn><fn>Joss</fn></as>
+       <character>
+        <name><gn>Palmer</gn><fn>Joss</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Tom</gn><fn>Skeritt</fn></actor>
-       <as><gn>David</gn><fn>Drumlin</fn></as>
+       <character>
+        <name><gn>David</gn><fn>Drumlin</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>David</gn><fn>Morse</fn></actor>
-       <as><gn>Ted</gn><fn>Arroway</fn></as>
+       <character>
+        <name><gn>Ted</gn><fn>Arroway</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>William</gn><fn>Fichtner</fn></actor>
-       <as><gn>Kent</gn></as>
+       <character>
+        <name><gn>Kent</gn></name>
+       </character>
       </role>
      </cast>
     </crew>

@@ -179,6 +179,48 @@ a title given to a Sith Lord.  Hayden Christensen portrays the physical aspect o
 well as the character of Anakin Skywalker.  James Earl Jones provides the voice of Darth Vader in 
 both films.  In Rogue One, two different actors have an actor's credit for portraying Vader's body.
 
+```
+<role>
+ <actor><gn>Hayden</gn><fn>Christensen</fn></actor>
+ <character>
+  <name><gn>Anakin</gn><fn>Skywalker</fn></name>
+  <alias><prefix>Darth</prefix><gn>Vader</gn></name<
+ </character>
+</role>
+<role>
+ <actor><gn>James Earl</gn><fn>Jones</fn></actor>
+ <character>
+  <name><prefix>Darth</prefix><gn>Vader</gn></name>
+  <aspect>voice</aspect>
+ </character>
+</role>
+```
+
+```
+<role>
+ <actor><gn>Spencer</gn><fn>Wilding</fn></actor>
+ <character>
+  <name><prefix>Darth</prefix><gn>Vader</gn></name>
+  <aspect>body</aspect>
+ </character>
+</role>
+<role>
+ <actor><gn>Daniel</gn><fn>Naprous</fn></actor>
+ <character>
+  <name><prefix>Darth</prefix><gn>Vader</gn></name>
+  <aspect>body</aspect>
+ </character>
+</role>
+<role>
+ <actor><gn>James Earl</gn><fn>Jones</fn></actor>
+ <character>
+  <name><prefix>Darth</prefix><gn>Vader</gn></name>
+  <aspect>voice</aspect>
+ </character>
+</role>
+```
+
+
 ## Data Entry Notes
 
 ### Real Name Ambiguity

@@ -78,19 +78,27 @@
      <cast>
       <role>
        <actor><gn>Cillian</gn><fn>Murphy</fn></actor>
-       <as><gn>Tom</gn><fn>Buckley</fn></as>
+       <character>
+        <name><gn>Tom</gn><fn>Buckley</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Sigourney</gn><fn>Weaver</fn></actor>
-       <as><gn>Margaret</gn><fn>Matheson</fn></as>
+       <character>
+        <name><gn>Margaret</gn><fn>Matheson</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Robert</gn><fn>De Niro</fn></actor>
-       <as><gn>Simon</gn><fn>Silver</fn></as>
+       <character>
+        <name><gn>Simon</gn><fn>Silver</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Toby</gn><fn>Jones</fn></actor>
-       <as><gn>Paul</gn><fn>Shackleton</fn></as>
+       <character>
+        <name><gn>Paul</gn><fn>Shackleton</fn></name>
+       </character>
       </role>
      </cast>
     </crew>

@@ -128,23 +128,33 @@
      <cast>
       <role>
        <actor><gn>Matthew</gn><fn>Broderick</fn></actor>
-       <as><gn>David</gn></as>
+       <character>
+        <name><gn>David</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Ally</gn><fn>Sheedy</fn></actor>
-       <as><gn>Jennifer</gn></as>
+       <character>
+        <name><gn>Jennifer</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Dabney</gn><fn>Coleman</fn></actor>
-       <as><fn>McKittrick</fn></as>
+       <character>
+        <name><fn>McKittrick</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Barry</gn><fn>Corbin</fn></actor>
-       <as><prefix type='rank'>General</prefix><fn>Beringer</fn></as>
+       <character>
+        <name><prefix type='rank'>General</prefix><fn>Beringer</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>John</gn><fn>Wood</fn></actor>
-       <as><gn>Stephen</gn><fn>Falken</fn></as>
+       <character>
+        <name><gn>Stephen</gn><fn>Falken</fn></name>
+       </character>
       </role>
      </cast>
     </crew>

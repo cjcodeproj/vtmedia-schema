@@ -57,8 +57,7 @@
     <crew>
      <directors>
       <director><gn>Joel</gn><fn>Coen</fn></director>
-      <director><gn>Ethan</gn><fn>Coen</fn></director>
-      <!-- Note: Ethan uncredited -->
+      <director uncredited='true'><gn>Ethan</gn><fn>Coen</fn></director>
      </directors>
      <writers>
       <writer><gn>Joel</gn><fn>Coen</fn></writer>
@@ -88,24 +87,34 @@
      <cast>
       <role>
        <actor><gn>John</gn><fn>Getz</fn></actor>
-       <as><gn>Ray</gn></as>
+       <character>
+        <name><gn>Ray</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Frances</gn><fn>McDormand</fn></actor>
-       <as><gn>Abby</gn></as>
+       <character>
+        <name><gn>Abby</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Dan</gn><fn>Hedaya</fn></actor>
-       <as><gn>Julian</gn><fn>Marty</fn></as>
+       <character>
+        <name><gn>Julian</gn><fn>Marty</fn></name>
+       </character>
       </role>
       <role>
        <actor><pgn>M. Emmet</pgn><gn>Michael</gn><mn>Emmet</mn><fn>Walsh</fn></actor>
-       <as><prefix>Private Detective</prefix><gn>Loren</gn><fn>Visser</fn></as>
+       <character>
+        <name><prefix>Private Detective</prefix><gn>Loren</gn><fn>Visser</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Holly</gn><fn>Hunter</fn></actor>
-       <as><gn>Helene</gn><fn>Trend</fn><aspect>voice</aspect></as>
-       <!-- uncredited -->
+       <character uncredited='true'>
+        <name><gn>Helene</gn><fn>Trend</fn></name>
+        <aspect>voice</aspect>
+       </character>
       </role>
      </cast>
     </crew>
