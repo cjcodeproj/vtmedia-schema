@@ -119,31 +119,45 @@
      <cast>
       <role>
        <actor><gn>Dustin</gn><fn>Hoffman</fn></actor>
-       <as><gn>Carl</gn><fn>Bernstein</fn></as>
+       <character>
+        <name><gn>Carl</gn><fn>Bernstein</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Robert</gn><fn>Redford</fn></actor>
-       <as><gn>Bob</gn><fn>Woodward</fn></as>
+       <character>
+        <name><gn>Bob</gn><fn>Woodward</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Jack</gn><fn>Warden</fn></actor>
-       <as><gn>Harry</gn><fn>Rosenfeld</fn></as>
+       <character>
+        <name><gn>Harry</gn><fn>Rosenfeld</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Martin</gn><fn>Balsam</fn></actor>
-       <as><gn>Howard</gn><fn>Simons</fn></as>
+       <character>
+        <name><gn>Howard</gn><fn>Simons</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Hal</gn><fn>Holbrook</fn></actor>
-       <as><nick>Deep Throat</nick></as>
+       <character>
+        <name><nick>Deep Throat</nick></name>
+       </character>
       </role>
       <role>
        <actor><gn>Jason</gn><fn>Robards</fn></actor>
-       <as><gn>Ben</gn><fn>Bradlee</fn></as>
+       <character>
+        <name><gn>Ben</gn><fn>Bradlee</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Jane</gn><fn>Alexander</fn></actor>
-       <as><nick>The Bookeeper</nick></as>
+       <character>
+        <name><nick>The Bookeeper</nick></name>
+       </character>
       </role>
      </cast>
     </crew>

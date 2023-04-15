@@ -151,43 +151,63 @@
      <cast>
       <role>
        <actor><gn>Kurt</gn><fn>Russell</fn></actor>
-       <as><gn>Stuntman Mike</gn></as>
+       <character>
+        <name><gn>Stuntman Mike</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Zöe</gn><fn>Bell</fn></actor>
-       <as><gn>Zöe</gn><fn>Bell</fn></as>
+       <character>
+        <self/>
+       </character>
       </role>
       <role>
        <actor><gn>Rosario</gn><fn>Dawson</fn></actor>
-       <as><gn>Abernathy</gn></as>
+       <character>
+        <name><gn>Abernathy</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Vanessa</gn><fn>Ferlito</fn></actor>
-       <as><gn>Arlene</gn></as>
+       <character>
+        <name><gn>Arlene</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Sydney</gn><fn>Tamiia Poitier</fn></actor>
-       <as><gn>Jungle Julia</gn></as>
+       <character>
+        <name><gn>Jungle Julia</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Tracie</gn><fn>Thoms</fn></actor>
-       <as><gn>Kim</gn></as>
+       <character>
+        <name><gn>Kim</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Rose</gn><fn>McGowan</fn></actor>
-       <as><gn>Pam</gn></as>
+       <character>
+        <name><gn>Pam</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Jordan</gn><fn>Ladd</fn></actor>
-       <as><gn>Shanna</gn></as>
+       <character>
+        <name><gn>Shanna</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Monica</gn><fn>Staggs</fn></actor>
-       <as><gn>Lanna</gn><fn>Frank</fn></as>
+       <character>
+        <name><gn>Lanna</gn><fn>Frank</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Quentin</gn><fn>Tarantino</fn></actor>
-       <as><gn>Warren</gn></as>
+       <character>
+        <name><gn>Warren</gn></name>
+       </character>
       </role>
      </cast>
     </crew>

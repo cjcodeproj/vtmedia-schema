@@ -70,24 +70,36 @@
      <cast>
       <role>
        <actor><gn>Jason</gn><fn>Statham</fn></actor>
-       <as><gn>Quentin</gn><fn>Connors</fn></as>
+       <character>
+        <name><gn>Quentin</gn><fn>Connors</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Ryan</gn><fn>Phillippe</fn></actor>
-       <as><gn>Shane</gn><fn>Dekker</fn></as>
+       <character>
+        <name><gn>Shane</gn><fn>Dekker</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Wesley</gn><fn>Snipes</fn></actor>
-       <as><gn>Lorenz</gn></as>
-       <as><gn>Jason</gn><fn>York</fn></as>
+       <character>
+        <name><gn>Lorenz</gn></name>
+       </character>
+       <character>
+        <name><gn>Jason</gn><fn>York</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Henry</gn><fn>Fzerny</fn></actor>
-       <as><prefix>Captain</prefix><gn>Martin</gn><fn>Jenkins</fn></as>
+       <character>
+        <name><prefix>Captain</prefix><gn>Martin</gn><fn>Jenkins</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Justine</gn><fn>Waddell</fn></actor>
-       <as><prefix>Captain</prefix><gn>Teddy</gn><fn>Galloway</fn></as>
+       <character>
+        <name><prefix>Captain</prefix><gn>Teddy</gn><fn>Galloway</fn></name>
+       </character>
       </role>
      </cast>
     </crew>

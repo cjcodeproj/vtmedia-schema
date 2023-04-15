@@ -79,19 +79,27 @@
      <cast>
       <role>
        <actor><gn>Robert</gn><fn>De Niro</fn></actor>
-       <as><gn>Benjamin</gn><fn>Ford</fn></as>
+       <character>
+        <name><gn>Benjamin</gn><fn>Ford</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>John</gn><fn>Travolta</fn></actor>
-       <as><gn>Emil</gn><fn>Kovac</fn></as>
+       <character>
+        <name><gn>Emil</gn><fn>Kovac</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Milo</gn><fn>Ventimiglia</fn></actor>
-       <as><gn>Chris</gn><fn>Ford</fn></as>
+       <character>
+        <name><gn>Chris</gn><fn>Ford</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Elizabeth</gn><fn>Olin</fn></actor>
-       <as><gn>Sarah</gn><fn>Ford</fn></as>
+       <character>
+        <name><gn>Sarah</gn><fn>Ford</fn></name>
+       </character>
       </role>
      </cast>
     </crew>

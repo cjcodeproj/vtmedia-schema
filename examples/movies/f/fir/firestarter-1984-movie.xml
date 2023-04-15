@@ -103,59 +103,87 @@
      <cast>
       <role>
        <actor><gn>David</gn><fn>Keith</fn></actor>
-       <as><gn>Andrew</gn><fn>McGee</fn></as>
+       <character>
+        <name><gn>Andrew</gn><fn>McGee</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Drew</gn><fn>Barrymore</fn></actor>
-       <as><gn>Charlie</gn><fn>McGee</fn></as>
+       <character>
+        <name><gn>Charlie</gn><fn>McGee</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Freddie</gn><fn>Jones</fn></actor>
-       <as><prefix>Dr.</prefix><gn>Joseph</gn><fn>Wanless</fn></as>
+       <character>
+        <name><prefix>Dr.</prefix><gn>Joseph</gn><fn>Wanless</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Heather</gn><fn>Locklear</fn></actor>
-       <as><gn>Vicky</gn><fn>McGee</fn></as>
+       <character>
+        <name><gn>Vicky</gn><fn>McGee</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Martin</gn><fn>Sheen</fn></actor>
-       <as><prefix>Captain</prefix><fn>Hollister</fn></as>
+       <character>
+        <name><prefix>Captain</prefix><fn>Hollister</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>George</gn><mn>C.</mn><fn>Scott</fn></actor>
-       <as><gn>John</gn><fn>Rainbird</fn></as>
+       <character>
+        <name><gn>John</gn><fn>Rainbird</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Art</gn><fn>Carney</fn></actor>
-       <as><gn>Irv</gn><fn>Manders</fn></as>
+       <character>
+        <name><gn>Irv</gn><fn>Manders</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Louise</gn><fn>Fletcher</fn></actor>
-       <as><gn>Norma</gn><fn>Manders</fn></as>
+       <character>
+        <name><gn>Norma</gn><fn>Manders</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Moses</gn><fn>Gunn</fn></actor>
-       <as><prefix>Dr.</prefix><fn>Pynchot</fn></as>
+       <character>
+        <name><prefix>Dr.</prefix><fn>Pynchot</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Antonio</gn><fn>Fargas</fn></actor>
-       <as><title>Taxi Driver</title></as>
+       <character>
+        <unnamed>Taxi Driver</unnamed>
+       </character>
       </role>
       <role>
        <actor><gn>Drew</gn><fn>Snyder</fn></actor>
-       <as><gn>Orville</gn><fn>Jamieson</fn></as>
+       <character>
+        <name><gn>Orville</gn><fn>Jamieson</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Curtis</gn><fn>Credel</fn></actor>
-       <as><fn>Bates</fn></as>
+       <character>
+        <name><fn>Bates</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Keith</gn><fn>Colbert</fn></actor>
-       <as><fn>Mayo</fn></as>
+       <character>
+        <name><fn>Mayo</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Stanley</gn><fn>Mann</fn></actor>
-       <as><title>Motel Owner</title></as>
+       <character>
+        <unnamed>Motel Owner</unnamed>
+       </character>
       </role>
      </cast>
     </crew>

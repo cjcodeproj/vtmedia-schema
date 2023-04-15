@@ -116,7 +116,9 @@
      <cast>
       <role>
        <actor><gn>Firstname</gn><mn>Middlename</mn><fn>Lastname</fn></actor>
-       <as><gn>CharFirstname</gn></as>
+       <character>
+        <name><gn>CharFirstname</gn></name>
+       </character>
       </role>
      </cast>
     </crew>

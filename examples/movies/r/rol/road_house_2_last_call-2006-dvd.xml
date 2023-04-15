@@ -121,28 +121,40 @@
      <cast>
       <role>
        <actor><gn>Jonathan</gn><fn>Schaech</fn></actor>
-       <as><gn>Shane</gn><fn>Tanner</fn></as>
+       <character>
+        <name><gn>Shane</gn><fn>Tanner</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Ellen</gn><fn>Hollman</fn></actor>
-       <as><gn>Beau</gn></as>
+       <character>
+        <name><gn>Beau</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Richard</gn><fn>Norton</fn></actor>
-       <as><gn>Victor</gn><fn>Cross</fn></as>
+       <character>
+        <name><gn>Victor</gn><fn>Cross</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Jake</gn><fn>Busey</fn></actor>
-       <as><nick>Wild</nick><gn>Bill</gn></as>
+       <character>
+        <name><nick>Wild</nick><gn>Bill</gn></name>
+       </character>
        <!-- nickname: Wild Bill -->
       </role>
       <role>
        <actor><gn>Will</gn><fn>Patton</fn></actor>
-       <as><gn>Nate</gn><fn>Tanner</fn></as>
+       <character>
+        <name><gn>Nate</gn><fn>Tanner</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Marisa</gn><fn>Quintanilla</fn></actor>
-       <as><gn>Nadja</gn></as>
+       <character>
+        <name><gn>Nadja</gn></name>
+       </character>
       </role>
      </cast>
     </crew>
