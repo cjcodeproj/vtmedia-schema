@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="http://vectortron.com/xml/media/media" uri="./media-schema.xsd"/>
+  <uri name="http://vectortron.com/xml/media/test" uri="vtm-content-test.xsd"/>
+  <uri name="http://vectortron.com/xml/media/movie" uri="./vtm-content-movie.xsd"/>
+  <uri name="http://vectortron.com/xml/media/written" uri="./vtm-content-written.xsd"/> 
+</catalog>
