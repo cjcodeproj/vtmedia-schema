@@ -183,27 +183,39 @@
      <cast>
       <role>
        <actor><gn>Robert</gn><fn>De Niro</fn></actor>
-       <as><gn>Jack</gn><fn>Walsh</fn></as>
+       <character>
+        <name><gn>Jack</gn><fn>Walsh</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Charles</gn><fn>Grodin</fn></actor>
-       <as><gn>Jonathan</gn><nick>The Duke</nick><fn>Mardukas</fn></as>
+       <character>
+        <name><gn>Jonathan</gn><nick>The Duke</nick><fn>Mardukas</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Yaphet</gn><fn>Koto</fn></actor>
-       <as><prefix type='professional'>Special Agent</prefix><gn>Alonzo</gn><fn>Mosely</fn></as>
+       <character>
+        <name><prefix type='professional'>Special Agent</prefix><gn>Alonzo</gn><fn>Mosely</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>John</gn><fn>Ashton</fn></actor>
-       <as><gn>Marvin</gn><fn>Dorfler</fn></as>
+       <character>
+        <name><gn>Marvin</gn><fn>Dorfler</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Joe</gn><fn>Pantoliano</fn></actor>
-       <as><gn>Eddie</gn><fn>Moscone</fn></as>
+       <character>
+        <name><gn>Eddie</gn><fn>Moscone</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Dennis</gn><fn>Farina</fn></actor>
-       <as><gn>Jimmy</gn><fn>Serrano</fn></as>
+       <character>
+        <name><gn>Jimmy</gn><fn>Serrano</fn></name>
+       </character>
       </role>
      </cast>
     </crew>

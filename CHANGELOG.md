@@ -1,6 +1,11 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## RELEASE 2023.05
+ - [schema-81](https://github.com/cjcodeproj/vtmedia-schema/issues/81) Prep work for 2023.05 release
+ - [schema-75](https://github.com/cjcodeproj/vtmedia-schema/issues/75) Schema catalog.xml file for Visual Studio Code
+ - [schema-69](https://github.com/cjcodeproj/vtmedia-schema/issues/73) Role/character element proposal
+
 ## RELEASE 2023.03
  - [schema-73](https://github.com/cjcodeproj/vtmedia-schema/issues/73) Prep work for 2023.03 release
  - [schema-72](https://github.com/cjcodeproj/vtmedia-schema/issues/72) Clean up a lot of trailing whitespace

@@ -3,20 +3,18 @@
  <media>
   <title>
    <main>Sneakers</main>
-   <edition>Collector's Edition</edition>
   </title>
   <medium>
    <release>
-    <type><dvd/></type>
+    <type><bluray/></type>
    </release>
    <productId>
-    <barcode type='upc'>025192330421</barcode>
-    <barcode type='isbn' scanlines='false'>0783280688</barcode>
+    <barcode type='upc'>025192231568</barcode>
    </productId>
    <productSpecs>
     <inventory>
      <case>
-      <dvd/>
+      <bluray/>
      </case>
     </inventory>
    </productSpecs>

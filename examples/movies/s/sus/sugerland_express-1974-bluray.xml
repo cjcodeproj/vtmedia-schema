@@ -144,19 +144,27 @@
      <cast>
       <role>
        <actor><gn>Goldie</gn><fn>Hawn</fn></actor>
-       <as><gn>Lou Jean</gn></as>
+       <character>
+        <name><gn>Lou Jean</gn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Ben</gn><fn>Johnson</fn></actor>
-       <as><prefix>Captain</prefix><fn>Tanner</fn></as>
+       <character>
+        <name><prefix>Captain</prefix><fn>Tanner</fn></name>
+       </character>
       </role>
       <role>
        <actor><gn>Michael</gn><fn>Sacks</fn></actor>
-       <as><nick>Slide</nick></as>
+       <character>
+        <name><nick>Slide</nick></name>
+       </character>
       </role>
       <role>
        <actor><gn>William</gn><fn>Atherton</fn></actor>
-       <as><gn>Clovis</gn></as>
+       <character>
+        <name><gn>Clovis</gn></name>
+       </character>
       </role>
      </cast>
     </crew>

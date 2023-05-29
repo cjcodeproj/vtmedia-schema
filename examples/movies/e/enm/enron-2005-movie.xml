@@ -95,11 +95,11 @@
      <cast>
       <role>
        <actor><gn>Peter</gn><fn>Coyote</fn></actor>
-       <as><narrator/></as>
+       <narrator/>
       </role>
       <role>
-       <actor><gn>Arnold</gn><fn>Schwarzenegger</fn></actor>
-       <as><self archivalFootage='true'/></as>
+       <actor archivalFootage='true'><gn>Arnold</gn><fn>Schwarzenegger</fn></actor>
+       <self/>
       </role>
      </cast>
     </crew>
