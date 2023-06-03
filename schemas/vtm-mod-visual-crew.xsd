@@ -119,6 +119,7 @@
    <xs:enumeration value='song'/>
    <xs:enumeration value='poem'/>
    <xs:enumeration value='radioShow'/>
+   <xs:enumeration value='televisionShow'/>
    <xs:enumeration value='podcast'/>
    <xs:enumeration value='character'/>
    <xs:enumeration value='characters'/>
