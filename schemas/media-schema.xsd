@@ -40,6 +40,7 @@
   <xs:choice minOccurs='1' maxOccurs='unbounded'>
    <xs:element ref='test:test' />
    <xs:element ref='movie:movie' />
+   <xs:element ref='movie:short' />
    <xs:element ref='written:essay' />
   </xs:choice>
  </xs:complexType>
