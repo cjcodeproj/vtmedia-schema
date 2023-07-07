@@ -1,6 +1,6 @@
 # Media Schema
 
-An XML schema designed for the recording of the details of various forms of media, 
+An XML XSD schema designed for recording the details of various forms of media, 
 including movies, television, books, and music.
 
 ## Project Goals
@@ -8,7 +8,7 @@ including movies, television, books, and music.
 The schema is designed with the following goals.
 
 
-1. The ability to record details on a piece of media, details on the storage medium, and ownership information.
+1. The ability to record details on a piece of media, the storage medium, and ownership information.
 2. Easy enough to create records without proprietary software dependencies.
 3. Simple data entry, validation, and debugging using tools of the end-user's choice.
 4. Allow for easy exchange, transfer, or publication of the dataset using existing protocols.
@@ -26,7 +26,35 @@ The schema directory contains all of the XML Schema XSD files.
 
 The examples directory contains working examples using the schema.
 
-Movie list
+The directory is laid out in a path structure that reduces the chances of too many files being kept in a
+single directory.  Tools or code that intend to read the data should be designed to traverse the directory and
+file all of the files and then read them.
+
+The `movies/` directory contains movie examples.  The `test` directory is an abstract structure for testing the schema.
+
+### Doc
+
+The `doc` directory contains HTML documentation on using the schema, with examples.
+
+[HTML Preview](http://htmlpreview.github.io/?https://github.com/cjcodeproj/vtmedia-schema/blob/main/doc/index.html)
+
+### Notes
+
+The `notes` directory contains additional documentaiton.
+
+### Test
+
+The `test` directory contains simple testing code for the schema and for the provided examples.
+
+### Catalog
+
+The `catalog` directory has a `catalog.xml` file suitable for using with XML editors to load the schema.
+
+### Templates
+
+The templates directory has sample templates that can be copied and used as a baseline for data entry.
+
+## Movie List
 ```
 Title                                              Year Runtime  Genre                                             
 ================================================== ==== ======== ==================================================
@@ -59,20 +87,17 @@ Wargames                                           1983  1:52:42 [FICTION] Thril
 ================================================== ==== ======== ==================================================
 ```
 
-### Doc
 
-The doc directory contains HTML documentation on using the schema, with examples.
+## Code Project
 
-[HTML Preview](http://htmlpreview.github.io/?https://github.com/cjcodeproj/vtmedia-schema/blob/main/doc/index.html)
+[![PyPi version](https://img.shields.io/pypi/v/medialibrary)](https://pypi.org/project/medialibrary/)
 
-### Test
+The `medialibrary` code is a Python package for reading the XML files.  It can parse the data and generate reports
+on a media repository.
 
-The test directory contains simple testing code.
 
-### Templates
-
-The templates directory has sample templates that can be copied and used as a baseline for data entry.
 
 ## License
 
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
