@@ -37,8 +37,8 @@
     </dimensions>
     <inventory>
      <digibook>
-      <bluray id='1'/>
-      <booklet id='2'/>
+      <bluray id='br01'/>
+      <booklet id='bk01'/>
      </digibook>
     </inventory>
    </productSpecs>

@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-87](https://github.com/cjcodeproj/vtmedia-schema/issues/87) Media storage cases should probably have optional id attribute
  - [schema-44](https://github.com/cjcodeproj/vtmedia-schema/issues/44) New media type for short films
  - [schema-83](https://github.com/cjcodeproj/vtmedia-schema/issues/83) Missing source type "televisionShow"
 

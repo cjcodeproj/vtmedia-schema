@@ -50,17 +50,17 @@
  </xs:group>
 
  <xs:complexType name='PIVideoDiskType'>
-  <xs:attribute name='id' type='xs:positiveInteger' use='optional'/>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
   <xs:attribute name='type' type='xs:token' use='optional'/>
   <xs:attribute name='diometer' type='xs:float' use='optional'/>
  </xs:complexType>
 
  <xs:complexType name='PIVideoTapeType'>
-  <xs:attribute name='id' type='xs:positiveInteger' use='optional'/>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
  </xs:complexType>
 
  <xs:complexType name='PIPrintPageType'>
-  <xs:attribute name='id' type='xs:positiveInteger' use='optional'/>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
  </xs:complexType>
 
  <xs:complexType name='PICodeSheetType'>
@@ -111,6 +111,7 @@
    <xs:group ref='PILayerOneStorageGroup' minOccurs='1' maxOccurs='unbounded'/>
    <xs:group ref='PIMediumPrintGroup' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
  </xs:complexType>
 
  <xs:group name='PILayerOneStorageGroup'>
@@ -143,6 +144,7 @@
    <xs:group ref='PIMediumVideoGroup' minOccurs='1' maxOccurs='unbounded'/>
    <xs:group ref='PIMediumPrintGroup' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
   <xs:attribute name='translucent' type='xs:boolean' use='optional'/>
   <xs:attribute name='color' type='xs:token' use='optional'/>
   <xs:attribute name='slipcover' type='xs:boolean' use='optional'/>
@@ -160,6 +162,7 @@
   <xs:choice minOccurs='1' maxOccurs='unbounded'>
    <xs:group ref='PIMediumVideoGroup' minOccurs='1'/>
   </xs:choice>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
  </xs:complexType>
 
  <xs:complexType name='PIStorageFoldCaseType'>
@@ -175,6 +178,7 @@
    <xs:group ref='PIMediumVideoGroup' minOccurs='1' maxOccurs='unbounded'/>
    <xs:group ref='PIMediumPrintGroup' minOccurs='0'/>
   </xs:sequence>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
   <xs:attribute name='translucent' type='xs:boolean' use='optional'/>
   <xs:attribute name='color' type='xs:token' use='optional'/>
   <xs:attribute name='slipcover' type='xs:boolean' use='optional'/>
@@ -193,6 +197,7 @@
    <xs:group ref='PIMediumVideoGroup' minOccurs='1' maxOccurs='unbounded'/>
    <xs:group ref='PIMediumPrintGroup' minOccurs='0'/>
   </xs:sequence>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
   <xs:attribute name='slipcover' type='xs:boolean' use='optional'/>
  </xs:complexType>
 
@@ -209,6 +214,7 @@
    <xs:group ref='PIMediumVideoGroup' minOccurs='1'/>
    <xs:element name='booklet' type='PIPrintPageType' minOccurs='1'/>
   </xs:sequence>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
   <xs:attribute name='slipcover' type='xs:boolean' use='optional'/>
  </xs:complexType>
 
@@ -223,6 +229,7 @@
   <xs:choice minOccurs='1' maxOccurs='unbounded'>
    <xs:group ref='PIMediumVideoGroup'/>
   </xs:choice>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
  </xs:complexType>
 
  <xs:complexType name='ProductInventoryType'>

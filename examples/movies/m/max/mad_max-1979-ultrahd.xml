@@ -39,8 +39,8 @@
     </dimensions>
     <inventory>
      <case>
-      <ultrahd id='1'/>
-      <bluray id='2'/>
+      <ultrahd id='br01'/>
+      <bluray id='br02'/>
      </case>
     </inventory>
    </productSpecs>
