@@ -39,7 +39,7 @@
       <generic>wilderness</generic>
       <generic>bowhunting</generic>
       <generic>tree stand</generic>
-      <properNoun><entity>NATO</entity></properNoun>
+      <properNoun><entity acronym='NATO'>North Atlantic Treaty Organization</entity></properNoun>
       <properNoun><event>Bosnian War</event></properNoun>
       <properNoun><person><gn>Johnny</gn><fn>Cash</fn></person></properNoun>
      </keywords>

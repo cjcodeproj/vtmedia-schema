@@ -61,8 +61,8 @@
      <keywords>
       <properNoun><thing>IMSAI Computer</thing></properNoun>
       <properNoun related='military base'><place><name>NORAD</name></place></properNoun>
-      <properNoun><entity>Air Force</entity></properNoun>
-      <properNoun><entity>FBI</entity></properNoun>
+      <properNoun><entity acronym='USAF'>US Air Force</entity></properNoun>
+      <properNoun><entity acronym='FBI'>Federal Bureau of Investigation</entity></properNoun>
       <generic>computer hacking</generic>
       <generic>artificial intelligence</generic>
       <generic>high school</generic>
@@ -87,8 +87,8 @@
        <generic>chess</generic>
       </group>
       <group>
-       <properNoun><place><ci>Seattle</ci></place></properNoun>
-       <properNoun><place><ci>Goose Island</ci><st>Oregon</st></place></properNoun>
+       <properNoun><place><ci>Seattle</ci><st abbrv='WA'>Washington</st></place></properNoun>
+       <properNoun><place><ci>Goose Island</ci><st abbrv='OR'>Oregon</st></place></properNoun>
       </group>
      </keywords>
      <themes>

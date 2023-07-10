@@ -67,10 +67,10 @@
       <generic>bank</generic>
       <generic>safety deposit box</generic>
       <generic>geese</generic>
-      <properNoun><entity>CIA</entity></properNoun>
-      <properNoun><entity>NSA</entity></properNoun>
+      <properNoun><entity acronym='CIA'>Central Intelligence Agency</entity></properNoun>
+      <properNoun><entity acronym='NSA'>National Security Agency</entity></properNoun>
       <properNoun><entity>KGB</entity></properNoun>
-      <properNoun><entity>FBI</entity></properNoun>
+      <properNoun><entity acronym='FBI'>Federal Bureau of Investigation</entity></properNoun>
       <properNoun><place><ci>San Francisco</ci></place></properNoun>
       <group relevance='2'>
         <generic>penetration testing</generic>

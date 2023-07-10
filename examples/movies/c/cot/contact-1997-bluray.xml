@@ -104,9 +104,9 @@
        <properNoun><place><name>Very Large Array</name></place></properNoun>
        <properNoun><place><name>Arecibo Observatory</name></place></properNoun>
        <properNoun><place><name>Cape Canaveral</name></place></properNoun>
-       <properNoun><entity>NASA</entity></properNoun>
-       <properNoun><entity>NRAO</entity></properNoun>
-       <properNoun><entity>National Science Foundation</entity></properNoun>
+       <properNoun><entity acronym='NASA'>National Aeronautics and Space Administration</entity></properNoun>
+       <properNoun><entity acronym='NRAO'>National Radio Astronomy Observatory</entity></properNoun>
+       <properNoun><entity acronym='NSF'>National Science Foundation</entity></properNoun>
       </group>
      </keywords>
      <themes>

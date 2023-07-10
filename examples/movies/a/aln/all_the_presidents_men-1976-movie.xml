@@ -62,9 +62,9 @@
       <generic>scandal</generic>
       <generic>parking garage</generic>
       <generic>taxi cabs</generic>
-      <properNoun><entity>FBI</entity></properNoun>
-      <properNoun><entity>CIA</entity></properNoun>
-      <properNoun><entity>Department Of Justice</entity></properNoun>
+      <properNoun><entity acronym='FBI'>Federal Bureau of Investigation</entity></properNoun>
+      <properNoun><entity acronym='CIA'>Central Intelligence Agency</entity></properNoun>
+      <properNoun><entity acronym='DOJ'>Department Of Justice</entity></properNoun>
       <group>
        <generic>Richard Nixon</generic>
        <properNoun><person><gn>Richard</gn><fn>Nixon</fn></person></properNoun>

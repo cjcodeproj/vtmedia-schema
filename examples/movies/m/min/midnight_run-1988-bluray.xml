@@ -106,7 +106,7 @@
      <keywords>
       <generic relevance='1'>bounty hunter</generic>
       <generic relevance='1'>accountant</generic>
-      <properNoun relevance='1'><entity>FBI</entity></properNoun>
+      <properNoun relevance='1'><entity acronym='FBI'>Federal Bureau of Investigation</entity></properNoun>
       <properNoun><entity>Amtrack</entity></properNoun>
       <generic>handcuffs</generic>
       <generic>car</generic>
@@ -127,15 +127,15 @@
       <generic relevance='5'>DTMF decoding</generic>
       <properNoun relevance='5' related='potato'><thing>Lyonnaise Potatoes</thing></properNoun>
       <group collection='cities'>
-       <properNoun><place><ci>Los Angeles</ci></place></properNoun>
-       <properNoun><place><ci>New York</ci></place></properNoun>
-       <properNoun><place><ci>Philadelphia</ci></place></properNoun>
-       <properNoun><place><ci>Chicago</ci></place></properNoun>
-       <properNoun><place><ci>Amarillo</ci><st>Texas</st></place></properNoun>
-       <properNoun><place><ci>Channing</ci><st>Texas</st></place></properNoun>
-       <properNoun><place><ci>Flagstaff</ci><st>Arizona</st></place></properNoun>
-       <properNoun><place><ci>Sedona</ci><st>Arizona</st></place></properNoun>
-       <properNoun><place><ci>Las Vegas</ci></place></properNoun>
+       <properNoun><place><ci>Los Angeles</ci><st abbrv='CA'>California</st></place></properNoun>
+       <properNoun><place><ci>New York</ci><st abbrv='NY'>New York</st></place></properNoun>
+       <properNoun><place><ci>Philadelphia</ci><st abbrv='PA'>Pennsylvania</st></place></properNoun>
+       <properNoun><place><ci>Chicago</ci><st abbrv='IL'>Illinois</st></place></properNoun>
+       <properNoun><place><ci>Amarillo</ci><st abbrv='TX'>Texas</st></place></properNoun>
+       <properNoun><place><ci>Channing</ci><st abbrv='TX'>Texas</st></place></properNoun>
+       <properNoun><place><ci>Flagstaff</ci><st abbrv='AZ'>Arizona</st></place></properNoun>
+       <properNoun><place><ci>Sedona</ci><st abbrv='AZ'>Arizona</st></place></properNoun>
+       <properNoun><place><ci>Las Vegas</ci><st abbrv='NV'>Nevada</st></place></properNoun>
       </group>
       <group collection='transit hubs'>
        <properNoun><place><name>JFK International Airport</name></place></properNoun>

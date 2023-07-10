@@ -92,9 +92,9 @@
       <generic>drive-in movie</generic>
       <generic>cartoons</generic>
       <generic>used car lot</generic>
-      <properNoun><place><st>Texas</st></place></properNoun>
+      <properNoun><place><st abbrv='TX'>Texas</st></place></properNoun>
       <properNoun><entity>Texas Highway Patrol</entity></properNoun>
-      <properNoun><place><st>Louisiana</st></place></properNoun>
+      <properNoun><place><st abbrv='LA'>Louisiana</st></place></properNoun>
       <properNoun><place><ci>Sugarland</ci></place></properNoun>
       <properNoun><entity>Arco</entity></properNoun>
       <generic>custody dispute</generic>

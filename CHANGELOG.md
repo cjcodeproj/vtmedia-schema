@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-25](https://github.com/cjcodeproj/vtmedia-schema/issues/25) Acronym/abbreviation support for some proper nouns
  - [schema-88](https://github.com/cjcodeproj/vtmedia-schema/issues/88) Throw in a link to the Python code
  - [schema-87](https://github.com/cjcodeproj/vtmedia-schema/issues/87) Media storage cases should probably have optional id attribute
  - [schema-44](https://github.com/cjcodeproj/vtmedia-schema/issues/44) New media type for short films
