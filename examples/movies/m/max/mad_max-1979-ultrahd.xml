@@ -34,8 +34,8 @@
     <sku retailer='abc'> </sku>
    </productId>
    <productSpecs>
-    <dimensions units='english'>
-     <size length='6.75' width='5.4' height='0.5'/>
+    <dimensions units='usStandard'>
+     <size length='6.75' width='5.4' height='0.4'/>
     </dimensions>
     <inventory>
      <case>

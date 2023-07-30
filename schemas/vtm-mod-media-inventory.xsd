@@ -170,8 +170,12 @@
    <xs:documentation xml:lang='en-US'>
     Element: foldcase
 
-    The most common form of packaging for DVD/Blu-Ray media.  Can come wit h
+    The most common form of packaging for DVD/Blu-Ray media.  Can come with
     multiple colors, is usually translucent, and can be protected by a slipcover.
+
+    There are variants known as "stacker case" and "multipack case", which
+    are designed to hold multiple discs.  They may be included as future
+    values later on.
    </xs:documentation>
   </xs:annotation>
   <xs:sequence>
@@ -239,19 +243,101 @@
   </xs:choice>
  </xs:complexType>
 
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Types related to media size and weight.
+
+    PDSizeWeightValueType
+    PDUnitsType
+    PDSizeType
+    PDStandardSizeType
+    PDWeightType
+    ProductDimensionsType
+
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:simpleType name='PDSizeWeightValueType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Values for size and weight must be a positive float value greater than 0.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:float'>
+   <xs:minExclusive value='0'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:simpleType name='PDUnitsType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Allowable unit systems when specifying values
+    for size and weight of a piece of media.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='usStandard'/>
+   <xs:enumeration value='metric'/>
+  </xs:restriction>
+ </xs:simpleType>
+
  <xs:complexType name='PDSizeType'>
-  <xs:attribute name='length' type='xs:float' use='required'/>
-  <xs:attribute name='width' type='xs:float' use='required'/>
-  <xs:attribute name='height' type='xs:float' use='required'/>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A custom specified size for a piece of media.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:attribute name='length' type='PDSizeWeightValueType' use='required'/>
+  <xs:attribute name='width' type='PDSizeWeightValueType' use='required'/>
+  <xs:attribute name='height' type='PDSizeWeightValueType' use='required'/>
  </xs:complexType>
 
+ <xs:complexType name='PDStandardSizeType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Representing an assumed standard size for a piece of media.
+   </xs:documentation>
+  </xs:annotation>
+ </xs:complexType>
+
+ <xs:complexType name='PDWeightType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Standard type to record a weight for a piece of media.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:attribute name='value' type='PDSizeWeightValueType' use='required'/>
+ </xs:complexType>
 
  <xs:complexType name='ProductDimensionsType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     ComplexType for recording the dimensions of a piece of media.
+
+     Size values are determined from the dimensions of the outermost
+     container, viewed from above.  Length value is always greater than
+     width value.
+
+     Ex: Take a standard blu-ray case, laying flat on a table, the
+     length would be 6.75 inches, the width would be 5.4 inches,
+     and the height would be 0.4 inches.
+
+     6.75 inches = 170 mm
+     5.40 inches = 135 mm
+     0.40 inches =  10 mm
+
+     It is assumed the units will be either inches or millimeters,
+     which can be specified under the 'units' type.
+   </xs:documentation>
+  </xs:annotation>
   <xs:sequence>
-   <xs:element name='size' type='PDSizeType' minOccurs='1' maxOccurs='1'/>
-   <xs:element name='weight' type='xs:float' minOccurs='0' maxOccurs='1'/>
+   <xs:choice minOccurs='0' maxOccurs='1'>
+    <xs:element name='size' type='PDSizeType'/>
+    <xs:element name='standardSize' type='PDStandardSizeType'/>
+   </xs:choice>
+   <xs:element name='weight' type='PDWeightType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
-  <xs:attribute name='units' type='xs:token' use='optional'/>
+  <xs:attribute name='units' type='PDUnitsType' use='optional' default='usStandard'/>
  </xs:complexType>
 
  <xs:complexType name='ProductSpecsType'>

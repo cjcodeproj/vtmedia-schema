@@ -29,6 +29,9 @@
     <barcode type='upc'>043396263789</barcode>
    </productId>
    <productSpecs>
+    <dimensions>
+     <standardSize/>
+    </dimensions>
     <inventory>
      <case slipcover='true'>
       <bluray id='br01'/>
