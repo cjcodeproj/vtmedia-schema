@@ -32,15 +32,15 @@
    <productSpecs>
     <inventory>
      <case>
-      <bluray id='1'/>
-      <insert id='2'/>
+      <bluray id='br01'/>
+      <insert id='in01'/>
      </case>
     </inventory>
    </productSpecs>
   </medium>
   <contents>
    <xi:include href="blood_simple-1984-movie.xml"/>
-   <essay>
+   <essay xmlns='http://vectortron.com/xml/media/written'>
     <title>Down Here, You're On Your Own</title>
     <catalog>
      <authors>
