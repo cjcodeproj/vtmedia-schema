@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-21](https://github.com/cjcodeproj/vtmedia-schema/issues/21) Review integer type values
  - [schema-96](https://github.com/cjcodeproj/vtmedia-schema/issues/96) Test code test-movies.sh not catching all media
  - [schema-85](https://github.com/cjcodeproj/vtmedia-schema/issues/85) Schema should support a "standard size" option
  - [schema-25](https://github.com/cjcodeproj/vtmedia-schema/issues/25) Acronym/abbreviation support for some proper nouns

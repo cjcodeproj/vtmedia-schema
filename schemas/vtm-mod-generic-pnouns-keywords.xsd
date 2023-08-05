@@ -339,7 +339,7 @@
    <xs:element name='generic' type='KeywordType'/>
    <xs:element name='properNoun' type='KeywordPNType'/>
   </xs:choice>
-  <xs:attribute name='relevance' type='xs:integer' use='optional'/>
+  <xs:attribute name='relevance' type='KeywordRelevance' use='optional'/>
   <xs:attribute name='collection' type='xs:token' use='optional'/>
  </xs:complexType>
 
@@ -354,7 +354,7 @@
     generic keyword "car chase", which should have a relevance value of 1.
    </xs:documentation>
   </xs:annotation>
-  <xs:restriction base='xs:integer'>
+  <xs:restriction base='xs:positiveInteger'>
    <xs:minInclusive value='1'/>
    <xs:maxInclusive value='5'/>
   </xs:restriction>
