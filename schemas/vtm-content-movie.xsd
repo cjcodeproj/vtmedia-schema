@@ -55,6 +55,7 @@
  </xs:complexType>
 
  <xs:element name='movie' type='MovieType'/>
+ <xs:element name='short' type='MovieType'/>
  <xs:element name='trailer' type='TrailerType'/>
 
 </xs:schema>

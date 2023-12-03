@@ -45,7 +45,7 @@
       <generic>heist</generic>
       <generic>jewel heist</generic>
       <properNoun><place><ci>Palm Springs</ci></place></properNoun>
-      <properNoun><place><st>Florida</st></place></properNoun>
+      <properNoun><place><st abbrv='FL'>Florida</st></place></properNoun>
      </keywords>
      <themes>
       <theme>revenge</theme>

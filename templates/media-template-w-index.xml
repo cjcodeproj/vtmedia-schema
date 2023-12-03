@@ -2,15 +2,16 @@
 <medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
  <media>
   <title>
-   <main>2010</main>
+   <main></main>
   </title>
   <library>
    <instances>
     <instance>
      <acquisition>
-      <date><from>2010-01-01</from><range>P2Y</range></date>
+      <date></date>
       <purchase>
-       <retailer>Best Buy</retailer>
+       <retailer> </retailer>
+       <price>0.99</price>
       </purchase>
       <quality><new/></quality>
      </acquisition>
@@ -22,21 +23,30 @@
   </library>
   <medium>
    <release>
-    <type><bluray/></type>
+    <type><ultrahd/></type>
    </release>
    <productId>
-    <barcode type='upc'>ABC</barcode>
+    <barcode type='upc'>456</barcode>
+    <sku retailer='retailer'>123</sku>
    </productId>
    <productSpecs>
     <inventory>
      <case>
+      <ultrahd id='uhd01'/>
       <bluray id='br01'/>
+      <codesheet><service> </service></codesheet>
      </case>
     </inventory>
    </productSpecs>
   </medium>
+  <index>
+   <untrahdIndex ref='udh01'>
+   </ultrahdIndex>
+   <blurayIndex ref='br01'>
+   </blurayIndex>
+  </index>
   <contents>
-   <xi:include href="2010-1984-movie.xml"/>
+   <xi:include href='movie_title-year-movie.xml'/>
   </contents>
  </media>
 </medialist>

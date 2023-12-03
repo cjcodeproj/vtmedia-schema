@@ -48,7 +48,7 @@
  <xs:complexType name='ProperNounType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
-    Root element for all proper nouns.
+    Root element for all simple proper nouns.
    </xs:documentation>
   </xs:annotation>
   <xs:simpleContent>
@@ -57,6 +57,35 @@
  </xs:complexType>
 
  <xs:complexType name='PNNameEmptyType'>
+ </xs:complexType>
+
+ <xs:complexType name='PNEntityType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element containing an entity proper noun, which could
+    be a corporation, an organization, or agency.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='ProperNounType'>
+    <xs:attribute name='acronym' type='xs:token' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='PNPlaceLocalityNameType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A type for a locality name (state, country).
+    This is essentially identical to xs:token
+    but there is an attribute supporting abbreviations.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='abbrv' type='xs:token' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
  </xs:complexType>
 
  <xs:complexType name='PNPlaceType'>
@@ -72,10 +101,10 @@
     <xs:element name='ci' type='xs:token' minOccurs='0' maxOccurs='1'/>
     <xs:element name='co' type='xs:token' minOccurs='0' maxOccurs='1'/>
     <xs:choice minOccurs='0' maxOccurs='1'>
-     <xs:element name='st' type='xs:token'/>
-     <xs:element name='pr' type='xs:token'/>
+     <xs:element name='st' type='PNPlaceLocalityNameType'/>
+     <xs:element name='pr' type='PNPlaceLocalityNameType'/>
     </xs:choice>
-    <xs:element name='cn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='cn' type='PNPlaceLocalityNameType' minOccurs='0' maxOccurs='1'/>
     <xs:element name='planet' type='xs:token' minOccurs='0' maxOccurs='1'/>
    </xs:sequence>
   </xs:choice>
@@ -274,7 +303,7 @@
    <xs:element name='art' type='PNArtType'/>
    <xs:element name='thing' type='ProperNounType'/>
    <xs:element name='group' type='ProperNounType'/>
-   <xs:element name='entity' type='ProperNounType'/>
+   <xs:element name='entity' type='PNEntityType'/>
    <xs:element name='event' type='ProperNounType'/>
   </xs:choice>
  </xs:group>
@@ -310,7 +339,7 @@
    <xs:element name='generic' type='KeywordType'/>
    <xs:element name='properNoun' type='KeywordPNType'/>
   </xs:choice>
-  <xs:attribute name='relevance' type='xs:integer' use='optional'/>
+  <xs:attribute name='relevance' type='KeywordRelevance' use='optional'/>
   <xs:attribute name='collection' type='xs:token' use='optional'/>
  </xs:complexType>
 
@@ -325,7 +354,7 @@
     generic keyword "car chase", which should have a relevance value of 1.
    </xs:documentation>
   </xs:annotation>
-  <xs:restriction base='xs:integer'>
+  <xs:restriction base='xs:positiveInteger'>
    <xs:minInclusive value='1'/>
    <xs:maxInclusive value='5'/>
   </xs:restriction>

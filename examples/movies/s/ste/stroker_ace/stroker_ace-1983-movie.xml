@@ -1,0 +1,162 @@
+<?xml version='1.0'?>
+   <movie id='stroker' xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Stroker Ace</title>
+    <catalog>
+     <copyright>
+      <year>1983</year>
+      <holders>
+       <holder>Universal City Studios, Inc.</holder>
+       <holder>Warner Bros., Inc.</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Action</primary>
+      <secondary>Comedy</secondary>
+      <secondary>Romance</secondary>
+      <specific>NASCAR Racer Shennanigans</specific>
+      <subgenres>
+       <subgenre>based on a novel</subgenre>
+      </subgenres>
+     </genres>
+     <certifications>
+      <certificate ref='26877'>
+       <rating code='PG'>Parental Guidance Suggested</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT01H34M15S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      A <kw>NASCAR</kw> racer must deal with the frustrations of maintaining his independence, while also being controlled by a domineering corporate sponsor.
+     </plot>
+     <keywords>
+      <group>
+        <properNoun relevance='2'><entity>NASCAR</entity></properNoun>
+        <generic>auto racing</generic>
+        <generic>fried chicken</generic>
+        <generic>contract law</generic>
+        <generic>commercialism</generic>
+        <generic>chicken suit</generic>
+      </group>
+      <group>
+       <properNoun><place><name>Charlotte Motor Speedway</name></place></properNoun>
+       <properNoun><place><name>Daytona International Speedway</name></place></properNoun>
+       <properNoun><place><name>Atlanta International Speedway</name></place></properNoun>
+       <properNoun><place><name>Alabama International Motor Speedway</name></place></properNoun>
+      </group>
+      <group relevance='4'>
+       <properNoun><thing>Goodyear Blimp</thing></properNoun>
+       <properNoun><person><prefix type='honorific'>Colonel</prefix><gn>Harlan</gn><fn>Sanders</fn></person></properNoun>
+      </group>
+     </keywords>
+     <themes>
+      <theme>selling out</theme>
+      <theme>independence</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Hal</gn><fn>Needham</fn></director>
+     </directors>
+     <writers>
+      <writer role='screenplay'><gn>Hugh</gn><fn>Wilson</fn></writer>
+      <writer role='screenplay'><gn>Hal</gn><fn>Needham</fn></writer>
+      <writer><gn>David</gn><mn>E</mn><fn>Peckinpah</fn></writer>
+      <sources>
+       <source>
+        <title>Stand On It</title>
+        <authors>
+         <author><gn>William</gn><fn>Neely</fn></author>
+         <author><gn>Robert</gn><mn>K</mn><fn>Ottum</fn></author>
+        </authors>
+       </source>
+      </sources>
+     </writers>
+     <editors>
+      <editor><gn>William</gn><mn>D</mn><fn>Gordean</fn></editor>
+      <editor><gn>Carl</gn><fn>Kress</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Nick</gn><fn>McLean</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>Burt</gn><fn>Reynolds</fn></actor>
+       <character>
+        <name><gn>Stroker</gn><fn>Ace</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Ned</gn><fn>Beatty</fn></actor>
+       <character>
+        <name><gn>Clyde</gn><fn>Torkle</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Jim</gn><fn>Nabors</fn></actor>
+       <character>
+        <name><gn>Lugs</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Parker</gn><fn>Stevenson</fn></actor>
+       <character>
+        <name><gn>Aubrey</gn><fn>James</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Loni</gn><fn>Anderson</fn></actor>
+       <character>
+        <name><gn>Pembrook</gn><fn>Feeney</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>John</gn><fn>Byner</fn></actor>
+       <character>
+        <name><gn>Doc</gn><fn>Seegle</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Frank</gn><mn>O</mn><fn>Hill</fn></actor>
+       <character>
+        <name><gn>Dad</gn><fn>Seegle</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Cassandra</gn><fn>Peterson</fn></actor>
+       <character>
+        <unnamed>Girl With Lugs</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Dale</gn><fn>Earnhardt</fn></actor>
+       <character>
+        <self/>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Kyle</gn><fn>Petty</fn></actor>
+       <character>
+        <self/>
+       </character>
+      </role>
+     </cast>
+    </crew>
+   </movie>

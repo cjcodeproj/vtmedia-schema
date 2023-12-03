@@ -1,10 +1,25 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## RELEASE 2023.12
+ - [schema-105](https://github.com/cjcodeproj/vtmedia-schema/issues/105) Release 2023.12
+ - [schema-89](https://github.com/cjcodeproj/vtmedia-schema/issues/89) Indexing element structure for movies
+ - [schema-103](https://github.com/cjcodeproj/vtmedia-schema/issues/103) Create the index element
+ - [schema-21](https://github.com/cjcodeproj/vtmedia-schema/issues/21) Review integer type values
+ - [schema-96](https://github.com/cjcodeproj/vtmedia-schema/issues/96) Test code test-movies.sh not catching all media
+ - [schema-85](https://github.com/cjcodeproj/vtmedia-schema/issues/85) Schema should support a "standard size" option
+ - [schema-25](https://github.com/cjcodeproj/vtmedia-schema/issues/25) Acronym/abbreviation support for some proper nouns
+ - [schema-88](https://github.com/cjcodeproj/vtmedia-schema/issues/88) Throw in a link to the Python code
+ - [schema-87](https://github.com/cjcodeproj/vtmedia-schema/issues/87) Media storage cases should probably have optional id attribute
+ - [schema-44](https://github.com/cjcodeproj/vtmedia-schema/issues/44) New media type for short films
+ - [schema-83](https://github.com/cjcodeproj/vtmedia-schema/issues/83) Missing source type "televisionShow"
+
+
 ## RELEASE 2023.05
  - [schema-81](https://github.com/cjcodeproj/vtmedia-schema/issues/81) Prep work for 2023.05 release
  - [schema-75](https://github.com/cjcodeproj/vtmedia-schema/issues/75) Schema catalog.xml file for Visual Studio Code
  - [schema-69](https://github.com/cjcodeproj/vtmedia-schema/issues/73) Role/character element proposal
+
 
 ## RELEASE 2023.03
  - [schema-73](https://github.com/cjcodeproj/vtmedia-schema/issues/73) Prep work for 2023.03 release

@@ -115,7 +115,7 @@
         <generic>farm</generic>
         <generic>prison farm</generic>
         <generic>prison break</generic>
-        <properNoun><entity>San Francisco Police Department</entity></properNoun>
+        <properNoun><entity acronym='SFPD'>San Francisco Police Department</entity></properNoun>
         <generic>police detective</generic>
         <generic>police harassment</generic>
         <generic>police brutality</generic>
@@ -380,8 +380,8 @@
        <generic>cable car</generic>
       </group>
       <group>
-        <properNoun><entity>San Francisco Police Department</entity></properNoun>
-        <properNoun><entity>California Highway Patrol</entity></properNoun>
+        <properNoun><entity acronym='SFPD'>San Francisco Police Department</entity></properNoun>
+        <properNoun><entity acronym='CHP'>California Highway Patrol</entity></properNoun>
         <generic>biker gang</generic>
         <generic>motorcycles</generic>
         <generic>dirt bikes</generic>

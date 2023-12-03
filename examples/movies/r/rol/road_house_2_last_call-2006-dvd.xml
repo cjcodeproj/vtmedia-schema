@@ -82,7 +82,7 @@
      <keywords>
       <generic>bar</generic>
       <generic>drug smuggling</generic>
-      <properNoun><entity>DEA</entity></properNoun>
+      <properNoun><entity acronym='DEA'>Drug Enforcement Agency</entity></properNoun>
      </keywords>
      <themes>
       <theme>justice</theme>

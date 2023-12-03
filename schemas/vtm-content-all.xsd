@@ -33,7 +33,7 @@
     Shared attributes for every content element.
    </xs:documentation>
   </xs:annotation>
-  <xs:attribute name='id' type='xs:token' use='optional'/>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
  </xs:attributeGroup>
 
 </xs:schema>

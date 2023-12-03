@@ -34,13 +34,13 @@
     <sku retailer='abc'> </sku>
    </productId>
    <productSpecs>
-    <dimensions units='english'>
-     <size length='6.75' width='5.4' height='0.5'/>
+    <dimensions units='usStandard'>
+     <size length='6.75' width='5.4' height='0.4'/>
     </dimensions>
     <inventory>
      <case>
-      <ultrahd id='1'/>
-      <bluray id='2'/>
+      <ultrahd id='br01'/>
+      <bluray id='br02'/>
      </case>
     </inventory>
    </productSpecs>

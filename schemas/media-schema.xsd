@@ -26,6 +26,7 @@
  <xs:include schemaLocation='vtm-mod-media-inventory.xsd'/>
  <xs:include schemaLocation='vtm-mod-library.xsd'/>
  <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
+ <xs:include schemaLocation='vtm-mod-index.xsd'/>
  <xs:import schemaLocation='vtm-meta-authorship.xsd' namespace='http://vectortron.com/xml/media/meta/authorship'/>
  <xs:import schemaLocation='vtm-content-test.xsd' namespace='http://vectortron.com/xml/media/test'/>
  <xs:import schemaLocation='vtm-content-movie.xsd' namespace='http://vectortron.com/xml/media/movie'/>
@@ -40,6 +41,7 @@
   <xs:choice minOccurs='1' maxOccurs='unbounded'>
    <xs:element ref='test:test' />
    <xs:element ref='movie:movie' />
+   <xs:element ref='movie:short' />
    <xs:element ref='written:essay' />
   </xs:choice>
  </xs:complexType>
@@ -59,6 +61,7 @@
    <xs:element name='title' type='TitleType' minOccurs='1'/>
    <xs:element name='library' type='LibraryType' minOccurs='0'/>
    <xs:element name='medium' type='MediumType' minOccurs='1'/>
+   <xs:element name='index' type='IndexType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='contents' type='ContentsType' minOccurs='1'/>
   </xs:sequence>
  </xs:complexType>

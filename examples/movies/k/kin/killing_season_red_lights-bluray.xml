@@ -34,12 +34,21 @@
    <productSpecs>
     <inventory>
      <case>
-      <ultrahd/>
-      <bluray/>
+      <bluray id='br01'/>
      </case>
     </inventory>
    </productSpecs>
   </medium>
+  <index>
+   <blurayIndex ref='br01'>
+    <title>
+     <content ref='killing' group='main'/>
+    </title>
+    <title>
+     <content ref='red' group='main'/>
+    </title>
+   </blurayIndex>
+  </index>
   <contents>
    <xi:include href='killing_season-2013-movie.xml'/>
    <xi:include href='red_lights-2011-movie.xml'/>

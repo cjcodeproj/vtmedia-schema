@@ -72,7 +72,8 @@ or it may be a singular name.
 |       | Billy Bob | William Robert | | Thornton | Billy Bob Thornton | thornton_billy_bob |
 
 The `<pcn>` element is used to represent a preferred complete name, whereas the `<pgn>` element 
-represents a preferred given name.
+represents a preferred given name.  Using `<pgn>` is preferrable when a `<fn>` value is also
+available, because it helps with sorting.
 
 ### Prefixes Or Suffixes
 

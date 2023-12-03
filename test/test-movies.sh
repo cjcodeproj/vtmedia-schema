@@ -1,6 +1,6 @@
 #!/bin/sh
 
-FILELIST=`find ../examples/movies -type f -name "*-bluray.xml" -o -name "*-dvd.xml" -o -name "*-ultrahd.xml" `
+FILELIST=`find ../examples/movies -type f -name "*-bluray*.xml" -o -name "*-dvd*.xml" -o -name "*-ultrahd*.xml"`
 
 for FI in $FILELIST
 do

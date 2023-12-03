@@ -52,7 +52,7 @@
      <keywords>
       <generic>train</generic>
       <generic>runaway train</generic>
-      <properNoun><place><st>Pennsylvania</st></place></properNoun>
+      <properNoun><place><st abbrv='PA'>Pennsylvania</st></place></properNoun>
       <generic clarification='train'>engineer</generic>
       <generic clarification='train'>conductor</generic>
       <generic related='media'>tv news</generic>
