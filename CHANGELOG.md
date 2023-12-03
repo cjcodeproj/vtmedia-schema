@@ -1,7 +1,8 @@
 vtmedia-schema CHANGELOG
 =========================
 
-## CURRENT
+## RELEASE 2023.12
+ - [schema-105](https://github.com/cjcodeproj/vtmedia-schema/issues/105) Release 2023.12
  - [schema-89](https://github.com/cjcodeproj/vtmedia-schema/issues/89) Indexing element structure for movies
  - [schema-103](https://github.com/cjcodeproj/vtmedia-schema/issues/103) Create the index element
  - [schema-21](https://github.com/cjcodeproj/vtmedia-schema/issues/21) Review integer type values
