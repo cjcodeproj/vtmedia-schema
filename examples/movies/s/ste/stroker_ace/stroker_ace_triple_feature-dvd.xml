@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Triple Feature: Stroker Ace / Hooper / Sharky's Machine</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2006-01-01</from><range>P2Y</range></date>
+      <purchase/>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><dvd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>012569750616</barcode>
+    <barcode type='isbn' scanlines='false'>1419823426</barcode>
+    <other>
+     <name>Proof Of Purchase</name>
+     <value>75061A</value>
+     <value>75061B</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <dvd id='dvd01'/>
+      <dvd id='dvd02'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <dvdIndex ref='dvd01'>
+    <side label='A'>
+     <title>
+      <content ref='hooper' group='main'/>
+     </title>
+    </side>
+    <side label='B'>
+     <title>
+      <content ref='sharky' group='main'/>
+     </title>
+    </side>
+   </dvdIndex>
+   <dvdIndex ref='dvd02'>
+    <title>
+     <content ref='sharky' group='main'/>
+    </title>
+   </dvdIndex>
+  </index>
+  <contents>
+   <xi:include href='stroker_ace-1983-movie.xml'/>
+   <xi:include href='hooper-1978-movie.xml'/>
+   <xi:include href='sharkys_machine-1981-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

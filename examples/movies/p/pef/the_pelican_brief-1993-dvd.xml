@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>The Pelican Brief</main>
+  </title>
+  <medium>
+   <release>
+    <type><dvd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>085391298922</barcode>
+    <barcode type='isbn' scanlines='false'>0-7907-3125-5</barcode>
+    <other>
+     <name>Proof Of Purchase</name>
+     <value>12989A</value>
+     <value>12989B</value>
+     <value>12989C</value>
+     <value>12989D</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <snapcase>
+      <dvd id='dvd01'/>
+     </snapcase>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <dvdIndex ref='dvd01'>
+    <side label='A'>
+     <title>
+      <content ref='pelican' group='main'>
+       <partialRange from='PT0S' to='PT1H17M35S'/>
+      </content>
+     </title>
+    </side>
+    <side label='B'>
+     <title>
+      <content ref='pelican' group='main'>
+       <partialRange from='PT1H17M36S' to='PT2H21M5S'/>
+      </content>
+     </title>
+    </side>
+   </dvdIndex>
+  </index>
+  <contents>
+   <xi:include href='the_pelican_brief-1993-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

@@ -2,56 +2,51 @@
 <medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
  <media>
   <title>
-   <main>Double Feature: Killing Season / Red Lights</main>
+   <main></main>
   </title>
   <library>
    <instances>
     <instance>
      <acquisition>
-      <date><from>2021-06-01</from><to>2021-06-15</to></date>
+      <date></date>
       <purchase>
        <retailer> </retailer>
-       <price>7.95</price>
+       <price>0.99</price>
       </purchase>
-      <quality><used/></quality>
+      <quality><new/></quality>
      </acquisition>
      <condition>
       <status><fine/></status>
      </condition>
     </instance>
    </instances>
-   <filing>
-    <collection>De Niro Serious</collection>
-   </filing>
   </library>
   <medium>
    <release>
-    <type><bluray/></type>
+    <type><ultrahd/></type>
    </release>
    <productId>
-    <barcode type='upc'>687797519863</barcode>
+    <barcode type='upc'>456</barcode>
+    <sku retailer='retailer'>123</sku>
    </productId>
    <productSpecs>
     <inventory>
      <case>
+      <ultrahd id='uhd01'/>
       <bluray id='br01'/>
+      <codesheet><service> </service></codesheet>
      </case>
     </inventory>
    </productSpecs>
   </medium>
   <index>
+   <untrahdIndex ref='udh01'>
+   </ultrahdIndex>
    <blurayIndex ref='br01'>
-    <title>
-     <content ref='killing' group='main'/>
-    </title>
-    <title>
-     <content ref='red' group='main'/>
-    </title>
    </blurayIndex>
   </index>
   <contents>
-   <xi:include href='killing_season-2013-movie.xml'/>
-   <xi:include href='red_lights-2011-movie.xml'/>
+   <xi:include href='movie_title-year-movie.xml'/>
   </contents>
  </media>
 </medialist>

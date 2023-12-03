@@ -1,6 +1,6 @@
 # Media Schema
 
-An XML XSD schema designed for recording the details of various forms of media, 
+An XML XSD schema designed for recording the details of various forms of media,
 including movies, television, books, and music.
 
 ## Project Goals
@@ -40,7 +40,7 @@ The `doc` directory contains HTML documentation on using the schema, with exampl
 
 ### Notes
 
-The `notes` directory contains additional documentaiton.
+The `notes` directory contains additional documentaiton, in Markdown format.
 
 ### Test
 
@@ -56,34 +56,62 @@ The templates directory has sample templates that can be copied and used as a ba
 
 ## Movie List
 ```
-Title                                              Year Runtime  Genre                                             
+Title                                              Year Runtime  Genre
 ================================================== ==== ======== ==================================================
-All The President's Men                            1976  2:18:21 [FICTION] Drama/Mystery "Newspaper Mystery"
-Another 48 Hrs.                                    1990  1:35:22 [FICTION] Action/Comedy "Cop/Prisoner Matchup Sequel"
-Avengers: Endgame                                  2019  3:01:11 [FICTION] Action/Adventure/Sci-Fi/Drama "Superhero Adventure"
-Blood Simple                                       1984  1:35:35 [FICTION] Thriller/Drama "Dangerous Affair"
-Chaos                                              2005  1:46:00 [FICTION] Action/Crime "Bank Robbery Movie"
-Contact                                            1997  2:30:00 [FICTION] Sci-Fi/Drama "Alien Contact"
-Death Proof                                        2017  1:53:56 [FICTION] Horror/Thriller "Car Action"
-Enron: The Smartest Guys In The Room               2005  1:49:15 [NONFICTION] Documentary "Big Business"
-Firestarter                                        1984  1:54:00 [FICTION] Action/Horror/Sci-Fi "Telekenetic Kid"
-48 Hrs.                                            1982  1:36:36 [FICTION] Action/Comedy "Cop/Prisoner Matchup"
-The Great Escape                                   1963  2:53:13 [FICTION] Adventure/Action "POW Escape"
-Killing Season                                     2013  1:30:41 [FICTION] Action/Thriller/Drama "Reopening War Wounds"
-The Last Starfighter                               1984  1:41:00 [FICTION] Sci-Fi "Space Battle Adventure"
-Mad Max                                            1979  1:33:00 [FICTION] Action/Sci-Fi "Distopian Highway"
-Midnight Run                                       1988  2:06:09 [FICTION] Action/Comedy "Road Trip Adversary Hijinks"
-Onward                                             2020  1:42:00 [FICTION] Adventure/Comedy "Road Trip Adventure"
-Parker                                             2012  1:58:40 [FICTION] Action/Crime "Bad Guy Revenge"
-Red Lights                                         2011  1:53:51 [FICTION] Mystery/Drama/Fantasy "Paranormal Investigation"
-Road House 2: Last Call                            2006  1:26:01 [FICTION] Action/Crime "Bar Bouncer Antics"
-Sneakers                                           1992  2:05:17 [FICTION] Thriller/Adventure "Techno Espionage Thriller"
-Stand By Me                                        1986  1:28:44 [FICTION] Adventure/Drama "Coming Of Age Quest"
-The Sugarland Express                              1974  1:49:59 [FICTION] Drama/Action/Comedy "Family Escape"
-3 Days Of The Condor                               1975  1:57:22 [FICTION] Thriller "Spy Thriller"
-2010                                               1984  1:55:54 [FICTION] Sci-Fi "Space Exploration Adventure"
-Unstoppable                                        2010  1:38:30 [FICTION] Action/Thriller "Runaway Train Adventure"
-Wargames                                           1983  1:52:42 [FICTION] Thriller/Adventure "Hacking Movie"
+
+ -- Action (14) --
+
+Another 48 Hrs.                                    1990 1:35:22  [FICTION] Action/Comedy "Cop/Prisoner Matchup Sequel"
+Avengers: Endgame                                  2019 3:01:11  [FICTION] Action/Adventure/Sci-Fi/Drama "Superhero Adventure"
+Chaos                                              2005 1:46:00  [FICTION] Action/Crime "Bank Robbery Movie"
+Firestarter                                        1984 1:54:00  [FICTION] Action/Horror/Sci-Fi "Telekenetic Kid"
+48 Hrs.                                            1982 1:36:36  [FICTION] Action/Comedy "Cop/Prisoner Matchup"
+Hooper                                             1978 1:39:22  [FICTION] Action/Comedy "Stuntman Misadventures"
+Killing Season                                     2013 1:30:41  [FICTION] Action/Thriller/Drama "Reopening War Wounds"
+Mad Max                                            1979 1:33:00  [FICTION] Action/Sci-Fi "Distopian Highway"
+Midnight Run                                       1988 2:06:09  [FICTION] Action/Comedy "Road Trip Adversary Hijinks"
+Parker                                             2012 1:58:40  [FICTION] Action/Crime "Bad Guy Revenge"
+Road House 2: Last Call                            2006 1:26:01  [FICTION] Action/Crime "Bar Bouncer Antics"
+Sharky's Machine                                   1981 2:01:43  [FICTION] Action/Drama "Vice Investigation"
+Stroker Ace                                        1983 1:34:15  [FICTION] Action/Comedy/Romance "NASCAR Racer Shennanigans"
+Unstoppable                                        2010 1:38:30  [FICTION] Action/Thriller "Runaway Train Adventure"
+
+ -- Adventure (3) --
+
+The Great Escape                                   1963 2:53:13  [FICTION] Adventure/Action "POW Escape"
+Onward                                             2020 1:42:00  [FICTION] Adventure/Comedy "Road Trip Adventure"
+Stand By Me                                        1986 1:28:44  [FICTION] Adventure/Drama "Coming Of Age Quest"
+
+ -- Documentary (1) --
+
+Enron: The Smartest Guys In The Room               2005 1:49:15  [NONFICTION] Documentary "Big Business"
+
+ -- Drama (2) --
+
+All The President's Men                            1976 2:18:21  [FICTION] Drama/Mystery "Newspaper Mystery"
+The Sugarland Express                              1974 1:49:59  [FICTION] Drama/Action/Comedy "Family Escape"
+
+ -- Horror (1) --
+
+Death Proof                                        2017 1:53:56  [FICTION] Horror/Thriller "Car Action"
+
+ -- Mystery (2) --
+
+The Pelican Brief                                  1993 2:21:05  [FICTION] Mystery/Thriller
+Red Lights                                         2011 1:53:51  [FICTION] Mystery/Drama/Fantasy "Paranormal Investigation"
+
+ -- Sci-Fi (3) --
+
+Contact                                            1997 2:30:00  [FICTION] Sci-Fi/Drama "Alien Contact"
+The Last Starfighter                               1984 1:41:00  [FICTION] Sci-Fi "Space Battle Adventure"
+2010                                               1984 1:55:54  [FICTION] Sci-Fi "Space Exploration Adventure"
+
+ -- Thriller (4) --
+
+Blood Simple                                       1984 1:35:35  [FICTION] Thriller/Drama "Dangerous Affair"
+Sneakers                                           1992 2:05:17  [FICTION] Thriller/Adventure "Techno Espionage Thriller"
+3 Days Of The Condor                               1975 1:57:22  [FICTION] Thriller "Spy Thriller"
+Wargames                                           1983 1:52:42  [FICTION] Thriller/Adventure "Hacking Movie"
 ================================================== ==== ======== ==================================================
 ```
 

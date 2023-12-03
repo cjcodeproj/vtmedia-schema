@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-   <movie xmlns='http://vectortron.com/xml/media/movie'>
+   <movie id='killing' xmlns='http://vectortron.com/xml/media/movie'>
     <title>Killing Season</title>
     <catalog>
      <copyright>

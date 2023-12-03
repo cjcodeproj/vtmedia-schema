@@ -19,6 +19,8 @@
   </xs:documentation>
  </xs:annotation>
 
+ <xs:include schemaLocation='vtm-mod-index-video.xsd'/>
+
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
    Index information
@@ -38,6 +40,9 @@
     physical media.
    </xs:documentation>
   </xs:annotation>
+  <xs:sequence maxOccurs='unbounded'>
+   <xs:group ref='VideoIndexGroup'/>
+  </xs:sequence>
  </xs:complexType>
 
 </xs:schema>

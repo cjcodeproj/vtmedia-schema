@@ -1,0 +1,206 @@
+<?xml version='1.0'?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
+  xmlns='http://vectortron.com/xml/media/media'
+  targetNamespace='http://vectortron.com/xml/media/media' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2023, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   Index information: Video Media
+
+   A many to many mapping mechanism mapping a content
+   element to a specific media element.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:simpleType name='ContentGroupingValueEnum'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    An enum supporting the two content group
+    values: main and supplemental.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='main'/>
+   <xs:enumeration value='supplemental'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:attributeGroup name='ContentAttributesGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    An attribute that identifies whether a content
+    element is the main content of the media, or 
+    supplemental content that enhances or improves
+    the main content.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:attribute name='group' type='ContentGroupingValueEnum' use='optional'/>
+ </xs:attributeGroup>
+
+ <xs:complexType name='VideoPartialRangeType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    An element that identifies a time range for a content
+    element that is split across multiple pieces of media.
+
+    It supports two mandatory attributes that describe
+    the time range, and an optional attribute that
+    clearly spells out an index order.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:attribute name='from' type='xs:duration' use='required'/>
+  <xs:attribute name='to' type='xs:duration' use='required'/>
+  <xs:attribute name='index' type='xs:positiveInteger' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='LargeDiscContentType'>
+  <xs:sequence>
+   <xs:element name='partialRange' type='VideoPartialRangeType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attribute name='ref' type='xs:NCName' use='required'/>
+  <xs:attributeGroup ref='ContentAttributesGroup'/>
+ </xs:complexType>
+
+ <xs:complexType name='VideoDiscTitleType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     A 'title' in the parlance of video discs.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='content' type='LargeDiscContentType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='BluRayIndexType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    An index structure for mapping content on Blu-Ray discs.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='title' type='VideoDiscTitleType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+  <xs:attribute name='ref' type='xs:NCName' use='required'/>
+ </xs:complexType>
+
+ <xs:simpleType name='DVDSideTypeValueEnum'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Side label values for two sided video media (usualy DVDs)
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='A'/>
+   <xs:enumeration value='B'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:simpleType name='HDDVDModeTypeEnum'>
+   <xs:annotation>
+    <xs:documentation xml:lang='en-US'>
+     Label values for the two supported modes of 
+     a single side of a HD-DVD disc: 'hddvd' or 'dvd'.
+    </xs:documentation>
+   </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='hddvd'/>
+   <xs:enumeration value='dvd'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:complexType name='DVDSideType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    The element structure under a DVD side element,
+    used for referencing one or more titles on a single
+    side of a DVD.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='title' type='VideoDiscTitleType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+  <xs:attribute name='label' type='DVDSideTypeValueEnum' use='required'/>
+ </xs:complexType>
+
+ <xs:complexType name='HDDVDSideType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Similar to the DVD side type, however, a HD DVD can be
+    two sided, with one side supporting a regular HD DVD, 
+    while the other side acting as a regular DVD.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:complexContent>
+   <xs:extension base='DVDSideType'>
+    <xs:attribute name='mode' type='HDDVDModeTypeEnum' use='optional'/>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+
+ <xs:complexType name='DVDIndexType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    An index structure for mapping content on DVDs.
+
+    Slightly different from the video disc structures because some
+    commercial DVDs use both sides.  In that situation there must
+    be either multiple title elements, or exactly two side elements.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice maxOccurs='1'>
+   <xs:element name='side' type='DVDSideType' minOccurs='2' maxOccurs='2'/>
+   <xs:element name='title' type='VideoDiscTitleType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:choice>
+  <xs:attribute name='ref' type='xs:NCName' use='required'/>
+ </xs:complexType>
+
+ <xs:complexType name='HDDVDIndexType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    An index structure for mapping content on HD-DVDs.
+
+    Slightly different from the video disc structures because some
+    commercial DVDs use both sides.  In that situation there must
+    be either multiple title elements, or exactly two side elements.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice maxOccurs='1'>
+   <xs:element name='side' type='HDDVDSideType' minOccurs='2' maxOccurs='2'/>
+   <xs:element name='title' type='VideoDiscTitleType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:choice>
+  <xs:attribute name='ref' type='xs:NCName' use='required'/>
+ </xs:complexType>
+
+ <xs:group name='VideoIndexGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Every type of physical video media supported for indexing.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='blurayIndex' type='BluRayIndexType'/>
+   <xs:element name='bluray3dIndex' type='BluRayIndexType'/>
+   <xs:element name='ultrahdIndex' type='BluRayIndexType'/>
+   <xs:element name='hddvdIndex' type='HDDVDIndexType'/>
+   <xs:element name='dvdIndex' type='DVDIndexType'/>
+  </xs:choice>
+ </xs:group>
+
+</xs:schema>
