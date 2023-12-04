@@ -47,9 +47,28 @@
   </xs:restriction>
  </xs:simpleType>
 
- <xs:simpleType name='CountryCode'>
-  <xs:restriction base='xs:string'>
-   <xs:length value='2'/>
+ <xs:simpleType name='CountryCodeType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Country code type, with a restriction on length.
+    Can accept any value that is a standard ISO 3166-2, ISO 3166-3, or IDO 3166-1 value.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:minLength value='2'/>
+   <xs:maxLength value='3'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:simpleType name='CurrencyCodeType'>
+  <xs:annotation>
+   <xs:documentation>
+    Currency code, with a restriction on length.
+    Can accept any value that is a standard ISO 4217 code.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:length value='3'/>
   </xs:restriction>
  </xs:simpleType>
 

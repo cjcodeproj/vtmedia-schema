@@ -1,6 +1,10 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## CURRENT
+ - [schema-104](https://github.com/cjcodeproj/vtmedia-schema/issues/104) Price attribute currency should be token, not string
+
+
 ## RELEASE 2023.12
  - [schema-105](https://github.com/cjcodeproj/vtmedia-schema/issues/105) Release 2023.12
  - [schema-89](https://github.com/cjcodeproj/vtmedia-schema/issues/89) Indexing element structure for movies

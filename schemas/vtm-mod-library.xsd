@@ -44,7 +44,7 @@
  <xs:complexType name='PriceType'>
   <xs:simpleContent>
    <xs:extension base='xs:float'>
-    <xs:attribute name='currency' type='xs:string' use='optional'/>
+    <xs:attribute name='currency' type='CurrencyCodeType' use='optional'/>
    </xs:extension>
   </xs:simpleContent>
  </xs:complexType>
