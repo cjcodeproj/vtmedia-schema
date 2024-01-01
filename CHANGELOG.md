@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-109](https://github.com/cjcodeproj/vtmedia-schema/issues/109) Makefile infrastructure/catalog usage
  - [schema-104](https://github.com/cjcodeproj/vtmedia-schema/issues/104) Price attribute currency should be token, not string
 
 

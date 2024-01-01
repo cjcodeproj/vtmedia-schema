@@ -54,6 +54,10 @@ The `catalog` directory has a `catalog.xml` file suitable for using with XML edi
 
 The templates directory has sample templates that can be copied and used as a baseline for data entry.
 
+## Installation
+
+See the [installation.md](notes/installation.md) file for installation instructions.
+
 ## Movie List
 ```
 Title                                              Year Runtime  Genre
