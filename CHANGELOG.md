@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-86](https://github.com/cjcodeproj/vtmedia-schema/issues/86) More love for the external link structures
  - [schema-110](https://github.com/cjcodeproj/vtmedia-schema/issues/110) Bring in XML and Xlink schemas
  - [schema-109](https://github.com/cjcodeproj/vtmedia-schema/issues/109) Makefile infrastructure/catalog usage
  - [schema-104](https://github.com/cjcodeproj/vtmedia-schema/issues/104) Price attribute currency should be token, not string

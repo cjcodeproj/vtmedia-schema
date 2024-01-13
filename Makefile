@@ -90,5 +90,5 @@ install-no-catalog: $(FILES)
 	done
 
 clean:
-	rm xml.xsd
-	rm xlink.xsd
+	rm $(SD)/xml.xsd
+	rm $(SD)/xlink.xsd
