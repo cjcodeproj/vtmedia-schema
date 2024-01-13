@@ -16,6 +16,17 @@ The schema is designed with the following goals.
 6. Data should be recorded in logical structures, making it suitable for indexing, searching, and comparison operations.
 
 
+## Installation And Use
+
+Run the `Makefile` to install the schema in your local directory.
+
+```
+$ make
+$ make install
+```
+
+See the [installing.md](notes/installing.md) file for more information on installing the files and setting up your working environment.
+
 ## Directory Structure
 
 ### Schema

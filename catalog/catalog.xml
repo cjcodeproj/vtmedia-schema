@@ -1,7 +1,9 @@
-<?xml version="1.0"?>
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-  <uri name="http://vectortron.com/xml/media/media" uri="./media-schema.xsd"/>
-  <uri name="http://vectortron.com/xml/media/test" uri="./vtm-content-test.xsd"/>
-  <uri name="http://vectortron.com/xml/media/movie" uri="./vtm-content-movie.xsd"/>
-  <uri name="http://vectortron.com/xml/media/written" uri="./vtm-content-written.xsd"/> 
+<?xml version='1.0'?>
+<catalog xmlns='urn:oasis:names:tc:entity:xmlns:xml:catalog'>
+  <uri name='http://www.w3.org/XML/1998/namespace' uri='./vtmedia/xml.xsd'/>
+  <uri name='http://www.w3.org/1999/xlink' uri='./vtmedia/xlink.xsd'/>
+  <uri name='http://vectortron.com/xml/media/media' uri='./vtmedia/media-schema.xsd'/>
+  <uri name='http://vectortron.com/xml/media/test' uri='./vtmedia/vtm-content-test.xsd'/>
+  <uri name='http://vectortron.com/xml/media/movie' uri='./vtmedia/vtm-content-movie.xsd'/>
+  <uri name='http://vectortron.com/xml/media/written' uri='./vtmedia/vtm-content-written.xsd'/> 
 </catalog>

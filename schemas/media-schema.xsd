@@ -9,7 +9,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2024, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -31,6 +31,10 @@
  <xs:import schemaLocation='vtm-content-test.xsd' namespace='http://vectortron.com/xml/media/test'/>
  <xs:import schemaLocation='vtm-content-movie.xsd' namespace='http://vectortron.com/xml/media/movie'/>
  <xs:import schemaLocation='vtm-content-written.xsd' namespace='http://vectortron.com/xml/media/written'/>
+
+ <xs:import namespace='http://www.w3.org/XML/1998/namespace' schemaLocation='xml.xsd'/>
+ <xs:import namespace='http://www.w3.org/1999/xlink' schemaLocation='xlink.xsd'/>
+
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
     Media data, mostly related to movies right now.

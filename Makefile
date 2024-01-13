@@ -2,7 +2,7 @@
 # Makefile
 # 
 
-#    Copyright 2023, Chris Josephes
+#    Copyright 2024, Chris Josephes
 #
 #    This work is licensed under the Creative Commons Attribution-ShareAlike
 #    4.0 International License.
@@ -50,7 +50,15 @@ FILES= $(SD)/media-schema.xsd \
 	$(SD)/vtm-mod-visual-technical.xsd \
 
 
-all: $(MAINSCHEMA)
+all: $(MAINSCHEMA) $(SD)/xml.xsd $(SD)/xlink.xsd
+
+$(SD)/xml.xsd:
+	curl https://www.w3.org/2009/01/xml.xsd > $(SD)/xml.xsd
+
+$(SD)/xlink.xsd:
+	curl https://www.w3.org/1999/xlink.xsd | \
+	sed -e 's/schemaLocation="http:\/\/www.w3.org\/2001\//schemaLocation="/' > \
+	$(SD)/xlink.xsd
 
 test-schema-files: $(FILES)
 	for file in $^; do \
@@ -62,13 +70,15 @@ test-schema-valid:
 
 test: test-schema-files test-schema-valid
 
-install: $(FILES)
+install: $(FILES) $(SD)/xlink.xsd $(SD)/xml.xsd
 	echo $(DESTDIR)
 	mkdir -p $(DESTDIR)
 	mkdir -p $(DESTDIR)/vtmedia
 	for file in $^; do \
 		install -C -m 0644 $${file} $(DESTDIR)/vtmedia/; \
 	done
+	install -C -m 0644 $(SD)/xlink.xsd $(DESTDIR)/vtmedia
+	install -C -m 0644 $(SD)/xml.xsd $(DESTDIR)/vtmedia
 	install -C --backup=numbered -m 0644 catalog/catalog.xml $(DESTDIR)/
 
 install-no-catalog: $(FILES)
@@ -78,3 +88,7 @@ install-no-catalog: $(FILES)
 	for file in $^; do \
 		install -C -m 0644 $${file} $(DESTDIR)/vtmedia/; \
 	done
+
+clean:
+	rm xml.xsd
+	rm xlink.xsd

@@ -17,10 +17,21 @@ All of the schema files would located in the `vtmedia/` path, and the `xml/catal
 
 The actual installation path doesn't matter, as long as it's referenced in the `catalog.xml` file.
 
-If you're using **xmllint**, you will need to set the `XML_CATALOG_PATH` environmental variable to the path of the file.
+If you're using **xmllint**, you will need to set the `XML_CATALOG_FILES` environmental variable to the path of the file.
 
 If you're using **Visual Studio Code** with the RedHat XML plugin, you will need to set the path of the catalog file in
-the `settings.json` file.
+the `settings.json` file.  The easiest way to edit that file, is to open the command pallette and type in
+`Open User Settings (JSON)`
+
+```
+{
+  "xml.catalogs": [
+      "/User/(username)/.local/share/xml/catalog.xml"
+  ]
+}
+```
+
+There may be other settings in the file, make changes to them as you wish.
 
 ### Installation From The Makefile
 
@@ -66,7 +77,7 @@ with `xmllint` using the following command.
 If the schema files and catalog are installed in a known path, the files can be validated with these commands.
 
 ```
-$ export XML_CATALOG_FILE=~/.local/share/xml/catalog.xml
+$ export XML_CATALOG_FILES=~/.local/share/xml/catalog.xml
 $ xmllint --xinclude --schema http://vectortron.com/xml/media/media oppenheimer-2023-ultrahd.xml
 ```
 
