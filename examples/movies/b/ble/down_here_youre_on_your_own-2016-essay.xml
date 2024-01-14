@@ -1,0 +1,21 @@
+<essay xmlns='http://vectortron.com/xml/media/written'>
+ <title>Down Here, You're On Your Own</title>
+ <catalog>
+  <authors>
+   <author><gn>Nathaniel</gn><fn>Rich</fn></author>
+  </authors>
+  <copyright>
+   <year>2016</year>
+  </copyright>
+ </catalog>
+ <description>
+  <summary>
+   A concise history of film noir, and how the Coen brothers filmography fits into it compared with other
+   classic films.
+  </summary>
+  <keywords>
+   <generic>film noir</generic>
+   <generic>misguided obsession</generic>
+  </keywords>
+ </description>
+</essay>

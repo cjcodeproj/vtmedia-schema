@@ -2,6 +2,8 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-57](https://github.com/cjcodeproj/vtmedia-schema/issues/57) Description for essay element
+ - [schema-47](https://github.com/cjcodeproj/vtmedia-schema/issues/47) Consider "interview" element, ...
  - [schema-86](https://github.com/cjcodeproj/vtmedia-schema/issues/86) More love for the external link structures
  - [schema-110](https://github.com/cjcodeproj/vtmedia-schema/issues/110) Bring in XML and Xlink schemas
  - [schema-109](https://github.com/cjcodeproj/vtmedia-schema/issues/109) Makefile infrastructure/catalog usage

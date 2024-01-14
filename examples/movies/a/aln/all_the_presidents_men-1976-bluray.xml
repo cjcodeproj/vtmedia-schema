@@ -47,6 +47,14 @@
    <xi:include href='all_the_presidents_men-1976-movie.xml'/>
    <essay xmlns='http://vectortron.com/xml/media/written'>
     <title>Hot Off The Press: The Legacy Of "All The President's Men"</title>
+    <description>
+     <summary>
+      A look at how "All The President's Men" was originally put together, and
+      how it is still considered a relevant film by establishing the
+      importance of the press when it comes to putting political power
+      in check.
+     </summary>
+    </description>
    </essay>
    <essay xmlns='http://vectortron.com/xml/media/written'>
     <title>Robert Redford as Bob Woodward</title>
@@ -65,6 +73,11 @@
    </essay>
    <essay xmlns='http://vectortron.com/xml/media/written'>
     <title>Deep Throat Unmasked</title>
+    <description>
+     <keywords>
+      <properNoun><person><gn>Mark</gn><fn>Felt</fn></person></properNoun>
+     </keywords>
+    </description>
    </essay>
   </contents>
  </media>
