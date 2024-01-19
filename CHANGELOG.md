@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-94](https://github.com/cjcodeproj/vtmedia-schema/issues/94) Language support for keywords
  - [schema-57](https://github.com/cjcodeproj/vtmedia-schema/issues/57) Description for essay element
  - [schema-47](https://github.com/cjcodeproj/vtmedia-schema/issues/47) Consider "interview" element, ...
  - [schema-86](https://github.com/cjcodeproj/vtmedia-schema/issues/86) More love for the external link structures

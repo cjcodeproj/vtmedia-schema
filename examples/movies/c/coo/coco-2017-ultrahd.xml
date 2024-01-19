@@ -1,0 +1,203 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Coco</main>
+  </title>
+  <medium>
+   <release>
+    <type><ultrahd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>786936856811</barcode>
+    <sku retailer='bby'>6151306</sku>
+    <other>
+     <name>Proof Of Purchase</name>
+     <value>147761</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case slipcover='false'>
+      <ultrahd/>
+      <bluray/>
+      <bluray/>
+      <codesheet><service>Disney Movie Rewards</service></codesheet>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <movie xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Coco</title>
+    <catalog>
+     <copyright>
+      <year>2017</year>
+      <holders>
+       <holder>Disney Enterprises, Inc.</holder>
+       <holder>Pixar</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Adventure</primary>
+      <secondary>Comedy</secondary>
+      <specific>Meeting Ghosts</specific>
+     </genres>
+     <certifications>
+      <certificate ref='51192'>
+       <rating code='PG'>Parental Guidance Suggested</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT01H45M02S</overall>
+     </runtime>
+     <visualFormat>
+      <animation>
+       <rendered/>
+      </animation>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      A boy who dreams of being a musician finds himself in the world of the dead, and must both find a way to return, and to meet
+      his musical ancestors.
+     </plot>
+     <keywords>
+      <group>
+       <generic xml:lang='es'>ofrenda</generic>
+       <generic xml:lang='es'>alebrije</generic>
+       <properNoun><event>Day Of The Dead</event></properNoun>
+       <properNoun xml:lang='es'><event>Día de los Muertos</event></properNoun>
+      </group>
+      <generic>skeleton</generic>
+      <generic>guitar</generic>
+      <generic>shoes</generic>
+      <generic>music</generic>
+      <generic>musician</generic>
+      <generic>family</generic>
+      <generic>street dog</generic>
+      <generic>chirizo</generic>
+      <generic>shoe shine boy</generic>
+      <generic>photograph</generic>
+      <generic>songwriting</generic>
+      <generic>bridge</generic>
+      <generic>flower petal</generic>
+      <generic>mariachi</generic>
+     </keywords>
+     <themes>
+      <theme>family</theme>
+      <theme></theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Lee</gn><fn>Unkrich</fn></director>
+      <director><gn>Adrian</gn><fn>Molina</fn></director>
+     </directors>
+     <writers>
+      <writer role='story'><gn>Lee</gn><fn>Unkrich</fn></writer>
+      <writer role='story'><gn>Jason</gn><fn>Katz</fn></writer>
+      <writer role='story'><gn>Matthew</gn><fn>Aldrich</fn></writer>
+      <writer role='story'><gn>Adrian</gn><fn>Molina</fn></writer>
+      <writer role='screenplay'><gn>Adrian</gn><fn>Molina</fn></writer>
+      <writer role='screenplay'><gn>Matthew</gn><fn>Aldrich</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Steve</gn><fn>Bloom</fn></editor>
+      <editor><gn>Lee</gn><fn>Unkrich</fn></editor>
+     </editors>
+     <cast>
+      <role>
+       <actor><gn>Anthony</gn><fn>Gonzalez</fn></actor>
+       <character>
+        <name><gn>Miguel</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Gael</gn><fn>García Bernal</fn></actor>
+       <character>
+        <name><gn>Héctor</gn></name>
+        <aspect>voice</aspect>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Benjamin</gn><fn>Bratt</fn></actor>
+       <character>
+        <name><gn>Ernesto</gn><fn>de la Cruz</fn></name>
+        <aspect>voice</aspect>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Alanna</gn><fn>Ubach</fn></actor>
+       <character>
+        <name><prefix>Mamá</prefix><gn>Imelda</gn></name>
+        <aspect>voice</aspect>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Renee</gn><fn>Victor</fn></actor>
+       <character>
+        <name><nick>Abuelita</nick></name>
+        <aspect>voice</aspect>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Jaime</gn><fn>Camil</fn></actor>
+       <character>
+        <name><nick>Papá</nick></name>
+        <aspect>voice</aspect>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Alfonso</gn><fn>Arau</fn></actor>
+       <character>
+        <name><prefix>Papá</prefix><gn>Julio</gn></name>
+        <aspect>voice</aspect>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Herbert</gn><fn>Siguenza</fn></actor>
+       <character>
+        <name><gn>Tío</gn><fn>Oscar</fn></name>
+        <aspect>voice</aspect>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Gabriel</gn><fn>Iglesias</fn></actor>
+       <character>
+        <unnamed>Clerk</unnamed>
+        <aspect>voice</aspect>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Lombardo</gn><fn>Boyar</fn></actor>
+       <character>
+        <unnamed>Plaza Mariachi</unnamed>
+        <aspect>voice</aspect>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Ana</gn><mn>Ofelia</mn><fn>Murguia</fn></actor>
+       <character>
+        <name><prefix>Mamá</prefix><gn>Coco</gn></name>
+        <aspect>voice</aspect>
+       </character>
+      </role>
+     </cast>
+    </crew>
+   </movie>
+  </contents>
+ </media>
+</medialist>
