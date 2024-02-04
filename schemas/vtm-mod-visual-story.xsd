@@ -20,6 +20,7 @@
 
 
  <xs:include schemaLocation='vtm-mod-generic-pnouns-keywords.xsd'/>
+ <xs:include schemaLocation='vtm-mod-generic-story.xsd'/>
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
@@ -52,6 +53,7 @@
     <xs:element name='overview' type='PlotType' minOccurs='0' maxOccurs='1'/>
     <xs:element name='plot' type='PlotType' minOccurs='0' maxOccurs='1'/>
    </xs:choice>
+   <xs:element name='settings' type='SettingsType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='keywords' type='KeywordsType' minOccurs='0' maxOccurs='1'>
     <xs:unique name='uKeyword'>
      <xs:selector xpath='keyword|group/keyword'/>
