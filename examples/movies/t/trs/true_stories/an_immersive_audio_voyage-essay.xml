@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<essay xmlns='http://vectortron.com/xml/media/written'>
+ <title>An Immersive Audio Voyage</title>
+ <catalog>
+  <authors>
+   <author><gn>David</gn><fn>Byrne</fn></author>
+  </authors>
+ </catalog>
+ <description>
+  <summary>
+    A breakdown of the music from "True Stories".
+  </summary>
+  <keywords>
+   <group>
+    <properNoun><art type='movie'>True Stories</art></properNoun>
+   </group>
+   <group>
+    <properNoun><place><name>The Bluebird Blues Club</name><ci>Fort Worth</ci><st abbrv='TX'>Texas</st></place></properNoun>
+   </group>
+   <group>
+    <generic>tex-mex music</generic>
+    <generic>rock</generic>
+    <generic>country</generic>
+    <generic>Latin</generic>
+    <generic>jazz</generic>
+    <generic>disco</generic>
+    <generic>polka</generic>
+    <properNoun><thing>Muzak</thing></properNoun>
+   </group>
+   <group>
+    <properNoun><person><gn>Neil</gn><fn>SYoung</fn></person></properNoun>
+    <properNoun><person><gn>Meredith</gn><fn>Gray</fn></person></properNoun>
+    <properNoun><person><gn>Spalding</gn><fn>Gray</fn></person></properNoun>
+    <properNoun><person><gn>Capucine</gn><fn>Dreu Wulf</fn></person></properNoun>
+    <properNoun><person><gn>Esteban</gn><fn>Jordan</fn></person></properNoun>
+    <properNoun><person><gn>Terry</gn><fn>Allen</fn></person></properNoun>
+    <properNoun><person><gn>Carl</gn><fn>Finch</fn></person></properNoun>
+    <properNoun><person><gn>Jeffrey</gn><fn>Barnes</fn></person></properNoun>
+   </group>
+   <group>
+    <generic>accordian</generic>
+    <generic>polka band</generic>
+    <properNoun><thing>Casio keyboard</thing></properNoun>
+   </group>
+   <group>
+    <properNoun><art type='song'>City Of Dreams</art></properNoun>
+    <properNoun><art type='song'>Radio Head</art></properNoun>
+    <properNoun><art type='song'>Cocktail Desperado</art></properNoun>
+   </group>
+  </keywords>
+ </description>
+</essay>

@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
+  xmlns='http://vectortron.com/xml/media/media'
+  targetNamespace='http://vectortron.com/xml/media/media' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2024, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   Index information: Audio Media
+
+   A many to many mapping mechanism mapping a content
+   element to a physical media element.
+
+   Ex: Mapping a song to a specific CD track
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='AudioContent'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A content reference inside a a CD track index.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:attribute name='ref' type='xs:NCName' use='required'/>
+  <xs:attributeGroup ref='ContentAttributesGroup'/>
+ </xs:complexType>
+
+
+ <xs:complexType name='CDTrackType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Description for a CD track, which will contain at least
+    one index element.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='index' type='CDTrackIndexType' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attribute name='no' type='xs:positiveInteger' use='required'/>
+ </xs:complexType>
+
+
+ <xs:complexType name='CDTrackIndexType'>
+  <xs:annotation>
+   <xs:documentation>
+    Description for a CD track index, which will contain at least
+    one reference to a content element under the album structure.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='content' type='AudioContent' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attribute name='no' type='xs:nonNegativeInteger' use='required'/>
+ </xs:complexType>
+
+
+ <xs:complexType name='CDIndexType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    An index structure representing the layout of a compact disc.
+
+    A compact disc has 1-99 tracks, and each track can
+    contain 0-100 (99?) (100?) indexes.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='track' type='CDTrackType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+  <xs:attribute name='ref' type='xs:NCName' use='required'/>
+ </xs:complexType>
+
+
+ <xs:group name='AudioIndexGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Every type of physical audio media supported for indexing.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='cdIndex' type='CDIndexType'/>
+  </xs:choice>
+ </xs:group>
+
+</xs:schema>

@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3tool (2024-03-03 20:37:18.547528) -->
+ <media>
+  <title>
+   <main>Raising Arizona / Blood Simple: Original Motion Picture Soundtracks</main>
+  </title>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>030206728422</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <xi:include href='raising_arizona_blood_simple_original_motion_picture_soundtracks-1985-index.xml'/>
+  <contents>
+   <xi:include href='raising_arizona_blood_simple_original_motion_picture_soundtracks-1985-album.xml'/>
+  </contents>
+ </media>
+</medialist>

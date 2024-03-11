@@ -28,31 +28,6 @@
   </xs:documentation>
  </xs:annotation>
 
- <xs:simpleType name='ContentGroupingValueEnum'>
-  <xs:annotation>
-   <xs:documentation xml:lang='en-US'>
-    An enum supporting the two content group
-    values: main and supplemental.
-   </xs:documentation>
-  </xs:annotation>
-  <xs:restriction base='xs:token'>
-   <xs:enumeration value='main'/>
-   <xs:enumeration value='supplemental'/>
-  </xs:restriction>
- </xs:simpleType>
-
- <xs:attributeGroup name='ContentAttributesGroup'>
-  <xs:annotation>
-   <xs:documentation xml:lang='en-US'>
-    An attribute that identifies whether a content
-    element is the main content of the media, or 
-    supplemental content that enhances or improves
-    the main content.
-   </xs:documentation>
-  </xs:annotation>
-  <xs:attribute name='group' type='ContentGroupingValueEnum' use='optional'/>
- </xs:attributeGroup>
-
  <xs:complexType name='VideoPartialRangeType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>

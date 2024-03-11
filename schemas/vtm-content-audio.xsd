@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
+  xmlns='http://vectortron.com/xml/media/audio'
+  targetNamespace='http://vectortron.com/xml/media/audio' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2024, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
+ <xs:include schemaLocation='vtm-mod-audio-catalog.xsd'/>
+ <xs:include schemaLocation='vtm-mod-audio-classification.xsd'/>
+ <xs:include schemaLocation='vtm-mod-audio-elements.xsd'/>
+ <xs:include schemaLocation='vtm-content-all.xsd'/>
+
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Descriptive schema for audio data.
+
+    (Starting with music albums)
+
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='AlbumType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     An album is a completed work of one or more songs
+     (or various audio clips) released on different forms of
+     physical or digital media.  It is a completed work from
+     an one or more artists designed to be appreciated 
+     either as a whole work, or individual elements of the work.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='catalog' type='AudioAlbumCatalogType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='classification' type='AudioAlbumClassificationType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='elements' type='AudioAlbumElementsType' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attributeGroup ref='ContentAttributeGroup'/>
+ </xs:complexType>
+
+ <xs:element name='album' type='AlbumType'/>
+
+</xs:schema>

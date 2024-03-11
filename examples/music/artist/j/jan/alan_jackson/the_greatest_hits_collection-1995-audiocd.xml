@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3tool (2024-03-08 00:27:32.756599) -->
+ <media>
+  <title>
+   <main>The Greatest Hits Collection</main>
+  </title>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>07822188012</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <xi:include href='the_greatest_hits_collection-1995-index.xml'/>
+  <contents>
+   <xi:include href='the_greatest_hits_collection-1995-album.xml'/>
+  </contents>
+ </media>
+</medialist>

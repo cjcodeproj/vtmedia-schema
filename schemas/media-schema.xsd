@@ -5,6 +5,7 @@
  xmlns:test='http://vectortron.com/xml/media/test'
  xmlns:movie='http://vectortron.com/xml/media/movie'
  xmlns:written='http://vectortron.com/xml/media/written'
+ xmlns:audio='http://vectortron.com/xml/media/audio'
  targetNamespace='http://vectortron.com/xml/media/media' elementFormDefault='qualified'>
 
  <xs:annotation>
@@ -31,7 +32,7 @@
  <xs:import schemaLocation='vtm-content-test.xsd' namespace='http://vectortron.com/xml/media/test'/>
  <xs:import schemaLocation='vtm-content-movie.xsd' namespace='http://vectortron.com/xml/media/movie'/>
  <xs:import schemaLocation='vtm-content-written.xsd' namespace='http://vectortron.com/xml/media/written'/>
-
+ <xs:import schemaLocation='vtm-content-audio.xsd' namespace='http://vectortron.com/xml/media/audio'/>
  <xs:import namespace='http://www.w3.org/XML/1998/namespace' schemaLocation='xml.xsd'/>
  <xs:import namespace='http://www.w3.org/1999/xlink' schemaLocation='xlink.xsd'/>
 
@@ -47,6 +48,7 @@
    <xs:element ref='movie:movie' />
    <xs:element ref='movie:short' />
    <xs:element ref='written:essay' />
+   <xs:element ref='audio:album' />
   </xs:choice>
  </xs:complexType>
 

@@ -1,0 +1,172 @@
+<?xml version='1.0'?>
+   <movie id='truestoriesmovie' xmlns='http://vectortron.com/xml/media/movie'>
+    <title>True Stories</title>
+    <catalog>
+     <copyright>
+      <year>1986</year>
+      <holders>
+       <holder>True Stories Ventures, LLC</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Comedy</primary>
+      <secondary>Musical</secondary>
+      <subgenres>
+       <subgenre>mockumentary</subgenre>
+      </subgenres>
+     </genres>
+     <certifications>
+      <certificate ref='28273'>
+       <rating code='PG'>Parental Guidance Suggested</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <story>
+     <plot>
+     </plot>
+     <settings>
+      <primary>
+       <where>
+        <fictionalPlace><ci>Virgil</ci><st abbrv='TX'>Texas</st></fictionalPlace>
+       </where>
+      </primary>
+     </settings>
+     <keywords>
+      <properNoun><place><st abbrv='TX'>Texas</st></place></properNoun>
+      <group>
+       <generic>town festival</generic>
+       <generic>sesquicentennial</generic>
+       <generic>stage</generic>
+       <generic>parade</generic>
+       <generic>talent show</generic>
+      </group>
+      <group>
+       <generic>small town</generic>
+       <generic>farmland</generic>
+       <generic>economic growth</generic>
+      </group>
+      <group>
+       <generic>shopping mall</generic>
+       <generic>commerce</generic>
+       <generic>fashion show</generic>
+      </group>
+      <group>
+       <generic>middle class</generic>
+       <generic>nightlife</generic>
+       <generic>dating</generic>
+       <generic>romance</generic>
+      </group>
+      <group>
+       <generic>western suit</generic>
+       <generic>cowboy hat</generic>
+      </group>
+      <group>
+       <generic>semiconductor manufacturing</generic>
+      </group>
+      <group>
+       <generic>convertible</generic>
+       <properNoun><thing>Chrysler LeBaron</thing></properNoun>
+       <generic>freeway</generic>
+      </group>
+     </keywords>
+     <themes>
+      <theme>small towns</theme>
+      <theme>modernity</theme>
+     </themes>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>David</gn><fn>Byrne</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>Stephen</gn><fn>Tobolowsky</fn></writer>
+      <writer><gn>Beth</gn><fn>Henly</fn></writer>
+      <writer><gn>David</gn><fn>Byrne</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Caroline</gn><fn>Biggerstaff</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Edward</gn><fn>Lachman</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <cast>
+      <role>
+       <actor><gn>John</gn><fn>Goodman</fn></actor>
+       <character>
+        <name><gn>Louis</gn><fn>Fyne</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Annie</gn><fn>McEnroe</fn></actor>
+       <character>
+        <name><gn>Kay</gn><fn>Culver</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Jo Harvey</gn><fn>Allen</fn></actor>
+       <character>
+        <unnamed>The Lying Woman</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Spalding</gn><fn>Gray</fn></actor>
+       <character>
+        <name><gn>Earl</gn><fn>Culver</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Alix</gn><fn>Elias</fn></actor>
+       <character>
+        <unnamed>The Cute Woman</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Roebuck</gn><nick>Pops</nick><fn>Staples</fn></actor>
+       <character>
+        <name><prefix>Mr.</prefix><fn>Tucket</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Tito</gn><fn>Larriva</fn></actor>
+       <character>
+        <name><gn>Ramon</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>John</gn><fn>Ingle</fn></actor>
+       <character>
+        <unnamed>The Preacher</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Matthew</gn><fn>Posey</fn></actor>
+       <character>
+        <unnamed>The Computer Guy</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Swoosie</gn><fn>Kurtz</fn></actor>
+       <character>
+        <unnamed>The Lazy Woman</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Amy</gn><fn>Buffington</fn></actor>
+       <character>
+        <name><gn>Linda</gn><fn>Culver</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>David</gn><fn>Byrne</fn></actor>
+       <narrator/>
+      </role>
+     </cast>
+    </crew>
+   </movie>

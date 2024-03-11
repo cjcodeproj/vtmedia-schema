@@ -36,7 +36,7 @@
 
  <xs:group name='ProductTypeGroup'>
   <xs:choice>
-   <xs:element name='cd' type='SingleProductType'/>
+   <xs:element name='audiocd' type='SingleProductType'/>
    <xs:element name='casette' type='SingleProductType'/>
    <xs:element name='record' type='SingleProductType'/>
    <xs:element name='dvd' type='SingleProductType'/>
@@ -56,6 +56,10 @@
  </xs:complexType>
 
  <xs:complexType name='PIVideoTapeType'>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='PIAudioDiscType'>
   <xs:attribute name='id' type='xs:NCName' use='optional'/>
  </xs:complexType>
 
@@ -84,6 +88,17 @@
    <xs:element name='laserdisc' type='PIVideoDiskType'/>
    <xs:element name='vhs' type='PIVideoTapeType'/>
    <xs:element name='beta' type='PIVideoTapeType'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:group name='PIMediumAudioGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Any physical thing that can store audio, like a cd.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='cd' type='PIAudioDiscType'/>
   </xs:choice>
  </xs:group>
 
@@ -131,6 +146,20 @@
   </xs:choice>
  </xs:group>
 
+ <xs:group name='PIMediumAnyGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A special element group that allows for a mixture of
+    video, audio, or printed material.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:group ref='PIMediumVideoGroup'/>
+   <xs:group ref='PIMediumAudioGroup'/>
+   <xs:group ref='PIMediumPrintGroup'/>
+  </xs:choice>
+ </xs:group>
+
  <xs:complexType name='PIStorageGenericType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
@@ -141,8 +170,7 @@
    </xs:documentation>
   </xs:annotation>
   <xs:sequence>
-   <xs:group ref='PIMediumVideoGroup' minOccurs='1' maxOccurs='unbounded'/>
-   <xs:group ref='PIMediumPrintGroup' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:group ref='PIMediumAnyGroup' minOccurs='1' maxOccurs='unbounded'/>
   </xs:sequence>
   <xs:attribute name='id' type='xs:NCName' use='optional'/>
   <xs:attribute name='translucent' type='xs:boolean' use='optional'/>

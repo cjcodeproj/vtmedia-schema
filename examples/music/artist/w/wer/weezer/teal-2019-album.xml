@@ -1,0 +1,192 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>Teal</title>
+ <catalog>
+  <artists>
+   <artist><grp>Weezer</grp></artist>
+  </artists>
+  <copyright>
+   <year>2019</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Alternative</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='a01'>
+   <title>
+    <main>Africa</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>David</gn><fn>Paich</fn></composer>
+     <composer><gn>Jeffrey</gn><fn>Parcaro</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M59.03S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ewt01'>
+   <title>
+    <main>Everybody Wants To Rule The World</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Christopher</gn><mn>Merrick</mn><fn>Hughes</fn></composer>
+     <composer><gn>Ian</gn><fn>Stanley</fn></composer>
+     <composer><gn>Roland</gn><fn>Orzabal</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M4.85S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sda01'>
+   <title>
+    <main>Sweet Dreams (Are Made Of This)</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Annie</gn><fn>Lennox</fn></composer>
+     <composer><gn>Dave</gn><fn>Stewart</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M34.83S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tom01'>
+   <title>
+    <main>Take On Me</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Magne</gn><fn>Furuholmen</fn></composer>
+     <composer><gn>Marten</gn><fn>Harket</fn></composer>
+     <composer><gn>Pål</gn><fn>Waakktaar</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M43.61S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ht01'>
+   <title>
+    <main>Happy Together</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Gordon</fn></composer>
+     <composer><gn>Garry</gn><fn>Bonner</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M25.71S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='p01'>
+   <title>
+    <main>Paranoid</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Ozzy</gn><fn>Osbourne</fn></composer>
+     <composer><gn>Terence</gn><mn>Michael</mn><fn>Butler</fn></composer>
+     <composer><gn>Tony</gn><fn>Iommi</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M44.91S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mbs01'>
+   <title>
+    <main>Mr. Blue Sky</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Jeff</gn><fn>Lynn</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M46.39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ns01'>
+   <title>
+    <main>No Scrubs</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Kevin</gn><fn>Briggs</fn></composer>
+     <composer><gn>Kandi</gn><fn>Burruss</fn></composer>
+     <composer><gn>Tameka</gn><fn>Cottle</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M10.33S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bj01'>
+   <title>
+    <main>Billie Jean</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Michael</gn><fn>Jackson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M54.17S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sbm01'>
+   <title>
+    <main>Stand By Me</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Ben</gn><mn>E.</mn><fn>King</fn></composer>
+     <composer><gn>Jerry</gn><fn>Leiber</fn></composer>
+     <composer><gn>Mike</gn><fn>Stoller</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M1.07S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

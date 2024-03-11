@@ -20,6 +20,7 @@
  </xs:annotation>
 
  <xs:include schemaLocation='vtm-mod-index-video.xsd'/>
+ <xs:include schemaLocation='vtm-mod-index-audio.xsd'/>
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
@@ -32,6 +33,43 @@
   </xs:documentation>
  </xs:annotation>
 
+ <xs:simpleType name='ContentGroupingValueEnum'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    An enum supporting the two content group
+    values: main and supplemental.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='main'/>
+   <xs:enumeration value='supplemental'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:attributeGroup name='ContentAttributesGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    An attribute that identifies whether a content
+    element is the main content of the media, or
+    supplemental content that enhances or improves
+    the main content.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:attribute name='group' type='ContentGroupingValueEnum' use='optional'/>
+ </xs:attributeGroup>
+
+ <xs:group name='AnyIndexGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Any possible physical device that could contain an index.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:group ref='VideoIndexGroup'/>
+   <xs:group ref='AudioIndexGroup'/>
+  </xs:choice>
+ </xs:group>
+
  <xs:complexType name='IndexType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
@@ -41,7 +79,7 @@
    </xs:documentation>
   </xs:annotation>
   <xs:sequence maxOccurs='unbounded'>
-   <xs:group ref='VideoIndexGroup'/>
+   <xs:group ref='AnyIndexGroup'/>
   </xs:sequence>
  </xs:complexType>
 

@@ -1,0 +1,244 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>The Red Album</title>
+ <catalog>
+  <artists>
+   <artist><grp>Weezer</grp></artist>
+  </artists>
+  <copyright>
+   <year>2008</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Alternative</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='t01'>
+   <title>
+    <main>Troublemaker</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M44.75S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tgm01'>
+   <title>
+    <main>The Greatest Man That Ever Lived</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT5M52.27S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='pab01'>
+   <title>
+    <main>Pork And Beans</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M9.45S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hs01'>
+   <title>
+    <main>Heart Songs</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M5.95S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='egd01'>
+   <title>
+    <main>Everybody Get Dangerous</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M2.81S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='d01'>
+   <title>
+    <main>Dreamin'</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT5M11.96S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tik01'>
+   <title>
+    <main>Thought I Knew</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Brian</gn><fn>Bell</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M1.58S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cdw01'>
+   <title>
+    <main>Cold Dark World</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer><gn>Scott</gn><fn>Shriner</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M51.32S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='a01'>
+   <title>
+    <main>Automatic</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Patrick</gn><fn>Wilson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M7.64S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='taa01'>
+   <title>
+    <main>The Angel And The One</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT6M46.12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ms01'>
+   <title>
+    <main>Miss Sweeney</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M2.02S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='p01'>
+   <title>
+    <main>Pig</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M2.56S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ts01'>
+   <title>
+    <main>The Spider</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M42.96S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='k01'>
+   <title>
+    <main>King</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT5M11.19S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

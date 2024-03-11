@@ -31,14 +31,21 @@ MAINSCHEMA= $(SD)/media-schema.xsd
 
 FILES= $(SD)/media-schema.xsd \
 	$(SD)/vtm-content-all.xsd \
+	$(SD)/vtm-content-audio.xsd \
 	$(SD)/vtm-content-movie.xsd \
 	$(SD)/vtm-content-test.xsd \
 	$(SD)/vtm-content-written.xsd \
 	$(SD)/vtm-meta-authorship.xsd \
 	$(SD)/vtm-mod-all-catalog.xsd \
+	$(SD)/vtm-mod-audio-catalog.xsd \
+	$(SD)/vtm-mod-audio-classification.xsd \
+	$(SD)/vtm-mod-audio-elements.xsd \
+	$(SD)/vtm-mod-audio-technical.xsd \
 	$(SD)/vtm-mod-generic-crew-types.xsd \
 	$(SD)/vtm-mod-generic-pnouns-keywords.xsd \
+	$(SD)/vtm-mod-generic-story.xsd \
 	$(SD)/vtm-mod-generic-types.xsd \
+	$(SD)/vtm-mod-index-audio.xsd \
 	$(SD)/vtm-mod-index-video.xsd \
 	$(SD)/vtm-mod-index.xsd \
 	$(SD)/vtm-mod-library.xsd \
@@ -48,7 +55,6 @@ FILES= $(SD)/media-schema.xsd \
 	$(SD)/vtm-mod-visual-crew.xsd \
 	$(SD)/vtm-mod-visual-story.xsd \
 	$(SD)/vtm-mod-visual-technical.xsd \
-	$(SD)/vtm-mod-generic-story.xsd \
 
 
 all: $(MAINSCHEMA) $(SD)/xml.xsd $(SD)/xlink.xsd

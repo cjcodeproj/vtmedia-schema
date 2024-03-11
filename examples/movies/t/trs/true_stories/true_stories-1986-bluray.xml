@@ -1,0 +1,181 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>True Stories</main>
+   <edition>The Criterion Collection</edition>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2020-07-07</exact></date>
+      <purchase>
+       <retailer>Barnes &amp; Noble</retailer>
+       <price>49.99</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>715515223713</barcode>
+    <sku retailer='bned'>715515223713</sku>
+    <other>
+     <name>Criterion Spine Number</name>
+     <value>951</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray id='br01'/>
+      <cd id='cd01'/>
+      <booklet/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <blurayIndex ref='br01'>
+    <title>
+     <content ref='truestoriesmovie'/>
+    </title>
+   </blurayIndex>
+   <cdIndex ref='cd01'>
+    <track no='01'>
+     <index no='01'>
+      <content ref='rs-01'/>
+     </index>
+    </track>
+    <track no='02'>
+     <index no='01'>
+      <content ref='fs-01'/>
+     </index>
+    </track>
+    <track no='03'>
+     <index no='01'>
+      <content ref='dh-01'/>
+     </index>
+    </track>
+    <track no='04'>
+     <index no='01'>
+      <content ref='cd-01'/>
+     </index>
+    </track>
+    <track no='05'>
+     <index no='01'>
+      <content ref='wwl-01'/>
+     </index>
+    </track>
+    <track no='06'>
+     <index no='01'>
+      <content ref='cos-01'/>
+     </index>
+    </track>
+    <track no='07'>
+     <index no='01'>
+      <content ref='mm-01'/>
+     </index>
+    </track>
+    <track no='08'>
+     <index no='01'>
+      <content ref='do-01'/>
+     </index>
+    </track>
+    <track no='09'>
+     <index no='01'>
+      <content ref='ltf-01'/>
+     </index>
+    </track>
+    <track no='10'>
+     <index no='01'>
+      <content ref='bt-01'/>
+     </index>
+    </track>
+    <track no='11'>
+     <index no='01'>
+      <content ref='dm-01'/>
+     </index>
+    </track>
+    <track no='12'>
+     <index no='01'>
+      <content ref='pe-01'/>
+     </index>
+    </track>
+    <track no='13'>
+     <index no='01'>
+      <content ref='go-01'/>
+     </index>
+    </track>
+    <track no='14'>
+     <index no='01'>
+      <content ref='hn-01'/>
+     </index>
+    </track>
+    <track no='15'>
+     <index no='01'>
+      <content ref='ilm-01'/>
+     </index>
+    </track>
+    <track no='16'>
+     <index no='01'>
+      <content ref='lfs-01'/>
+     </index>
+    </track>
+    <track no='17'>
+     <index no='01'>
+      <content ref='sdt-01'/>
+     </index>
+    </track>
+    <track no='18'>
+     <index no='01'>
+      <content ref='bt-02'/>
+     </index>
+    </track>
+    <track no='19'>
+     <index no='01'>
+      <content ref='fpu-01'/>
+     </index>
+    </track>
+    <track no='20'>
+     <index no='01'>
+      <content ref='rh-01'/>
+     </index>
+    </track>
+    <track no='21'>
+     <index no='01'>
+      <content ref='pl-01'/>
+     </index>
+    </track>
+    <track no='22'>
+     <index no='01'>
+      <content ref='plu-01'/>
+     </index>
+    </track>
+    <track no='23'>
+     <index no='01'>
+      <content ref='cod-01'/>
+     </index>
+    </track>
+   </cdIndex>
+  </index>
+  <contents>
+   <xi:include href='true_stories-1986-movie.xml'/>
+   <xi:include href='the_complete_true_stories_soundtrack-2018-album.xml'/>
+   <xi:include href='everybody_has_tones-essay.xml'/>
+   <xi:include href='the_texas_connection-essay.xml'/>
+   <xi:include href='every_picture_tells_a_story-essay.xml'/>
+   <xi:include href='the_obsessions_of_david_byrne-essay.xml'/>
+   <xi:include href='an_immersive_audio_voyage-essay.xml'/>
+  </contents>
+ </media>
+</medialist>
