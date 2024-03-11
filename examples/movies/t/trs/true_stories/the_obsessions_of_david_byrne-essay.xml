@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<essay xmlns='http://vectortron.com/xml/media/written'>
+ <title>The Obsessions Of David Byrne</title>
+ <catalog>
+  <authors>
+   <author><gn>Spalding</gn><fn>Gray</fn></author>
+  </authors>
+ </catalog>
+ <description>
+  <summary>
+   A behind the scenes look at the filming and production of "True Stories"
+   from one of the actors of the film.
+  </summary>
+  <keywords>
+   <group>
+    <properNoun><art type='play'>The Music Man</art></properNoun>
+    <properNoun><art type='play'>Our Town</art></properNoun>
+   </group>
+   <group>
+    <generic>film production</generic>
+    <generic>casting call</generic>
+    <generic>production meetings</generic>
+    <generic>storyboards</generic>
+    <generic>production delays</generic>
+   </group>
+   <properNoun><person><gn>Annie</gn><fn>McEnroe</fn></person></properNoun>
+   <group>
+    <properNoun><place><ci>Dallas</ci><st abbrv='TX'>Texas</st></place></properNoun>
+    <properNoun><place><ci>McKinney</ci><st abbrv='TX'>Texas</st></place></properNoun>
+   </group>
+  </keywords>
+ </description>
+</essay>

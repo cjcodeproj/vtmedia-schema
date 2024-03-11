@@ -1,0 +1,239 @@
+<?xml version='1.0'?>
+   <movie id='raising' xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Raising Arizona</title>
+    <catalog>
+     <copyright>
+      <year>1987</year>
+      <holders>
+       <holder>Circle Films, Inc.</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Comedy</primary>
+     </genres>
+     <certifications>
+      <certificate ref='28472'>
+       <rating code='PG-13'>Parents Strongly Cautioned</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT1H34M6S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      The unlikely marriage between a small time criminal and a police officer
+      runs into a stumbling block when they discover that having children
+      isn't biologically possible.  When they learn that a local
+      family has given birth to quintuplet boys, they hatch the plan
+      to take steal one of them for their own.
+     </plot>
+     <settings>
+      <primary>
+       <where>
+        <place><ci>Tempe</ci><st abbrv='AZ'>Arizona</st></place>
+       </where>
+      </primary>
+     </settings>
+     <keywords>
+      <group>
+       <generic>childbirth</generic>
+       <generic>quintuplets</generic>
+       <generic>IVF</generic>
+       <properNoun><person><gn>Benjamin</gn><fn>Spock</fn></person></properNoun>
+       <properNoun><art type='book'>Baby and Child Care</art></properNoun>
+      </group>
+      <group>
+       <generic>criminal</generic>
+       <generic>police officer</generic>
+      </group>
+      <group>
+       <generic>kidnapping</generic>
+       <properNoun><entity acronym='FBI'>Federal Bureau of Investigation</entity></properNoun>
+       <generic>fingerprints</generic>
+      </group>
+      <group>
+       <generic>unpainted furniture</generic>
+      </group>
+      <group>
+       <generic>robbery</generic>
+       <generic>convenience store</generic>
+       <generic>supermarket</generic>
+      </group>
+      <group>
+       <generic>prison break</generic>
+       <generic>bank robbery</generic>
+       <generic>stolen car</generic>
+       <generic>dye pack</generic>
+      </group>
+      <group>
+       <generic>biker</generic>
+       <generic>shotgun</generic>
+       <generic>grenade</generic>
+       <generic>bounty hunter</generic>
+      </group>
+     </keywords>
+    </story>
+    <crew>
+     <directors>
+      <director><gn>Joel</gn><fn>Coen</fn></director>
+      <director uncredited='true'><gn>Ethan</gn><fn>Coen</fn></director>
+     </directors>
+     <writers>
+      <writer><gn>Ethan</gn><fn>Coen</fn></writer>
+      <writer><gn>Joel</gn><fn>Coen</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Michael</gn><mn>R.</mn><fn>Miller</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Barry</gn><fn>Sonnenfeld</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <music>
+      <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>Jane</gn><fn>Musky</fn></productionDesigner>
+      <artDirector><gn>Harold</gn><fn>Thrasher</fn></artDirector>
+      <setDecorator><gn>Robert</gn><fn>Kracik</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Richard</gn><fn>Hornung</fn></costumeDesigner>
+     </wardrobe>
+     <casting>
+      <casting><gn>Donna</gn><fn>Isaacson</fn></casting>
+      <casting><gn>John</gn><mn>S.</mn><fn>Lyons</fn></casting>
+     </casting>
+     <cast>
+      <role>
+       <actor><gn>Nicholas</gn><fn>Cage</fn></actor>
+       <character>
+        <name><pgn>H.I.</pgn><fn>McDunnough</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Holly</gn><fn>Hunter</fn></actor>
+       <character>
+        <name><gn>Ed</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Trey</gn><fn>Wilson</fn></actor>
+       <character>
+        <name><gn>Nathan</gn><fn>Arizona</fn><suffix>Sr.</suffix></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>John</gn><fn>Goodman</fn></actor>
+       <character>
+        <name><gn>Gale</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>William</gn><fn>Forsythe</fn></actor>
+       <character>
+        <name><gn>Evelle</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Sam</gn><fn>McMurray</fn></actor>
+       <character>
+        <name><gn>Glen</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Frances</gn><fn>McDormand</fn></actor>
+       <character>
+        <name><gn>Dot</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Randall</gn><nick>Tex</nick><fn>Cobb</fn></actor>
+       <character>
+        <name><gn>Leonard</gn><fn>Smalls</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><pgn>T.J.</pgn><fn>Kuhn</fn></actor>
+       <character>
+        <name><gn>Nathan</gn><suffix>Jr.</suffix></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Lynne</gn><fn>Kitei</fn></actor>
+       <character>
+        <name><gn>Florence</gn><fn>Arizona</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Peter</gn><fn>Benedek</fn></actor>
+       <character>
+        <unnamed>Prison Counselor</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Charles</gn><nick>Lew</nick><fn>Smith</fn></actor>
+       <character>
+        <unnamed>Nice Old Grocery Man</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Warren</gn><fn>Keith</fn></actor>
+       <character>
+        <unnamed>Younger FBI Agent</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Henry</gn><fn>Kendrick</fn></actor>
+       <character>
+        <unnamed>Older FBI Agent</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Sidney</gn><fn>Dawson</fn></actor>
+       <character>
+        <unnamed>Ear-Bending Cellmate</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Richard</gn><fn>Blake</fn></actor>
+       <character>
+        <unnamed>Parole Board Chairman</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Troy</gn><fn>Nabors</fn></actor>
+       <character>
+        <unnamed>Parole Board Member</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Mary</gn><fn>Seibel</fn></actor>
+       <character>
+        <unnamed>Parole Board Member</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><pgn>M. Emmet</pgn><fn>Walsh</fn></actor>
+       <character>
+        <unnamed>Machine Shop Ear-Bender</unnamed>
+       </character>
+      </role>
+     </cast>
+    </crew>
+   </movie>

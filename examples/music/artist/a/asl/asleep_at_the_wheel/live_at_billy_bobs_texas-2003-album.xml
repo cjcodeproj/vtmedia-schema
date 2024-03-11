@@ -1,0 +1,268 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>Live At Billy Bob's Texas</title>
+ <catalog>
+  <artists>
+   <artist><grp>Asleep At The Wheel</grp></artist>
+  </artists>
+  <copyright>
+   <year>2003</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+  <livePerformance/>
+ </classification>
+ <elements>
+  <song id='mam01'>
+   <title>
+    <main>Miles And Miles Of Texas</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Diane</gn><fn>Johnston</fn></composer>
+     <composer><gn>Thomas</gn><fn>Camfield</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT3M38.38S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='gyk01'>
+   <title>
+    <main>Get Your Kicks On Route 66</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Bobby</gn><fn>Troupe</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT3M27.52S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='osp01'>
+   <title>
+    <main>One Six Pack To Go</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Johnny</gn><fn>Lowe</fn></composer>
+     <composer><gn>Hank</gn><fn>Thompson</fn></composer>
+     <composer><gn>Dick</gn><fn>Hart</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT3M6.20S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hum01'>
+   <title>
+    <main>Hang Up My Spurs And Saddle</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Ray</gn><fn>Benson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT2M47.65S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dfm01'>
+   <title>
+    <main>Don't Fence Me In</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Robert</gn><fn>Fletcher</fn></composer>
+     <composer><gn>Cole</gn><fn>Porter</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT3M6.60S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='btn01'>
+   <title>
+    <main>Before The Next Teardrop Falls</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Vivian</gn><fn>Keith</fn></composer>
+     <composer><gn>Ben</gn><fn>Peters</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT3M39.78S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dww01'>
+   <title>
+    <main>Dance With Who Brung Ya</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Ray</gn><fn>Benson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT3M56.59S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='anh01'>
+   <title>
+    <main>Ain't Nobody Here But Us Chickens</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>John</gn><fn>Whitney</fn></composer>
+     <composer><gn>Alex</gn><fn>Kramer</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT3M25.31S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abm01'>
+   <title>
+    <main>Amarillo By Morning</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Paul</gn><mn>Alexander</mn><fn>Fraser</fn></composer>
+     <composer><gn>Terry</gn><fn>Stafford</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT3M11.89S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tmb01'>
+   <title>
+    <main>Take Me Back To Tulsa</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Bob</gn><fn>Wills</fn></composer>
+     <composer><gn>Tommy</gn><fn>Duncan</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT3M52.04S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='yft01'>
+   <title>
+    <main>You're From Texas</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Cindy</gn><fn>Walker</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT2M56.17S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='iin01'>
+   <title>
+    <main>If I Needed You</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Townes</gn><fn>Van Zandt</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT3M56.56S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bbt01'>
+   <title>
+    <main>Boogie Back To Texas</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Ray</gn><fn>Benson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT3M53.76S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cej01'>
+   <title>
+    <main>Cotton Eyed Joe</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><unkn>Public Domain</unkn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT4M27.66S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bbi01'>
+   <title>
+    <main>Big Balls In Cowtown</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Nix</gn><fn>Hoyle</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+     <overall>PT4M20.11S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

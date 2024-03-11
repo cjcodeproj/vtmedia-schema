@@ -1,0 +1,468 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>The Complete True Stories Soundtrack</title>
+ <catalog>
+  <artists>
+   <variousArtists/>
+  </artists>
+  <copyright>
+   <year>2018</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack>
+   <movie>
+    <title>True Stories</title>
+   </movie>
+  </soundtrack>
+ </classification>
+ <elements>
+  <song id='rs-01'>
+   <title>
+    <main>Road Song</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>David</gn><fn>Byrne</fn></artist>
+     <artist><gn>Meredith</gn><fn>Monk</fn></artist>
+    </artists>
+   <composers>
+    <composer><gn>Meredith</gn><fn>Monk</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M19.51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='fs-01'>
+   <title>
+    <main>Freeway Son</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>David</gn><fn>Byrne</fn></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M5.99S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dh-01'>
+   <title>
+    <main>Disco Hits!</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>David</gn><fn>Byrne</fn></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M3.51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cd-01'>
+   <title>
+    <main>Cocktail Desperado</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Terry Allen &amp; The Panhandle Mystery Band</grp></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer><gn>Terry</gn><fn>Allen</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M0.21S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wwl-01'>
+   <title>
+    <main>Wild Wild Life</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Talking Heads</grp></artist>
+    </artists>
+   <composers>
+    <composer><grp>David Byrne</grp></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M40.89S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cos-01'>
+   <title>
+    <main>City Of Steel</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Talking Heads</grp></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M34.11S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mm-01'>
+   <title>
+    <main>Mall Muzak</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Carl</gn><fn>Finch</fn></artist>
+    </artists>
+   <composers>
+    <composer><gn>Carl</gn><fn>Finch</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT5M33.74S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='do-01'>
+   <title>
+    <main>Dream Operator</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Talking Heads</grp></artist>
+     <featuredArtist><gn>Annie</gn><fn>McEnroe</fn></featuredArtist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M18.60S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ltf-01'>
+   <title>
+    <main>Love Theme From True Stories</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>David</gn><fn>Byrne</fn></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M28.51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bt-01'>
+   <title>
+    <main>Brownie's Theme</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>David</gn><fn>Byrne</fn></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M26.87S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dm-01'>
+   <title>
+    <main>Dinner Music</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>David</gn><fn>Byrne</fn></artist>
+     <artist><grp>Kronos Quartet</grp></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M32.95S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='pe-01'>
+   <title>
+    <main>Puzzlin' Evidence</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Talking Heads</grp></artist>
+     <featuredArtist><grp>John Ingle &amp; The Bert Cross Choir</grp></featuredArtist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M55.08S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='go-01'>
+   <title>
+    <main>Glass Operator</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>David</gn><fn>Byrne</fn></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M31.74S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hn-01'>
+   <title>
+    <main>Hey Now</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Talking Heads</grp></artist>
+     <featuredArtist><grp>St. Thomas Aquinas Elementary School Choir</grp></featuredArtist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M57.68S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ilm-01'>
+   <title>
+    <main>I (Love) Metal Buildings</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>David</gn><fn>Byrne</fn></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M39.17S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lfs-01'>
+   <title>
+    <main>Love For Sale</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Talking Heads</grp></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M31.46S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sdt-01'>
+   <title>
+    <main>Soy De Tejas</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Esteban</gn><nick>Steve</nick><fn>Jordan</fn></artist>
+    </artists>
+   <composers>
+    <composer><gn>Esteban</gn><nick>Steve</nick><fn>Jordan</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M45.91S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bt-02'>
+   <title>
+    <main>Buster's Theme</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Carl</gn><fn>Finch</fn></artist>
+    </artists>
+   <composers>
+    <composer><gn>Carl</gn><fn>Finch</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M35.43S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='fpu-01'>
+   <title>
+    <main>Festa Para Um Rei Negro</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Banda Eclipse</grp></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M19.85S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rh-01'>
+   <title>
+    <main>Radio Head</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Talking Heads</grp></artist>
+     <featuredArtist><gn>Tito</gn><fn>Larriva</fn></featuredArtist>
+     <featuredArtist><grp>Steve Jordan &amp; Los Vampiros</grp></featuredArtist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M49.60S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='pl-01'>
+   <title>
+    <main>Papa Legba</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Talking Heads</grp></artist>
+     <featuredArtist><gn>Roebuck</gn><nick>Pops</nick><fn>Staples</fn></featuredArtist>
+    </artists>
+   <composers>
+    <composer><gn>Davidxi</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT5M7.66S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='plu-01'>
+   <title>
+    <main>People Like Us</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Talking Heads</grp></artist>
+     <featuredArtist><gn>John</gn><fn>Goodman</fn></featuredArtist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M28.75S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cod-01'>
+   <title>
+    <main>City Of Dreams</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Talking Heads</grp></artist>
+    </artists>
+   <composers>
+    <composer><gn>David</gn><fn>Byrne</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT5M8.69S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

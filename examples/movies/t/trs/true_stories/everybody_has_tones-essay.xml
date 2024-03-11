@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<essay xmlns='http://vectortron.com/xml/media/written'>
+ <title>Everybody Has Tones</title>
+ <catalog>
+  <authors>
+   <author><gn>Rebecca</gn><fn>Bengal</fn></author>
+  </authors>
+ </catalog>
+ <description>
+  <summary>
+    An essay on the local resources, guides, and cultural
+    influences that shaped David Byrne's storytelling in
+    "True Stories".
+  </summary>
+  <keywords>
+   <group>
+    <properNoun><art type='movie'>True Stories</art></properNoun>
+    <properNoun><person><gn>David</gn><fn>Byrne</fn></person></properNoun>
+   </group>
+   <group>
+    <generic>newspaper tabloids</generic>
+   </group>
+   <group>
+    <properNoun><person><gn>Joan</gn><fn>Tewkesbury</fn></person></properNoun>
+    <properNoun><person><gn>Ed</gn><fn>Lachman</fn></person></properNoun>
+    <properNoun><person><gn>Meredith</gn><fn>Monk</fn></person></properNoun>
+    <properNoun><person><gn>Adelle</gn><fn>Lutz</fn></person></properNoun>
+   </group>
+   <group>
+    <properNoun><person><gn>John</gn><fn>Goodman</fn></person></properNoun>
+    <properNoun><person><gn>John</gn><fn>Ingle</fn></person></properNoun>
+    <properNoun><person><gn>Tito</gn><fn>Larriva</fn></person></properNoun>
+    <properNoun><person><gn>Spalding</gn><fn>Gray</fn></person></properNoun>
+    <properNoun><person><gn>Annie</gn><fn>McEnroe</fn></person></properNoun>
+    <properNoun><person><gn>Jo Harvey</gn><fn>Allen</fn></person></properNoun>
+    <properNoun><person><gn>Swoosie</gn><fn>Kurtz</fn></person></properNoun>
+   </group>
+  </keywords>
+ </description>
+</essay>

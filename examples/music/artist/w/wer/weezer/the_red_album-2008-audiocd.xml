@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3tool (2024-03-10 09:53:41.968781) -->
+ <media>
+  <title>
+   <main>The Red Album</main>
+  </title>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>602517726451</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+      <booklet/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <xi:include href='the_red_album-2008-index.xml'/>
+  <contents>
+   <xi:include href='the_red_album-2008-album.xml'/>
+  </contents>
+ </media>
+</medialist>

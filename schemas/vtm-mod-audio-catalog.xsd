@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
+  xmlns='http://vectortron.com/xml/media/audio'
+  targetNamespace='http://vectortron.com/xml/media/audio' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2024, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:include schemaLocation='vtm-mod-all-catalog.xsd'/>
+ <xs:include schemaLocation='vtm-mod-generic-crew-types.xsd'/>
+
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Descriptive schema for audio element catalog.
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:complexType name='VariousArtistsType'>
+ </xs:complexType>
+
+
+ <xs:complexType name='CatAlbumArtistsType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     A list of one or more artists recognized as the performers of
+     a song, either as an individual, or a group.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='variousArtists' type='VariousArtistsType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='artist' type='CrewPersonOrGroupType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:choice>
+ </xs:complexType>
+
+
+ <xs:complexType name='CatSongArtistsType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     A list of one or more artists recognized as the performers of
+     a song, either as an individual, or a group.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='artist' type='CrewPersonOrGroupType' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:element name='featuredArtist' type='CrewPersonOrGroupType' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+ <xs:complexType name='CatSongComposersType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     A list of one or more artists recognized as the comnposers of
+     a song, either as an individual, or a group (but more typically
+     is credited as an individual).
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='composer' type='CrewPersonOrGroupType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+ <xs:complexType name='AudioAlbumCatalogType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Catalog information for an album.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='identification' type='CatIdentificationType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='altTitles' type='CatTitlesType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='artists' type='CatAlbumArtistsType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='copyright' type='CopyrightType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='ucIndex' type='UniqueConstraintIndexType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='extRefs' type='CatExtRefType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='AudioSongCatalogType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Catalog information for a given song.
+
+    In most cases, catalog information for a song will not be required,
+    unless there are differences such as song artist or composer.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='identification' type='CatIdentificationType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='altTitles' type='CatTitlesType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='artists' type='CatSongArtistsType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='composers' type='CatSongComposersType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='ucIndex' type='UniqueConstraintIndexType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='extRefs' type='CatExtRefType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+</xs:schema>

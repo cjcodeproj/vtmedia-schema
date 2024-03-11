@@ -6,4 +6,5 @@
   <uri name='http://vectortron.com/xml/media/test' uri='./vtmedia/vtm-content-test.xsd'/>
   <uri name='http://vectortron.com/xml/media/movie' uri='./vtmedia/vtm-content-movie.xsd'/>
   <uri name='http://vectortron.com/xml/media/written' uri='./vtmedia/vtm-content-written.xsd'/> 
+  <uri name='http://vectortron.com/xml/media/audio' url='./vtmedia/vtm-content-audio.xsd'/>
 </catalog>

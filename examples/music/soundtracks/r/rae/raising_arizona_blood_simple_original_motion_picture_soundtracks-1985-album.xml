@@ -1,0 +1,415 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>Raising Arizona / Blood Simple: Original Motion Picture Soundtracks</title>
+ <catalog>
+  <artists>
+   <artist><gn>Carter</gn><fn>Burwell</fn></artist>
+  </artists>
+  <copyright>
+   <year>1985</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack>
+   <movie>
+    <title>Raising Arizona</title>
+   </movie>
+   <movie>
+    <title>Blood Simple</title>
+   </movie>
+  </soundtrack>
+ </classification>
+ <elements>
+  <song id='ia01'>
+   <title>
+    <main>Introduction - A Hole In The Ground</main>
+   </title>
+   <catalog>
+   <composers>
+    <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Raising Arizona</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT0M38.36S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wot01'>
+   <title>
+    <main>Way Out There</main>
+   </title>
+   <catalog>
+    <composers>
+    <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Raising Arizona</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M55.52S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hwh01'>
+   <title>
+    <main>He Was Horrible</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Raising Arizona</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M30.33S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='jb01'>
+   <title>
+    <main>Just Business</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Raising Arizona</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M16.95S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tl01'>
+   <title>
+    <main>The Letter</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Raising Arizona</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M26.63S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hl01'>
+   <title>
+    <main>Hail Lenny</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Raising Arizona</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M17.93S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ru01'>
+   <title>
+    <main>Raising Ukeleles</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Raising Arizona</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M40.91S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dot01'>
+   <title>
+    <main>Dream Of The Future</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Raising Arizona</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M31.39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sa01'>
+   <title>
+    <main>Shopping Arizona</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Raising Arizona</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M46.39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rtt01'>
+   <title>
+    <main>Return To The Nursery</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Raising Arizona</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M34.88S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cab01'>
+   <title>
+    <main>Crash And Burn</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Blood Simple</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M40.10S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bs01'>
+   <title>
+    <main>Blood Simple</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Blood Simple</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M32.60S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cg01'>
+   <title>
+    <main>Chain Gang</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Blood Simple</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M47.35S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tm01'>
+   <title>
+    <main>The March</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Blood Simple</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M34.37S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mc01'>
+   <title>
+    <main>Monkey Chant</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Blood Simple</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M4.23S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ts01'>
+   <title>
+    <main>The Shooting</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Blood Simple</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M51.67S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bs02'>
+   <title>
+    <main>Blood Simpler</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Carter</gn><fn>Burwell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Blood Simple</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M21.73S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

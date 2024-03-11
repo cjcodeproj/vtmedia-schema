@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2023, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   Module for technical aspects of a song.
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:complexType name='AudioRecordingType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Generic empty element to identify a type of
+    recording.  The 3 elements, studio/live/demo will
+    actually be turned into different types in
+    the future.
+   </xs:documentation>
+  </xs:annotation>
+ </xs:complexType>
+
+
+ <xs:group name='AudioRecordingGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A simple group identifying the type of song recording.
+    A song can either be recorded in a studio, a live
+    recording, or a demo recording.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='studioRecording' type='AudioRecordingType'/>
+   <xs:element name='liveRecording' type='AudioRecordingType'/>
+   <xs:element name='demoRecording' type='AudioRecordingType'/>
+  </xs:choice>
+ </xs:group>
+
+
+ <xs:complexType name='AudioRuntimeType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Describing the overall runtime of a song or audio track, which
+    is expressed as an XML Schema duration.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='overall' type='xs:duration' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+ <xs:simpleType name='AudioTempoBPMType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A simple type to represent a Beats Per Minute Hour, which
+    is a positive integer anywhere between 1 and 1000.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:positiveInteger'>
+   <xs:maxInclusive value='1000'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:complexType name='AudioTempoType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element for describing the tempo of a song.  Right now
+    it supports a Beats Per Minute element, but it could also
+    support other elements suitable for describing tempo.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='bpm' type='AudioTempoBPMType' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+ <xs:complexType name='AudioTechnicalType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A simple type for recording technical details of a song,
+    like the type of recording, the runtime, and the tempo.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:group ref='AudioRecordingGroup' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='runtime' type='AudioRuntimeType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='tempo' type='AudioTempoType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+</xs:schema>

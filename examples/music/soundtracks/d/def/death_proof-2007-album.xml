@@ -1,0 +1,283 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>Death Proof</title>
+ <catalog>
+  <artists>
+   <variousArtists/>
+  </artists>
+  <copyright>
+   <year>2007</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack>
+   <movie>
+    <title>Death Proof</title>
+   </movie>
+  </soundtrack>
+ </classification>
+ <elements>
+  <song id='tlr01'>
+   <title>
+    <main>The Last Race</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Jack</gn><fn>Nitzsche</fn></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M39.64S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='biy01'>
+   <title>
+    <main>Baby, It's You</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Smith</grp></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M22.99S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='pp01'>
+   <title>
+    <main>Paranoia Prima</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Ennio</gn><fn>Morricone</fn></artist>
+    </artists>
+   <composers>
+    <composer><gn>Ennio</gn><fn>Morricone</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M19.85S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <dialogue id='ps01'>
+   <title>
+    <main>Planning &amp; Scheming</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Eli</gn><fn>Roth</fn></artist>
+     <artist><gn>Michael</gn><fn>Bacall</fn></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M0.70S</overall>
+    </runtime>
+   </technical>
+  </dialogue>
+  <song id='j01'>
+   <title>
+    <main>Jeepster</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>T. Rex</grp></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M9.29S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <dialogue id='sm01'>
+   <title>
+    <main>Stuntman Mike</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Kurt</gn><fn>Russell</fn></artist>
+     <artist><gn>Rose</gn><fn>McGowan</fn></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT0M19.04S</overall>
+    </runtime>
+   </technical>
+  </dialogue>
+  <song id='s01'>
+   <title>
+    <main>Staggolee</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Pacific Gas &amp; Electric</grp></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M50.69S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tly01'>
+   <title>
+    <main>The Love You Save (May Be Your Own)</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Joe</gn><fn>Tex</fn></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M56.70S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='glb01'>
+   <title>
+    <main>Good Love, Bad Love</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Eddie</gn><fn>Floyd</fn></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M11.36S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dim01'>
+   <title>
+    <main>Down In Mexico</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>The Coasters</grp></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M22.71S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ht01'>
+   <title>
+    <main>Hold Tight</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><grp>Dave Dee, Dozy, Beaky, Mick &amp; Tich</grp></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M47.30S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='saj01'>
+   <title>
+    <main>Sally And Jack</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Pino</gn><fn>Donaggio</fn></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M25.94S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ise01'>
+   <title>
+    <main>It's So Easy</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Willy</gn><fn>DeVille</fn></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M10.87S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <dialogue id='w01'>
+   <title>
+    <main>Whatever-However</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Tracie</gn><fn>Thoms</fn></artist>
+     <artist><gn>Zoë</gn><fn>Bell</fn></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT0M36.15S</overall>
+    </runtime>
+   </technical>
+  </dialogue>
+  <song id='rit01'>
+   <title>
+    <main>Riot In Thunder Alley</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>Eddie</gn><fn>Beram</fn></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M4.39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ch01'>
+   <title>
+    <main>Chick Habit</main>
+   </title>
+   <catalog>
+   <artists>
+     <artist><gn>April</gn><fn>March</fn></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M7.29S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

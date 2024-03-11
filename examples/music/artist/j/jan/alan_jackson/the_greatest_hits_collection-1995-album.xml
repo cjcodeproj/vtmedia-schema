@@ -1,0 +1,359 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>The Greatest Hits Collection</title>
+ <catalog>
+  <artists>
+   <artist><gn>Alan</gn><fn>Jackson</fn></artist>
+  </artists>
+  <copyright>
+   <year>1995</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+  <compilation>
+   <greatestHits/>
+  </compilation>
+ </classification>
+ <elements>
+  <song id='cem01'>
+   <title>
+    <main>Chattahoochee [Extended Mix]</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer><gn>Jim</gn><fn>McBride</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M58.12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='gc01'>
+   <title>
+    <main>Gone Country</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Bob</gn><fn>McDill</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M19.81S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sgt01'>
+   <title>
+    <main>She's Got The Rythm (And I Got The Blues)</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer><gn>Randy</gn><fn>Travis</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M25.06S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mim01'>
+   <title>
+    <main>Midnight In Montgomery</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer><gn>Don</gn><fn>Sampson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M44.44S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ttt01'>
+   <title>
+    <main>Tall, Tall Trees</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>George</gn><fn>Jones</fn></composer>
+     <composer><gn>Roger</gn><fn>Miller</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M28.19S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ctn01'>
+   <title>
+    <main>Chasin' That Neon Rainbow</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer><gn>Jim</gn><fn>McBride</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M5.88S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='it01'>
+   <title>
+    <main>I'll Try</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M51.92S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='drt01'>
+   <title>
+    <main>Don't Rock The Jukebox</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer><gn>Roger</gn><fn>Murrah</fn></composer>
+     <composer><gn>Keith</gn><fn>Stegall</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M51.67S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lol01'>
+   <title>
+    <main>Livin' On Love</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M48.58S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sb01'>
+   <title>
+    <main>Summertime Blues</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Eddie</gn><fn>Cochran</fn></composer>
+     <composer><gn>Jerry</gn><fn>Capehart</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M12.19S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lga01'>
+   <title>
+    <main>Love's Got A Hold On You</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Keith</gn><fn>Stegall</fn></composer>
+     <composer><gn>Carson</gn><fn>Chamberlain</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M54.43S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wsy01'>
+   <title>
+    <main>(Who Says) You Can't Have It All</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer><gn>Jim</gn><fn>McBride</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M29.10S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='h01'>
+   <title>
+    <main>Home</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M18.25S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='w01'>
+   <title>
+    <main>Wanted</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer><gn>Charlie</gn><fn>Craig</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M57.86S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ide01'>
+   <title>
+    <main>I Don't Even Know Your Name</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer><gn>Ron</gn><fn>Jackson</fn></composer>
+     <composer><gn>Andy</gn><fn>Loftin</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M50.83S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='d01'>
+   <title>
+    <main>Dallas</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer><gn>Keith</gn><fn>Stegall</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M44.56S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hit01'>
+   <title>
+    <main>Here In The Real World</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer><gn>Mark</gn><fn>Irwin</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M38.13S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='s01'>
+   <title>
+    <main>Someday</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer><gn>Jim</gn><fn>McBride</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M17.46S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mb01'>
+   <title>
+    <main>Mercury Blues</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Robert</gn><mn>L.</mn><fn>Geddins</fn></composer>
+     <composer><pgn>K.C.</pgn><fn>Douglas</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M39.20S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ily01'>
+   <title>
+    <main>I'd Love You All Over Again</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M11.33S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3tool (2024-03-10 09:53:41.968245) -->
+ <media>
+  <title>
+   <main>Teal</main>
+  </title>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <xi:include href='teal-2019-index.xml'/>
+  <contents>
+   <xi:include href='teal-2019-album.xml'/>
+  </contents>
+ </media>
+</medialist>

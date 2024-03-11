@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2024, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Classification music for audio media.
+
+    Describes the genre of the media, associations with
+    other media, 
+
+
+   NOTES:  MusicAlbumClassification and MusicSongClassification
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:complexType name='SubgenresType'>
+  <xs:sequence>
+   <xs:element name='subgenre' type='xs:token' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='AudioGenresType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Genre structure for audio content
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='primary' type='xs:token' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='secondary' type='xs:token' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='subgenres' type='SubgenresType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+ <xs:complexType name='AlbumGenericCompilationType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Generic element describing a compilation.
+
+     A compilation is described as an album that contains entirely
+     previously released material, like a greatest hits album,
+     or a collection of related music from different artists tied
+     to a common theme.
+   </xs:documentation>
+  </xs:annotation>
+ </xs:complexType>
+
+
+ <xs:complexType name='SoundtrackSourceType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A reference element for pointing to another piece
+    of content.  In this case, when we say an album
+    is a soundtrack of a film, we want to directly identify the film.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='id' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='title' type='xs:token' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='year' type='xs:gYear' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='ucIndex' type='UniqueConstraintIndexType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:group name='AlbumSoundtrackGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A group containing all of the types that could be the source
+    material for soundtracks like a film, television show, or play.
+
+    Right now only movies are supported.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='movie' type='SoundtrackSourceType'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:complexType name='AlbumSoundtrackType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Identifies an album soundtrack, and
+     references the original source material
+     the soundtrack is from, which could be a film,
+     play or television show.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:group ref='AlbumSoundtrackGroup' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='AlbumCompilationType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Identifies a compilation album, and provides child elements
+    to further identify the compilation.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='greatestHits' type='AlbumGenericCompilationType'/>
+   <xs:element name='anthology' type='AlbumGenericCompilationType'/>
+   <xs:element name='tribute' type='AlbumGenericCompilationType'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='AlbumLivePerformanceType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Indicates a live performance.
+
+    (Could be expanded in the future)
+   </xs:documentation>
+  </xs:annotation>
+ </xs:complexType>
+
+ <xs:complexType name='AudioAlbumClassificationType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Main classification element for audio album media.
+
+    An album can fall under two possibilities.
+
+    1. A genre album, that may or may not be a music
+       compilation, or a live performance.
+    2. A soundtrack to a movie, play, or television show.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:sequence>
+    <xs:element name='genres' type='AudioGenresType' minOccurs='1' maxOccurs='1'/>
+    <xs:element name='compilation' type='AlbumCompilationType' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='livePerformance' type='AlbumLivePerformanceType' minOccurs='0' maxOccurs='1'/>
+   </xs:sequence>
+   <xs:element name='soundtrack' type='AlbumSoundtrackType' minOccurs='1' maxOccurs='1'/>
+  </xs:choice>
+ </xs:complexType>
+
+
+ <xs:complexType name='AudioSongClassificationType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Main classification element for a song element
+
+    Classifications for a song only matter if they are different
+    from the album.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+  <xs:sequence>
+   <xs:element name='genres' type='AudioGenresType' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:element name='soundtrack' type='AlbumSoundtrackType' minOccurs='1' maxOccurs='1'/>
+  </xs:choice>  
+ </xs:complexType>
+</xs:schema>
