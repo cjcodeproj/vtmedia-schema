@@ -17,7 +17,9 @@
     </inventory>
    </productSpecs>
   </medium>
-  <xi:include href='death_proof-2007-index.xml'/>
+  <index>
+   <xi:include href='death_proof-2007-index.xml'/>
+  </index>
   <contents>
    <xi:include href='death_proof-2007-album.xml'/>
   </contents>

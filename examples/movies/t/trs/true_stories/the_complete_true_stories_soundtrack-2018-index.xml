@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+ <cdIndex ref='cd01' xmlns='http://vectortron.com/xml/media/media'>
+  <track no='01'>
+   <index no='01'>
+    <content ref='rs01'/>  <!-- TITLE Road Song -->
+   </index>
+  </track>
+  <track no='02'>
+   <index no='01'>
+    <content ref='fs01'/>  <!-- TITLE Freeway Son -->
+   </index>
+  </track>
+  <track no='03'>
+   <index no='01'>
+    <content ref='dh01'/>  <!-- TITLE Disco Hits! -->
+   </index>
+  </track>
+  <track no='04'>
+   <index no='01'>
+    <content ref='cd01'/>  <!-- TITLE Cocktail Desperado -->
+   </index>
+  </track>
+  <track no='05'>
+   <index no='01'>
+    <content ref='wwl01'/>  <!-- TITLE Wild Wild Life -->
+   </index>
+  </track>
+  <track no='06'>
+   <index no='01'>
+    <content ref='cos01'/>  <!-- TITLE City Of Steel -->
+   </index>
+  </track>
+  <track no='07'>
+   <index no='01'>
+    <content ref='mm01'/>  <!-- TITLE Mall Muzak -->
+   </index>
+  </track>
+  <track no='08'>
+   <index no='01'>
+    <content ref='do01'/>  <!-- TITLE Dream Operator -->
+   </index>
+  </track>
+  <track no='09'>
+   <index no='01'>
+    <content ref='ltf01'/>  <!-- TITLE Love Theme From True Stories -->
+   </index>
+  </track>
+  <track no='10'>
+   <index no='01'>
+    <content ref='bt01'/>  <!-- TITLE Brownie's Theme -->
+   </index>
+  </track>
+  <track no='11'>
+   <index no='01'>
+    <content ref='dm01'/>  <!-- TITLE Dinner Music -->
+   </index>
+  </track>
+  <track no='12'>
+   <index no='01'>
+    <content ref='pe01'/>  <!-- TITLE Puzzlin' Evidence -->
+   </index>
+  </track>
+  <track no='13'>
+   <index no='01'>
+    <content ref='go01'/>  <!-- TITLE Glass Operator -->
+   </index>
+  </track>
+  <track no='14'>
+   <index no='01'>
+    <content ref='hn01'/>  <!-- TITLE Hey Now -->
+   </index>
+  </track>
+  <track no='15'>
+   <index no='01'>
+    <content ref='ilm01'/>  <!-- TITLE I (Love) Metal Buildings -->
+   </index>
+  </track>
+  <track no='16'>
+   <index no='01'>
+    <content ref='lfs01'/>  <!-- TITLE Love For Sale -->
+   </index>
+  </track>
+  <track no='17'>
+   <index no='01'>
+    <content ref='sdt01'/>  <!-- TITLE Soy De Tejas -->
+   </index>
+  </track>
+  <track no='18'>
+   <index no='01'>
+    <content ref='bt02'/>  <!-- TITLE Buster's Theme -->
+   </index>
+  </track>
+  <track no='19'>
+   <index no='01'>
+    <content ref='fpu01'/>  <!-- TITLE Festa Para Um Rei Negro -->
+   </index>
+  </track>
+  <track no='20'>
+   <index no='01'>
+    <content ref='rh01'/>  <!-- TITLE Radio Head -->
+   </index>
+  </track>
+  <track no='21'>
+   <index no='01'>
+    <content ref='pl01'/>  <!-- TITLE Papa Legba -->
+   </index>
+  </track>
+  <track no='22'>
+   <index no='01'>
+    <content ref='plu01'/>  <!-- TITLE People Like Us -->
+   </index>
+  </track>
+  <track no='23'>
+   <index no='01'>
+    <content ref='cod01'/>  <!-- TITLE City Of Dreams -->
+   </index>
+  </track>
+ </cdIndex>

@@ -20,7 +20,9 @@
     </inventory>
    </productSpecs>
   </medium>
-  <xi:include href='raising_arizona_blood_simple_original_motion_picture_soundtracks-1985-index.xml'/>
+  <index>
+   <xi:include href='raising_arizona_blood_simple_original_motion_picture_soundtracks-1985-index.xml'/>
+  </index>
   <contents>
    <xi:include href='raising_arizona_blood_simple_original_motion_picture_soundtracks-1985-album.xml'/>
   </contents>

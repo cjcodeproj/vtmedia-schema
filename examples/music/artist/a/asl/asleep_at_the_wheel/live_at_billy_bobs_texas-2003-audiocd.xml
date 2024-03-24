@@ -17,7 +17,9 @@
     </inventory>
    </productSpecs>
   </medium>
-  <xi:include href='live_at_billy_bobs_texas-2003-index.xml'/>
+  <index>
+   <xi:include href='live_at_billy_bobs_texas-2003-index.xml'/>
+  </index>
   <contents>
    <xi:include href='live_at_billy_bobs_texas-2003-album.xml'/>
   </contents>

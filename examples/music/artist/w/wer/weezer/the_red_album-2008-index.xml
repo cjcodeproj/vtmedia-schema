@@ -1,6 +1,5 @@
 <?xml version='1.0'?>
- <index xmlns='http://vectortron.com/xml/media/media'>
- <cdIndex ref='cd01'>
+ <cdIndex ref='cd01' xmlns='http://vectortron.com/xml/media/media'>
   <track no='01'>
    <index no='01'>
     <content ref='t01'/>
@@ -72,4 +71,3 @@
    </index>
   </track>
  </cdIndex>
- </index>

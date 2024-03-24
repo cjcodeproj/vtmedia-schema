@@ -21,7 +21,9 @@
     </inventory>
    </productSpecs>
   </medium>
-  <xi:include href='the_red_album-2008-index.xml'/>
+  <index>
+   <xi:include href='the_red_album-2008-index.xml'/>
+  </index>
   <contents>
    <xi:include href='the_red_album-2008-album.xml'/>
   </contents>

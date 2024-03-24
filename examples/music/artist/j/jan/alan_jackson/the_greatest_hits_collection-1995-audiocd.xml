@@ -20,7 +20,9 @@
     </inventory>
    </productSpecs>
   </medium>
-  <xi:include href='the_greatest_hits_collection-1995-index.xml'/>
+  <index>
+   <xi:include href='the_greatest_hits_collection-1995-index.xml'/>
+  </index>
   <contents>
    <xi:include href='the_greatest_hits_collection-1995-album.xml'/>
   </contents>

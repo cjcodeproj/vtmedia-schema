@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-120](https://github.com/cjcodeproj/vtmedia-schema/issues/120) Slight tweak to music examples
  - [schema-33](https://github.com/cjcodeproj/vtmedia-schema/issues/33) Music enhancement (level 1)
  - [schema-79](https://github.com/cjcodeproj/vtmedia-schema/issues/79) Extend Story element with Setting element
  - [schema-94](https://github.com/cjcodeproj/vtmedia-schema/issues/94) Language support for keywords
