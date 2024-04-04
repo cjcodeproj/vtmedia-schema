@@ -1,0 +1,16 @@
+<?xml version='1.0'?>
+<essay xmlns='http://vectortron.com/xml/media/written'>
+ <title>Every Picture Tells A Story</title>
+ <catalog>
+  <authors>
+   <author><gn>David</gn><fn>Byrne</fn></author>
+  </authors>
+ </catalog>
+ <description>
+  <summary>
+   An excerpt from the book "True Stories" discussing pictures
+   taken during the production of the film, and how those
+   photographs influenced the overall story.
+  </summary>
+ </description>
+</essay>

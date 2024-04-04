@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<essay xmlns='http://vectortron.com/xml/media/written'>
+ <title>The Texas Connection</title>
+ <catalog>
+  <authors>
+   <author><gn>Joe</gn><mn>Nick</mn><fn>Patoski</fn></author>
+  </authors>
+ </catalog>
+ <description>
+  <summary>
+   An essay on how Texas culture was an influence on the
+   script, and the tone of the movie "True Stories".
+  </summary>
+  <keywords>
+   <group>
+    <properNoun><art type='movie'>True Stories</art></properNoun>
+    <properNoun><art type='movie'>Giant</art></properNoun>
+    <properNoun><art type='movie'>The Texas Chainsaw Masacre</art></properNoun>
+    <properNoun><art type='movie'>Lonesome Dove</art></properNoun>
+    <properNoun><art type='movie'>Outlaw Blues</art></properNoun>
+    <generic>cult classic movie</generic>
+   </group>
+   <group>
+    <generic>Texas culture</generic>
+    <generic>western suits</generic>
+   </group>
+   <group>
+    <properNoun><place><st abbrv='TX'>Texas</st></place></properNoun>
+    <properNoun><place><ci>Dallas</ci><st abbrv='TX'>Texas</st></place></properNoun>
+    <properNoun><event>Texas Sesquicentennial</event></properNoun>
+    <properNoun><place><co>Dallas</co><st abbrv='TX'>Texas</st></place></properNoun>
+    <properNoun><place><co>Collin</co><st abbrv='TX'>Texas</st></place></properNoun>
+    <properNoun><place><co>Denton</co><st abbrv='TX'>Texas</st></place></properNoun>
+    <properNoun><place><co>Ellis</co><st abbrv='TX'>Texas</st></place></properNoun>
+    <properNoun><place><co>Johnson</co><st abbrv='TX'>Texas</st></place></properNoun>
+    <properNoun><place><co>Kaufman</co><st abbrv='TX'>Texas</st></place></properNoun>
+    <properNoun><place><co>Tarrant</co><st abbrv='TX'>Texas</st></place></properNoun>
+    <properNoun><place><ci>Austin</ci><st abbrv='TX'>Texas</st></place></properNoun>
+    <properNoun><place><ci>Marfa</ci><st abbrv='TX'>Texas</st></place></properNoun>
+   </group>
+   <group>
+    <generic>parades</generic>
+    <properNoun><event>4th of July</event></properNoun>
+   </group>
+   <group>
+    <properNoun><entity>Church of the SubGenius</entity></properNoun>
+    <generic>religion</generic>
+    <generic>prosperity doctrine</generic>
+   </group>
+   <group>
+    <properNoun><person><gn>Christie</gn><fn>Patoski</fn></person></properNoun>
+    <properNoun><person><gn>Johnny</gn><fn>Reno</fn></person></properNoun>
+    <properNoun><person><gn>Willard</gn><fn>Watson</fn></person></properNoun>
+    <properNoun><person><gn>Carl</gn><fn>Finch</fn></person></properNoun>
+   </group>
+   <group>
+    <properNoun><person><gn>Joan</gn><fn>Tewkesbury</fn></person></properNoun>
+    <properNoun><person><gn>Robert</gn><fn>Altman</fn></person></properNoun>
+    <properNoun><person><gn>Robert</gn><fn>Irwin</fn></person></properNoun>
+    <properNoun><person><gn>Jonathan</gn><fn>Demme</fn></person></properNoun>
+    <properNoun><person><gn>Ed</gn><fn>Lachman</fn></person></properNoun>
+    <properNoun><person><gn>David</gn><fn>Byrne</fn></person></properNoun>
+    <properNoun><person><gn>Beth</gn><fn>Henley</fn></person></properNoun>
+    <properNoun><person><gn>Stephen</gn><fn>Tobolowsky</fn></person></properNoun>
+    <properNoun><person><gn>Roebuck</gn><nick>Pops</nick><fn>Staples</fn></person></properNoun>
+    <properNoun><person><gn>John</gn><fn>Goodman</fn></person></properNoun>
+    <properNoun><art type='movie'>Nashville</art></properNoun>
+    <properNoun><art type='movie'>Stop Making Sense</art></properNoun>
+   </group>
+  </keywords>
+ </description>
+</essay>

@@ -89,7 +89,7 @@
  <xs:complexType name='CertificateAgencyType'>
   <xs:sequence>
    <xs:element name='name' type='xs:token' minOccurs='1' maxOccurs='1'/>
-   <xs:element name='country' type='CountryCode' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='country' type='CountryCodeType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 

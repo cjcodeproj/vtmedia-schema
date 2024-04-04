@@ -1,10 +1,13 @@
 <?xml version='1.0'?>
 
-<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
+           xmlns:xlink='http://www.w3.org/1999/xlink'
+           elementFormDefault='qualified'>
+
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2024, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -17,6 +20,8 @@
     Mountain View, CA 94042, USA.
   </xs:documentation>
  </xs:annotation>
+
+ <xs:import namespace='http://www.w3.org/1999/xlink' schemaLocation='xlink.xsd'/>
 
  <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
  <xs:include schemaLocation='vtm-mod-generic-crew-types.xsd'/>
@@ -114,7 +119,7 @@
   <xs:sequence>
    <xs:element name='year' type='xs:gYear' minOccurs='1' maxOccurs='1'/>
    <xs:element name='holders' type='CopyrightHoldersType' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='country' type='CountryCode' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='country' type='CountryCodeType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='filing' type='xs:token' minOccurs='0' maxOccurs='1'/>
    <xs:element name='registrationNo' type='xs:token' minOccurs='0' maxOccurs='unbounded'/>
    <xs:element name='expires' type='xs:gYear' minOccurs='0' maxOccurs='1'/>
@@ -132,6 +137,15 @@
    <xs:element name='value' type='xs:positiveInteger' minOccurs='1' maxOccurs='1'/>
    <xs:element name='note' type='xs:string' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='ExtWebsiteType'>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute ref='xlink:href' use='required'/>
+    <xs:attribute ref='xlink:title' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
  </xs:complexType>
 
  <xs:complexType name='CatLibraryNoType'>
@@ -152,6 +166,7 @@
 
  <xs:complexType name='CatExtRefType'>
   <xs:sequence>
+   <xs:element name='website' type='ExtWebsiteType' minOccurs='0' maxOccurs='unbounded'/>
    <xs:element name='libraryRecord' type='CatLibraryRefType' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>

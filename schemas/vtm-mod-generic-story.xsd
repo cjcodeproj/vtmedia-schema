@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2024, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:include schemaLocation='vtm-mod-generic-pnouns-keywords.xsd'/>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   XML elements tied to describing a generic story.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='SettingsType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Contains one or more 'setting' elements.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='primary' type='SettingType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='secondary' type='SettingType' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='SettingType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Describes a setting by describing a place and/or a time.
+     ('where' tag will eventually be followed by a 'when' tag.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='where' type='SettingWhereType' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='SettingWhereType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element focusing on the geo-physical aspect of a setting.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='place' type='PNPlaceType'/>
+   <xs:element name='fictionalPlace' type='PNPlaceType'/>
+  </xs:choice>
+ </xs:complexType>
+
+</xs:schema>

@@ -11,15 +11,11 @@ Editors like Microsoft [Visual Studio Code](https://code.visualstudio.com) combi
 RedHat [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) extension allow 
 VS Code to actively reference the schema when editing XML files.
 
-## Use
 
-To use the catalog feature, find a directory on your host to copy all of the schema files and the catalog.xml file.
+Libraries like [libxml2](https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home) have command
+line tools that also support XSD schema validation with with catalog.xml file.
 
-Next, install the XML extension in Visual Studio Code, and edit the settings for the XML extension.
-Under `XML: Catalogs`, add an entry pointing to the exact path of the catalog.xml file.
+## Catalog Installation
 
-## Testing
-
-Test the extension by looking at any of the example files, or the template files in the schema.  Missing
-elements, invalid tags, or bad values will be flagged and a syntax hightlighting popup will identify what
-needs to be fixed.
+Review the installing.md file for steps on how to install the files through the make process, or
+by installing the files manually.

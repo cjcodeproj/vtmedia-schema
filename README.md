@@ -16,6 +16,17 @@ The schema is designed with the following goals.
 6. Data should be recorded in logical structures, making it suitable for indexing, searching, and comparison operations.
 
 
+## Installation And Use
+
+Run the `Makefile` to install the schema in your local directory.
+
+```
+$ make
+$ make install
+```
+
+See the [installing.md](notes/installing.md) file for more information on installing the files and setting up your working environment.
+
 ## Directory Structure
 
 ### Schema
@@ -30,7 +41,8 @@ The directory is laid out in a path structure that reduces the chances of too ma
 single directory.  Tools or code that intend to read the data should be designed to traverse the directory and
 file all of the files and then read them.
 
-The `movies/` directory contains movie examples.  The `test` directory is an abstract structure for testing the schema.
+The `movies/` directory contains movie examples.  The `music/` directory contains standalone music examples.
+The `test/` directory is an abstract structure for testing the schema.
 
 ### Doc
 
@@ -54,6 +66,10 @@ The `catalog` directory has a `catalog.xml` file suitable for using with XML edi
 
 The templates directory has sample templates that can be copied and used as a baseline for data entry.
 
+## Installation
+
+See the [installation.md](notes/installation.md) file for installation instructions.
+
 ## Movie List
 ```
 Title                                              Year Runtime  Genre
@@ -76,11 +92,17 @@ Sharky's Machine                                   1981 2:01:43  [FICTION] Actio
 Stroker Ace                                        1983 1:34:15  [FICTION] Action/Comedy/Romance "NASCAR Racer Shennanigans"
 Unstoppable                                        2010 1:38:30  [FICTION] Action/Thriller "Runaway Train Adventure"
 
- -- Adventure (3) --
+ -- Adventure (4) --
 
+Coco                                               2017 1:45:02  [FICTION] Adventure/Comedy "Meeting Ghosts"
 The Great Escape                                   1963 2:53:13  [FICTION] Adventure/Action "POW Escape"
 Onward                                             2020 1:42:00  [FICTION] Adventure/Comedy "Road Trip Adventure"
 Stand By Me                                        1986 1:28:44  [FICTION] Adventure/Drama "Coming Of Age Quest"
+
+ -- Comedy (2) --
+
+Raising Arizona                                    1987 1:34:06  [FICTION] Comedy
+True Stories                                       1986 0:00:00  [FICTION] Comedy/Musical
 
  -- Documentary (1) --
 
@@ -115,6 +137,19 @@ Wargames                                           1983 1:52:42  [FICTION] Thril
 ================================================== ==== ======== ==================================================
 ```
 
+## Music List
+
+```
+Title                                                               Year Artist
+=================================================================== ==== ===================================================
+The Greatest Hits Collection                                        1995 Alan Jackson
+Live At Billy Bob's Texas                                           2003 Asleep At The Wheel
+Raising Arizona / Blood Simple Original Motion Picture Soundtracks  1985 Carter Burwell
+The Complete True Stories Soundtrack                                2018 Various Artists
+Death Proof                                                         2007 Various Artists
+The Red Album                                                       2008 Weezer
+Teal                                                                2019 Weezer
+```
 
 ## Code Project
 
@@ -122,7 +157,6 @@ Wargames                                           1983 1:52:42  [FICTION] Thril
 
 The `medialibrary` code is a Python package for reading the XML files.  It can parse the data and generate reports
 on a media repository.
-
 
 
 ## License

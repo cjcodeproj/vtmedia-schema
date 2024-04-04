@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3tool (2024-03-08 00:27:32.765057) -->
+ <media>
+  <title>
+   <main>Live At Billy Bob's Texas</main>
+  </title>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='live_at_billy_bobs_texas-2003-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='live_at_billy_bobs_texas-2003-album.xml'/>
+  </contents>
+ </media>
+</medialist>

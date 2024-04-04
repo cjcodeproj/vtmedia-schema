@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Raising Arizona</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2024-02-03</exact></date>
+      <purchase>
+       <retailer>Cheapo Discs</retailer>
+       <price>9.99</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>024543706908</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <contents>
+   <xi:include href='raising_arizona-1987-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

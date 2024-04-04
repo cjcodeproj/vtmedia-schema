@@ -5,7 +5,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2024, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -21,6 +21,7 @@
 
  <xs:include schemaLocation='vtm-mod-all-catalog.xsd'/>
  <xs:include schemaLocation='vtm-content-all.xsd'/>
+ <xs:include schemaLocation='vtm-mod-generic-pnouns-keywords.xsd'/>
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
@@ -28,17 +29,60 @@
   </xs:documentation>
  </xs:annotation>
 
+ <xs:complexType name='DescriptionType'>
+  <xs:sequence>
+   <xs:element name='summary' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='keywords' type='KeywordsType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='InterviewSubjectsType'>
+  <xs:sequence>
+   <xs:element name='subject' type='PNPersonalNameType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='InterviewDetailsType'>
+  <xs:sequence>
+   <xs:element name='subjects' type='InterviewSubjectsType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='date' type='xs:date' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='place' type='PNPlaceType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='BaseWrittenType'>
+  <xs:sequence>
+   <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='catalog' type='CatalogType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
  <xs:complexType name='EssayType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
     An essay is a short written piece covering a singular topic or subject.
    </xs:documentation>
   </xs:annotation>
-  <xs:sequence>
-   <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
-   <xs:element name='catalog' type='CatalogType' minOccurs='0' maxOccurs='1'/>
-  </xs:sequence>
-  <xs:attributeGroup ref='ContentAttributeGroup'/>
+  <xs:complexContent>
+   <xs:extension base='BaseWrittenType'>
+    <xs:sequence>
+     <xs:element name='description' type='DescriptionType' minOccurs='0' maxOccurs='1'/>
+    </xs:sequence>
+    <xs:attributeGroup ref='ContentAttributeGroup'/>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+
+ <xs:complexType name='InterviewType'>
+  <xs:complexContent>
+   <xs:extension base='BaseWrittenType'>
+    <xs:sequence>
+     <xs:element name='details' type='InterviewDetailsType' minOccurs='1' maxOccurs='1'/>
+     <xs:element name='description' type='DescriptionType' minOccurs='0' maxOccurs='1'/>
+    </xs:sequence>
+    <xs:attributeGroup ref='ContentAttributeGroup'/>
+   </xs:extension>
+  </xs:complexContent>
  </xs:complexType>
 
  <xs:annotation>

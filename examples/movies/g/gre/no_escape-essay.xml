@@ -6,4 +6,14 @@
    <author><gn>Sheila</gn><fn>O'Malley</fn></author>
   </authors>
  </catalog>
+ <description>
+  <summary>
+   A look at how John Sturges put together "The Great Escape", after first reading the story
+   in the 1950s.
+  </summary>
+  <keywords>
+   <properNoun><person><gn>John</gn><fn>Sturges</fn></person></properNoun>
+   <properNoun><art type='movie'>The Magnificent Seven</art></properNoun>
+  </keywords>
+ </description>
 </essay>

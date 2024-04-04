@@ -1,6 +1,20 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## RELEASE 2024.04
+ - [schema-122](https://github.com/cjcodeproj/vtmedia-schema/issues/122) Release 2024.04
+ - [schema-120](https://github.com/cjcodeproj/vtmedia-schema/issues/120) Slight tweak to music examples
+ - [schema-33](https://github.com/cjcodeproj/vtmedia-schema/issues/33) Music enhancement (level 1)
+ - [schema-79](https://github.com/cjcodeproj/vtmedia-schema/issues/79) Extend Story element with Setting element
+ - [schema-94](https://github.com/cjcodeproj/vtmedia-schema/issues/94) Language support for keywords
+ - [schema-57](https://github.com/cjcodeproj/vtmedia-schema/issues/57) Description for essay element
+ - [schema-47](https://github.com/cjcodeproj/vtmedia-schema/issues/47) Consider "interview" element, ...
+ - [schema-86](https://github.com/cjcodeproj/vtmedia-schema/issues/86) More love for the external link structures
+ - [schema-110](https://github.com/cjcodeproj/vtmedia-schema/issues/110) Bring in XML and Xlink schemas
+ - [schema-109](https://github.com/cjcodeproj/vtmedia-schema/issues/109) Makefile infrastructure/catalog usage
+ - [schema-104](https://github.com/cjcodeproj/vtmedia-schema/issues/104) Price attribute currency should be token, not string
+
+
 ## RELEASE 2023.12
  - [schema-105](https://github.com/cjcodeproj/vtmedia-schema/issues/105) Release 2023.12
  - [schema-89](https://github.com/cjcodeproj/vtmedia-schema/issues/89) Indexing element structure for movies

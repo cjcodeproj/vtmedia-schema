@@ -39,15 +39,8 @@
    </productSpecs>
   </medium>
   <contents>
-   <xi:include href="blood_simple-1984-movie.xml"/>
-   <essay xmlns='http://vectortron.com/xml/media/written'>
-    <title>Down Here, You're On Your Own</title>
-    <catalog>
-     <authors>
-      <author><gn>Nathaniel</gn><fn>Rich</fn></author>
-     </authors>
-    </catalog>
-   </essay>
+   <xi:include href='blood_simple-1984-movie.xml'/>
+   <xi:include href='down_here_youre_on_your_own-2016-essay.xml'/>
   </contents>
  </media>
 </medialist>

@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>True Stories</main>
+   <edition>The Criterion Collection</edition>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2020-07-07</exact></date>
+      <purchase>
+       <retailer>Barnes &amp; Noble</retailer>
+       <price>49.99</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>715515223713</barcode>
+    <sku retailer='bned'>715515223713</sku>
+    <other>
+     <name>Criterion Spine Number</name>
+     <value>951</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray id='br01'/>
+      <cd id='cd01'/>
+      <booklet/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <blurayIndex ref='br01'>
+    <title>
+     <content ref='truestoriesmovie'/>
+    </title>
+   </blurayIndex>
+   <xi:include href='the_complete_true_stories_soundtrack-2018-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='true_stories-1986-movie.xml'/>
+   <xi:include href='the_complete_true_stories_soundtrack-2018-album.xml'/>
+   <xi:include href='everybody_has_tones-essay.xml'/>
+   <xi:include href='the_texas_connection-essay.xml'/>
+   <xi:include href='every_picture_tells_a_story-essay.xml'/>
+   <xi:include href='the_obsessions_of_david_byrne-essay.xml'/>
+   <xi:include href='an_immersive_audio_voyage-essay.xml'/>
+  </contents>
+ </media>
+</medialist>

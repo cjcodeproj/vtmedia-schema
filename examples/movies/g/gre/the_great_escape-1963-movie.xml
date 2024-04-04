@@ -1,5 +1,6 @@
 <?xml version='1.0'?>
-   <movie xmlns='http://vectortron.com/xml/media/movie'>
+   <movie xmlns='http://vectortron.com/xml/media/movie' id='gre'
+          xmlns:xlink='http://www.w3.org/1999/xlink'>
     <title>The Great Escape</title>
     <catalog>
      <copyright>
@@ -8,6 +9,9 @@
        <holder>Mirish-Alpha</holder>
       </holders>
      </copyright>
+     <extRefs>
+      <website xlink:href='https://catalog.afi.com/Film/23871-THE-GREATESCAPE' xlink:title='AFI'/>
+     </extRefs>
     </catalog>
     <classification>
      <category><fiction/></category>

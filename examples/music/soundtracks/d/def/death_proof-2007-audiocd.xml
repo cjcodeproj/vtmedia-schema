@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3tool (2024-03-03 20:37:18.543503) -->
+ <media>
+  <title>
+   <main>Death Proof</main>
+  </title>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='death_proof-2007-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='death_proof-2007-album.xml'/>
+  </contents>
+ </media>
+</medialist>
