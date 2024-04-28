@@ -69,6 +69,19 @@
  </xs:complexType>
 
 
+ <xs:complexType name='RecordTrackType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A single track on a vinyl record.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='content' type='AudioContent' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attribute name='no' type='xs:positiveInteger' use='required'/>
+ </xs:complexType>
+
+
  <xs:complexType name='CDIndexType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
@@ -85,6 +98,46 @@
  </xs:complexType>
 
 
+ <xs:complexType name='RecordIndexType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    The index structure for a vinyl record, which has two sides, and each
+    side can hold multiple tracks.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='side' type='RecordIndexSideType' minOccurs='1' maxOccurs='2'/>
+  </xs:sequence>
+  <xs:attribute name='ref' type='xs:NCName' use='required'/>
+ </xs:complexType>
+
+
+ <xs:complexType name='RecordIndexSideType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element structure representing a single side of a vinyl record.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='track' type='RecordTrackType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+  <xs:attribute name='label' type='RecordSideTypeValueEnum'/>
+ </xs:complexType>
+
+
+ <xs:simpleType name='RecordSideTypeValueEnum'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Side label values for two sided audio media (records or casettes)
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='A'/>
+   <xs:enumeration value='B'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+
  <xs:group name='AudioIndexGroup'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
@@ -93,7 +146,9 @@
   </xs:annotation>
   <xs:choice>
    <xs:element name='cdIndex' type='CDIndexType'/>
+   <xs:element name='recordIndex' type='RecordIndexType'/>
   </xs:choice>
  </xs:group>
+
 
 </xs:schema>

@@ -1,0 +1,201 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>Wont Be Blue Anymore</title>
+ <catalog>
+  <artists>
+   <artist><gn>Dan</gn><fn>Seals</fn></artist>
+  </artists>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='hw01'>
+   <title>
+    <main>Headin' West</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='iwb01'>
+   <title>
+    <main>I Won't Be Blue Anymore</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M3S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='etg01'>
+   <title>
+    <main>Everything That Glitters (Is Not Gold)</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+     <composer><gn>Bob</gn><fn>McDill</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M50S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tr01'>
+   <title>
+    <main>Tobacco Road</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>John</gn><mn>D.</mn><fn>Loudermilk</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M15S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='yl01'>
+   <title>
+    <main>Your Love</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Tommy</gn><fn>Rocco</fn></composer>
+     <composer><gn>Becky</gn><fn>Foster</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ypy01'>
+   <title>
+    <main>You Plant Your Fields</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Wendy</gn><fn>Waldman</fn></composer>
+     <composer><gn>Donny</gn><fn>Lowery</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M34S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sal01'>
+   <title>
+    <main>Still A Little Bit Of Love</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Walker</gn><fn>Ingleheart</fn></composer>
+     <composer><gn>Jim</gn><fn>Scott</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M9S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mmi01'>
+   <title>
+    <main>Meet Me In Montana</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Dan</gn><fn>Seals</fn></artist>
+     <artist><gn>Marie</gn><fn>Osmond</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Paul</gn><fn>Davis</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M54S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='b01'>
+   <title>
+    <main>Bop</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Jennifer</gn><fn>Kimball</fn></composer>
+     <composer><gn>Paul</gn><fn>Davis</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M45S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='set01'>
+   <title>
+    <main>So Easy To Need</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>John</gn><mn>Porter</mn><fn>McMeans</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M2S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cko01'>
+   <title>
+    <main>City Kind Of Girl</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Robert</gn><fn>Gundry</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M28S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

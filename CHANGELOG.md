@@ -1,6 +1,10 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## CURRENT
+ - [schema-121](https://github.com/cjcodeproj/vtmedia-schema/issues/121) Music structures for vinyl record
+
+
 ## RELEASE 2024.04
  - [schema-122](https://github.com/cjcodeproj/vtmedia-schema/issues/122) Release 2024.04
  - [schema-120](https://github.com/cjcodeproj/vtmedia-schema/issues/120) Slight tweak to music examples

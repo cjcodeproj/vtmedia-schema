@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Bobbie Gentry &amp; Glen Campbell</main>
+  </title>
+  <medium>
+   <release>
+    <type><record/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <jacket>
+      <record id='vr01'/>
+     </jacket>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='bobbie_gentry_and_glen_campbell-1968-vr01-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='bobbie_gentry_and_glen_campbell-1968-album.xml'/>
+  </contents>
+ </media>
+</medialist>
