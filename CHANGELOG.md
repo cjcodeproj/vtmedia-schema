@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-133](https://github.com/cjcodeproj/vtmedia-schema/issues/133) CharacterNameType: The content model is not determinist
  - [schema-121](https://github.com/cjcodeproj/vtmedia-schema/issues/121) Music structures for vinyl record
 
 
