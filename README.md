@@ -54,9 +54,9 @@ The `doc` directory contains HTML documentation on using the schema, with exampl
 
 The `notes` directory contains additional documentaiton, in Markdown format.
 
-### Test
+### Scripts
 
-The `test` directory contains simple testing code for the schema and for the provided examples.
+The `scripts` directory contains simple testing code for the schema and for the provided examples.
 
 ### Catalog
 
