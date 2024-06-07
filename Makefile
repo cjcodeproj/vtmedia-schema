@@ -67,6 +67,8 @@ $(SD)/xlink.xsd:
 	sed -e 's/schemaLocation="http:\/\/www.w3.org\/2001\//schemaLocation="/' > \
 	$(SD)/xlink.xsd
 
+download: $(SD)/xlink.xsd $(SD)/xml.xsd
+
 test-schema-files: $(FILES)
 	for file in $^; do \
 		xmllint --noout $${file}; \
