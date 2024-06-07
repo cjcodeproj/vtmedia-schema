@@ -90,7 +90,7 @@
  <xs:simpleType name='HDDVDModeTypeEnum'>
    <xs:annotation>
     <xs:documentation xml:lang='en-US'>
-     Label values for the two supported modes of 
+     Label values for the two supported modes of
      a single side of a HD-DVD disc: 'hddvd' or 'dvd'.
     </xs:documentation>
    </xs:annotation>
@@ -118,7 +118,7 @@
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
     Similar to the DVD side type, however, a HD DVD can be
-    two sided, with one side supporting a regular HD DVD, 
+    two sided, with one side supporting a regular HD DVD,
     while the other side acting as a regular DVD.
    </xs:documentation>
   </xs:annotation>

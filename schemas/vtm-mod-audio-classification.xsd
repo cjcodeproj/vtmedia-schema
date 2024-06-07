@@ -23,7 +23,7 @@
     Classification music for audio media.
 
     Describes the genre of the media, associations with
-    other media, 
+    other media, and other information.
 
 
    NOTES:  MusicAlbumClassification and MusicSongClassification
@@ -170,6 +170,6 @@
    <xs:element name='genres' type='AudioGenresType' minOccurs='1' maxOccurs='1'/>
   </xs:sequence>
   <xs:element name='soundtrack' type='AlbumSoundtrackType' minOccurs='1' maxOccurs='1'/>
-  </xs:choice>  
+  </xs:choice>
  </xs:complexType>
 </xs:schema>
