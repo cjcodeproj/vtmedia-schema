@@ -123,6 +123,14 @@
   </xs:choice>
  </xs:complexType>
 
+ <xs:complexType name='BonusTrackFlagType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Identifies a track that wasn't included in the original release of the album.
+   </xs:documentation>
+  </xs:annotation>
+ </xs:complexType>
+
  <xs:complexType name='AlbumLivePerformanceType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
@@ -165,11 +173,14 @@
     from the album.
    </xs:documentation>
   </xs:annotation>
-  <xs:choice>
   <xs:sequence>
-   <xs:element name='genres' type='AudioGenresType' minOccurs='1' maxOccurs='1'/>
+   <xs:choice>
+    <xs:sequence minOccurs='0'>
+     <xs:element name='genres' type='AudioGenresType' maxOccurs='1'/>
+    </xs:sequence>
+    <xs:element name='soundtrack' type='AlbumSoundtrackType' minOccurs='0' maxOccurs='1'/>
+   </xs:choice>
+   <xs:element name='bonusTrack' type='BonusTrackFlagType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
-  <xs:element name='soundtrack' type='AlbumSoundtrackType' minOccurs='1' maxOccurs='1'/>
-  </xs:choice>
  </xs:complexType>
 </xs:schema>

@@ -1,0 +1,369 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-06-08 11:09:18.892259) -->
+ <title>Public Cowboy #1: Centennial Salute to Gene Autry</title>
+ <catalog>
+  <artists>
+   <artist><grp>Riders In The Sky</grp></artist>
+  </artists>
+  <copyright>
+   <year>2007</year>
+  </copyright>
+  <reissue/>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+   <secondary>Western</secondary>
+  </genres>
+  <compilation>
+   <tribute/>
+  </compilation>
+ </classification>
+ <elements>
+  <song id='bit01'>
+   <title>
+    <main>Back In The Saddle Again</main>
+   </title>
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Gene</gn><fn>Autry</fn></composer>
+    <composer><gn>Ray></gn><fn>Whitley</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M58.79S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='scs01'>
+   <title>
+    <main>Sioux City Sue</main>
+   </title>
+<!-- EDIT FLAGS: possible_featured_artist  -->
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Ray</gn><fn>Freedman</fn></composer>
+    <composer><gn>Dick</gn><fn>Thomas</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M39.08S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='mr01'>
+   <title>
+    <main>Mexicali Rose</main>
+   </title>
+<!-- EDIT FLAGS: possible_featured_artist  -->
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Helen</gn><fn>Stone</fn></composer>
+    <composer><gn>Jack</gn><fn>Tenney</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M48.25S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='yam01'>
+   <title>
+    <main>You Are My Sunshine</main>
+   </title>
+<!-- EDIT FLAGS: possible_featured_artist  -->
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Jimmie</gn><fn>Davis</fn></composer>
+    <composer><gn>Charles</gn><fn>Mitchell</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M24.36S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='hit01'>
+   <title>
+    <main>Have I Told You Lately That I Love You?</main>
+   </title>
+<!-- EDIT FLAGS: possible_featured_artist  -->
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Scott</gn><fn>Wiseman</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M39.99S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='cst01'>
+   <title>
+    <main>Can't Shake The Sands Of Texas From My Shoes</main>
+   </title>
+<!-- EDIT FLAGS: possible_featured_artist  -->
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Gene</gn><fn>Autry</fn></composer>
+    <composer><gn>Diane</gn><fn>Johnston</fn></composer>
+    <composer><gn>Kenneth</gn><fn>Pitts</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M55.36S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tsd01'>
+   <title>
+    <main>That Silver-Haired Daddy Of Mine</main>
+   </title>
+<!-- EDIT FLAGS: possible_featured_artist  -->
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Gene</gn><fn>Autry</fn></composer>
+    <composer><gn>Jimmy</gn><fn>Long</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M50.39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bhw01'>
+   <title>
+    <main>Be Honest With Me</main>
+   </title>
+<!-- EDIT FLAGS: possible_featured_artist possible_featured_artist  -->
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Gene</gn><fn>Autry</fn></composer>
+    <composer><gn>Fred</gn><fn>Rose</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M21.18S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bcr01'>
+   <title>
+    <main>Blue Canadian Rockies</main>
+   </title>
+<!-- EDIT FLAGS: possible_featured_artist  -->
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Gene</gn><fn>Autry</fn></composer>
+    <composer><gn>Cindy</gn><fn>Walker</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M45.35S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lr01'>
+   <title>
+    <main>Lonely River</main>
+   </title>
+<!-- EDIT FLAGS: possible_featured_artist  -->
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Gene</gn><fn>Autry</fn></composer>
+    <composer><gn>Fred</gn><fn>Rose</fn></composer>
+    <composer><gn>Ray</gn><fn>Whitley</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M2.65S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sot01'>
+   <title>
+    <main>South Of The Border</main>
+   </title>
+<!-- EDIT FLAGS: possible_featured_artist  -->
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Michael</gn><fn>Carr</fn></composer>
+    <composer><gn>Jimmy</gn><fn>Kennedy</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M13.40S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rdt01'>
+   <title>
+    <main>Ridin' Down The Canyon</main>
+   </title>
+<!-- EDIT FLAGS: possible_featured_artist  -->
+  <catalog>
+   <artists>
+    <artist><grp>Riders In The Sky</grp></artist>
+    <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
+   </artists>
+   <composers>
+    <composer><gn>Gene</gn><fn>Autry</fn></composer>
+    <composer><gn>Smiley</gn><fn>Burnette</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M17.39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tmb01'>
+   <title>
+    <main>Take Me Back To My Boots And Saddle</main>
+   </title>
+  <catalog>
+   <composers>
+    <composer><gn>Teddy</gn><fn>Powell</fn></composer>
+    <composer><gn>Walter</gn><fn>Samuels</fn></composer>
+    <composer><gn>Leonard</gn><fn>Whitcup</fn></composer>
+   </composers>
+  </catalog>
+  <classification>
+   <bonusTrack/>
+  </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M19.58S</overall>
+    </runtime>
+  </technical>
+  </song>
+  <song id='tlr01'>
+   <title>
+    <main>The Last Roundup [Live At The Birchmere, Alexandria, VA / March 5-6, 1983]</main>
+   </title>
+<!-- EDIT FLAGS: detected_square_brackets possible_live_performance  -->
+  <catalog>
+   <composers>
+    <composer><gn>Billy</gn><fn>Hill</fn></composer>
+   </composers>
+  </catalog>
+  <classification>
+   <bonusTrack/>
+  </classification>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT2M33.07S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rit01'>
+   <title>
+    <main>Riders in the Sky (A Cowboy Legend)</main>
+   </title>
+<!-- EDIT FLAGS: detected_parenthesis  -->
+  <catalog>
+   <composers>
+    <composer><gn>Stan</gn><fn>Jones</fn></composer>
+   </composers>
+  </catalog>
+  <classification>
+   <bonusTrack/>
+  </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M42.56S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tt01'>
+   <title>
+    <main>Tumbling Tumbleweeds</main>
+   </title>
+  <catalog>
+   <composers>
+    <composer><gn>Bob</gn><fn>Nolan</fn></composer>
+   </composers>
+  </catalog>
+  <classification>
+   <bonusTrack/>
+  </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M22.32S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

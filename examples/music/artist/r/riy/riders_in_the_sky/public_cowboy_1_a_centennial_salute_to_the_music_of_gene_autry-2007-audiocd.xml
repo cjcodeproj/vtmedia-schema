@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3scan (2024-06-08 11:09:18.891730) -->
+ <media>
+  <title>
+   <main>Public Cowboy #1: A Centennial Salute To The Music Of Gene Autry</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2024-06-01</exact></date>
+      <purchase>
+       <retailer>Cheapo Discs</retailer>
+       <price>4.95</price>
+      </purchase>
+      <quality><used/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+  <release>
+   <type><audiocd/></type>
+  </release>
+  <productSpecs>
+   <inventory>
+    <case>
+     <cd id='cd01'/>
+    </case>
+   </inventory>
+  </productSpecs>
+ </medium>
+ <index>
+  <xi:include href='public_cowboy_1_a_centennial_salute_to_the_music_of_gene_autry-2007-cd01-index.xml'/>
+ </index>
+ <contents>
+  <xi:include href='public_cowboy_1_a_centennial_salute_to_the_music_of_gene_autry-2007-album.xml'/>
+ </contents>
+ </media>
+</medialist>
