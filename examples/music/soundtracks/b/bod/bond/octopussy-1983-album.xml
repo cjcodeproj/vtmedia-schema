@@ -1,0 +1,280 @@
+<?xml version='1.0'?>
+  <album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-04-14 17:40:12.593397) -->
+   <title>Octopussy</title>
+<!-- EDIT FLAGS: possible_soundtrack  -->
+ <catalog>
+  <artists>
+   <artist><gn>John</gn><fn>Barry</fn></artist>
+  </artists>
+  <copyright>
+   <year>1983</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack>
+   <movie>
+    <title>Octopussy</title>
+   </movie>
+  </soundtrack>
+ </classification>
+ <elements>
+  <song id='ath01'>
+  <!-- POSITION: Disc 1 Track: 1 -->
+   <title>
+    <main>All Time High</main>
+  </title>
+  <catalog>
+   <artists>
+    <artist><gn>Rita</gn><fn>Coolidge</fn></artist>
+   </artists>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <lyricist><gn>Tim</gn><fn>Rice</fn></lyricist>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M5.55S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='bla01'>
+  <!-- POSITION: Disc 1 Track: 2 -->
+   <title>
+    <main>Bond Look Alike</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M1.56S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <dialogue id='mp01'>
+  <!-- POSITION: Disc 1 Track: 3 -->
+   <title>
+    <main>Miss Penelope</main>
+  </title>
+  <catalog>
+   <artists>
+    <artist><gn>Roger</gn><fn>Moore</fn></artist>
+    <artist><gn>Lois</gn><fn>Maxwell</fn></artist>
+   </artists>
+   <composers>
+    <composer><gn>Richard</gn><fn>Maibaum</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M30.56S</overall>
+    </runtime>
+  </technical>
+ </dialogue>
+  <song id='n0g01'>
+  <!-- POSITION: Disc 1 Track: 4 -->
+   <title>
+    <main>009 Gets the Knife and Gorbinda Attacks</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M9.06S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='tml01'>
+  <!-- POSITION: Disc 1 Track: 5 -->
+   <title>
+    <main>That's My Little Octopussy</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M15.56S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='aat01'>
+  <!-- POSITION: Disc 1 Track: 6 -->
+   <title>
+    <main>Arrival At the Island of Octopussy</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M25.54S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <dialogue id='imb01'>
+  <!-- POSITION: Disc 1 Track: 7 -->
+   <title>
+    <main>Introducing Mr. Bond</main>
+  </title>
+  <catalog>
+   <artists>
+    <artist><gn>Roger</gn><fn>Moore</fn></artist>
+   </artists>
+   <composers>
+    <composer><gn>Richard</gn><fn>Maibaum</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M9.06S</overall>
+    </runtime>
+  </technical>
+ </dialogue>
+  <song id='bat01'>
+  <!-- POSITION: Disc 1 Track: 8 -->
+   <title>
+    <main>Bond At the Monsoon Palace</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M6.57S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='bmo01'>
+  <!-- POSITION: Disc 1 Track: 9 -->
+   <title>
+    <main>Bond Meets Octopussy</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M37.55S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <dialogue id='qp01'>
+  <!-- POSITION: Disc 1 Track: 10 -->
+   <title>
+    <main>Q - Poison Pen</main>
+  </title>
+  <catalog>
+   <artists>
+    <artist><gn>Desmond</gn><fn>Llewelyn</fn></artist>
+    <artist><gn>Roger</gn><fn>Moore</fn></artist>
+   </artists>
+   <composers>
+    <composer><gn>Richard</gn><fn>Maibaum</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M34.57S</overall>
+    </runtime>
+  </technical>
+ </dialogue>
+  <song id='yyf01'>
+  <!-- POSITION: Disc 1 Track: 11 -->
+   <title>
+    <main>Yo Yo Fight and Death of Vijay</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M47.07S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='tcb01'>
+  <!-- POSITION: Disc 1 Track: 12 -->
+   <title>
+    <main>The Chase Bomb Theme</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M59.05S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='tpf01'>
+  <!-- POSITION: Disc 1 Track: 13 -->
+   <title>
+    <main>The Palace Fight - James Bond Theme</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M35.06S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='et01'>
+  <!-- POSITION: Disc 1 Track: 14 -->
+   <title>
+    <main>End Titles - All Time High</main>
+  </title>
+  <catalog>
+   <artists>
+    <artist><gn>Rita</gn><fn>Coolidge</fn></artist>
+   </artists>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <lyricist><gn>Tim</gn><fn>Rice</fn></lyricist>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M2.51S</overall>
+    </runtime>
+  </technical>
+ </song>
+ </elements>
+</album>

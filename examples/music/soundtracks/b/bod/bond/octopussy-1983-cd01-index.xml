@@ -1,0 +1,73 @@
+  <cdIndex ref='cd01' xmlns='http://vectortron.com/xml/media/media'>
+  <!-- created by id3scan (2024-04-14 17:40:12.593199) -->
+   <track no='1'>
+    <index no='01'>
+     <content ref='ath01'/>   <!-- TITLE All Time High -->
+    </index>
+   </track>
+   <track no='2'>
+    <index no='01'>
+     <content ref='bla01'/>   <!-- TITLE Bond Look Alike -->
+    </index>
+   </track>
+   <track no='3'>
+    <index no='01'>
+     <content ref='mp01'/>   <!-- TITLE Miss Penelope -->
+    </index>
+   </track>
+   <track no='4'>
+    <index no='01'>
+     <content ref='n0g01'/>   <!-- TITLE 009 Gets the Knife and Gorbinda Attacks -->
+    </index>
+   </track>
+   <track no='5'>
+    <index no='01'>
+     <content ref='tml01'/>   <!-- TITLE That's My Little Octopussy -->
+    </index>
+   </track>
+   <track no='6'>
+    <index no='01'>
+     <content ref='aat01'/>   <!-- TITLE Arrival At the Island of Octopussy -->
+    </index>
+   </track>
+   <track no='7'>
+    <index no='01'>
+     <content ref='imb01'/>   <!-- TITLE Introducing Mr. Bond -->
+    </index>
+   </track>
+   <track no='8'>
+    <index no='01'>
+     <content ref='bat01'/>   <!-- TITLE Bond At the Monsoon Palace -->
+    </index>
+   </track>
+   <track no='9'>
+    <index no='01'>
+     <content ref='bmo01'/>   <!-- TITLE Bond Meets Octopussy -->
+    </index>
+   </track>
+   <track no='10'>
+    <index no='01'>
+     <content ref='qp01'/>   <!-- TITLE Q - Poison Pen -->
+    </index>
+   </track>
+   <track no='11'>
+    <index no='01'>
+     <content ref='yyf01'/>   <!-- TITLE Yo Yo Fight and Death of Vijay -->
+    </index>
+   </track>
+   <track no='12'>
+    <index no='01'>
+     <content ref='tcb01'/>   <!-- TITLE The Chase Bomb Theme -->
+    </index>
+   </track>
+   <track no='13'>
+    <index no='01'>
+     <content ref='tpf01'/>   <!-- TITLE The Palace Fight - James Bond Theme -->
+    </index>
+   </track>
+   <track no='14'>
+    <index no='01'>
+     <content ref='et01'/>   <!-- TITLE End Titles - All Time High -->
+    </index>
+   </track>
+  </cdIndex>

@@ -62,17 +62,30 @@
   </xs:sequence>
  </xs:complexType>
 
+ <xs:group name='ComposerGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    One of many possible values to identify composers.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='composer' type='CrewPersonOrGroupType'/>
+   <xs:element name='arranger' type='CrewPersonOrGroupType'/>
+   <xs:element name='lyricist' type='CrewPersonOrGroupType'/>
+  </xs:choice>
+ </xs:group>
 
  <xs:complexType name='CatSongComposersType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
-     A list of one or more artists recognized as the comnposers of
+     A list of one or more artists recognized as the
+     composers, lyricists, or arrangers of
      a song, either as an individual, or a group (but more typically
      is credited as an individual).
    </xs:documentation>
   </xs:annotation>
   <xs:sequence>
-   <xs:element name='composer' type='CrewPersonOrGroupType' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:group ref='ComposerGroup' minOccurs='1' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 

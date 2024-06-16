@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-124](https://github.com/cjcodeproj/vtmedia-schema/issues/124) Music: Lyricists and Arrangers job roles
  - [schema-137](https://github.com/cjcodeproj/vtmedia-schema/issues/137) Music: Identify bonus tracks and album reissue
  - [schema-135](https://github.com/cjcodeproj/vtmedia-schema/issues/135) Some XSD files have trailing whitespace
  - [schema-116](https://github.com/cjcodeproj/vtmedia-schema/issues/116) Add a 'download' target to the Makefile

@@ -1,0 +1,201 @@
+<?xml version='1.0'?>
+  <album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-04-14 17:40:12.802536) -->
+   <title>Moonraker</title>
+<!-- EDIT FLAGS: possible_soundtrack  -->
+ <catalog>
+  <artists>
+   <artist><gn>John</gn><fn>Barry</fn></artist>
+  </artists>
+  <copyright>
+   <year>1979</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack>
+   <movie>
+    <title>Moonraker</title>
+   </movie>
+  </soundtrack>
+ </classification>
+ <elements>
+  <song id='m01'>
+  <!-- POSITION: Disc 1 Track: 1 -->
+   <title>
+    <main>Moonraker</main>
+  </title>
+  <catalog>
+   <artists>
+    <artist><gn>Shirley</gn><fn>Bassey</fn></artist>
+   </artists>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <lyricist><gn>Hal</gn><fn>David</fn></lyricist>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M11.59S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='slb01'>
+  <!-- POSITION: Disc 1 Track: 2 -->
+   <title>
+    <main>Space Lazer Battle</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M49.69S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='mgm01'>
+  <!-- POSITION: Disc 1 Track: 3 -->
+   <title>
+    <main>Miss Goodhead Meets Bond</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M49.32S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='cca01'>
+  <!-- POSITION: Disc 1 Track: 4 -->
+   <title>
+    <main>Cable Car And Snake Fight</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M9.71S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='blt01'>
+  <!-- POSITION: Disc 1 Track: 5 -->
+   <title>
+    <main>Bond Lured To Pyramid</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M7.55S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='fis01'>
+  <!-- POSITION: Disc 1 Track: 6 -->
+   <title>
+    <main>Flight Into Space</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT6M31.91S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='bai01'>
+  <!-- POSITION: Disc 1 Track: 7 -->
+   <title>
+    <main>Bond Arrives In Rio And Boat Chase</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M39.66S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='cac01'>
+  <!-- POSITION: Disc 1 Track: 8 -->
+   <title>
+    <main>Centrifuge And Corrine Put Down</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M37.06S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='bsa01'>
+  <!-- POSITION: Disc 1 Track: 9 -->
+   <title>
+    <main>Bond Smells A Rat</main>
+  </title>
+  <catalog>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M26.03S</overall>
+    </runtime>
+  </technical>
+ </song>
+  <song id='et01'>
+  <!-- POSITION: Disc 1 Track: 10 -->
+   <title>
+    <main>End Title - Moonraker</main>
+  </title>
+  <catalog>
+   <artists>
+    <artist><gn>Shirley</gn><fn>Bassey</fn></artist>
+   </artists>
+   <composers>
+    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <lyricist><gn>Hal</gn><fn>David</fn></lyricist>
+   </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M28.86S</overall>
+    </runtime>
+  </technical>
+ </song>
+ </elements>
+  </album>
