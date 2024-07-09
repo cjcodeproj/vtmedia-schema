@@ -1,0 +1,158 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>Gideon</title>
+ <catalog>
+  <artists>
+   <artist><gn>Kenny</gn><fn>Rogers</fn></artist>
+  </artists>
+  <composers>
+   <composer><gn>Kim</gn><fn>Carnes</fn></composer>
+   <composer><gn>David</gn><mn>M.</mn><fn>Ellingson</fn></composer>
+  </composers>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='igh01'>
+   <title>
+    <main>Intro: Goin' Home To The Rock</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT40S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='gt01'>
+   <title>
+    <main>Gideon Tanner</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M34S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ngt01'>
+   <title>
+    <main>No Good Texas Rounder</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M11S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dfi01'>
+   <title>
+    <main>Don't Fall In Love With A Dreamer</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Kenny</gn><fn>Rogers</fn></artist>
+     <featuredArtist><gn>Kim</gn><fn>Karnes</fn></featuredArtist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='b01'>
+   <title>
+    <main>The Buckeroos</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M16S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ywa01'>
+   <title>
+    <main>You Were A Good Friend</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M53S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cmu01'>
+   <title>
+    <main>Call Me Up (The Phone Is In The Cradle)</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M17S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tc01'>
+   <title>
+    <main>These Chains</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M22S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='shm01'>
+   <title>
+    <main>Somebody Help Me</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='opi01'>
+   <title>
+    <main>One Place In The Night</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M59S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sg01'>
+   <title>
+    <main>Sayin' Goodbye</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M25S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rgh01'>
+   <title>
+    <main>Reprise: Goin' Home To The Rock</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT58S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

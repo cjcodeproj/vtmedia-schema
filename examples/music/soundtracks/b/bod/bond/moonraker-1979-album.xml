@@ -7,6 +7,9 @@
   <artists>
    <artist><gn>John</gn><fn>Barry</fn></artist>
   </artists>
+  <composers>
+   <composer><gn>John</gn><fn>Barry</fn></composer>
+  </composers>
   <copyright>
    <year>1979</year>
   </copyright>
@@ -45,11 +48,6 @@
    <title>
     <main>Space Lazer Battle</main>
   </title>
-  <catalog>
-   <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-   </composers>
-   </catalog>
    <technical>
     <studioRecording/>
     <runtime>
@@ -62,11 +60,6 @@
    <title>
     <main>Miss Goodhead Meets Bond</main>
   </title>
-  <catalog>
-   <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-   </composers>
-   </catalog>
    <technical>
     <studioRecording/>
     <runtime>
@@ -79,11 +72,6 @@
    <title>
     <main>Cable Car And Snake Fight</main>
   </title>
-  <catalog>
-   <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-   </composers>
-   </catalog>
    <technical>
     <studioRecording/>
     <runtime>
@@ -96,11 +84,6 @@
    <title>
     <main>Bond Lured To Pyramid</main>
   </title>
-  <catalog>
-   <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-   </composers>
-   </catalog>
    <technical>
     <studioRecording/>
     <runtime>
@@ -113,11 +96,6 @@
    <title>
     <main>Flight Into Space</main>
   </title>
-  <catalog>
-   <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-   </composers>
-   </catalog>
    <technical>
     <studioRecording/>
     <runtime>
@@ -130,11 +108,6 @@
    <title>
     <main>Bond Arrives In Rio And Boat Chase</main>
   </title>
-  <catalog>
-   <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-   </composers>
-   </catalog>
    <technical>
     <studioRecording/>
     <runtime>
@@ -147,11 +120,6 @@
    <title>
     <main>Centrifuge And Corrine Put Down</main>
   </title>
-  <catalog>
-   <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-   </composers>
-   </catalog>
    <technical>
     <studioRecording/>
     <runtime>
@@ -164,11 +132,6 @@
    <title>
     <main>Bond Smells A Rat</main>
   </title>
-  <catalog>
-   <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-   </composers>
-   </catalog>
    <technical>
     <studioRecording/>
     <runtime>

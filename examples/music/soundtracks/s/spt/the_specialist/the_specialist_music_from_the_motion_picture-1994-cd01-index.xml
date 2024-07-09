@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<cdIndex ref='cd01' xmlns='http://vectortron.com/xml/media/media'>
+ <!-- created by id3scan (2024-06-30 13:05:23.284676) -->
+ <track no='1'>
+  <index no='01'>
+   <content ref='ttb01'/>   <!-- TITLE Turn The Beat Around -->
+  </index>
+ </track>
+ <track no='2'>
+  <index no='01'>
+   <content ref='j01'/>   <!-- TITLE Jambala -->
+  </index>
+ </track>
+ <track no='3'>
+  <index no='01'>
+   <content ref='r01'/>   <!-- TITLE Real -->
+  </index>
+ </track>
+ <track no='4'>
+  <index no='01'>
+   <content ref='aby01'/>   <!-- TITLE All Because Of You -->
+  </index>
+ </track>
+ <track no='5'>
+  <index no='01'>
+   <content ref='smw01'/>   <!-- TITLE Shower Me With Love -->
+  </index>
+ </track>
+ <track no='6'>
+  <index no='01'>
+   <content ref='ebd01'/>   <!-- TITLE El Baile De La Vela -->
+  </index>
+ </track>
+ <track no='7'>
+  <index no='01'>
+   <content ref='sa01'/>   <!-- TITLE Slip Away -->
+  </index>
+ </track>
+ <track no='8'>
+  <index no='01'>
+   <content ref='eds01'/>   <!-- TITLE El Duro Soy Yo -->
+  </index>
+ </track>
+ <track no='9'>
+  <index no='01'>
+   <content ref='mp01'/>   <!-- TITLE Mental Picture -->
+  </index>
+ </track>
+ <track no='10'>
+  <index no='01'>
+   <content ref='qmd01'/>   <!-- TITLE Que Manera De Quererte -->
+  </index>
+ </track>
+ <track no='11'>
+  <index no='01'>
+   <content ref='lit01'/>   <!-- TITLE Love Is The Thing -->
+  </index>
+ </track>
+ <track no='12'>
+  <index no='01'>
+   <content ref='ea01'/>   <!-- TITLE El Amor -->
+  </index>
+ </track>
+ <track no='13'>
+  <index no='01'>
+   <content ref='dyc01'/>   <!-- TITLE Did You Call Me -->
+  </index>
+ </track>
+ <track no='14'>
+  <index no='01'>
+   <content ref='ts01'/>   <!-- TITLE The Specialist -->
+  </index>
+ </track>
+</cdIndex>

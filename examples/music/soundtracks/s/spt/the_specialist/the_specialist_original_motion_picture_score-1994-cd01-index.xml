@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<cdIndex ref='cd01' xmlns='http://vectortron.com/xml/media/media'>
+ <!-- created by id3scan (2024-06-30 13:05:23.149588) -->
+ <track no='1'>
+  <index no='01'>
+   <content ref='mt01'/>   <!-- TITLE Main Title -->
+  </index>
+ </track>
+ <track no='2'>
+  <index no='01'>
+   <content ref='b1-01'/>   <!-- TITLE Bogota 1984 -->
+  </index>
+ </track>
+ <track no='3'>
+  <index no='01'>
+   <content ref='tsi01'/>   <!-- TITLE The Specialist In Miami -->
+  </index>
+ </track>
+ <track no='4'>
+  <index no='01'>
+   <content ref='mar01'/>   <!-- TITLE May And Ray At The Cemetery -->
+  </index>
+ </track>
+ <track no='5'>
+  <index no='01'>
+   <content ref='mdw01'/>   <!-- TITLE May Dances With Tomas-"Did You Call Me" -->
+  </index>
+ </track>
+ <track no='6'>
+  <index no='01'>
+   <content ref='rcm01'/>   <!-- TITLE Ray Covers May-"Did You Call Me" -->
+  </index>
+ </track>
+ <track no='7'>
+  <index no='01'>
+   <content ref='at01'/>   <!-- TITLE After Tomas -->
+  </index>
+ </track>
+ <track no='8'>
+  <index no='01'>
+   <content ref='tfb01'/>   <!-- TITLE The First Bomb-Ray's Place -->
+  </index>
+ </track>
+ <track no='9'>
+  <index no='01'>
+   <content ref='et01'/>   <!-- TITLE Explosive Trent -->
+  </index>
+ </track>
+ <track no='10'>
+  <index no='01'>
+   <content ref='tpl01'/>   <!-- TITLE The Parking Lot Bomb -->
+  </index>
+ </track>
+ <track no='11'>
+  <index no='01'>
+   <content ref='dtm01'/>   <!-- TITLE Don't Touch Me Ned-Bomb For Tomas -->
+  </index>
+ </track>
+ <track no='12'>
+  <index no='01'>
+   <content ref='tdo01'/>   <!-- TITLE The Death Of Tomas -->
+  </index>
+ </track>
+ <track no='13'>
+  <index no='01'>
+   <content ref='mry01'/>   <!-- TITLE May's Room-"Did You Call Me" -->
+  </index>
+ </track>
+ <track no='14'>
+  <index no='01'>
+   <content ref='rmm01'/>   <!-- TITLE Ray Meets May At Her Funeral -->
+  </index>
+ </track>
+ <track no='15'>
+  <index no='01'>
+   <content ref='lst01'/>   <!-- TITLE Let's See That Beautiful Face-"Did You Call Me" -->
+  </index>
+ </track>
+ <track no='16'>
+  <index no='01'>
+   <content ref='cio01'/>   <!-- TITLE Closing In On Ray -->
+  </index>
+ </track>
+ <track no='17'>
+  <index no='01'>
+   <content ref='tgt01'/>   <!-- TITLE There Goes The Hotel Room-The Fight -->
+  </index>
+ </track>
+ <track no='18'>
+  <index no='01'>
+   <content ref='mmj01'/>   <!-- TITLE May Meets Joe-I'm Not A Woman You Can Trust -->
+  </index>
+ </track>
+ <track no='19'>
+  <index no='01'>
+   <content ref='ygi01'/>   <!-- TITLE You Go In And Get Him-"Did You Call Me" -->
+  </index>
+ </track>
+ <track no='20'>
+  <index no='01'>
+   <content ref='twp01'/>   <!-- TITLE The Whole Place Is Wired-She's Hot Ray -->
+  </index>
+ </track>
+ <track no='21'>
+  <index no='01'>
+   <content ref='gth01'/>   <!-- TITLE Get To Hell Out Of Here -->
+  </index>
+ </track>
+ <track no='22'>
+  <index no='01'>
+   <content ref='ybd01'/>   <!-- TITLE You Bastard-How Do You Feel?-Better!-"Did You Call Me" End Title -->
+  </index>
+ </track>
+</cdIndex>
