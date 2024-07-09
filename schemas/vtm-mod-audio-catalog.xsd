@@ -75,7 +75,7 @@
   </xs:choice>
  </xs:group>
 
- <xs:complexType name='CatSongComposersType'>
+ <xs:complexType name='CatComposersType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
      A list of one or more artists recognized as the
@@ -100,6 +100,7 @@
    <xs:element name='identification' type='CatIdentificationType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='altTitles' type='CatTitlesType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='artists' type='CatAlbumArtistsType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='composers' type='CatComposersType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='copyright' type='CopyrightType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='reissue' type='ReissueFlagType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='ucIndex' type='UniqueConstraintIndexType' minOccurs='0' maxOccurs='1'/>
@@ -120,7 +121,7 @@
    <xs:element name='identification' type='CatIdentificationType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='altTitles' type='CatTitlesType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='artists' type='CatSongArtistsType' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='composers' type='CatSongComposersType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='composers' type='CatComposersType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='ucIndex' type='UniqueConstraintIndexType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='extRefs' type='CatExtRefType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>

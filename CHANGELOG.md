@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-146](https://github.com/cjcodeproj/vtmedia-schema/issues/146) Music: Album level composers
  - [schema-124](https://github.com/cjcodeproj/vtmedia-schema/issues/124) Music: Lyricists and Arrangers job roles
  - [schema-137](https://github.com/cjcodeproj/vtmedia-schema/issues/137) Music: Identify bonus tracks and album reissue
  - [schema-135](https://github.com/cjcodeproj/vtmedia-schema/issues/135) Some XSD files have trailing whitespace
