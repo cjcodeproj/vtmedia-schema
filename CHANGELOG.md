@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-147](https://github.com/cjcodeproj/vtmedia-schema/issues/147) Music: Record side labels independent of records
  - [schema-146](https://github.com/cjcodeproj/vtmedia-schema/issues/146) Music: Album level composers
  - [schema-124](https://github.com/cjcodeproj/vtmedia-schema/issues/124) Music: Lyricists and Arrangers job roles
  - [schema-137](https://github.com/cjcodeproj/vtmedia-schema/issues/137) Music: Identify bonus tracks and album reissue
