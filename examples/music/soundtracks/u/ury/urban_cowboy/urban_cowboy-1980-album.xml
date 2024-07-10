@@ -1,0 +1,378 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-07-07 18:44:40.961616) -->
+ <title>Urban Cowboy: Original Motion Picture Soundtrack</title>
+ <catalog>
+  <artists>
+   <variousArtists/>
+  </artists>
+  <copyright>
+   <year>1980</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack>
+   <movie>
+    <title>Urban Cowboy</title>
+   </movie>
+  </soundtrack>
+ </classification>
+ <elements>
+  <song id='ht01'>
+   <title>
+    <main>Hello Texas</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Jimmy</gn><fn>Buffett</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Robby</gn><fn>Canpbell</fn></composer>
+     <composer><gn>Brian</gn><fn>Collins</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M34S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='anl01'>
+   <title>
+    <main>All Night Long</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Joe</gn><fn>Walsh</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Joe</gn><fn>Walsh</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tlt01'>
+   <title>
+    <main>Times Like These</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Dan</gn><fn>Fogelberg</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Dan</gn><fn>Fogelberg</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M3S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='nt01'>
+   <title>
+    <main>Nine Tonight</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>Bob Seger &amp; The Silver Bullet Band</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Bob</gn><fn>Seger</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M15S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sbm01'>
+   <title>
+    <main>Stand By Me</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Mickey</gn><fn>Gilley</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Ben</gn><mn>E.</mn><fn>King</fn></composer>
+     <composer><gn>Mike</gn><fn>Stoller</fn></composer>
+     <composer><gn>Jerry</gn><fn>Lieber</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M37S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cf01'>
+   <title>
+    <main>Cherokee Fiddle</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Johnny</gn><fn>Lee</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Michael</gn><fn>Murphy</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M6S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cih01'>
+   <title>
+    <main>Could I Have This Dance</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Anne</gn><fn>Murray</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Wayland</gn><fn>Holyfield</fn></composer>
+     <composer><gn>Bob</gn><fn>House</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M16S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='le01'>
+   <title>
+    <main>Lyin' Eyes</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>Eagles</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Glenn</gn><fn>Frey</fn></composer>
+     <composer><gn>Dan</gn><fn>Henley</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT6M23S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lfl01'>
+   <title>
+    <main>Lookin' For Love</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Johnny</gn><fn>Lee</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Roy</gn><fn>Orbison</fn></composer>
+     <composer><gn>Joe</gn><fn>Nelson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M42S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dim01'>
+   <title>
+    <main>Don't It Make Ya Wanna Dance</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Bonnie</gn><fn>Raitt</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Rusty</gn><fn>Wier</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M30S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tdw01'>
+   <title>
+    <main>The Devil Went Down To Georgia</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>The Charlie Daniels Band</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Charlie</gn><fn>Daniels</fn></composer>
+     <composer><gn>Charlie</gn><fn>Hayward</fn></composer>
+     <composer><gn>Tom</gn><fn>Crain</fn></composer>
+     <composer><gn>James</gn><fn>Marshall</fn></composer>
+     <composer><gn>Taz</gn><fn>DiGregoria</fn></composer>
+     <composer><gn>Fred</gn><fn>Edwards</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M35S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hct01'>
+   <title>
+    <main>Here Comes The Hurt Again</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Mickey</gn><fn>Gilley</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Jerry</gn><fn>Foster</fn></composer>
+     <composer><gn>Bill</gn><fn>Rice</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M42S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='obs01'>
+   <title>
+    <main>Orange Blossom Special/Hoedown</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>Urban Cowboy Band</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Ervin</gn><fn>Rouse</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M8S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ltw01'>
+   <title>
+    <main>Love The World Away</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Kenny</gn><fn>Rogers</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Bruce</gn><fn>Torrey</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='fil01'>
+   <title>
+    <main>Falling In Love For The Night</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>The Charlie Daniels Band</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Charlie</gn><fn>Daniels</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M0S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='d01'>
+   <title>
+    <main>Darlin'</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Bonnie</gn><fn>Raitt</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Oscar</gn><fn>Blandemer</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M36S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lwy01'>
+   <title>
+    <main>Look What You've Done To Me</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Boz</gn><fn>Scaggs</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>David</gn><fn>Foster</fn></composer>
+     <composer><gn>Boz</gn><fn>Scaggs</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT5M29S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hat01'>
+   <title>
+    <main>Hearts Against the Wind_Linda Ronstadt/JD Souther</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Linda</gn><fn>Ronstadt</fn></artist>
+     <artist><pgn>J.D.</pgn><fn>Souther</fn></artist>
+    </artists>
+    <composers>
+     <composer><pgn>J.D.</pgn><fn>Souther</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M0S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>
