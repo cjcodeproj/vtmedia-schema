@@ -29,6 +29,7 @@
   <xs:sequence>
    <xs:sequence minOccurs='0'>
     <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
+    <xs:element name='year' type='xs:gYear' minOccurs='0' maxOccurs='1'/>
     <xs:element name='from' type='xs:string' minOccurs='0' maxOccurs='1'/>
    </xs:sequence>
    <xs:element name='authors' type='SourceAuthorsType' minOccurs='1' maxOccurs='1'/>
@@ -62,6 +63,10 @@
    <xs:element name='character' type='SourceType'/>
    <xs:element name='characters' type='SourceType'/>
    <xs:element name='movie' type='SourceType'/>
+   <xs:element name='videoGame' type='SourceType'/>
+   <xs:element name='graphicNovel' type='SourceType'/>
+   <xs:element name='shortFilm' type='SourceType'/>
+   <xs:element name='teleplay' type='SourceType'/>
   </xs:choice>
  </xs:group>
 
