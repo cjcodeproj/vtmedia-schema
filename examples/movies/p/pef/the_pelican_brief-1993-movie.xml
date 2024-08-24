@@ -64,12 +64,12 @@
      <writers>
       <writer><gn>Alan</gn><mn>J.</mn><fn>Pakula</fn></writer>
       <sources>
-       <source type='book'>
+       <book>
         <title>The Pelican Brief</title>
          <authors>
          <author><gn>John</gn><fn>Grisham</fn></author>
         </authors>
-       </source>
+       </book>
       </sources>
      </writers>
      <editors>

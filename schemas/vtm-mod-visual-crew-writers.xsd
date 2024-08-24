@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2024, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:include schemaLocation='vtm-mod-generic-crew-types.xsd'/>
+
+
+ <xs:complexType name='SourceType'>
+  <xs:annotation>
+   <xs:documentation>
+     This one will be kept.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:sequence minOccurs='0'>
+    <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
+    <xs:element name='from' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   </xs:sequence>
+   <xs:element name='authors' type='SourceAuthorsType' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+ <xs:group name='SourceElementsGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    The main group for all source elements.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='movie' type='SourceType'/>
+   <xs:element name='screenplay' type='SourceType'/>
+   <xs:element name='play' type='SourceType'/>
+   <xs:element name='novel' type='SourceType'/>
+   <xs:element name='book' type='SourceType'/>
+   <xs:element name='bookSeries' type='SourceType'/>
+   <xs:element name='story' type='SourceType'/>
+   <xs:element name='shortStory' type='SourceType'/>
+   <xs:element name='comicBook' type='SourceType'/>
+   <xs:element name='comicBookSeries' type='SourceType'/>
+   <xs:element name='newsArticle' type='SourceType'/>
+   <xs:element name='song' type='SourceType'/>
+   <xs:element name='poem' type='SourceType'/>
+   <xs:element name='radioShiw' type='SourceType'/>
+   <xs:element name='televisionShow' type='SourceType'/>
+   <xs:element name='podcast' type='SourceType'/>
+   <xs:element name='character' type='SourceType'/>
+   <xs:element name='characters' type='SourceType'/>
+   <xs:element name='movie' type='SourceType'/>
+  </xs:choice>
+ </xs:group>
+
+
+ <xs:complexType name='SourceAuthorsType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     The main authors type for any source element.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='author' type='CrewNameType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+ <xs:complexType name='SourcesType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    The sources element, listing all inspirational sources for a given visual media.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:group ref='SourceElementsGroup' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+ <xs:complexType name='WritersType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    The element structure to list all writers and all sources
+    the content is based on.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='writer' type='WriterType' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:element name='sources' type='SourcesType' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+ <xs:complexType name='WriterType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Writers can be specific to either the screenplay, or the story
+   </xs:documentation>
+  </xs:annotation>
+  <xs:complexContent>
+   <xs:extension base='CrewNameType'>
+    <xs:attribute name='role' type='xs:string' use='optional'/>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+
+
+</xs:schema>

@@ -98,11 +98,11 @@
       <writer role='screenplay'><gn>Jonathan</gn><fn>Schaech</fn></writer>
       <writer role='screenplay'><gn>Richard</gn><fn>Chizmar</fn></writer>
       <sources>
-       <source type='characters'>
+       <characters>
         <authors>
          <author><gn>R</gn><mn>Lee</mn><fn>Hill</fn></author>
         </authors>
-       </source>
+       </characters>
       </sources>
      </writers>
      <editors>

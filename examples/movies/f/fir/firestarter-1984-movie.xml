@@ -75,12 +75,12 @@
      <writers>
       <writer><gn>Stanley</gn><fn>Mann</fn></writer>
       <sources>
-       <source>
+       <book>
         <title>Firestarter</title>
         <authors>
          <author><gn>Stephen</gn><fn>King</fn></author>
         </authors>
-       </source>
+       </book>
       </sources>
      </writers>
      <editors>

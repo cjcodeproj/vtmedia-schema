@@ -123,19 +123,19 @@
       <writer role='screenplay'><gn>James</gn><mn>V</mn><fn>Hart</fn></writer>
       <writer role='screenplay'><gn>Michael</gn><fn>Goldenberg</fn></writer>
       <sources>
-       <source type='book'>
+       <book>
         <title>Contact</title>
         <authors>
          <author><gn>Carl</gn><fn>Sagan</fn></author>
         </authors>
-       </source>
-       <source type='story'>
+       </book>
+       <story>
         <title>Contact</title>
         <authors>
          <author><gn>Carl</gn><fn>Sagan</fn></author>
          <author><gn>Ann</gn><fn>Druyan</fn></author>
         </authors>
-       </source>
+       </story>
       </sources>
      </writers>
      <editors>

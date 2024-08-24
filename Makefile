@@ -52,6 +52,7 @@ FILES= $(SD)/media-schema.xsd \
 	$(SD)/vtm-mod-media-inventory.xsd \
 	$(SD)/vtm-mod-visual-classification.xsd \
 	$(SD)/vtm-mod-visual-crew-roles.xsd \
+	$(SD)/vtm-mod-visual-crew-writers.xsd \
 	$(SD)/vtm-mod-visual-crew.xsd \
 	$(SD)/vtm-mod-visual-story.xsd \
 	$(SD)/vtm-mod-visual-technical.xsd \
