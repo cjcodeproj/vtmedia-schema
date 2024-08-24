@@ -433,14 +433,14 @@
       <writer role='screenplay'><gn>Larry</gn><fn>Gross</fn></writer>
       <writer role='story'><gn>Eddie</gn><fn>Murphy</fn></writer>
       <sources>
-       <source type='characters'>
+       <characters>
         <authors>
          <author><gn>Roger</gn><fn>Spottiswoode</fn></author>
          <author><gn>Walter</gn><fn>Hill</fn></author>
          <author><gn>Larry</gn><fn>Gross</fn></author>
          <author><gn>Steven</gn><mn>E</mn><fn>de Souza</fn></author>
         </authors>
-       </source>
+       </characters>
       </sources>
      </writers>
      <editors>

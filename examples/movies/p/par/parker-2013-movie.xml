@@ -59,12 +59,13 @@
      <writers>
       <writer role='screenplay'><gn>John</gn><mn>J</mn><fn>McLaughlin</fn></writer>
       <sources>
-       <source type='book'>
+       <book>
         <title>Flashfire</title>
+        <year>2000</year>
         <authors>
          <author><gn>Richard</gn><fn>Stark</fn></author>
         </authors>
-       </source>
+       </book>
       </sources>
      </writers>
      <editors>

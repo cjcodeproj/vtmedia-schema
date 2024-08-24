@@ -88,13 +88,13 @@
      <writers>
       <writer role='screenplay'><gn>William</gn><fn>Goldman</fn></writer>
       <sources>
-       <source type='book'>
+       <book>
         <title>All The President's Men</title>
         <authors>
          <author><gn>Carl</gn><fn>Bernstein</fn></author>
          <author><gn>Bob</gn><fn>Woodward</fn></author>
         </authors>
-       </source>
+       </book>
       </sources>
      </writers>
      <editors>
