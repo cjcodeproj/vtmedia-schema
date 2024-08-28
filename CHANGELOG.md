@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-157](https://github.com/cjcodeproj/vtmedia-schema/issues/157) Change script path
  - [schema-152](https://github.com/cjcodeproj/vtmedia-schema/issues/152) Reevaluate writers source element
  - [schema-147](https://github.com/cjcodeproj/vtmedia-schema/issues/147) Music: Record side labels independent of records
  - [schema-146](https://github.com/cjcodeproj/vtmedia-schema/issues/146) Music: Album level composers
