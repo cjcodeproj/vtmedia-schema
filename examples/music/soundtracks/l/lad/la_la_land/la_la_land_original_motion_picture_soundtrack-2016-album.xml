@@ -1,0 +1,323 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-08-16 19:10:24.317156) -->
+ <title>La La Land: Original Motion Picture Soundtrack</title>
+ <catalog>
+  <artists>
+   <variousArtists/>
+  </artists>
+  <copyright>
+   <year>2016</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack>
+   <movie>
+    <title>La La Land</title>
+   </movie>
+  </soundtrack>
+ </classification>
+ <elements>
+  <song id='ado01'>
+   <title>
+    <main>Another Day Of Sun</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>La La Land Cast</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
+     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M48S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sit01'>
+   <title>
+    <main>Someone In The Crowd</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Emma</gn><fn>Stone</fn></artist>
+     <artist><gn>Calie</gn><fn>Hernandez</fn></artist>
+     <artist><gn>Sonoya</gn><fn>Minuzo</fn></artist>
+     <artist><gn>Jessica</gn><fn>Rothe</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
+     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M19S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ms01'>
+   <title>
+    <main>Mia &amp; Sebastian's Theme</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M38S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ln01'>
+   <title>
+    <main>A Lovely Night</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Ryan</gn><fn>Gosling</fn></artist>
+     <artist><gn>Emma</gn><fn>Stone</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
+     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M56S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hh01'>
+   <title>
+    <main>Herman's Habit</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cos01'>
+   <title>
+    <main>City Of Stars</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Ryan</gn><fn>Gosling</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
+     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='p01'>
+   <title>
+    <main>Planetarium</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M17S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sm01'>
+   <title>
+    <main>Summer Montage / Madeline</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
+    </artists>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cos02'>
+   <title>
+    <main>City Of Stars</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Ryan</gn><fn>Gosling</fn></artist>
+     <artist><gn>Emma</gn><fn>Stone</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
+     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M29S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='saf01'>
+   <title>
+    <main>Start A Fire</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>John</gn><fn>Legend</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>John</gn><fn>Stephens</fn></composer>
+     <composer><gn>Angélique</gn><fn>Cinélu</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ep01'>
+   <title>
+    <main>Engagement Party</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M27S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='atf01'>
+   <title>
+    <main>Audition (The Fools Who Dream)</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Emma</gn><fn>Stone</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
+     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M48S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='e01'>
+   <title>
+    <main>Epilogue</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT7M39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='te01'>
+   <title>
+    <main>The End</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M46S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cos03'>
+   <title>
+    <main>City Of Stars (Humming)</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
+     <featuredArtist><gn>Emma</gn><fn>Stone</fn></featuredArtist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M43S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

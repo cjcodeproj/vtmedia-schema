@@ -159,7 +159,10 @@
     <xs:element name='compilation' type='AlbumCompilationType' minOccurs='0' maxOccurs='1'/>
     <xs:element name='livePerformance' type='AlbumLivePerformanceType' minOccurs='0' maxOccurs='1'/>
    </xs:sequence>
-   <xs:element name='soundtrack' type='AlbumSoundtrackType' minOccurs='1' maxOccurs='1'/>
+   <xs:sequence>
+    <xs:element name='soundtrack' type='AlbumSoundtrackType' minOccurs='0' maxOccurs='1'/>
+    <xs:element name='score' type='AlbumSoundtrackType' minOccurs='0' maxOccurs='1'/>
+   </xs:sequence>
   </xs:choice>
  </xs:complexType>
 

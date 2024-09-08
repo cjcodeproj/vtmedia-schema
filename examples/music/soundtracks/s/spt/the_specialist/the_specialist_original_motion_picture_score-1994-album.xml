@@ -15,9 +15,11 @@
   </copyright>
  </catalog>
  <classification>
-  <genres>
-   <primary>Soundtrack</primary>
-  </genres>
+  <score>
+   <movie>
+    <title>The Specialist</title>
+   </movie>
+  </score>
  </classification>
  <elements>
   <song id='mt01'>
