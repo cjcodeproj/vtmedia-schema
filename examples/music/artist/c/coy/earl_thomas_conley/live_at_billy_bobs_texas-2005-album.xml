@@ -1,0 +1,296 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-08-18 13:40:51.071127) -->
+ <title>Live At Billy Bob's Texas</title>
+ <catalog>
+  <artists>
+   <artist><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></artist>
+  </artists>
+  <copyright>
+   <year>2005</year>
+   <holders>
+    <holder>Smith Music Group</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+  <livePerformance/>
+ </classification>
+ <elements>
+  <song id='sbr01'>
+   <title>
+    <main>Somewhere Between Right And Wrong</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
+     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT4M7S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ylo01'>
+   <title>
+    <main>Your Love's On The Line</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
+     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dmi01'>
+   <title>
+    <main>Don't Make It Easy For Me</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
+     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M26S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='aid01'>
+   <title>
+    <main>Angel In Disguise</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
+     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M25S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='col01'>
+   <title>
+    <main>Chance Of Lovin' You</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
+     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT2M53S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hd01'>
+   <title>
+    <main>Hard Days &amp; Honky Tonk Nights</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
+     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M0S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wsi01'>
+   <title>
+    <main>What She Is (Is A Woman In Love)</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Bob</gn><fn>McDill</fn></composer>
+     <composer><gn>Paul</gn><fn>Harrison</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT4M12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hha01'>
+   <title>
+    <main>Holding Her And Loving You</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Walt</gn><fn>Aldridge</fn></composer>
+     <composer><gn>Tom</gn><fn>Brasfield</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='oia01'>
+   <title>
+    <main>Once In A Blue Moon</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Tom</gn><fn>Brasfield</fn></composer>
+     <composer><gn>Robert</gn><fn>Byrne</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M41S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bl01'>
+   <title>
+    <main>Brotherly Love</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Tim</gn><fn>Nichols</fn></composer>
+     <composer><gn>Jimmy</gn><mn>Alan</mn><fn>Stewart</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hb01'>
+   <title>
+    <main>Heavenly Bodies</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Elaine</gn><fn>Lifton</fn></composer>
+     <composer><gn>Gloria</gn><fn>Nissenson</fn></composer>
+     <composer><gn>Lee</gn><fn>Ritenour</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT2M53S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wis01'>
+   <title>
+    <main>What I'd Say</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Robert</gn><fn>Byrne</fn></composer>
+     <composer><gn>Will</gn><fn>Robinson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT4M1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='fs01'>
+   <title>
+    <main>Fire &amp; Smoke</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT2M42S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ldc01'>
+   <title>
+    <main>Love Don't Care (Who's Heart It Breaks)</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
+     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M38S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='soa01'>
+   <title>
+    <main>Shadow Of A Doubt</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Robert</gn><fn>Byrne</fn></composer>
+     <composer><gn>Tom</gn><fn>Wopat</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT2M47S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='icw01'>
+   <title>
+    <main>I Can't Win For Losin' You</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Robert</gn><fn>Byrne</fn></composer>
+     <composer><gn>Rick</gn><fn>Bowles</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M18S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

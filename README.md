@@ -156,12 +156,17 @@ The Definitive Collection                                               2006 Tom
 Gideon                                                                  1980 Kenny Rogers                 0:35:05  Country
 The Greatest Hits Collection                                            1995 Alan Jackson                 1:06:47  Country
 Greatest Hits Vol. 2                                                    1975 Tom T. Hall                  0:29:33  Country
+Live At Billy Bob's Texas                                               2005 Earl Thomas Conley           0:53:23  Country
 Live At Billy Bob's Texas                                               2003 Asleep At The Wheel          0:53:46  Country
 Public Cowboy #1: Centennial Salute to Gene Autry                       2007 Riders In The Sky            0:52:53  Country/Western
 San Antone                                                              1984 Dan Seals                    0:36:21  Country
 Slappers, Bangers & Certified Twangers, Vol. 1                          2021 American Aquarium            0:36:52  Country
 Tom T. Halls' Greatest Hits                                             1972 Tom T. Hall                  0:33:25  Country
 Wont Be Blue Anymore                                                    1984 Dan Seals                    0:40:00  Country
+
+  -- Pop (1) --
+Gold                                                                    1992 ABBA                         1:17:03  Pop
+
 
   -- Rock (1) --
 Permanent Vacation                                                      1987 Aerosmith                    0:51:39  Rock/Hard Rock
@@ -180,6 +185,7 @@ Raising Arizona / Blood Simple: Original Motion Picture Soundtracks     1985 Car
 The Specialist                                                          1994 Various Artists              1:00:35  Soundtrack
 Urban Cowboy II: More Music From The Original Motion Picture Soundtrack 1980 Various Artists              0:31:46  Soundtrack
 Urban Cowboy: Original Motion Picture Soundtrack                        1980 Various Artists              1:03:59  Soundtrack
+Westworld                                                               1973 Fred Karlin                  0:31:49  Soundtrack
 ======================================================================= ==== ============================ ======== ====================
 
 ```

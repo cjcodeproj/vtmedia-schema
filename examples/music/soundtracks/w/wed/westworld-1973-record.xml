@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Westworld</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2010-01-01</from><range>P5Y</range></date>
+      <purchase>
+       <retailer>Cheapo Discs</retailer>
+       <price>8.40</price>
+      </purchase>
+      <quality><used/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><record/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <jacket>
+      <record id='vr01'/>
+     </jacket>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='westworld-1973-vr01-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='westworld-1973-album.xml'/>
+  </contents>
+ </media>
+</medialist>

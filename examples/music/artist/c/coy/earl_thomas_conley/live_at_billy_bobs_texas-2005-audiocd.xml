@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3scan (2024-08-18 13:40:51.070615) -->
+ <media>
+  <title>
+   <main>Live At Billy Bob's Texas</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2024-07-26</exact></date>
+      <purchase>
+       <retailer>Billy Bob's Texas Gift Shop</retailer>
+       <location>Fort Worth, TX</location>
+       <price>12.98</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='live_at_billy_bobs_texas-2005-cd01-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='live_at_billy_bobs_texas-2005-album.xml'/>
+  </contents>
+ </media>
+</medialist>
