@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-129](https://github.com/cjcodeproj/vtmedia-schema/issues/129) More music examples
  - [schema-158](https://github.com/cjcodeproj/vtmedia-schema/issues/158) Music: Score as well as Soundtrack
  - [schema-157](https://github.com/cjcodeproj/vtmedia-schema/issues/157) Change script path
  - [schema-152](https://github.com/cjcodeproj/vtmedia-schema/issues/152) Reevaluate writers source element

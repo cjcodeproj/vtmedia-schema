@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3scan (2024-08-16 19:10:24.424075) -->
+ <media>
+  <title>
+   <main>Slappers, Bangers &amp; Certified Twangers, Vol. 1</main>
+  </title>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='slappers_bangers_certified_twangers_vol_1-2021-cd01-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='slappers_bangers_certified_twangers_vol_1-2021-album.xml'/>
+  </contents>
+ </media>
+</medialist>

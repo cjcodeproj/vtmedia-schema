@@ -1,0 +1,187 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-08-16 19:10:24.424478) -->
+ <title>Slappers, Bangers &amp; Certified Twangers, Vol. 1</title>
+ <catalog>
+  <artists>
+   <artist><grp>American Aquarium</grp></artist>
+  </artists>
+  <copyright>
+   <year>2021</year>
+   <holders>
+    <holder>Losing Side Records</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='qom01'>
+   <title>
+    <main>Queen Of My Double Wide Trailer</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Dennis</gn><fn>Linde</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M45S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sgd01'>
+   <title>
+    <main>Some Girls Do</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Mark</gn><fn>Miller</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M23S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='itt01'>
+   <title>
+    <main>I Try To Think About Elvis</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Gary</gn><fn>Burr</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M52S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sil01'>
+   <title>
+    <main>She's In Love With The Boy</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Jon</gn><fn>Ims</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M24S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='jdg01'>
+   <title>
+    <main>John Deere Green</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Dennis</gn><fn>Linde</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M34S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wo01'>
+   <title>
+    <main>Wild One</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Pat</gn><fn>Bunch</fn></composer>
+     <composer><gn>Jaime</gn><fn>Kyle</fn></composer>
+     <composer><gn>Will</gn><fn>Rambeaux</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M52S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='laf01'>
+   <title>
+    <main>Lost And Found</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Kix</gn><fn>Brooks</fn></composer>
+     <composer><gn>Don</gn><fn>Cook</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M22S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dat01'>
+   <title>
+    <main>Down At The Twist And Shout</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Mary Chapin</gn><fn>Carpenter</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M36S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hct01'>
+   <title>
+    <main>Heads Carolina, Tails California</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Tim</gn><fn>Nichols</fn></composer>
+     <composer><gn>Mark</gn><mn>O.</mn><fn>Sanders</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M34S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sba01'>
+   <title>
+    <main>Should've Been A Cowboy</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Toby</gn><fn>Keith</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M30S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

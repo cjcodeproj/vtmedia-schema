@@ -1,162 +1,162 @@
 <?xml version='1.0'?>
 <album xmlns='http://vectortron.com/xml/media/audio'>
- <title>Gideon</title>
+ <!-- created by id3scan (2024-08-16 19:10:23.998239) -->
+ <title>Cuttin' Grass, Vol. 2 (The Cowboy Arms Sessions)</title>
  <catalog>
   <artists>
-   <artist><gn>Kenny</gn><fn>Rogers</fn></artist>
+   <artist><gn>Sturgill</gn><fn>Simpson</fn></artist>
   </artists>
   <composers>
-   <composer><gn>Kim</gn><fn>Carnes</fn></composer>
-   <composer><gn>David</gn><mn>M.</mn><fn>Ellingson</fn></composer>
+   <composer><gn>Sturgill</gn><fn>Simpson</fn></composer>
   </composers>
   <copyright>
-   <year>1980</year>
+   <year>2020</year>
    <holders>
-    <holder>Liberty/United Records</holder>
+    <holder>High Top Mountain Records</holder>
    </holders>
   </copyright>
  </catalog>
  <classification>
   <genres>
-   <primary>Country</primary>
+   <primary>Bluegrass</primary>
   </genres>
  </classification>
  <elements>
-  <song id='igh01'>
+  <song id='cta01'>
    <title>
-    <main>Intro: Goin' Home To The Rock</main>
+    <main>Call To Arms</main>
    </title>
    <technical>
     <studioRecording/>
     <runtime>
-     <overall>PT40S</overall>
+      <overall>PT3M2S</overall>
     </runtime>
    </technical>
   </song>
-  <song id='gt01'>
+  <song id='bfi01'>
    <title>
-    <main>Gideon Tanner</main>
+    <main>Brace For Impact (Live A Little)</main>
    </title>
    <technical>
     <studioRecording/>
     <runtime>
-     <overall>PT2M34S</overall>
+      <overall>PT4M18S</overall>
     </runtime>
    </technical>
   </song>
-  <song id='ngt01'>
+  <song id='os01'>
    <title>
-    <main>No Good Texas Rounder</main>
+    <main>Oh Sarah</main>
    </title>
    <technical>
     <studioRecording/>
     <runtime>
-     <overall>PT4M11S</overall>
+      <overall>PT3M5S</overall>
     </runtime>
    </technical>
   </song>
-  <song id='dfi01'>
+  <song id='ss01'>
    <title>
-    <main>Don't Fall In Love With A Dreamer</main>
+    <main>Sea Stories</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M11S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='h01'>
+   <title>
+    <main>Hero</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wte01'>
+   <title>
+    <main>Welcome To Earth (Pollywog)</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M41S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='jb01'>
+   <title>
+    <main>Jesus Boogie</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M31S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='kib01'>
+   <title>
+    <main>Keep It Between The Lines</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M8S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ych01'>
+   <title>
+    <main>You Can Have The Crown</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M7S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='t01'>
+   <title>
+    <main>Tennessee</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M15S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sd01'>
+   <title>
+    <main>Some Days</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M53S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hc01'>
+   <title>
+    <main>Hobo Cartoon</main>
    </title>
    <catalog>
-    <artists>
-     <artist><gn>Kenny</gn><fn>Rogers</fn></artist>
-     <featuredArtist><gn>Kim</gn><fn>Karnes</fn></featuredArtist>
-    </artists>
+    <composers>
+     <composer><gn>Merle</gn><fn>Haggard</fn></composer>
+     <composer><gn>Sturgill</gn><fn>Simpson</fn></composer>
+    </composers>
    </catalog>
    <technical>
     <studioRecording/>
     <runtime>
-     <overall>PT3M39S</overall>
-    </runtime>
-   </technical>
-  </song>
-  <song id='b01'>
-   <title>
-    <main>The Buckeroos</main>
-   </title>
-   <technical>
-    <studioRecording/>
-    <runtime>
-     <overall>PT3M16S</overall>
-    </runtime>
-   </technical>
-  </song>
-  <song id='ywa01'>
-   <title>
-    <main>You Were A Good Friend</main>
-   </title>
-   <technical>
-    <studioRecording/>
-    <runtime>
-     <overall>PT3M53S</overall>
-    </runtime>
-   </technical>
-  </song>
-  <song id='cmu01'>
-   <title>
-    <main>Call Me Up (The Phone Is In The Cradle)</main>
-   </title>
-   <technical>
-    <studioRecording/>
-    <runtime>
-     <overall>PT3M17S</overall>
-    </runtime>
-   </technical>
-  </song>
-  <song id='tc01'>
-   <title>
-    <main>These Chains</main>
-   </title>
-   <technical>
-    <studioRecording/>
-    <runtime>
-     <overall>PT3M22S</overall>
-    </runtime>
-   </technical>
-  </song>
-  <song id='shm01'>
-   <title>
-    <main>Somebody Help Me</main>
-   </title>
-   <technical>
-    <studioRecording/>
-    <runtime>
-     <overall>PT2M51S</overall>
-    </runtime>
-   </technical>
-  </song>
-  <song id='opi01'>
-   <title>
-    <main>One Place In The Night</main>
-   </title>
-   <technical>
-    <studioRecording/>
-    <runtime>
-     <overall>PT2M59S</overall>
-    </runtime>
-   </technical>
-  </song>
-  <song id='sg01'>
-   <title>
-    <main>Sayin' Goodbye</main>
-   </title>
-   <technical>
-    <studioRecording/>
-    <runtime>
-     <overall>PT3M25S</overall>
-    </runtime>
-   </technical>
-  </song>
-  <song id='rgh01'>
-   <title>
-    <main>Reprise: Goin' Home To The Rock</main>
-   </title>
-   <technical>
-    <studioRecording/>
-    <runtime>
-     <overall>PT58S</overall>
+      <overall>PT2M32S</overall>
     </runtime>
    </technical>
   </song>

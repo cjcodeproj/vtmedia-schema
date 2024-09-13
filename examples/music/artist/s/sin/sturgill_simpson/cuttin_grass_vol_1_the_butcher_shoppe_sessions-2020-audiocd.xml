@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3scan (2024-08-16 19:10:23.996430) -->
+ <media>
+  <title>
+   <main>Cuttin' Grass, Vol. 1 (The Butcher Shoppe Sessions)</main>
+  </title>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='cuttin_grass_vol_1_the_butcher_shoppe_sessions-2020-cd01-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='cuttin_grass_vol_1_the_butcher_shoppe_sessions-2020-album.xml'/>
+  </contents>
+ </media>
+</medialist>

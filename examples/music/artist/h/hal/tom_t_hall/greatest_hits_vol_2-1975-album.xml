@@ -1,0 +1,150 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-08-16 19:10:24.206444) -->
+ <title>Greatest Hits Vol. 2</title>
+ <catalog>
+  <artists>
+   <artist><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></artist>
+  </artists>
+  <composers>
+   <composer><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></composer>
+  </composers>
+  <copyright>
+   <year>1975</year>
+   <holders>
+    <holder>Polygram Records, Inc.</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+  <compilation>
+   <greatestHits/>
+  </compilation>
+ </classification>
+ <elements>
+  <song id='ci01'>
+   <title>
+    <main>Country Is</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='il01'>
+   <title>
+    <main>I Love</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M9S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tll01'>
+   <title>
+    <main>The Little Lady Preacher</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M0S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ss01'>
+   <title>
+    <main>Sneaky Snake</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ilb01'>
+   <title>
+    <main>I Like Beer</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M56S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rr01'>
+   <title>
+    <main>Ravishing Ruby</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M32S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='odc01'>
+   <title>
+    <main>Old Dogs, Children And Watermelon Wine</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M14S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='d01'>
+   <title>
+    <main>Deal</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M35S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wgf01'>
+   <title>
+    <main>Who's Gonna Feed Them Hogs</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tsi01'>
+   <title>
+    <main>That Song Is Driving Me Crazy</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M11S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ic01'>
+   <title>
+    <main>I Care</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>
