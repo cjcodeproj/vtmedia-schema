@@ -1,7 +1,8 @@
 vtmedia-schema CHANGELOG
 =========================
 
-## CURRENT
+## RELEASE 2024.09
+ - [schema-162](https://github.com/cjcodeproj/vtmedia-schema/issues/162) Release 2024.09
  - [schema-129](https://github.com/cjcodeproj/vtmedia-schema/issues/129) More music examples
  - [schema-158](https://github.com/cjcodeproj/vtmedia-schema/issues/158) Music: Score as well as Soundtrack
  - [schema-157](https://github.com/cjcodeproj/vtmedia-schema/issues/157) Change script path
