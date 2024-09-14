@@ -1,0 +1,160 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>Westworld</title>
+ <catalog>
+  <artists>
+   <artist><gn>Fred</gn><fn>Karlin</fn></artist>
+  </artists>
+  <composers>
+   <composer><gn>Fred</gn><fn>Karlin</fn></composer>
+  </composers>
+  <copyright>
+   <year>1973</year>
+   <holders>
+    <holder>Metro-Goldwyn-Mayer Inc.</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack>
+   <movie>
+    <title>Westworld</title>
+    <year>1973</year>
+   </movie>
+  </soundtrack>
+ </classification>
+ <elements>
+  <song id='tww01'>
+   <title>
+    <main>The Western Warble</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M45S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tfw01'>
+   <title>
+    <main>Theme From "Westworld"</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M23S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cfw01'>
+   <title>
+    <main>Chase From "Westworld"</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M33S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wtw01'>
+   <title>
+    <main>Welcome To Westworld</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M25S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rr01'>
+   <title>
+    <main>Robot Repair</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mw01'>
+   <title>
+    <main>Medieval World</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M30S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sa01'>
+   <title>
+    <main>Stagecoach Arrival</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tqi01'>
+   <title>
+    <main>The Queens Indiscretion</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M50S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tg01'>
+   <title>
+    <main>The Gunslinger</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M2S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='brp01'>
+   <title>
+    <main>Bar Room Piano</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M15S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hm01'>
+   <title>
+    <main>Hovercraft Muzak</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M29S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cfw02'>
+   <title>
+    <main>Chase From "Westworld" - Part 2</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M37S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

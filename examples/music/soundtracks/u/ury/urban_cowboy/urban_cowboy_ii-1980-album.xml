@@ -1,0 +1,197 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>Urban Cowboy II: More Music From The Original Motion Picture Soundtrack</title>
+ <catalog>
+  <artists>
+   <variousArtists/>
+  </artists>
+  <copyright>
+   <year>1980</year>
+   <holders>
+    <holder>Paramount Pictures Corporation</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack>
+   <movie>
+    <title>Urban Cowboy</title>
+   </movie>
+  </soundtrack>
+ </classification>
+ <elements>
+  <song id='rha01'>
+   <title>
+    <main>Rode Hard And Put Up Wet</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Johnny</gn><fn>Lee</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Marshall</gn><fn>Chapman</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M45S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='t01'>
+   <title>
+    <main>Texas</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>The Charlie Daniels Band</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Charlie</gn><fn>Daniels</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mdl01'>
+   <title>
+    <main>Mamas Don't Let Your Babies Grow Up To Be Cowboys</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Mickey</gn><fn>Gilley</fn></artist>
+     <artist><gn>Johnny</gn><fn>Lee</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Ed</gn><fn>Bruce</fn></composer>
+     <composer><gn>Patsy</gn><fn>Bruce</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M40S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cej01'>
+   <title>
+    <main>Cotton-Eyed Joe</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>The Bayou City Beats</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Robert</gn><fn>Herridge</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M53S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='htw01'>
+   <title>
+    <main>Honky Tonk Wine</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Mickey</gn><fn>Gilley</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Mack</gn><fn>Vickery</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M24S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tmj01'>
+   <title>
+    <main>The Moon Just Turned Blue</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><pgn>J.D.</pgn><fn>Souther</fn></artist>
+    </artists>
+    <composers>
+     <composer><pgn>J.D.</pgn><fn>Souther</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M6S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rml01'>
+   <title>
+    <main>Rockin' My Life Away</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Mickey</gn><fn>Gilley</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Mack</gn><fn>Vickery</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M59S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ja01'>
+   <title>
+    <main>Jukebox Argument</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Mickey</gn><fn>Gilley</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Gary</gn><fn>Nicholson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M2S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='obs01'>
+   <title>
+    <main>Orange Blossom Special</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>The Charlie Daniels Band</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Ervin</gn><mn>T.</mn><fn>Rouse</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT8M56S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

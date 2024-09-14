@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Gideon</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2024-04-27</exact></date>
+      <purchase>
+       <retailer>Down In The Valley</retailer>
+       <location>Golden Valley, MN</location>
+       <price>2.50</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><record/></type>
+   </release>
+   <!-- no barcode -->
+   <productSpecs>
+    <inventory>
+     <jacket>
+      <record id='vr01'/>
+      <poster/>
+      <insert/>
+     </jacket>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='gideon-1980-vr01-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='gideon-1980-album.xml'/>
+  </contents>
+ </media>
+</medialist>

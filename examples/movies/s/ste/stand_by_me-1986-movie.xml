@@ -68,12 +68,12 @@
       <writer role='screenplay'><gn>Raynold</gn><fn>Gideon</fn></writer>
       <writer role='screenplay'><gn>Buce</gn><mn>A</mn><fn>Evans</fn></writer>
       <sources>
-       <source type='novel'>
+       <novel>
         <title>The Body</title>
         <authors>
          <author><gn>Stephen</gn><fn>King</fn></author>
         </authors>
-       </source>
+       </novel>
       </sources>
      </writers>
      <editors>

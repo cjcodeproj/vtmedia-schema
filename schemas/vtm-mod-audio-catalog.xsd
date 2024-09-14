@@ -62,17 +62,30 @@
   </xs:sequence>
  </xs:complexType>
 
-
- <xs:complexType name='CatSongComposersType'>
+ <xs:group name='ComposerGroup'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
-     A list of one or more artists recognized as the comnposers of
+    One of many possible values to identify composers.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='composer' type='CrewPersonOrGroupType'/>
+   <xs:element name='arranger' type='CrewPersonOrGroupType'/>
+   <xs:element name='lyricist' type='CrewPersonOrGroupType'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:complexType name='CatComposersType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     A list of one or more artists recognized as the
+     composers, lyricists, or arrangers of
      a song, either as an individual, or a group (but more typically
      is credited as an individual).
    </xs:documentation>
   </xs:annotation>
   <xs:sequence>
-   <xs:element name='composer' type='CrewPersonOrGroupType' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:group ref='ComposerGroup' minOccurs='1' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 
@@ -87,7 +100,9 @@
    <xs:element name='identification' type='CatIdentificationType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='altTitles' type='CatTitlesType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='artists' type='CatAlbumArtistsType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='composers' type='CatComposersType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='copyright' type='CopyrightType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='reissue' type='ReissueFlagType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='ucIndex' type='UniqueConstraintIndexType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='extRefs' type='CatExtRefType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
@@ -106,10 +121,24 @@
    <xs:element name='identification' type='CatIdentificationType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='altTitles' type='CatTitlesType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='artists' type='CatSongArtistsType' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='composers' type='CatSongComposersType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='composers' type='CatComposersType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='ucIndex' type='UniqueConstraintIndexType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='extRefs' type='CatExtRefType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='ReissueFlagType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Identifies an album that has been reissued.
+
+     Ex: Green River by CCR, originally released in 1969, and then
+         re-issued in 2006.
+
+     Since the copyright years are different, two sets of files for the
+     same album (original and re-issue) can be produced.
+   </xs:documentation>
+  </xs:annotation>
  </xs:complexType>
 
 </xs:schema>

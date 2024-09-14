@@ -1,0 +1,150 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-08-16 19:10:24.206444) -->
+ <title>Tom T. Halls' Greatest Hits</title>
+ <catalog>
+  <artists>
+   <artist><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></artist>
+  </artists>
+  <composers>
+   <composer><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></composer>
+  </composers>
+  <copyright>
+   <year>1972</year>
+   <holders>
+    <holder>Polygram Records, Inc.</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+  <compilation>
+   <greatestHits/>
+  </compilation>
+ </classification>
+ <elements>
+  <song id='h01'>
+   <title>
+    <main>Homecoming</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M21S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sm01'>
+   <title>
+    <main>Shoeshine Man</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M8S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ima01'>
+   <title>
+    <main>I Miss A Lot Of Trains</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M50S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sta01'>
+   <title>
+    <main>Salute To A Switchblade</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M26S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='iwm01'>
+   <title>
+    <main>I Washed My Face In The Morning Dew</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M46S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bof01'>
+   <title>
+    <main>Ballad Of Forty Dollars</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M5S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tyt01'>
+   <title>
+    <main>The Year That Clayton Delaney Died</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M46S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='thi01'>
+   <title>
+    <main>That's How I Got To Memphis</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M3S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wia01'>
+   <title>
+    <main>A Week In A Country Jail</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M5S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ohc01'>
+   <title>
+    <main>One Hundred Children</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M33S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='maj01'>
+   <title>
+    <main>Me And Jesus</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M22S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

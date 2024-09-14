@@ -1,0 +1,304 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-08-16 19:10:24.207262) -->
+ <title>The Definitive Collection</title>
+ <catalog>
+  <artists>
+   <artist><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></artist>
+  </artists>
+  <composers>
+   <composer><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></composer>
+  </composers>
+  <copyright>
+   <year>2006</year>
+   <holders>
+    <holder>Universal Music Enterprises</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+  <compilation>
+   <greatestHits/>
+  </compilation>
+ </classification>
+ <elements>
+  <song id='bof01'>
+   <title>
+    <main>Ballad Of Forty Dollars</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='h01'>
+   <title>
+    <main>Homecoming</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M20S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wia01'>
+   <title>
+    <main>A Week In A Country Jail</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sm01'>
+   <title>
+    <main>Shoeshine Man</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M7S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sta01'>
+   <title>
+    <main>Salute To A Switchblade [Single Version]</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M25S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tyt01'>
+   <title>
+    <main>The Year That Clayton Delaney Died</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M45S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='maj01'>
+   <title>
+    <main>Me And Jesus</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M22S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='odc01'>
+   <title>
+    <main>Old Dogs, Children And Watermelon Wine</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M14S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rr01'>
+   <title>
+    <main>Ravishing Ruby</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M32S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='il01'>
+   <title>
+    <main>I Love</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M9S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tsi01'>
+   <title>
+    <main>That Song Is Driving Me Crazy</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M11S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ci01'>
+   <title>
+    <main>Country Is</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ic01'>
+   <title>
+    <main>I Care</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M7S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='d01'>
+   <title>
+    <main>Deal</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M35S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ilb01'>
+   <title>
+    <main>I Like Beer</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M56S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='fht01'>
+   <title>
+    <main>Faster Horses (The Cowboy And The Poet)</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M52S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='fot01'>
+   <title>
+    <main>Fox On The Run</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Tony</gn><fn>Hazzard</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M7S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='yml01'>
+   <title>
+    <main>Your Man Loves You Honey</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M19S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='why01'>
+   <title>
+    <main>What Have You Got To Lose</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M13S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tos01'>
+   <title>
+    <main>The Old Side Of Town</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='jot01'>
+   <title>
+    <main>Jesus On The Radio (Daddy On The Phone)</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M19S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ysm01'>
+   <title>
+    <main>You Show Me Your Heart (And I'll Show You Mine)</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M30S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hvp01'>
+   <title>
+    <main>Harper Valley PTA [Demo Version]</main>
+   </title>
+   <technical>
+    <demoRecording/>
+    <runtime>
+      <overall>PT2M57S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='pil01'>
+   <title>
+    <main>P.S. I Love You</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Gordon</gn><fn>Jenkins</fn></composer>
+     <composer><gn>Johnny</gn><fn>Mercer</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M26S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Urban Cowboy II: More Music From The Original Motion Picture Soundtrack</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2008-01-01</from><range>P2Y</range></date>
+      <purchase>
+       <retailer>Cheapo Discs</retailer>
+       <price>2.90</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><record/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>07464369211</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <jacket>
+      <record id='vr01'/>
+     </jacket>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='urban_cowboy_ii-1980-vr01-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='urban_cowboy_ii-1980-album.xml'/>
+  </contents>
+ </media>
+</medialist>

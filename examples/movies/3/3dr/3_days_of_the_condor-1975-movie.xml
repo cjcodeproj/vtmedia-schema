@@ -65,12 +65,12 @@
       <writer role='screenplay'><gn>Lorenzo</gn><fn>Semple</fn><suffix>Jr.</suffix></writer>
       <writer role='screenplay'><gn>David</gn><fn>Rayfiel</fn></writer>
       <sources>
-       <source type='book'>
+       <book>
         <title>Six Days Of The Condor</title>
         <authors>
          <author><gn>James</gn><fn>Grady</fn></author>
         </authors>
-       </source>
+       </book>
       </sources>
      </writers>
      <editors>

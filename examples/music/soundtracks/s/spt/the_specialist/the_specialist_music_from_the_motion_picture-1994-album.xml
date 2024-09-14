@@ -1,0 +1,311 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-06-30 13:05:23.284882) -->
+ <title>The Specialist</title>
+   <!-- EDIT FLAGS: possible_soundtrack  -->
+ <catalog>
+  <artists>
+   <variousArtists/>
+  </artists>
+  <copyright>
+   <year>1994</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack>
+   <movie>
+    <title>The Specialist</title>
+   </movie>
+  </soundtrack>
+ </classification>
+ <elements>
+  <song id='ttb01'>
+  <!-- POSITION: Disc 1 Track: 1 -->
+   <title>
+    <main>Turn The Beat Around</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Gloria</gn><fn>Estefan</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Peter</gn><fn>Jacson</fn></composer>
+     <composer><gn>Gerald</gn><fn>Jacson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M54S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='j01'>
+  <!-- POSITION: Disc 1 Track: 2 -->
+   <title>
+    <main>Jambala</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>Miami Sound Machine</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Emilio</gn><fn>Estefan</fn><suffix>Jr.</suffix></composer>
+     <composer><gn>Jorge</gn><fn>Casas</fn></composer>
+     <composer><gn>Clay</gn><fn>Ostwald</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M22S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='r01'>
+  <!-- POSITION: Disc 1 Track: 3 -->
+   <title>
+    <main>Real</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Donna</gn><fn>Allen</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Jon</gn><fn>Secada</fn></composer>
+     <composer><gn>Donna</gn><fn>Allen</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M40S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='aby01'>
+  <!-- POSITION: Disc 1 Track: 4 -->
+   <title>
+    <main>All Becauseof You -- El Especialista</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>Miami Sound Machine</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Hector</gn><fn>Garrido</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M54S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='smw01'>
+  <!-- POSITION: Disc 1 Track: 5 -->
+   <title>
+    <main>Shower Me With Love</main>
+   </title>
+   <!-- EDIT FLAGS: possible_featured_artist  -->
+   <catalog>
+    <artists>
+     <artist><pcn>Lagaylia</pcn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Jon</gn><fn>Secada</fn></composer>
+     <composer><gn>Lawrence</gn><mn>P.</mn><fn>Dermer</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M29S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ebd01'>
+  <!-- POSITION: Disc 1 Track: 6 -->
+   <title>
+    <main>El Baile De La Vela</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><pcn>Cheito</pcn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Juanito</gn><mn>R.</mn><fn>Marquez</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M6S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sa01'>
+  <!-- POSITION: Disc 1 Track: 7 -->
+   <title>
+    <main>Slip Away</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><pcn>Lagaylia</pcn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Lawrence</gn><mn>P.</mn><fn>Dermer</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT5M12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='eds01'>
+  <!-- POSITION: Disc 1 Track: 8 -->
+   <title>
+    <main>El Duro Soy Yo</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>Tony Tatis Y Su Merengue Sound</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Demetrio</gn><fn>Tatis</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M35S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mp01'>
+  <!-- POSITION: Disc 1 Track: 9 -->
+   <title>
+    <main>Mental Picture</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Jon</gn><fn>Secada</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Jon</gn><fn>Cecada</fn></composer>
+     <composer><gn>Miguel</gn><mn>A.</mn><fn>Morejon</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M19S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='qmd01'>
+  <!-- POSITION: Disc 1 Track: 10 -->
+   <title>
+    <main>Que Manera De Quererte</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><pcn>Albita</pcn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Luis</gn><fn>Rios</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M30S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lit01'>
+  <!-- POSITION: Disc 1 Track: 11 -->
+   <title>
+    <main>Love Is The Thing</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Donna</gn><fn>Allen</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Lawrence</gn><mn>P.</mn><fn>Dermer</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ea01'>
+  <!-- POSITION: Disc 1 Track: 12 -->
+   <title>
+    <main>El Amor</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Azúcar</gn><fn>Moreno</fn></artist>
+    </artists>
+    <composers>
+     <composer><pgn>F. "Estefano"</pgn><fn>Salgado</fn></composer>
+     <composer><gn>Kike</gn><fn>Santander</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M52S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dyc01'>
+  <!-- POSITION: Disc 1 Track: 13 -->
+   <title>
+    <main>Did You Call Me</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>John</gn><fn>Barry</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT5M24S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ts01'>
+  <!-- POSITION: Disc 1 Track: 14 -->
+   <title>
+    <main>The Specialist</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>John</gn><fn>Barry</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT5M39S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

@@ -1,0 +1,53 @@
+  <cdIndex ref='cd01' xmlns='http://vectortron.com/xml/media/media'>
+  <!-- created by id3scan (2024-04-14 17:40:12.802337) -->
+   <track no='1'>
+    <index no='01'>
+     <content ref='m01'/>   <!-- TITLE Moonraker -->
+    </index>
+   </track>
+   <track no='2'>
+    <index no='01'>
+     <content ref='slb01'/>   <!-- TITLE Space Lazer Battle -->
+    </index>
+   </track>
+   <track no='3'>
+    <index no='01'>
+     <content ref='mgm01'/>   <!-- TITLE Miss Goodhead Meets Bond -->
+    </index>
+   </track>
+   <track no='4'>
+    <index no='01'>
+     <content ref='cca01'/>   <!-- TITLE Cable Car And Snake Fight -->
+    </index>
+   </track>
+   <track no='5'>
+    <index no='01'>
+     <content ref='blt01'/>   <!-- TITLE Bond Lured To Pyramid -->
+    </index>
+   </track>
+   <track no='6'>
+    <index no='01'>
+     <content ref='fis01'/>   <!-- TITLE Flight Into Space -->
+    </index>
+   </track>
+   <track no='7'>
+    <index no='01'>
+     <content ref='bai01'/>   <!-- TITLE Bond Arrives In Rio And Boat Chase -->
+    </index>
+   </track>
+   <track no='8'>
+    <index no='01'>
+     <content ref='cac01'/>   <!-- TITLE Centrifuge And Corrine Put Down -->
+    </index>
+   </track>
+   <track no='9'>
+    <index no='01'>
+     <content ref='bsa01'/>   <!-- TITLE Bond Smells A Rat -->
+    </index>
+   </track>
+   <track no='10'>
+    <index no='01'>
+     <content ref='et01'/>   <!-- TITLE End Title - Moonraker -->
+    </index>
+   </track>
+  </cdIndex>

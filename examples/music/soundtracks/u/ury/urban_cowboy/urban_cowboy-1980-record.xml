@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Urban Cowboy: Original Motion Picture Soundtrack</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2024-07-07</exact></date>
+      <purchase>
+       <retailer>Cheapo Discs</retailer>
+       <location>Blaine, MN</location>
+       <price>10.60</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><record/></type>
+   </release>
+   <!-- no barcode -->
+   <productSpecs>
+    <inventory>
+     <jacket>
+      <record id='vr01'/>
+      <record id='vr02'/>
+     </jacket>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='urban_cowboy-1980-vr01-index.xml'/>
+   <xi:include href='urban_cowboy-1980-vr02-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='urban_cowboy-1980-album.xml'/>
+  </contents>
+ </media>
+</medialist>

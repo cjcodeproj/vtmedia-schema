@@ -1,0 +1,203 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>San Antone</title>
+ <catalog>
+  <artists>
+   <artist><gn>Dan</gn><fn>Seals</fn></artist>
+  </artists>
+  <copyright>
+   <year>1984</year>
+   <holders>
+    <holder>EMI America</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='isa01'>
+   <title>
+    <main>In San Antone</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT5M2S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lp01'>
+   <title>
+    <main>The Loving Proof</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Gary</gn><fn>Nicholson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M40S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tif01'>
+   <title>
+    <main>Tonight Is For The Lover In You</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Bob</gn><fn>McDill</fn></composer>
+     <composer><gn>Charlie</gn><fn>Black</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mbg01'>
+   <title>
+    <main>My Baby's Got Good Timing</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Bob</gn><fn>McDill</fn></composer>
+     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M24S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wgk01'>
+   <title>
+    <main>Who's Gonna Keep Me Warm</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Kevin</gn><fn>McKnelly</fn></composer>
+     <composer><gn>Don</gn><fn>Stirling</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M2S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ybo01'>
+   <title>
+    <main>(You Bring Out) The Wild Side Of Me</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M19S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='moy01'>
+   <title>
+    <main>My Old Yellow Car</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Thom</gn><fn>Schuyler</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M35S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sti01'>
+   <title>
+    <main>She Thinks I Still Care</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Dickey</gn><fn>Lee</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sl01'>
+   <title>
+    <main>She's Leaving</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+     <composer><gn>Bob</gn><fn>McDill</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M30S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='oth01'>
+   <title>
+    <main>Oh These Nights</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+     <composer><gn>Rafe</gn><fn>Van Hoy</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M59S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='of01'>
+   <title>
+    <main>One Friend</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M55S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

@@ -54,9 +54,9 @@ The `doc` directory contains HTML documentation on using the schema, with exampl
 
 The `notes` directory contains additional documentaiton, in Markdown format.
 
-### Test
+### Scripts
 
-The `test` directory contains simple testing code for the schema and for the provided examples.
+The `scripts` directory contains simple testing code for the schema and for the provided examples.
 
 ### Catalog
 
@@ -140,15 +140,54 @@ Wargames                                           1983 1:52:42  [FICTION] Thril
 ## Music List
 
 ```
-Title                                                               Year Artist
-=================================================================== ==== ===================================================
-The Greatest Hits Collection                                        1995 Alan Jackson
-Live At Billy Bob's Texas                                           2003 Asleep At The Wheel
-Raising Arizona / Blood Simple Original Motion Picture Soundtracks  1985 Carter Burwell
-The Complete True Stories Soundtrack                                2018 Various Artists
-Death Proof                                                         2007 Various Artists
-The Red Album                                                       2008 Weezer
-Teal                                                                2019 Weezer
+Title                                                                   Year Artist                       Runtime  Genre               
+======================================================================= ==== ============================ ======== ====================
+  -- Alternative (2) --
+The Red Album                                                           2008 Weezer                       0:59:52  Alternative
+Teal                                                                    2019 Weezer                       0:36:24  Alternative
+
+  -- Bluegrass (2) --
+Cuttin' Grass, Vol. 1 (The Butcher Shoppe Sessions)                     2020 Sturgill Simpson             0:54:53  Bluegrass
+Cuttin' Grass, Vol. 2 (The Cowboy Arms Sessions)                        2020 Sturgill Simpson             0:39:47  Bluegrass
+
+  -- Country (11) --
+Bobbie Gentry & Glen Campbell                                           1968 Bobbie Gentry, Glen Campbell 0:29:12  Country/Pop
+The Definitive Collection                                               2006 Tom T. Hall                  1:07:50  Country
+Gideon                                                                  1980 Kenny Rogers                 0:35:05  Country
+The Greatest Hits Collection                                            1995 Alan Jackson                 1:06:47  Country
+Greatest Hits Vol. 2                                                    1975 Tom T. Hall                  0:29:33  Country
+Live At Billy Bob's Texas                                               2005 Earl Thomas Conley           0:53:23  Country
+Live At Billy Bob's Texas                                               2003 Asleep At The Wheel          0:53:46  Country
+Public Cowboy #1: Centennial Salute to Gene Autry                       2007 Riders In The Sky            0:52:53  Country/Western
+San Antone                                                              1984 Dan Seals                    0:36:21  Country
+Slappers, Bangers & Certified Twangers, Vol. 1                          2021 American Aquarium            0:36:52  Country
+Tom T. Halls' Greatest Hits                                             1972 Tom T. Hall                  0:33:25  Country
+Wont Be Blue Anymore                                                    1984 Dan Seals                    0:40:00  Country
+
+  -- Pop (1) --
+Gold                                                                    1992 ABBA                         1:17:03  Pop
+
+
+  -- Rock (1) --
+Permanent Vacation                                                      1987 Aerosmith                    0:51:39  Rock/Hard Rock
+
+  -- Score (2) --
+La La Land: Original Motion Picture Score                               2016 Justin Hurwitz               0:52:55  Score
+The Specialist: Original Motion Picture Score                           1994 John Barry                   0:57:41  Score
+
+  -- Soundtrack (9) --
+The Complete True Stories Soundtrack                                    2018 Various Artists              1:18:55  Soundtrack
+Death Proof                                                             2007 Various Artists              0:38:24  Soundtrack
+La La Land: Original Motion Picture Soundtrack                          2016 Various Artists              0:45:48  Soundtrack
+Moonraker                                                               1979 John Barry                   0:30:51  Soundtrack
+Octopussy                                                               1983 John Barry                   0:37:19  Soundtrack
+Raising Arizona / Blood Simple: Original Motion Picture Soundtracks     1985 Carter Burwell               0:40:31  Soundtrack
+The Specialist                                                          1994 Various Artists              1:00:35  Soundtrack
+Urban Cowboy II: More Music From The Original Motion Picture Soundtrack 1980 Various Artists              0:31:46  Soundtrack
+Urban Cowboy: Original Motion Picture Soundtrack                        1980 Various Artists              1:03:59  Soundtrack
+Westworld                                                               1973 Fred Karlin                  0:31:49  Soundtrack
+======================================================================= ==== ============================ ======== ====================
+
 ```
 
 ## Code Project

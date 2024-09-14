@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3scan (2024-06-30 13:05:23.284466) -->
+ <media>
+  <title>
+   <main>The Specialist: Music From The Motion Picture</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><from>2008-01-01</from><range>P2Y</range></date>
+      <purchase>
+       <retailer>Cheapo Records</retailer>
+       <location>Minneapolis, MN</location>
+      </purchase>
+      <quality><used/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>074646638422</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='the_specialist_music_from_the_motion_picture-1994-cd01-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='the_specialist_music_from_the_motion_picture-1994-album.xml'/>
+  </contents>
+ </media>
+</medialist>

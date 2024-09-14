@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<recordIndex ref='vr01' xmlns='http://vectortron.com/xml/media/media'>
+ <side label='A'>
+  <track no='01'>
+   <content ref='isa01'/>
+  </track>
+  <track no='02'>
+   <content ref='tlp01'/>
+  </track>
+  <track no='03'>
+   <content ref='tif01'/>
+  </track>
+  <track no='04'>
+   <content ref='mbg01'/>
+  </track>
+  <track no='05'>
+   <content ref='wgk01'/>
+  </track>
+ </side>
+ <side label='B'>
+  <track no='01'>
+   <content ref='ybo01'/>
+  </track>
+  <track no='02'>
+   <content ref='moy01'/>
+  </track>
+  <track no='02'>
+   <content ref='sti01'/>
+  </track>
+  <track no='04'>
+   <content ref='sl01'/>
+  </track>
+  <track no='05'>
+   <content ref='otn01'/>
+  </track>
+  <track no='06'>
+   <content ref='of01'/>
+  </track>
+ </side>
+</recordIndex>

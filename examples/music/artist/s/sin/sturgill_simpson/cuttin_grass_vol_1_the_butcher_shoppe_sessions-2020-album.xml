@@ -1,0 +1,251 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-08-16 19:10:23.997352) -->
+ <title>Cuttin' Grass, Vol. 1 (The Butcher Shoppe Sessions)</title>
+ <catalog>
+  <artists>
+   <artist><gn>Sturgill</gn><fn>Simpson</fn></artist>
+  </artists>
+  <composers>
+   <composer><gn>Sturgill</gn><fn>Simpson</fn></composer>
+  </composers>
+  <copyright>
+   <year>2020</year>
+   <holders>
+    <holder>High Top Mountain Records</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Bluegrass</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='aay01'>
+   <title>
+    <main>All Around You</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M9S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='atp01'>
+   <title>
+    <main>All The Pretty Colors</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M18S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='br01'>
+   <title>
+    <main>Breakers Roar</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M29S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='idm01'>
+   <title>
+    <main>I Don't Mind</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M29S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='iw01'>
+   <title>
+    <main>I Wonder</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M14S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='jlg01'>
+   <title>
+    <main>Just Let Go</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M2S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='laf01'>
+   <title>
+    <main>Life Ain't Fair And The World Is Mean</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M0S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ll01'>
+   <title>
+    <main>A Little Light</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M44S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='los01'>
+   <title>
+    <main>Life Of Sin</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M17S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lwl01'>
+   <title>
+    <main>Long White Line</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Buford</gn><fn>Abner</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M21S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ltd01'>
+   <title>
+    <main>Living The Dream</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M30S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='okc01'>
+   <title>
+    <main>Old King Coal</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M52S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ros01'>
+   <title>
+    <main>Railroad Of Sin</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='shw01'>
+   <title>
+    <main>Sitting Here Without You</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M55S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sw01'>
+   <title>
+    <main>Sometimes Wine</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M55S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ts01'>
+   <title>
+    <main>The Storm</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M31S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='taa01'>
+   <title>
+    <main>Time After All</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M14S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tat01'>
+   <title>
+    <main>Turtles All The Way Down</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M18S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='v01'>
+   <title>
+    <main>Voices</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M37S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wia01'>
+   <title>
+    <main>Water In A Well</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M46S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3scan (2024-07-07 18:44:40.960948) -->
+ <media>
+  <title>
+   <main>Urban Cowboy</main>
+  </title>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='urban_cowboy-1980-cd01-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='urban_cowboy-1980-album.xml'/>
+  </contents>
+ </media>
+</medialist>

@@ -1,0 +1,164 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-08-16 19:10:23.998239) -->
+ <title>Cuttin' Grass, Vol. 2 (The Cowboy Arms Sessions)</title>
+ <catalog>
+  <artists>
+   <artist><gn>Sturgill</gn><fn>Simpson</fn></artist>
+  </artists>
+  <composers>
+   <composer><gn>Sturgill</gn><fn>Simpson</fn></composer>
+  </composers>
+  <copyright>
+   <year>2020</year>
+   <holders>
+    <holder>High Top Mountain Records</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Bluegrass</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='cta01'>
+   <title>
+    <main>Call To Arms</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M2S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bfi01'>
+   <title>
+    <main>Brace For Impact (Live A Little)</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M18S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='os01'>
+   <title>
+    <main>Oh Sarah</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M5S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ss01'>
+   <title>
+    <main>Sea Stories</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M11S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='h01'>
+   <title>
+    <main>Hero</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wte01'>
+   <title>
+    <main>Welcome To Earth (Pollywog)</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M41S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='jb01'>
+   <title>
+    <main>Jesus Boogie</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M31S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='kib01'>
+   <title>
+    <main>Keep It Between The Lines</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M8S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ych01'>
+   <title>
+    <main>You Can Have The Crown</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M7S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='t01'>
+   <title>
+    <main>Tennessee</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M15S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sd01'>
+   <title>
+    <main>Some Days</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M53S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hc01'>
+   <title>
+    <main>Hobo Cartoon</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Merle</gn><fn>Haggard</fn></composer>
+     <composer><gn>Sturgill</gn><fn>Simpson</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M32S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

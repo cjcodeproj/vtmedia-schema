@@ -94,7 +94,7 @@
    <xs:sequence>
     <xs:element name='prefix' type='PNPersonalNamePrefixType' minOccurs='0' maxOccurs='1'/>
      <xs:choice>
-     <xs:sequence>
+     <xs:sequence> <!-- begin: seq 1 -->
       <xs:annotation>
        <xs:documentation xml:lang='en-US'>
          Sequence 1 (nickname in middle or end)
@@ -111,27 +111,27 @@
        </xs:documentation>
       </xs:annotation>
       <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
-      <xs:choice minOccurs='0'>
-       <xs:sequence>
-        <xs:choice>
-         <xs:sequence>
-          <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
-          <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
-         </xs:sequence>
-         <xs:sequence>
-          <xs:element name='mn' type='xs:token' minOccurs='1' maxOccurs='1'/>
-          <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
-         </xs:sequence>
-        </xs:choice>
-        <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
-       </xs:sequence>
-       <xs:sequence>
-        <xs:element name='fn' type='xs:token' minOccurs='1' maxOccurs='1'/>
-        <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
-       </xs:sequence>
-      </xs:choice>
-     </xs:sequence>
-     <xs:sequence>
+       <xs:choice minOccurs='0'>
+        <xs:sequence>
+         <xs:choice>
+          <xs:sequence>
+           <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
+           <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+          </xs:sequence>
+          <xs:sequence>
+           <xs:element name='mn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+           <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+          </xs:sequence>
+         </xs:choice>
+         <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        </xs:sequence>
+        <xs:sequence>
+         <xs:element name='fn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+         <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        </xs:sequence>
+       </xs:choice>
+     </xs:sequence>  <!-- end: seq 1 -->
+     <xs:sequence>   <!-- begin: seq 2 -->
       <xs:annotation>
        <xs:documentation xml:lang='en-US'>
         Sequence 2 (preferred complete names)
@@ -140,21 +140,21 @@
       </xs:annotation>
       <xs:element name='pcn' type='xs:token' minOccurs='1' maxOccurs='1'/>
       <xs:sequence minOccurs='0' maxOccurs='1'>
-       <xs:element name='gn' minOccurs='0' maxOccurs='1'/>
+       <xs:element name='gn' type='xs:token' minOccurs='0' maxOccurs='1'/>
        <xs:choice>
         <xs:sequence>
-         <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+         <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
          <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
         </xs:sequence>
         <xs:sequence>
-         <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+         <xs:element name='mn' type='xs:token' minOccurs='1' maxOccurs='1'/>
          <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
         </xs:sequence>
        </xs:choice>
-       <xs:element name='fn' minOccurs='0' maxOccurs='1'/>
+       <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
       </xs:sequence>
-     </xs:sequence>
-     <xs:sequence>
+     </xs:sequence>  <!-- end: seq 2 -->
+     <xs:sequence>   <!-- begin: seq 3 -->
       <xs:annotation>
        <xs:documentation xml:lang='en-US'>
          Sequence 3 (preferred given names)
@@ -162,21 +162,20 @@
        </xs:documentation>
       </xs:annotation>
       <xs:element name='pgn' type='xs:token' minOccurs='1' maxOccurs='1'/>
-      <xs:element name='gn' minOccurs='0' maxOccurs='1'/>
-      <xs:choice>
+      <xs:element name='gn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      <xs:choice minOccurs='0'>
        <xs:sequence>
-        <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
         <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
        </xs:sequence>
        <xs:sequence>
-        <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        <xs:element name='mn' type='xs:token' minOccurs='1' maxOccurs='1'/>
         <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
        </xs:sequence>
       </xs:choice>
-      <xs:element name='fn' minOccurs='0' maxOccurs='1'/>
-     </xs:sequence>
-
-     <xs:sequence>
+      <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     </xs:sequence>  <!-- end: seq 3 -->
+     <xs:sequence>   <!-- begin: seq 4 -->
       <xs:annotation>
        <xs:documentation xml:lang='en-US'>
          Sequence 4 (nickname precedes name)
@@ -190,13 +189,13 @@
        </xs:documentation>
       </xs:annotation>
       <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
-      <xs:choice maxOccurs='3'>
+      <xs:sequence>
        <xs:element name='gn' type='xs:token' minOccurs='0' maxOccurs='1'/>
        <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
        <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
-      </xs:choice>
-     </xs:sequence>
-     <xs:sequence>
+      </xs:sequence>
+     </xs:sequence>  <!-- end: seq 4 -->
+     <xs:sequence>   <!-- begin: seq 5 -->
       <xs:annotation>
        <xs:documentation xml:lang='en-US'>
          Sequence 5 (family name only, with optional nickname)
@@ -210,7 +209,7 @@
       </xs:annotation>
       <xs:element name='fn' type='xs:token' minOccurs='1' maxOccurs='1'/>
       <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
-     </xs:sequence>
+     </xs:sequence>  <!-- end: seq 5 -->
     </xs:choice>
    <xs:element name='suffix' type='PNPersonalNameSuffixType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='addendum' type='xs:token' minOccurs='0' maxOccurs='1'/>

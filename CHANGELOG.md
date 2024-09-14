@@ -1,6 +1,23 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## RELEASE 2024.09
+ - [schema-162](https://github.com/cjcodeproj/vtmedia-schema/issues/162) Release 2024.09
+ - [schema-129](https://github.com/cjcodeproj/vtmedia-schema/issues/129) More music examples
+ - [schema-158](https://github.com/cjcodeproj/vtmedia-schema/issues/158) Music: Score as well as Soundtrack
+ - [schema-157](https://github.com/cjcodeproj/vtmedia-schema/issues/157) Change script path
+ - [schema-152](https://github.com/cjcodeproj/vtmedia-schema/issues/152) Reevaluate writers source element
+ - [schema-147](https://github.com/cjcodeproj/vtmedia-schema/issues/147) Music: Record side labels independent of records
+ - [schema-146](https://github.com/cjcodeproj/vtmedia-schema/issues/146) Music: Album level composers
+ - [schema-124](https://github.com/cjcodeproj/vtmedia-schema/issues/124) Music: Lyricists and Arrangers job roles
+ - [schema-137](https://github.com/cjcodeproj/vtmedia-schema/issues/137) Music: Identify bonus tracks and album reissue
+ - [schema-135](https://github.com/cjcodeproj/vtmedia-schema/issues/135) Some XSD files have trailing whitespace
+ - [schema-116](https://github.com/cjcodeproj/vtmedia-schema/issues/116) Add a 'download' target to the Makefile
+ - [schema-134](https://github.com/cjcodeproj/vtmedia-schema/issues/134) Create a new testing framework
+ - [schema-133](https://github.com/cjcodeproj/vtmedia-schema/issues/133) CharacterNameType: The content model is not determinist
+ - [schema-121](https://github.com/cjcodeproj/vtmedia-schema/issues/121) Music structures for vinyl record
+
+
 ## RELEASE 2024.04
  - [schema-122](https://github.com/cjcodeproj/vtmedia-schema/issues/122) Release 2024.04
  - [schema-120](https://github.com/cjcodeproj/vtmedia-schema/issues/120) Slight tweak to music examples

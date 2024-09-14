@@ -4,7 +4,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2024, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -63,6 +63,46 @@
   <xs:attribute name='id' type='xs:NCName' use='optional'/>
  </xs:complexType>
 
+ <xs:complexType name='PIAudioRecordType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element representing an audio vinyl record.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='radius' type='PIAudioRecordDiameterType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='rpm' type='PIAudioRecordRPMType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attribute name='id' type='xs:NCName' use='optional'/>
+ </xs:complexType>
+
+ <xs:simpleType name='PIAudioRecordDiameterType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Album diameter values.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:positiveInteger'>
+   <xs:enumeration value='7'/>
+   <xs:enumeration value='10'/>
+   <xs:enumeration value='12'/>
+  </xs:restriction>
+ </xs:simpleType>
+
+ <xs:simpleType name='PIAudioRecordRPMType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Album RPM values.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:enumeration value='33'/>
+   <xs:enumeration value='33 1/3'/>
+   <xs:enumeration value='45'/>
+   <xs:enumeration value='78'/>
+  </xs:restriction>
+ </xs:simpleType>
+
  <xs:complexType name='PIPrintPageType'>
   <xs:attribute name='id' type='xs:NCName' use='optional'/>
  </xs:complexType>
@@ -99,6 +139,19 @@
   </xs:annotation>
   <xs:choice>
    <xs:element name='cd' type='PIAudioDiscType'/>
+   <xs:element name='record' type='PIAudioRecordType'/>
+   <!-- future enhancement 'musicdvd'? -->
+  </xs:choice>
+ </xs:group>
+
+ <xs:group name='PIMediumAudioRecordGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Any physical vinyl record.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='record' type='PIAudioRecordType'/>
   </xs:choice>
  </xs:group>
 
@@ -112,6 +165,7 @@
    <xs:element name='booklet' type='PIPrintPageType'/>
    <xs:element name='insert' type='PIPrintPageType'/>
    <xs:element name='poster' type='PIPrintPageType'/>
+   <xs:element name='titleStrip' type='PIPrintPageType'/>
    <xs:element name='codesheet' type='PICodeSheetType'/>
   </xs:choice>
  </xs:group>
@@ -143,6 +197,19 @@
    <xs:element name='steelbook' type='PIStorageSteelBookType'/>
    <xs:element name='digibook' type='PIStorageDigiBookType'/>
    <xs:element name='envelope' type='PIStorageEnvelopeType'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:group name='PILayerOneStorageAudioGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Anything that can hold audio media, like a vinyl record.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='jacket' type='PIStorageAudioRecordType'/>
+   <xs:element name='gatefoldJacket' type='PIStorageAudioRecordType'/>
+   <!-- maybe also comsider CD jewel case here -->
   </xs:choice>
  </xs:group>
 
@@ -264,10 +331,23 @@
   <xs:attribute name='id' type='xs:NCName' use='optional'/>
  </xs:complexType>
 
+ <xs:complexType name='PIStorageAudioRecordType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A complex storage type that can accomodate a vinyl record.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:group ref='PIMediumAudioRecordGroup' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:group ref='PIMediumPrintGroup' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
  <xs:complexType name='ProductInventoryType'>
   <xs:choice minOccurs='1'>
    <xs:element name='box' type='PILayerTwoStorageType' maxOccurs='unbounded'/>
    <xs:group ref='PILayerOneStorageGroup' maxOccurs='unbounded'/>
+   <xs:group ref='PILayerOneStorageAudioGroup' maxOccurs='unbounded'/>
   </xs:choice>
  </xs:complexType>
 

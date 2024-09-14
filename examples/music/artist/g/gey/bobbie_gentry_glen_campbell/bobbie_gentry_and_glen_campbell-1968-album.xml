@@ -1,0 +1,199 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>Bobbie Gentry &amp; Glen Campbell</title>
+ <catalog>
+  <artists>
+   <artist><gn>Bobbie</gn><fn>Gentry</fn></artist>
+   <artist><gn>Glen</gn><fn>Campbell</fn></artist>
+  </artists>
+  <copyright>
+   <year>1968</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+   <secondary>Pop</secondary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='lom01'>
+   <title>
+    <main>Less Of Me</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Glen</gn><fn>Campbell</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M8S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lga01'>
+   <title>
+    <main>Little Green Apples</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Bob</gn><fn>Russell</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M13S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='gom01'>
+   <title>
+    <main>Gentle On My Mind</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>John</gn><fn>Hartford</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M7S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hth01'>
+   <title>
+    <main>Heart To Heart Talk</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Lee</gn><fn>Ross</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M52S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='med01'>
+   <title>
+    <main>My Elusive Dreams</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Curly</gn><fn>Putnam</fn></composer>
+     <composer><gn>Billy</gn><fn>Sherrill</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M11S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ioy01'>
+   <title>
+    <main>(It's Only Your) Imagination</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Glen</gn><fn>Campbell</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT1M53S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mg01'>
+   <title>
+    <main>Mornin' Glory</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Bobbie</gn><fn>Gentry</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M52S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ttw01'>
+   <title>
+    <main>Terrible Tangled Web</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Billy</gn><fn>Mize</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M2S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sm01'>
+   <title>
+    <main>Sunday Mornin'</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Margo</gn><fn>Guryan</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M30S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lib01'>
+   <title>
+    <main>Let It Be Me</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Mann</gn><fn>Curtis</fn></composer>
+     <composer><gn>Gilbert</gn><fn>Becaud</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sfc01'>
+   <title>
+    <main>Scarborough Fair/Canticle</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Paul</gn><fn>Simon</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M20S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

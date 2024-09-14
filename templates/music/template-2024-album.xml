@@ -1,0 +1,209 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <title>Album Title</title>
+ <catalog>
+  <artists>
+   <artist><gn>First</gn><fn>Last</fn></artist>
+   <artist><grp>Group</grp></artist>
+  </artists>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Popular</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='abc01'>
+   <title>
+    <main>Song Title</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>First</gn><fn>Last</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT01M01.1S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

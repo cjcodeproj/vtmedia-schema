@@ -70,13 +70,13 @@
      <writers>
       <writer><gn>Alex</gn><fn>Gibney</fn></writer>
       <sources>
-       <source type='book'>
+       <book>
         <title>Enron: The Smartest Guys In The Room</title>
         <authors>
          <author><gn>Bethany</gn><fn>McLean</fn></author>
          <author><gn>Peter</gn><fn>Elkind</fn></author>
         </authors>
-       </source>
+       </book>
       </sources>
      </writers>
      <editors>

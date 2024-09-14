@@ -68,54 +68,54 @@
       <writer><gn>Christopher</gn><fn>Markus</fn></writer>
       <writer><gn>Stephen</gn><fn>McFeely</fn></writer>
       <sources>
-       <source type='characters'>
+       <character>
         <authors>
          <author><gn>Stan</gn><fn>Lee</fn></author>
          <author><gn>Jack</gn><fn>Kirby</fn></author>
         </authors>
-       </source>
-       <source type='character'>
+       </character>
+       <character>
         <title>Captain America</title>
         <authors>
          <author><gn>Joe</gn><fn>Simon</fn></author>
          <author><gn>Jack</gn><fn>Kirby</fn></author>
         </authors>
-       </source>
-       <source>
-        <title>Star Lord (character)</title>
+       </character>
+       <character>
+        <title>Star Lord</title>
         <authors>
          <author><gn>Steve</gn><fn>Englehart</fn></author>
          <author><gn>Steve</gn><fn>Gan</fn></author>
         </authors>
-       </source>
-       <source>
-        <title>Rocket Racoon (character)</title>
+       </character>
+       <character>
+        <title>Rocket Racoon</title>
         <authors>
          <author><gn>Bill</gn><fn>Mantlo</fn></author>
          <author><gn>Keith</gn><fn>Giffen</fn></author>
         </authors>
-       </source>
-       <source>
+       </character>
+       <character>
         <title>Thanos, Gamora, Drax (characters)</title>
         <authors>
          <author><gn>Jim</gn><fn>Starlin</fn></author>
         </authors>
-       </source>
-       <source>
-        <title>Groot (character)</title>
+       </character>
+       <character>
+        <title>Groot</title>
         <authors>
          <author><gn>Stan</gn><fn>Lee</fn></author>
          <author><gn>Larry</gn><fn>Lieber</fn></author>
          <author><gn>Jack</gn><fn>Kirby</fn></author>
         </authors>
-       </source>
-       <source>
-        <title>Mantis (character)</title>
+       </character>
+       <character>
+        <title>Mantis</title>
         <authors>
          <author><gn>Steve</gn><fn>Englehart</fn></author>
          <author><gn>Don</gn><fn>Heck</fn></author>
         </authors>
-       </source>
+       </character>
       </sources>
      </writers>
      <editors>

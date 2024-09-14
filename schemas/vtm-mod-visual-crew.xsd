@@ -3,7 +3,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2024, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -20,6 +20,7 @@
  <xs:include schemaLocation='vtm-mod-generic-pnouns-keywords.xsd'/>
  <xs:include schemaLocation='vtm-mod-generic-crew-types.xsd'/>
  <xs:include schemaLocation='vtm-mod-visual-crew-roles.xsd'/>
+ <xs:include schemaLocation='vtm-mod-visual-crew-writers.xsd'/>
 
  <xs:complexType name='DirectorsType'>
   <xs:sequence>
@@ -79,77 +80,6 @@
    <xs:element name='conductor' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
    <xs:element name='music' type='CrewPersonOrGroupType' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
- </xs:complexType>
-
- <xs:complexType name='SourcesType'>
-  <xs:sequence>
-   <xs:element name='source' type='SourceType' minOccurs='1' maxOccurs='unbounded'/>
-  </xs:sequence>
- </xs:complexType>
-
- <xs:complexType name='SourceType'>
-  <xs:sequence>
-   <xs:sequence minOccurs='0'>
-    <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
-    <xs:element name='from' type='xs:string' minOccurs='0' maxOccurs='1'/>
-   </xs:sequence>
-   <xs:element name='authors' type='SourceAuthorsType' minOccurs='1' maxOccurs='1'/>
-  </xs:sequence>
-  <xs:attribute name='type' type='SourceMediaType' use='optional'/>
- </xs:complexType>
-
- <xs:simpleType name='SourceMediaType'>
-  <xs:annotation>
-   <xs:documentation xml:lang='en-US'>
-    Supported types of source media.
-   </xs:documentation>
-  </xs:annotation>
-  <xs:restriction base='xs:token'>
-   <xs:enumeration value='movie'/>
-   <xs:enumeration value='screenplay'/>
-   <xs:enumeration value='play'/>
-   <xs:enumeration value='novel'/>
-   <xs:enumeration value='book'/>
-   <xs:enumeration value='bookSeries'/>
-   <xs:enumeration value='story'/>
-   <xs:enumeration value='shortStory'/>
-   <xs:enumeration value='comicBook'/>
-   <xs:enumeration value='comicBookSeries'/>
-   <xs:enumeration value='newsArticle'/>
-   <xs:enumeration value='song'/>
-   <xs:enumeration value='poem'/>
-   <xs:enumeration value='radioShow'/>
-   <xs:enumeration value='televisionShow'/>
-   <xs:enumeration value='podcast'/>
-   <xs:enumeration value='character'/>
-   <xs:enumeration value='characters'/>
-  </xs:restriction>
- </xs:simpleType>
-
- <xs:complexType name='SourceAuthorsType'>
-  <xs:sequence>
-   <xs:element name='author' type='CrewNameType' minOccurs='1' maxOccurs='unbounded'/>
-  </xs:sequence>
- </xs:complexType>
-
- <xs:complexType name='WritersType'>
-  <xs:sequence>
-   <xs:element name='writer' type='WriterType' minOccurs='1' maxOccurs='unbounded'/>
-   <xs:element name='sources' type='SourcesType' minOccurs='0' maxOccurs='unbounded'/>
-  </xs:sequence>
- </xs:complexType>
-
- <xs:complexType name='WriterType'>
-  <xs:annotation>
-   <xs:documentation xml:lang='en-US'>
-    Writers can be specific to either the screenplay, or the story
-   </xs:documentation>
-  </xs:annotation>
-  <xs:complexContent>
-   <xs:extension base='CrewNameType'>
-    <xs:attribute name='role' type='xs:string' use='optional'/>
-   </xs:extension>
-  </xs:complexContent>
  </xs:complexType>
 
 

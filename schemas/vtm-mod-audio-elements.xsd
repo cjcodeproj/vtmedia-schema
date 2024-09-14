@@ -23,7 +23,7 @@
     Classification music for audio media.
 
     Describes the genre of the media, associations with
-    other media, 
+    other media, and other information.
   </xs:documentation>
  </xs:annotation>
 

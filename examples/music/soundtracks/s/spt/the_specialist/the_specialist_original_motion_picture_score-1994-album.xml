@@ -1,0 +1,296 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-06-30 13:05:23.149807) -->
+ <title>The Specialist: Original Motion Picture Score</title>
+   <!-- EDIT FLAGS: possible_soundtrack  -->
+ <catalog>
+  <artists>
+   <artist><gn>John</gn><fn>Barry</fn></artist>
+  </artists>
+  <composers>
+   <composer><gn>John</gn><fn>Barry</fn></composer>
+  </composers>
+  <copyright>
+   <year>1994</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <score>
+   <movie>
+    <title>The Specialist</title>
+   </movie>
+  </score>
+ </classification>
+ <elements>
+  <song id='mt01'>
+  <!-- POSITION: Disc 1 Track: 1 -->
+   <title>
+    <main>Main Title</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M41S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='b1-01'>
+  <!-- POSITION: Disc 1 Track: 2 -->
+   <title>
+    <main>Bogota 1984</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M49S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tsi01'>
+  <!-- POSITION: Disc 1 Track: 3 -->
+   <title>
+    <main>The Specialist In Miami</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M34S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mar01'>
+  <!-- POSITION: Disc 1 Track: 4 -->
+   <title>
+    <main>May And Ray At The Cemetery</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mdw01'>
+  <!-- POSITION: Disc 1 Track: 5 -->
+   <title>
+    <main>May Dances With Tomas-"Did You Call Me"</main>
+   </title>
+   <!-- EDIT FLAGS: possible_featured_artist  -->
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M34S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rcm01'>
+  <!-- POSITION: Disc 1 Track: 6 -->
+   <title>
+    <main>Ray Covers May-"Did You Call Me"</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><unkn>John Barry</unkn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M37S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='at01'>
+  <!-- POSITION: Disc 1 Track: 7 -->
+   <title>
+    <main>After Tomas</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M56S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tfb01'>
+  <!-- POSITION: Disc 1 Track: 8 -->
+   <title>
+    <main>The First Bomb-Ray's Place</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M57S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='et01'>
+  <!-- POSITION: Disc 1 Track: 9 -->
+   <title>
+    <main>Explosive Trent</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M56S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tpl01'>
+  <!-- POSITION: Disc 1 Track: 10 -->
+   <title>
+    <main>The Parking Lot Bomb</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M31S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dtm01'>
+  <!-- POSITION: Disc 1 Track: 11 -->
+   <title>
+    <main>Don't Touch Me Ned-Bomb For Tomas</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M17S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tdo01'>
+  <!-- POSITION: Disc 1 Track: 12 -->
+   <title>
+    <main>The Death Of Tomas</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M7S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mry01'>
+  <!-- POSITION: Disc 1 Track: 13 -->
+   <title>
+    <main>May's Room-"Did You Call Me"</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M26S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rmm01'>
+  <!-- POSITION: Disc 1 Track: 14 -->
+   <title>
+    <main>Ray Meets May At Her Funeral</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M33S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lst01'>
+  <!-- POSITION: Disc 1 Track: 15 -->
+   <title>
+    <main>Let's See That Beautiful Face-"Did You Call Me"</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M43S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cio01'>
+  <!-- POSITION: Disc 1 Track: 16 -->
+   <title>
+    <main>Closing In On Ray</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M56S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tgt01'>
+  <!-- POSITION: Disc 1 Track: 17 -->
+   <title>
+    <main>There Goes The Hotel Room-The Fight</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M20S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mmj01'>
+  <!-- POSITION: Disc 1 Track: 18 -->
+   <title>
+    <main>May Meets Joe-I'm Not A Woman You Can Trust</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M59S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ygi01'>
+  <!-- POSITION: Disc 1 Track: 19 -->
+   <title>
+    <main>You Go In And Get Him-"Did You Call Me"</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M5S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='twp01'>
+  <!-- POSITION: Disc 1 Track: 20 -->
+   <title>
+    <main>The Whole Place Is Wired-She's Hot Ray</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M25S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='gth01'>
+  <!-- POSITION: Disc 1 Track: 21 -->
+   <title>
+    <main>Get To Hell Out Of Here</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M15S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ybd01'>
+  <!-- POSITION: Disc 1 Track: 22 -->
+   <title>
+    <main>You Bastard-How Do You Feel?-Better!-"Did You Call Me" End Title</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M9S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

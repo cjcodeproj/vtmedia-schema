@@ -1,0 +1,384 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-08-16 19:10:23.916333) -->
+ <title>La La Land: Original Motion Picture Score</title>
+ <catalog>
+  <artists>
+   <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
+  </artists>
+  <composers>
+   <composer><gn>Justin</gn><fn>Hurwitz</fn></composer>
+  </composers>
+  <copyright>
+   <year>2016</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <score>
+   <movie>
+    <title>La La Land</title>
+   </movie>
+  </score>
+ </classification>
+ <elements>
+  <song id='mgh01'>
+   <title>
+    <main>Mia Gets Home</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M26S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bm01'>
+   <title>
+    <main>Bathroom Mirror / You're Coming Right?</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M22S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cr01'>
+   <title>
+    <main>Classic Rope-A-Dope</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M45S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ms01'>
+   <title>
+    <main>Mia &amp; Sebastian's Theme</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M36S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sut01'>
+   <title>
+    <main>Stroll Up The Hill</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M49S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ttw01'>
+   <title>
+    <main>There The Whole Time / Twirl</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M44S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bb01'>
+   <title>
+    <main>Bogart &amp; Bergman</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M11S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mhj01'>
+   <title>
+    <main>Mia Hates Jazz</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M10S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hh01'>
+   <title>
+    <main>Herman's Habit</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hurwitz</fn></composer>
+     <composer><gn>Damien</gn><fn>Chazelle</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rat01'>
+   <title>
+    <main>Rialto At Ten</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='r01'>
+   <title>
+    <main>Rialto</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M28S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ms02'>
+   <title>
+    <main>Mia &amp; Sebastian's Theme (Late For The Date)</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M29S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='p01'>
+   <title>
+    <main>Planetarium</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M19S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hh02'>
+   <title>
+    <main>Holy Hell</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M41S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sm01'>
+   <title>
+    <main>Summer Montage / Madeline</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hurwitz</fn></composer>
+     <composer><gn>Damien</gn><fn>Chazelle</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M4S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ip01'>
+   <title>
+    <main>It Pays</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M11S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='coa01'>
+   <title>
+    <main>Chicken On A Stick</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='cos01'>
+   <title>
+    <main>City Of Stars / May Finally Come True</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Ryan</gn><fn>Gosling</fn></artist>
+     <artist><gn>Emma</gn><fn>Stone</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hurwitz</fn></composer>
+     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
+     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M17S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='c01'>
+   <title>
+    <main>Chinatown</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M22S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='s01'>
+   <title>
+    <main>Surprise</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M30S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='b01'>
+   <title>
+    <main>Boise</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M13S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mtp01'>
+   <title>
+    <main>Missed The Play</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M37S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='io01'>
+   <title>
+    <main>It's Over / Engagement Party</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M34S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='thi01'>
+   <title>
+    <main>The House In Front Of The Library</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M31S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ylj01'>
+   <title>
+    <main>You Love Jazz Now</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='c02'>
+   <title>
+    <main>Cincinnati</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer><gn>Justin</gn><fn>Hurwitz</fn></composer>
+     <composer><gn>Damien</gn><fn>Chazelle</fn></composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M6S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='e01'>
+   <title>
+    <main>Epilogue</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT7M38S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='te01'>
+   <title>
+    <main>The End</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT0M46S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='c03'>
+   <title>
+    <main>Credits</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ms03'>
+   <title>
+    <main>Mia &amp; Sebastian's Theme (Celesta)</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M27S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>
