@@ -1,6 +1,9 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## CURRENT
+ - [schema-170](https://github.com/cjcodeproj/vtmedia-schema/issues/170) Markdown/HTML list of movies
+ 
 ## RELEASE 2024.09
  - [schema-162](https://github.com/cjcodeproj/vtmedia-schema/issues/162) Release 2024.09
  - [schema-129](https://github.com/cjcodeproj/vtmedia-schema/issues/129) More music examples
