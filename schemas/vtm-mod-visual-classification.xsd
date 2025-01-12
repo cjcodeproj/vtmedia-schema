@@ -4,7 +4,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -18,6 +18,8 @@
   </xs:documentation>
  </xs:annotation>
 
+
+ <xs:include schemaLocation='vtm-mod-all-classification.xsd'/>
 
  <xs:complexType name='GenresType'>
   <xs:sequence>
@@ -117,6 +119,7 @@
   <xs:sequence>
    <xs:element name='category' type='CategoryType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='genres' type='GenresType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='intendedAudience' type='IntendedAudienceType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='subjects' type='SubjectsType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='certifications' type='CertificationsType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>

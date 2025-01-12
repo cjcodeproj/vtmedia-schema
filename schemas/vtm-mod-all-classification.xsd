@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2025, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Generic classification objects, suitable for either
+    visual, audio, or print media.
+
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:complexType name='IntendedAudienceChoiceType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    An empty element type.
+   </xs:documentation>
+  </xs:annotation>
+ </xs:complexType>
+
+ <xs:group name='IntendedAudienceChoiceGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A very simple choice group covering the suitable
+    choice breakdowns for intended audiences for
+    a piece of media.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='kids' type='IntendedAudienceChoiceType'/>
+   <xs:element name='teens' type='IntendedAudienceChoiceType'/>
+   <xs:element name='grownups' type='IntendedAudienceChoiceType'/>
+   <xs:element name='families' type='IntendedAudienceChoiceType'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:complexType name='IntendedAudienceType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Identifies the indended audience of the content, which can be
+    one or more of the group elements.
+
+    The intention being that the first element is the highest
+    priority intended audience, and any following tags are
+    supplemental.
+
+    Obviously, it doesn't make sense to repeat the same element
+    multiple times.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:group ref='IntendedAudienceChoiceGroup' minOccurs='1' maxOccurs='4'/>
+  </xs:sequence>
+ </xs:complexType>
+
+</xs:schema>

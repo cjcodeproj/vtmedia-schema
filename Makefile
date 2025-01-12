@@ -37,6 +37,7 @@ FILES= $(SD)/media-schema.xsd \
 	$(SD)/vtm-content-written.xsd \
 	$(SD)/vtm-meta-authorship.xsd \
 	$(SD)/vtm-mod-all-catalog.xsd \
+	$(SD)/vtm-mod-all-classification.xsd \
 	$(SD)/vtm-mod-audio-catalog.xsd \
 	$(SD)/vtm-mod-audio-classification.xsd \
 	$(SD)/vtm-mod-audio-elements.xsd \
