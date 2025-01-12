@@ -3,7 +3,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -116,10 +116,16 @@
          <xs:choice>
           <xs:sequence>
            <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
-           <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+           <xs:choice minOccurs='0' maxOccurs='1'>
+            <xs:element name='mn' type='xs:token'/>
+            <xs:element name='mi' type='PNNameInitialType'/>
+           </xs:choice>
           </xs:sequence>
           <xs:sequence>
-           <xs:element name='mn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+           <xs:choice minOccurs='1' maxOccurs='1'>
+            <xs:element name='mn' type='xs:token'/>
+            <xs:element name='mi' type='PNNameInitialType'/>
+           </xs:choice>
            <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
           </xs:sequence>
          </xs:choice>
@@ -144,10 +150,16 @@
        <xs:choice>
         <xs:sequence>
          <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
-         <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+         <xs:choice minOccurs='0' maxOccurs='1'>
+          <xs:element name='mn' type='xs:token'/>
+          <xs:element name='mi' type='PNNameInitialType'/>
+         </xs:choice>
         </xs:sequence>
         <xs:sequence>
-         <xs:element name='mn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+         <xs:choice minOccurs='1' maxOccurs='1'>
+          <xs:element name='mn' type='xs:token'/>
+          <xs:element name='mi' type='PNNameInitialType'/>
+         </xs:choice>
          <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
         </xs:sequence>
        </xs:choice>
@@ -166,10 +178,16 @@
       <xs:choice minOccurs='0'>
        <xs:sequence>
         <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
-        <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+        <xs:choice minOccurs='0' maxOccurs='1'>
+         <xs:element name='mn' type='xs:token'/>
+         <xs:element name='mi' type='PNNameInitialType'/>
+        </xs:choice>
        </xs:sequence>
        <xs:sequence>
-        <xs:element name='mn' type='xs:token' minOccurs='1' maxOccurs='1'/>
+        <xs:choice minOccurs='1' maxOccurs='1'>
+         <xs:element name='mn' type='xs:token'/>
+         <xs:element name='mi' type='PNNameInitialType'/>
+        </xs:choice>
         <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
        </xs:sequence>
       </xs:choice>
@@ -191,7 +209,10 @@
       <xs:element name='nick' type='xs:token' minOccurs='1' maxOccurs='1'/>
       <xs:sequence>
        <xs:element name='gn' type='xs:token' minOccurs='0' maxOccurs='1'/>
-       <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+       <xs:choice minOccurs='0' maxOccurs='1'>
+        <xs:element name='mn' type='xs:token'/>
+        <xs:element name='mi' type='PNNameInitialType'/>
+       </xs:choice>
        <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
       </xs:sequence>
      </xs:sequence>  <!-- end: seq 4 -->

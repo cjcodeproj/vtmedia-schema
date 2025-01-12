@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-175](https://github.com/cjcodeproj/vtmedia-schema/issues/175) Support for middle initial in name
  - [schema-170](https://github.com/cjcodeproj/vtmedia-schema/issues/170) Markdown/HTML list of movies
  
 ## RELEASE 2024.09

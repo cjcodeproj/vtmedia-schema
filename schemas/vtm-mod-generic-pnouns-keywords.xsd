@@ -6,7 +6,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -166,6 +166,18 @@
   </xs:simpleContent>
  </xs:complexType>
 
+ <xs:simpleType name='PNNameInitialType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A custom type to handle a name initial value.
+    Will mostly be used on middle initials.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:restriction base='xs:token'>
+   <xs:maxLength value='2'/>
+  </xs:restriction>
+ </xs:simpleType>
+
  <xs:complexType name='PNPersonalNameType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
@@ -180,7 +192,10 @@
      <xs:sequence minOccurs='0' maxOccurs='1'>
       <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
       <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
-      <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      <xs:choice minOccurs='0' maxOccurs='1'>
+       <xs:element name='mn' type='xs:token'/>
+       <xs:element name='mi' type='PNNameInitialType'/>
+      </xs:choice>
       <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
      </xs:sequence>
     </xs:sequence>
@@ -188,13 +203,19 @@
      <xs:element name='pgn' type='xs:token' minOccurs='1' maxOccurs='1'/>
      <xs:element name='gn' type='xs:token' minOccurs='0' maxOccurs='1'/>
      <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
-     <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     <xs:choice minOccurs='0' maxOccurs='1'>
+      <xs:element name='mn' type='xs:token'/>
+      <xs:element name='mi' type='PNNameInitialType'/>
+     </xs:choice>
      <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
     </xs:sequence>
     <xs:sequence>  <!-- choice 3 -->
      <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
      <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
-     <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+     <xs:choice minOccurs='0' maxOccurs='1'>
+      <xs:element name='mn' type='xs:token'/>
+      <xs:element name='mi' type='PNNameInitialType'/>
+     </xs:choice>
      <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
     </xs:sequence>
    </xs:choice>
@@ -221,7 +242,10 @@
       <xs:sequence minOccurs='0' maxOccurs='1'>
        <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
        <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
-       <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+       <xs:choice minOccurs='0' maxOccurs='1'>
+        <xs:element name='mn' type='xs:token'/>
+        <xs:element name='mi' type='PNNameInitialType'/>
+       </xs:choice>
        <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
       </xs:sequence>
      </xs:sequence>
@@ -229,13 +253,19 @@
       <xs:element name='pgn' type='xs:token' minOccurs='1' maxOccurs='1'/>
       <xs:element name='gn' type='xs:token' minOccurs='0' maxOccurs='1'/>
       <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
-      <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      <xs:choice minOccurs='0' maxOccurs='1'>
+       <xs:element name='mn' type='xs:token'/>
+       <xs:element name='mi' type='PNNameInitialType'/>
+      </xs:choice>
       <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
      </xs:sequence>
      <xs:sequence>  <!-- choice 3 -->
       <xs:element name='gn' type='xs:token' minOccurs='1' maxOccurs='1'/>
       <xs:element name='nick' type='xs:token' minOccurs='0' maxOccurs='1'/>
-      <xs:element name='mn' type='xs:token' minOccurs='0' maxOccurs='1'/>
+      <xs:choice minOccurs='0' maxOccurs='1'>
+       <xs:element name='mn' type='xs:token'/>
+       <xs:element name='mi' type='PNNameInitialType'/>
+      </xs:choice>
       <xs:element name='fn' type='xs:token' minOccurs='0' maxOccurs='1'/>
      </xs:sequence>
     </xs:choice>
