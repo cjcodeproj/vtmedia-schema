@@ -105,7 +105,7 @@
    </xs:documentation>
   </xs:annotation>
   <xs:sequence>
-   <xs:group ref='AlbumSoundtrackGroup' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:group ref='AlbumSoundtrackGroup' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 

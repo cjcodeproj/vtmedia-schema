@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-178](https://github.com/cjcodeproj/vtmedia-schema/issues/178) Soundtrack data should be optional
  - [schema-41](https://github.com/cjcodeproj/vtmedia-schema/issues/41) Record for target audience
  - [schema-176](https://github.com/cjcodeproj/vtmedia-schema/issues/176) Adjust type CountryCodeType
  - [schema-175](https://github.com/cjcodeproj/vtmedia-schema/issues/175) Support for middle initial in name
