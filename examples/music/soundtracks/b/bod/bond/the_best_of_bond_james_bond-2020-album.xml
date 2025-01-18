@@ -1,0 +1,730 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-11-24 14:14:37.567734) -->
+ <title>The Best Of Bond... James Bond</title>
+ <catalog>
+  <artists>
+   <variousArtists/>
+  </artists>
+  <copyright>
+   <year>2020</year>
+   <holders>
+    <holder>UMG Recordings, Inc.</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack/>
+ </classification>
+ <elements>
+  <song id='jbt01'>
+   <title>
+    <main>James Bond Theme</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>John Barry Orchestra</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Monty</gn><fn>Norman</fn></composer>
+     <arranger><gn>John</gn><fn>Barry</fn></arranger>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Dr. No</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT1M47S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='frw01'>
+   <title>
+    <main>From Russia With Love</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Matt</gn><fn>Monro</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Lionel</gn><fn>Bart</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>From Russia With Love</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M32S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='g01'>
+   <title>
+    <main>Goldfinger</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Shirley</gn><fn>Bassey</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Anthony</gn><fn>Newley</fn></composer>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer><gn>Leslie</gn><fn>Bricusse</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Goldfinger</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M47S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='t01'>
+   <title>
+    <main>Thunderball</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Tom</gn><fn>Jones</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Don</gn><fn>Black</fn></composer>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Thunderball</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='yol01'>
+   <title>
+    <main>You Only Live Twice</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Nancy</gn><fn>Sinatra</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer><gn>Leslie</gn><fn>Bricusse</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>You Only Live Twice</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M44S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ohm01'>
+   <title>
+    <main>On Her Majesty's Secret Service</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>John Barry Orchestra</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>On Her Majesty's Secret Service</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M34S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wha01'>
+   <title>
+    <main>We Have All The Time In The World</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Louis</gn><fn>Armstrong</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer><gn>Hal</gn><fn>David</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>On Her Majesty's Secret Service</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='daf01'>
+   <title>
+    <main>Diamonds Are Forever</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Shirley</gn><fn>Bassey</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer><gn>Don</gn><fn>Black</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Diamonds Are Forever</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M40S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lal01'>
+   <title>
+    <main>Live And Let Die</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>Paul McCartney &amp; Wings</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Paul</gn><fn>McCartney</fn></composer>
+     <composer><gn>Linda</gn><fn>McCartney</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Live And Let Die</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M12S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tmw01'>
+   <title>
+    <main>The Man With The Golden Gun</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><pcn>Lulu</pcn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Don</gn><fn>Black</fn></composer>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>The Man With The Golden Gun</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M33S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ndi01'>
+   <title>
+    <main>Nobody Does It Better</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Carly</gn><fn>Simon</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Marvin</gn><fn>Hamlisch</fn></composer>
+     <composer><gn>Carole</gn><fn>Bayer Sager</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>The Spy Who Loved Me</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M28S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='m01'>
+   <title>
+    <main>Moonraker</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Shirley</gn><fn>Bassey</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer><gn>Hal</gn><fn>David</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Moonraker</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M7S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='fye01'>
+   <title>
+    <main>For Your Eyes Only</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Sheena</gn><fn>Easton</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Michael</gn><fn>Lesson</fn></composer>
+     <composer><gn>Bill</gn><fn>Conti</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>For Your Eyes Only</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M3S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ath01'>
+   <title>
+    <main>All Time High</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Rita</gn><fn>Coolidge</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer><gn>Tim</gn><fn>Rice</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Octopussy</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M2S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='vta01'>
+   <title>
+    <main>A View To A Kill</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>Duran Duran</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>Nick</gn><fn>Rhodes</fn></composer>
+     <composer><gn>Simon</gn><fn>Lebon</fn></composer>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer><gn>John</gn><fn>Taylor</fn></composer>
+     <composer><gn>Roger</gn><fn>Taylor</fn></composer>
+     <composer><gn>Andy</gn><fn>Taylor</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>A View To A Kill</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M34S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tld01'>
+   <title>
+    <main>The Living Daylights</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>a-ha</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer><gn>Pål</gn><fn>Waaktaar</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>The Living Daylights</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M13S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ltk01'>
+   <title>
+    <main>Licence To Kill</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Gladys</gn><fn>Knight</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Anthony</gn><fn>Newley</fn></composer>
+     <composer><gn>Jeffrey</gn><mi>A.</mi><fn>Cohen</fn></composer>
+     <composer><gn>Narada</gn><mn>Michael</mn><fn>Walden</fn></composer>
+     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer><gn>Walter</gn><fn>Afanasieff</fn></composer>
+     <composer><gn>Leslie</gn><fn>Bricusse</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>License To Kill</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M10S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='g02'>
+   <title>
+    <main>Goldeneye</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Tina</gn><fn>Turner</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>David</gn><fn>Evans</fn></composer>  <!-- the edge -->
+     <composer><gn>Paul</gn><fn>Hewson</fn></composer>  <!-- bono -->
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Goldeneye</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M28S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tnd01'>
+   <title>
+    <main>Tomorrow Never Dies</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Sheryl</gn><fn>Crow</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Mitchell</gn><fn>Froom</fn></composer>
+     <composer><gn>Sheryl</gn><fn>Crow</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Tomorrow Never Dies</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M51S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='twi01'>
+   <title>
+    <main>The World Is Not Enough</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><grp>Garbage</grp></artist>
+    </artists>
+    <composers>
+     <composer><gn>David</gn><fn>Arnold</fn></composer>
+     <composer><gn>Don</gn><fn>Black</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>The World Is Not Enough</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M57S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dad01'>
+   <title>
+    <main>Die Another Day</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><pcn>Madonna</pcn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Mirwais</gn><fn>Ahmadzaï</fn></composer>
+     <composer><pcn>Madonna</pcn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Die Another Day</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M36S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ykm01'>
+   <title>
+    <main>You Know My Name</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Chris</gn><fn>Cornell</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>David</gn><fn>Arnold</fn></composer>
+     <composer><gn>Chris</gn><fn>Cornell</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Casino Royale</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M0S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='awt01'>
+   <title>
+    <main>Another Way To Die</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Alicia</gn><fn>Keys</fn></artist>
+     <artist><gn>Jack</gn><fn>White</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Jack</gn><fn>White</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Quantum Of Solace</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M23S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='s01'>
+   <title>
+    <main>Skyfall</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><pcn>Adele</pcn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Adele</gn><fn>Adkins</fn></composer>
+     <composer><gn>Paul</gn><fn>Epworth</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Skyfall</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M46S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wot01'>
+   <title>
+    <main>Writing's On The Wall</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Sam</gn><fn>Smith</fn></artist>
+    </artists>
+    <composers>
+     <composer><gn>Sam</gn><fn>Smith</fn></composer>
+     <composer><gn>James</gn><fn>Napier</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>Spectre</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M39S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ntt01'>
+   <title>
+    <main>No Time To Die</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Billie</gn><fn>Eilish</fn></artist>
+    </artists>
+    <composers>
+     <composer><pcn>Finneas</pcn></composer>
+     <composer><gn>Billie</gn><fn>Eilish</fn></composer>
+    </composers>
+   </catalog>
+   <classification>
+    <soundtrack>
+     <movie>
+      <title>No Time To Die</title>
+     </movie>
+    </soundtrack>
+   </classification>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M2S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

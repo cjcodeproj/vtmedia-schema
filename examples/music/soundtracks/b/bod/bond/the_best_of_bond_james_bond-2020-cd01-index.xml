@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<cdIndex ref='cd01' xmlns='http://vectortron.com/xml/media/media'>
+ <!-- created by id3scan (2024-11-24 14:14:37.566809) -->
+ <track no='1'>
+  <index no='01'>
+   <content ref='jbt01'/>
+  </index>
+ </track>
+ <track no='2'>
+  <index no='01'>
+   <content ref='frw01'/>
+  </index>
+ </track>
+ <track no='3'>
+  <index no='01'>
+   <content ref='g01'/>
+  </index>
+ </track>
+ <track no='4'>
+  <index no='01'>
+   <content ref='t01'/>
+  </index>
+ </track>
+ <track no='5'>
+  <index no='01'>
+   <content ref='yol01'/>
+  </index>
+ </track>
+ <track no='6'>
+  <index no='01'>
+   <content ref='ohm01'/>
+  </index>
+ </track>
+ <track no='7'>
+  <index no='01'>
+   <content ref='wha01'/>
+  </index>
+ </track>
+ <track no='8'>
+  <index no='01'>
+   <content ref='daf01'/>
+  </index>
+ </track>
+ <track no='9'>
+  <index no='01'>
+   <content ref='lal01'/>
+  </index>
+ </track>
+ <track no='10'>
+  <index no='01'>
+   <content ref='tmw01'/>
+  </index>
+ </track>
+ <track no='11'>
+  <index no='01'>
+   <content ref='ndi01'/>
+  </index>
+ </track>
+ <track no='12'>
+  <index no='01'>
+   <content ref='m01'/>
+  </index>
+ </track>
+ <track no='13'>
+  <index no='01'>
+   <content ref='fye01'/>
+  </index>
+ </track>
+ <track no='14'>
+  <index no='01'>
+   <content ref='ath01'/>
+  </index>
+ </track>
+</cdIndex>
