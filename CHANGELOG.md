@@ -2,11 +2,13 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-138](https://github.com/cjcodeproj/vtmedia-schema/issues/138) Music: tribute element could identify artist
  - [schema-178](https://github.com/cjcodeproj/vtmedia-schema/issues/178) Soundtrack data should be optional
  - [schema-41](https://github.com/cjcodeproj/vtmedia-schema/issues/41) Record for target audience
  - [schema-176](https://github.com/cjcodeproj/vtmedia-schema/issues/176) Adjust type CountryCodeType
  - [schema-175](https://github.com/cjcodeproj/vtmedia-schema/issues/175) Support for middle initial in name
  - [schema-170](https://github.com/cjcodeproj/vtmedia-schema/issues/170) Markdown/HTML list of movies
+
  
 ## RELEASE 2024.09
  - [schema-162](https://github.com/cjcodeproj/vtmedia-schema/issues/162) Release 2024.09
