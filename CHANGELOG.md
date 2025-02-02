@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-177](https://github.com/cjcodeproj/vtmedia-schema/issues/177) Songs: separate schema file
  - [schema-138](https://github.com/cjcodeproj/vtmedia-schema/issues/138) Music: tribute element could identify artist
  - [schema-178](https://github.com/cjcodeproj/vtmedia-schema/issues/178) Soundtrack data should be optional
  - [schema-41](https://github.com/cjcodeproj/vtmedia-schema/issues/41) Record for target audience
