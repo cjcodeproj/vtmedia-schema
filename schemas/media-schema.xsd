@@ -24,7 +24,7 @@
   </xs:documentation>
  </xs:annotation>
 
- <xs:include schemaLocation='vtm-mod-media-inventory.xsd'/>
+ <xs:include schemaLocation='vtm-mod-medium.xsd'/>
  <xs:include schemaLocation='vtm-mod-library.xsd'/>
  <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
  <xs:include schemaLocation='vtm-mod-index.xsd'/>
