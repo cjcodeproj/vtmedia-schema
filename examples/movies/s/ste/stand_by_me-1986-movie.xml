@@ -46,6 +46,16 @@
       of getting fame from the discovery.  Along the way they contemplate their futures and what's going to happen
       to them when they grow up.
      </plot>
+     <settings>
+      <primary>
+       <where>
+        <fictionalPlace><ci>Castle Rock</ci><st abbrv='OR'>Oregon</st></fictionalPlace>
+       </where>
+       <when>
+        <year>1959</year>
+       </when>
+      </primary>
+     </settings>
      <keywords>
       <generic>dead body</generic>
       <generic>train</generic>

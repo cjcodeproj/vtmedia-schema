@@ -8,6 +8,9 @@
        <holder>Warner Bros.</holder>
       </holders>
      </copyright>
+     <extRefs xmlns:xlink='http://www.w3.org/1999/xlink'>
+      <website xlink:href='https://catalog.afi.com/Film/59627-THE-PELICANBRIEF' xlink:title='AFI'/>
+     </extRefs>
     </catalog>
     <classification>
      <category><fiction/></category>
@@ -42,19 +45,49 @@
     </technical>
     <story>
      <plot>
+      A law student develops a working theory behind the assassination of two
+      Supreme Court justices, and suddenly finds herself hunted down by 
+      the actual assasin.  Meanwhile, a Washington news reporter investigates
+      a whistleblower who may also have information on the same events.
      </plot>
+     <settings>
+      <primary>
+       <where>
+        <place><ci>New Orleans</ci><st abbrv='LA'>Louisiana</st></place>
+       </where>
+       <when>
+        <contemporary/>
+       </when>
+      </primary>
+      <secondary>
+       <where>
+        <place><ci>Washngton</ci><st abbrv='DC'>District Of Columbia</st></place>
+       </where>
+      </secondary>
+     </settings>
      <keywords>
-      <generic> </generic>
-      <generic> </generic>
-      <generic> </generic>
       <group>
-       <generic> </generic>
-       <generic> </generic>
+       <generic>law school</generic>
+       <properNoun><place><name>Tulane University</name><ci>New Orelans</ci><st abbrv='LA'>Louisiana</st></place></properNoun>
+       <generic>research paper</generic>
+       <generic>student</generic>
+       <generic>teacher</generic>
+      </group>
+      <group>
+       <generic>hired assassin</generic>
+       <generic>conspirary</generic>
+       <generic>murder</generic>
+      </group>
+      <group>
+       <generic>newspaper reporter</generic>
+      </group>
+      <group>
+       <properNoun><entity>Supreme Court Of The United States</entity></properNoun>
+       <properNoun><entity acronym='FBI'>Federal Bureau Of Investigation</entity></properNoun>
       </group>
      </keywords>
      <themes>
-      <theme> </theme>
-      <theme> </theme>
+      <theme>corruption</theme>
      </themes>
     </story>
     <crew>

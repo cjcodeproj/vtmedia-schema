@@ -49,6 +49,16 @@
       way they try to deal with their unresolved issues and management blowback, while their heroic effort is
       chronicled by the local news.
      </plot>
+     <settings>
+      <primary>
+       <where>
+        <place><st abbrv='PA'>Pennsylvania</st></place>
+       </where>
+       <when>
+        <contemporary/>
+       </when>
+      </primary>
+     </settings>
      <keywords>
       <generic>train</generic>
       <generic>runaway train</generic>
