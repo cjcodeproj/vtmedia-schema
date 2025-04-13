@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-183](https://github.com/cjcodeproj/vtmedia-schema/issues/183) Settings, Time: Simple year values
  - [schema-126](https://github.com/cjcodeproj/vtmedia-schema/issues/126) Inventory schema file is huge
  - [schema-177](https://github.com/cjcodeproj/vtmedia-schema/issues/177) Songs: separate schema file
  - [schema-138](https://github.com/cjcodeproj/vtmedia-schema/issues/138) Music: tribute element could identify artist

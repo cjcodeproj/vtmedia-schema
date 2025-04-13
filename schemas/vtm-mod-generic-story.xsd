@@ -4,7 +4,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2024, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -48,6 +48,7 @@
   </xs:annotation>
   <xs:sequence>
    <xs:element name='where' type='SettingWhereType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='when' type='SettingWhenType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 
@@ -61,6 +62,38 @@
    <xs:element name='place' type='PNPlaceType'/>
    <xs:element name='fictionalPlace' type='PNPlaceType'/>
   </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='SettingWhenType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element describing a time aspect of a setting.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='year' type='xs:gYear'/>
+   <xs:element name='contemporary' type='SettingWhenContemporary'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='SettingWhenContemporary'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Contemporary describes a setting that matches the
+    time the film was produced and/or released.
+
+    For example, "The Sugarland Express" was released
+    in 1974, and the setting of the film roughly
+    matches that.  There is no explicit declaration
+    of when the film takes place, so the element
+    suggests that the film took place roughly
+    around the same time it was made.
+
+    Whereas a film like "Stand By Me" was made
+    in 1986, but the story is set in the year 1959,
+    so the element would not apply in that case.
+   </xs:documentation>
+  </xs:annotation>
  </xs:complexType>
 
 </xs:schema>
