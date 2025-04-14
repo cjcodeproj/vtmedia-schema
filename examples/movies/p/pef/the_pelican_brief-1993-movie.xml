@@ -8,6 +8,9 @@
        <holder>Warner Bros.</holder>
       </holders>
      </copyright>
+     <countryOfOrigin>
+      <primary code='US'/>
+     </countryOfOrigin>
      <extRefs xmlns:xlink='http://www.w3.org/1999/xlink'>
       <website xlink:href='https://catalog.afi.com/Film/59627-THE-PELICANBRIEF' xlink:title='AFI'/>
      </extRefs>
@@ -46,7 +49,7 @@
     <story>
      <plot>
       A law student develops a working theory behind the assassination of two
-      Supreme Court justices, and suddenly finds herself hunted down by 
+      Supreme Court justices, and suddenly finds herself hunted down by
       the actual assasin.  Meanwhile, a Washington news reporter investigates
       a whistleblower who may also have information on the same events.
      </plot>
