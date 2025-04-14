@@ -126,6 +126,33 @@
   </xs:sequence>
  </xs:complexType>
 
+ <xs:complexType name='OriginCountryValueType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Supports the name of a country value, with an required ISO country code.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='code' type='CountryCodeType' use='required'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='CountryOriginType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Country of origin for a work of art, which could be
+    one primary country, or multiple countries.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='primary' type='OriginCountryValueType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='secondary' type='OriginCountryValueType' minOccurs='0' maxOccurs='5'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
  <xs:complexType name='UniqueConstraintIndexType'>
   <xs:annotation>
    <xs:documentation>
@@ -177,6 +204,7 @@
    <xs:element name='altTitles' type='CatTitlesType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='authors' type='CatAuthorType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='copyright' type='CopyrightType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='countryOfOrigin' type='CountryOriginType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='ucIndex' type='UniqueConstraintIndexType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='extRefs' type='CatExtRefType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
