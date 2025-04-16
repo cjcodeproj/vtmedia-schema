@@ -2,6 +2,7 @@ vtmedia-schema CHANGELOG
 =========================
 
 ## CURRENT
+ - [schema-184](https://github.com/cjcodeproj/vtmedia-schema/issues/184) Contents should be optional
  - [schema-171](https://github.com/cjcodeproj/vtmedia-schema/issues/171) Country Of Origin element
  - [schema-183](https://github.com/cjcodeproj/vtmedia-schema/issues/183) Settings, Time: Simple year values
  - [schema-126](https://github.com/cjcodeproj/vtmedia-schema/issues/126) Inventory schema file is huge
