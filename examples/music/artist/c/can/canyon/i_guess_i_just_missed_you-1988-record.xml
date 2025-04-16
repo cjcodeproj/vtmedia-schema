@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>I Guess I Just Missed You</main>
+  </title>
+  <medium>
+   <release>
+    <type><record/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <jacket>
+      <record id='vr01'/>
+     </jacket>
+    </inventory>
+   </productSpecs>
+  </medium>
+ </media>
+</medialist>
