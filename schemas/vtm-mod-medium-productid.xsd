@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2025, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   Module for handling identification marks for physical media, like barcodes, or
+   stock keep unit values.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   <component>
+    <name>mediaschema/media/medium/productid</name>
+   </component>
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='NoBarcodeType'>
+ </xs:complexType>
+
+ <xs:complexType name='BarcodeType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element designed to carry a barcode valye, along with
+    an attribute identifying the type of barcode, such as
+    UPC or ISBN.  Also includes a scanlines attribute
+    to signify numerical values that don't actually have
+    a barcode on the packaging.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:string'>
+    <xs:attribute name='type' type='xs:string' use='optional'/>
+    <xs:attribute name='scanlines' type='xs:boolean' default='true' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='SkuType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Product identification codes specific to retailers
+    for tracking inventory.  Sometimes the code is findable
+    on the product price tag, the receipt, or on the
+    website of the retailer.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:string'>
+    <xs:attribute name='retailer' type='xs:string' use='optional'/>
+    <xs:attribute name='type' type='xs:string' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='OtherIdType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    System used for other identifying values that
+    may be present on the packaging.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='name' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='value' type='xs:token' minOccurs='1' maxOccurs='5'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='ProductIdType'>
+   <xs:sequence>
+    <xs:choice minOccurs='1'>
+     <xs:element name='nobarcodes' type='NoBarcodeType' maxOccurs='1'/>
+     <xs:element name='barcode' type='BarcodeType' maxOccurs='unbounded'/>
+    </xs:choice>
+    <xs:element name='sku' type='SkuType' minOccurs='0' maxOccurs='unbounded'/>
+    <xs:element name='other' type='OtherIdType' minOccurs='0' maxOccurs='unbounded'/>
+   </xs:sequence>
+ </xs:complexType>
+
+</xs:schema>

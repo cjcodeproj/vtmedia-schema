@@ -115,6 +115,18 @@
       <theme>truth seeking</theme>
      </themes>
     </story>
+    <analysis>
+     <extra name='sci-fi elements'>
+      <scifi xmlns='urn:scifi-elements'>
+       <primaryElements>
+        <firstContact/>
+        <wormholes/>
+        <fasterThanLightTravel/>
+        <alienLanguage/>
+       </primaryElements>
+      </scifi>
+     </extra>
+    </analysis>
     <crew>
      <directors>
       <director><gn>Robert</gn><fn>Zemeckis</fn></director>

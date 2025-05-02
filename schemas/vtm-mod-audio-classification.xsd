@@ -4,7 +4,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2024, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -17,6 +17,8 @@
     Mountain View, CA 94042, USA.
   </xs:documentation>
  </xs:annotation>
+
+ <xs:include schemaLocation='vtm-mod-generic-crew-types.xsd'/>
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
@@ -64,6 +66,17 @@
   </xs:annotation>
  </xs:complexType>
 
+ <xs:complexType name='AlbumTributeCompilationType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A tribute album typically contains covers of
+    songs from a single artist.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='to' type='CrewPersonOrGroupType' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
 
  <xs:complexType name='SoundtrackSourceType'>
   <xs:annotation>
@@ -105,7 +118,7 @@
    </xs:documentation>
   </xs:annotation>
   <xs:sequence>
-   <xs:group ref='AlbumSoundtrackGroup' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:group ref='AlbumSoundtrackGroup' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 

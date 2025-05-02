@@ -2,7 +2,7 @@
 # Makefile
 # 
 
-#    Copyright 2024, Chris Josephes
+#    Copyright 2025, Chris Josephes
 #
 #    This work is licensed under the Creative Commons Attribution-ShareAlike
 #    4.0 International License.
@@ -36,10 +36,13 @@ FILES= $(SD)/media-schema.xsd \
 	$(SD)/vtm-content-test.xsd \
 	$(SD)/vtm-content-written.xsd \
 	$(SD)/vtm-meta-authorship.xsd \
+	$(SD)/vtm-mod-all-analysis.xsd \
 	$(SD)/vtm-mod-all-catalog.xsd \
+	$(SD)/vtm-mod-all-classification.xsd \
 	$(SD)/vtm-mod-audio-catalog.xsd \
 	$(SD)/vtm-mod-audio-classification.xsd \
 	$(SD)/vtm-mod-audio-elements.xsd \
+	$(SD)/vtm-mod-audio-elements-song.xsd \
 	$(SD)/vtm-mod-audio-technical.xsd \
 	$(SD)/vtm-mod-generic-crew-types.xsd \
 	$(SD)/vtm-mod-generic-pnouns-keywords.xsd \
@@ -49,7 +52,10 @@ FILES= $(SD)/media-schema.xsd \
 	$(SD)/vtm-mod-index-video.xsd \
 	$(SD)/vtm-mod-index.xsd \
 	$(SD)/vtm-mod-library.xsd \
-	$(SD)/vtm-mod-media-inventory.xsd \
+	$(SD)/vtm-mod-medium.xsd \
+	$(SD)/vtm-mod-medium-release.xsd \
+	$(SD)/vtm-mod-medium-productid.xsd \
+	$(SD)/vtm-mod-medium-pspecs.xsd \
 	$(SD)/vtm-mod-visual-classification.xsd \
 	$(SD)/vtm-mod-visual-crew-roles.xsd \
 	$(SD)/vtm-mod-visual-crew-writers.xsd \

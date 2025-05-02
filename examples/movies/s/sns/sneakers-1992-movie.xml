@@ -8,6 +8,9 @@
        <holder>Universal City Studios, Inc.</holder>
       </holders>
      </copyright>
+     <countryOfOrigin>
+      <primary code='US'>United States of America</primary>
+     </countryOfOrigin>
     </catalog>
     <classification>
      <category><fiction/></category>
@@ -47,6 +50,16 @@
       client is actually an old friend who wants the device to protect his own interests, while embarking on a quest
       to change the balance of power.
      </plot>
+     <settings>
+      <primary>
+       <where>
+        <place><ci>San Francisco</ci><st abbrv='CA'>California</st></place>
+       </where>
+       <when>
+        <contemporary/>
+       </when>
+      </primary>
+     </settings>
      <keywords>
       <generic>changed identity</generic>
       <generic>answering machine</generic>

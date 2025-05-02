@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2025, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Generic analysis elements, suitable for either
+    visual, audio, or print media.
+
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:complexType name='ExtraType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Free-form XML content.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:any minOccurs='1' maxOccurs='unbounded' processContents='lax'/>
+  </xs:sequence>
+  <xs:attribute name='name' type='xs:token' use='optional'/>
+ </xs:complexType>
+
+ <xs:complexType name='AnalysisType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Analytical information about the given content.
+    Content that does not originate from the development
+    of the content, but how it's interpreted.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='extra' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+</xs:schema>

@@ -1,6 +1,23 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## RELEASE 2025.05
+
+ - [schema-185](https://github.com/cjcodeproj/vtmedia-schema/issues/185) Release 2025.05
+ - [schema-113](https://github.com/cjcodeproj/vtmedia-schema/issues/113) Analysis element under movie
+ - [schema-184](https://github.com/cjcodeproj/vtmedia-schema/issues/184) Contents should be optional
+ - [schema-171](https://github.com/cjcodeproj/vtmedia-schema/issues/171) Country Of Origin element
+ - [schema-183](https://github.com/cjcodeproj/vtmedia-schema/issues/183) Settings, Time: Simple year values
+ - [schema-126](https://github.com/cjcodeproj/vtmedia-schema/issues/126) Inventory schema file is huge
+ - [schema-177](https://github.com/cjcodeproj/vtmedia-schema/issues/177) Songs: separate schema file
+ - [schema-138](https://github.com/cjcodeproj/vtmedia-schema/issues/138) Music: tribute element could identify artist
+ - [schema-178](https://github.com/cjcodeproj/vtmedia-schema/issues/178) Soundtrack data should be optional
+ - [schema-41](https://github.com/cjcodeproj/vtmedia-schema/issues/41) Record for target audience
+ - [schema-176](https://github.com/cjcodeproj/vtmedia-schema/issues/176) Adjust type CountryCodeType
+ - [schema-175](https://github.com/cjcodeproj/vtmedia-schema/issues/175) Support for middle initial in name
+ - [schema-170](https://github.com/cjcodeproj/vtmedia-schema/issues/170) Markdown/HTML list of movies
+
+ 
 ## RELEASE 2024.09
  - [schema-162](https://github.com/cjcodeproj/vtmedia-schema/issues/162) Release 2024.09
  - [schema-129](https://github.com/cjcodeproj/vtmedia-schema/issues/129) More music examples

@@ -10,7 +10,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2024, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -24,7 +24,7 @@
   </xs:documentation>
  </xs:annotation>
 
- <xs:include schemaLocation='vtm-mod-media-inventory.xsd'/>
+ <xs:include schemaLocation='vtm-mod-medium.xsd'/>
  <xs:include schemaLocation='vtm-mod-library.xsd'/>
  <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
  <xs:include schemaLocation='vtm-mod-index.xsd'/>
@@ -62,13 +62,23 @@
  </xs:complexType>
 
  <xs:complexType name='MediaType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Main element structure.
+   </xs:documentation>
+  </xs:annotation>
   <xs:sequence>
    <xs:element ref='author:authorshipRecord' minOccurs='0' maxOccurs='1'/>
    <xs:element name='title' type='TitleType' minOccurs='1'/>
    <xs:element name='library' type='LibraryType' minOccurs='0'/>
    <xs:element name='medium' type='MediumType' minOccurs='1'/>
-   <xs:element name='index' type='IndexType' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='contents' type='ContentsType' minOccurs='1'/>
+   <xs:choice minOccurs='0' maxOccurs='1'>
+    <xs:sequence>
+     <xs:element name='index' type='IndexType' minOccurs='1' maxOccurs='1'/>
+     <xs:element name='contents' type='ContentsType' minOccurs='1' maxOccurs='1'/>
+    </xs:sequence>
+    <xs:element name='contents' type='ContentsType' minOccurs='1' maxOccurs='1'/>
+   </xs:choice>
   </xs:sequence>
  </xs:complexType>
 

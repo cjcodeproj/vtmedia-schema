@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2025, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:include schemaLocation='vtm-mod-medium-release.xsd'/>
+ <xs:include schemaLocation='vtm-mod-medium-productid.xsd'/>
+ <xs:include schemaLocation='vtm-mod-medium-pspecs.xsd'/>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   Module for product inventory of physical media, and physical dimensions.
+   Containing elements contain details on publisher, release date, dimensions and inventory.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   <component>
+    <name>mediaschema/media/medium</name>
+   </component>
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='MediumType'>
+  <xs:sequence>
+   <xs:element name='release' type='ReleaseType' minOccurs='0'/>
+   <xs:element name='productId' type='ProductIdType' minOccurs='0'/>
+   <xs:element name='productSpecs' type='ProductSpecsType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+</xs:schema>

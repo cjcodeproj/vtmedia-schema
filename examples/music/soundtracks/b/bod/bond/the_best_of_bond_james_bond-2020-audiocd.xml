@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3scan (2024-11-24 14:14:37.566386) -->
+ <media>
+  <title>
+   <main>The Best Of Bond... James Bond</main>
+  </title>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>602508731099</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+      <cd id='cd02'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='the_best_of_bond_james_bond-2020-cd01-index.xml'/>
+   <xi:include href='the_best_of_bond_james_bond-2020-cd02-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='the_best_of_bond_james_bond-2020-album.xml'/>
+  </contents>
+ </media>
+</medialist>

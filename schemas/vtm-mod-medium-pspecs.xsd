@@ -4,7 +4,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2024, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -25,34 +25,18 @@
   </xs:documentation>
  </xs:annotation>
 
- <xs:complexType name='ProductType'>
-  <xs:sequence>
-   <xs:group ref='ProductTypeGroup' minOccurs='1' maxOccurs='1'/>
-  </xs:sequence>
- </xs:complexType>
-
- <xs:complexType name='SingleProductType'>
- </xs:complexType>
-
- <xs:group name='ProductTypeGroup'>
-  <xs:choice>
-   <xs:element name='audiocd' type='SingleProductType'/>
-   <xs:element name='casette' type='SingleProductType'/>
-   <xs:element name='record' type='SingleProductType'/>
-   <xs:element name='dvd' type='SingleProductType'/>
-   <xs:element name='bluray' type='SingleProductType'/>
-   <xs:element name='bluray3d' type='SingleProductType'/>
-   <xs:element name='hddvd' type='SingleProductType'/>
-   <xs:element name='ultrahd' type='SingleProductType'/>
-   <xs:element name='vhs' type='SingleProductType'/>
-   <xs:element name='beta' type='SingleProductType'/>
-  </xs:choice>
- </xs:group>
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   <component>
+    <name>mediaschema/media/medium/productspecs</name>
+   </component>
+  </xs:documentation>
+ </xs:annotation>
 
  <xs:complexType name='PIVideoDiskType'>
   <xs:attribute name='id' type='xs:NCName' use='optional'/>
   <xs:attribute name='type' type='xs:token' use='optional'/>
-  <xs:attribute name='diometer' type='xs:float' use='optional'/>
+  <xs:attribute name='diameter' type='xs:float' use='optional'/>
  </xs:complexType>
 
  <xs:complexType name='PIVideoTapeType'>
@@ -455,61 +439,5 @@
    <xs:element name='inventory' type='ProductInventoryType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
-
- <xs:complexType name='ReleaseType'>
-  <xs:sequence>
-   <xs:element name='type' type='ProductType' minOccurs='1' maxOccurs='1'/>
-   <xs:element name='releaseDate' type='xs:date' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='publisher' type='xs:token' minOccurs='0' maxOccurs='1'/>
-  </xs:sequence>
- </xs:complexType>
-
- <xs:complexType name='MediumType'>
-  <xs:sequence>
-   <xs:element name='release' type='ReleaseType' minOccurs='0'/>
-   <xs:element name='productId' type='ProductIdType' minOccurs='0'/>
-   <xs:element name='productSpecs' type='ProductSpecsType' minOccurs='0' maxOccurs='1'/>
-  </xs:sequence>
- </xs:complexType>
-
- <xs:complexType name='NoBarcodeType'>
- </xs:complexType>
-
- <xs:complexType name='BarcodeType'>
-  <xs:simpleContent>
-   <xs:extension base='xs:string'>
-    <xs:attribute name='type' type='xs:string' use='optional'/>
-    <xs:attribute name='scanlines' type='xs:boolean' default='true' use='optional'/>
-   </xs:extension>
-  </xs:simpleContent>
- </xs:complexType>
-
- <xs:complexType name='SkuType'>
-  <xs:simpleContent>
-   <xs:extension base='xs:string'>
-    <xs:attribute name='retailer' type='xs:string' use='optional'/>
-    <xs:attribute name='type' type='xs:string' use='optional'/>
-   </xs:extension>
-  </xs:simpleContent>
- </xs:complexType>
-
- <xs:complexType name='OtherIdType'>
-  <xs:sequence>
-   <xs:element name='name' type='xs:token' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='value' type='xs:token' minOccurs='1' maxOccurs='5'/>
-  </xs:sequence>
- </xs:complexType>
-
- <xs:complexType name='ProductIdType'>
-   <xs:sequence>
-    <xs:choice minOccurs='1'>
-     <xs:element name='nobarcodes' type='NoBarcodeType' maxOccurs='1'/>
-     <xs:element name='barcode' type='BarcodeType' maxOccurs='unbounded'/>
-    </xs:choice>
-    <xs:element name='sku' type='SkuType' minOccurs='0' maxOccurs='unbounded'/>
-    <xs:element name='other' type='OtherIdType' minOccurs='0' maxOccurs='unbounded'/>
-   </xs:sequence>
- </xs:complexType>
-
 
 </xs:schema>

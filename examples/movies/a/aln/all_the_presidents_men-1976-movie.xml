@@ -13,7 +13,8 @@
       </holders>
       <registrationNo>LP46111</registrationNo>
      </copyright>
-     <extRefs>
+     <extRefs xmlns:xlink='http://www.w3.org/1999/xlink'>
+      <website xlink:href='https://catalog.afi.com/Film/53913-ALL-THEPRESIDENTSMEN' xlink:title='AFI'/>
       <libraryRecord>
        <library>Library Of Congress</library>
        <catalogNo type='lccn'>2002637909</catalogNo>
@@ -50,6 +51,16 @@
      <plot>
        Two news reporters investigate the Watergate burglary and discover a conspiracy leading all the way to the President Of The United States.
      </plot>
+     <settings>
+      <primary>
+       <where>
+        <place><ci>Washington</ci><st abbrv='DC'>District Of Columbia</st></place>
+       </where>
+       <when>
+        <contemporary/>  <!-- there is a specific year range -->
+       </when>
+      </primary>
+     </settings>
      <keywords>
       <properNoun><thing>The Washington Post</thing></properNoun>
       <properNoun><place><name>Watergate Hotel</name></place></properNoun>

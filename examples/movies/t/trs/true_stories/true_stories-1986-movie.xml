@@ -36,6 +36,9 @@
        <where>
         <fictionalPlace><ci>Virgil</ci><st abbrv='TX'>Texas</st></fictionalPlace>
        </where>
+       <when>
+        <contemporary/>
+       </when>
       </primary>
      </settings>
      <keywords>

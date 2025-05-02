@@ -20,50 +20,50 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Classification music for audio media.
-
-    Describes the genre of the media, associations with
-    other media, and other information.
+    Songs: Description information for song elements
   </xs:documentation>
  </xs:annotation>
 
- <xs:include schemaLocation='vtm-mod-generic-crew-types.xsd'/>
+ <!-- <xs:include schemaLocation='vtm-mod-generic-crew-types.xsd'/> -->
  <xs:include schemaLocation='vtm-mod-audio-catalog.xsd'/>
  <xs:include schemaLocation='vtm-mod-audio-classification.xsd'/>
  <xs:include schemaLocation='vtm-mod-audio-technical.xsd'/>
- <xs:include schemaLocation='vtm-mod-audio-elements-song.xsd'/>
 
- <xs:complexType name='AudioDialogueType'>  <!-- dialogue -->
+
+ <xs:complexType name='AudioContentSongTitleType'>   <!-- song -->
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
-    Primary element representing dialogue.
+    The title of a song.
+
+    Supports structured elements to handle things
+    like mixes or variants.
+
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='main' type='xs:token' minOccurs='1' maxOccurs='1'/>
+   <!-- future variant element (later) -->
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:attributeGroup name='ElementAttributeGroup'>
+  <xs:attribute name='id' type='xs:NCName' use='required'/>
+ </xs:attributeGroup>
+
+ <xs:complexType name='AudioSongType'>  <!-- song -->
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Primary element for the song type.
    </xs:documentation>
   </xs:annotation>
   <xs:sequence>
    <xs:element name='title' type='AudioContentSongTitleType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='catalog' type='AudioSongCatalogType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='classification' type='AudioSongClassificationType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='technical' type='AudioTechnicalType' minOccurs='1' maxOccurs='1'/>
+   <!-- performance element goes here (later) -->
   </xs:sequence>
   <xs:attributeGroup ref='ElementAttributeGroup'/>
- </xs:complexType>
-
-
- <xs:group name='AudioElementContentGroup'>  <!-- album level -->
-  <xs:choice>
-   <xs:element name='song' type='AudioSongType'/>
-   <xs:element name='dialogue' type='AudioDialogueType'/>
-  </xs:choice>
- </xs:group>
-
- <xs:complexType name='AudioAlbumElementsType'>  <!-- album level -->
-  <xs:annotation>
-   <xs:documentation xml:lang='en-US'>
-    Element structure for holding songs or dialogue clips.
-   </xs:documentation>
-  </xs:annotation>
-  <xs:sequence>
-   <xs:group ref='AudioElementContentGroup' minOccurs='1' maxOccurs='unbounded'/>
-  </xs:sequence>
  </xs:complexType>
 
 </xs:schema>

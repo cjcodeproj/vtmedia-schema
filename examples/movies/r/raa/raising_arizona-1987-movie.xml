@@ -48,6 +48,9 @@
        <where>
         <place><ci>Tempe</ci><st abbrv='AZ'>Arizona</st></place>
        </where>
+       <when>
+        <contemporary/>
+       </when>
       </primary>
      </settings>
      <keywords>

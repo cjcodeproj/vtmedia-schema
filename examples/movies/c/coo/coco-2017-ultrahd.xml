@@ -46,6 +46,11 @@
       <secondary>Comedy</secondary>
       <specific>Meeting Ghosts</specific>
      </genres>
+     <intendedAudience>
+      <kids/>
+      <kids/>
+      <families/>
+     </intendedAudience>
      <certifications>
       <certificate ref='51192'>
        <rating code='PG'>Parental Guidance Suggested</rating>
