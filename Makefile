@@ -2,7 +2,7 @@
 # Makefile
 # 
 
-#    Copyright 2024, Chris Josephes
+#    Copyright 2025, Chris Josephes
 #
 #    This work is licensed under the Creative Commons Attribution-ShareAlike
 #    4.0 International License.
@@ -36,6 +36,7 @@ FILES= $(SD)/media-schema.xsd \
 	$(SD)/vtm-content-test.xsd \
 	$(SD)/vtm-content-written.xsd \
 	$(SD)/vtm-meta-authorship.xsd \
+	$(SD)/vtm-mod-all-analysis.xsd \
 	$(SD)/vtm-mod-all-catalog.xsd \
 	$(SD)/vtm-mod-all-classification.xsd \
 	$(SD)/vtm-mod-audio-catalog.xsd \

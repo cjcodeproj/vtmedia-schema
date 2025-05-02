@@ -5,7 +5,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -19,6 +19,7 @@
   </xs:documentation>
  </xs:annotation>
 
+ <xs:include schemaLocation='vtm-mod-all-analysis.xsd'/>
  <xs:include schemaLocation='vtm-mod-all-catalog.xsd'/>
  <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
  <xs:include schemaLocation='vtm-mod-visual-technical.xsd'/>
@@ -43,6 +44,7 @@
     <xs:element name='description' type='StoryType' minOccurs='0' maxOccurs='1'/>
     <xs:element name='story' type='StoryType' minOccurs='0' maxOccurs='1'/>
    </xs:choice>
+   <xs:element name='analysis' type='AnalysisType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='crew' type='CrewType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
   <xs:attributeGroup ref='ContentAttributeGroup'/>

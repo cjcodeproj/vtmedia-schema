@@ -40,6 +40,16 @@
       With a jaded <kw>real estate agent</kw> to help him, he plans his revenge and the opportunity to cash in
       using the score his targets are after.
      </plot>
+     <settings>
+      <primary>
+       <where>
+        <place><ci>Palm Springs</ci><st abbrv='FL'>Florida</st></place>
+       </where>
+       <when>
+        <contemporary/>
+       </when>
+      </primary>
+     </settings>
      <keywords>
       <generic>criminal gang</generic>
       <generic>heist</generic>
@@ -52,6 +62,28 @@
       <theme></theme>
      </themes>
     </story>
+    <analysis>
+     <extra>
+      <motivations xmlns='urn:motivations-example'>
+       <protagonists>
+        <character>
+         <name><fn>Parker</fn></name>
+         <revenge/>
+        </character>
+        <character>
+         <name><gn>Leslie</gn><fn>Rodgers</fn></name>
+         <financialIndependence/>
+        </character>
+       </protagonists>
+       <antagonists>
+        <character>
+         <name><fn>Melander</fn></name>
+         <profit/>
+        </character>
+       </antagonists>
+      </motivations>
+     </extra>
+    </analysis>
     <crew>
      <directors>
       <director><gn>Taylor</gn><fn>Hackford</fn></director>
