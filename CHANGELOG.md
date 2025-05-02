@@ -1,7 +1,9 @@
 vtmedia-schema CHANGELOG
 =========================
 
-## CURRENT
+## RELEASE 2025.05
+
+ - [schema-185](https://github.com/cjcodeproj/vtmedia-schema/issues/185) Release 2025.05
  - [schema-113](https://github.com/cjcodeproj/vtmedia-schema/issues/113) Analysis element under movie
  - [schema-184](https://github.com/cjcodeproj/vtmedia-schema/issues/184) Contents should be optional
  - [schema-171](https://github.com/cjcodeproj/vtmedia-schema/issues/171) Country Of Origin element
