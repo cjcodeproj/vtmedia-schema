@@ -67,9 +67,11 @@
     <artist><gn>Roger</gn><fn>Moore</fn></artist>
     <artist><gn>Lois</gn><fn>Maxwell</fn></artist>
    </artists>
+   <!-- remove this chunk
    <composers>
     <composer><gn>Richard</gn><fn>Maibaum</fn></composer>
    </composers>
+    -->
    </catalog>
    <technical>
     <studioRecording/>
@@ -138,9 +140,11 @@
    <artists>
     <artist><gn>Roger</gn><fn>Moore</fn></artist>
    </artists>
+    <!-- remove this chunk
    <composers>
     <composer><gn>Richard</gn><fn>Maibaum</fn></composer>
    </composers>
+    -->
    </catalog>
    <technical>
     <studioRecording/>
@@ -193,9 +197,11 @@
     <artist><gn>Desmond</gn><fn>Llewelyn</fn></artist>
     <artist><gn>Roger</gn><fn>Moore</fn></artist>
    </artists>
+   <!-- remove this chunk
    <composers>
     <composer><gn>Richard</gn><fn>Maibaum</fn></composer>
    </composers>
+    -->
    </catalog>
    <technical>
     <studioRecording/>

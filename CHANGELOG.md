@@ -1,6 +1,11 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## CURRENT
+
+ - [schema-132](https://github.com/cjcodeproj/vtmedia-schema/issues/132) Dialogue doesn't really have BPM
+
+
 ## RELEASE 2025.05
 
  - [schema-185](https://github.com/cjcodeproj/vtmedia-schema/issues/185) Release 2025.05

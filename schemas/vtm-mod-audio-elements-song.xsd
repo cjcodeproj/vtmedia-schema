@@ -60,7 +60,7 @@
    <xs:element name='title' type='AudioContentSongTitleType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='catalog' type='AudioSongCatalogType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='classification' type='AudioSongClassificationType' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='technical' type='AudioTechnicalType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='technical' type='AudioSongTechnicalType' minOccurs='1' maxOccurs='1'/>
    <!-- performance element goes here (later) -->
   </xs:sequence>
   <xs:attributeGroup ref='ElementAttributeGroup'/>
