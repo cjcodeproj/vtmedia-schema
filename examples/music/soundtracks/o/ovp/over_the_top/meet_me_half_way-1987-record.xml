@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Meet Me Half Way</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2025-04-12</exact></date>
+      <purchase>
+       <retailer>Down In The Valley</retailer>
+       <price>1.00</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><record/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>7464066907</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <jacket>
+      <record id='vr01'/>
+     </jacket>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <recordIndex ref='vr01'>
+    <side label='A'>
+     <track no='01'>
+      <content ref='mmh01'/>
+     </track>
+    </side>
+    <side label='B'>
+     <track no='01'>
+      <content ref='s01'/>
+     </track>
+    </side>
+   </recordIndex>
+  </index>
+  <contents>
+   <xi:include href='meet_me_half_way-1987-single.xml'/>
+  </contents>
+ </media>
+</medialist>
