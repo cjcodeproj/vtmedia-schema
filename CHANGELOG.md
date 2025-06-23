@@ -3,6 +3,8 @@ vtmedia-schema CHANGELOG
 
 ## CURRENT
 
+ - [schema-148](https://github.com/cjcodeproj/vtmedia-schema/issues/148) Music singles
+ - [schema-187](https://github.com/cjcodeproj/vtmedia-schema/issues/187) Support unplayable record side
  - [schema-188](https://github.com/cjcodeproj/vtmedia-schema/issues/188) Fix typo in catalog.xml file
  - [schema-132](https://github.com/cjcodeproj/vtmedia-schema/issues/132) Dialogue doesn't really have BPM
 
