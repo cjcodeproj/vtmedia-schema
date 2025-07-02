@@ -31,8 +31,12 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Gene</gn><fn>Autry</fn></composer>
-    <composer><gn>Ray></gn><fn>Whitley</fn></composer>
+     <composer>
+     <name><gn>Gene</gn><fn>Autry</fn></name>
+     </composer>
+     <composer>
+     <name><gn>Ray></gn><fn>Whitley</fn></name>
+     </composer>
    </composers>
    </catalog>
    <technical>
@@ -53,8 +57,12 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Ray</gn><fn>Freedman</fn></composer>
-    <composer><gn>Dick</gn><fn>Thomas</fn></composer>
+    <composer>
+     <name><gn>Ray</gn><fn>Freedman</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Dick</gn><fn>Thomas</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -75,8 +83,12 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Helen</gn><fn>Stone</fn></composer>
-    <composer><gn>Jack</gn><fn>Tenney</fn></composer>
+    <composer>
+     <name><gn>Helen</gn><fn>Stone</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Jack</gn><fn>Tenney</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -97,8 +109,12 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Jimmie</gn><fn>Davis</fn></composer>
-    <composer><gn>Charles</gn><fn>Mitchell</fn></composer>
+    <composer>
+     <name><gn>Jimmie</gn><fn>Davis</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Charles</gn><fn>Mitchell</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -119,7 +135,9 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Scott</gn><fn>Wiseman</fn></composer>
+    <composer>
+     <name><gn>Scott</gn><fn>Wiseman</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -140,9 +158,15 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Gene</gn><fn>Autry</fn></composer>
-    <composer><gn>Diane</gn><fn>Johnston</fn></composer>
-    <composer><gn>Kenneth</gn><fn>Pitts</fn></composer>
+    <composer>
+     <name><gn>Gene</gn><fn>Autry</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Diane</gn><fn>Johnston</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Kenneth</gn><fn>Pitts</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -163,8 +187,12 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Gene</gn><fn>Autry</fn></composer>
-    <composer><gn>Jimmy</gn><fn>Long</fn></composer>
+    <composer>
+     <name><gn>Gene</gn><fn>Autry</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Jimmy</gn><fn>Long</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -185,8 +213,12 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Gene</gn><fn>Autry</fn></composer>
-    <composer><gn>Fred</gn><fn>Rose</fn></composer>
+    <composer>
+     <name><gn>Gene</gn><fn>Autry</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Fred</gn><fn>Rose</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -207,8 +239,12 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Gene</gn><fn>Autry</fn></composer>
-    <composer><gn>Cindy</gn><fn>Walker</fn></composer>
+    <composer>
+     <name><gn>Gene</gn><fn>Autry</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Cindy</gn><fn>Walker</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -229,9 +265,15 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Gene</gn><fn>Autry</fn></composer>
-    <composer><gn>Fred</gn><fn>Rose</fn></composer>
-    <composer><gn>Ray</gn><fn>Whitley</fn></composer>
+    <composer>
+     <name><gn>Gene</gn><fn>Autry</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Fred</gn><fn>Rose</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Ray</gn><fn>Whitley</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -252,8 +294,12 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Michael</gn><fn>Carr</fn></composer>
-    <composer><gn>Jimmy</gn><fn>Kennedy</fn></composer>
+    <composer>
+     <name><gn>Michael</gn><fn>Carr</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Jimmy</gn><fn>Kennedy</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -274,8 +320,12 @@
     <featuredArtist><gn>Joey</gn><nick>The Cowpolka King</nick></featuredArtist>
    </artists>
    <composers>
-    <composer><gn>Gene</gn><fn>Autry</fn></composer>
-    <composer><gn>Smiley</gn><fn>Burnette</fn></composer>
+    <composer>
+     <name><gn>Gene</gn><fn>Autry</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Smiley</gn><fn>Burnette</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -291,9 +341,15 @@
    </title>
   <catalog>
    <composers>
-    <composer><gn>Teddy</gn><fn>Powell</fn></composer>
-    <composer><gn>Walter</gn><fn>Samuels</fn></composer>
-    <composer><gn>Leonard</gn><fn>Whitcup</fn></composer>
+    <composer>
+     <name><gn>Teddy</gn><fn>Powell</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Walter</gn><fn>Samuels</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Leonard</gn><fn>Whitcup</fn></name>
+    </composer>
    </composers>
   </catalog>
   <classification>
@@ -313,7 +369,9 @@
 <!-- EDIT FLAGS: detected_square_brackets possible_live_performance  -->
   <catalog>
    <composers>
-    <composer><gn>Billy</gn><fn>Hill</fn></composer>
+    <composer>
+     <name><gn>Billy</gn><fn>Hill</fn></name>
+    </composer>
    </composers>
   </catalog>
   <classification>
@@ -333,7 +391,9 @@
 <!-- EDIT FLAGS: detected_parenthesis  -->
   <catalog>
    <composers>
-    <composer><gn>Stan</gn><fn>Jones</fn></composer>
+    <composer>
+     <name><gn>Stan</gn><fn>Jones</fn></name>
+    </composer>
    </composers>
   </catalog>
   <classification>
@@ -352,7 +412,9 @@
    </title>
   <catalog>
    <composers>
-    <composer><gn>Bob</gn><fn>Nolan</fn></composer>
+    <composer>
+     <name><gn>Bob</gn><fn>Nolan</fn></name>
+    </composer>
    </composers>
   </catalog>
   <classification>

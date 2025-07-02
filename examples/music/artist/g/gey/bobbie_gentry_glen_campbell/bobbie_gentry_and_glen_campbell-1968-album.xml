@@ -23,7 +23,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Glen</gn><fn>Campbell</fn></composer>
+     <composer>
+      <name><gn>Glen</gn><fn>Campbell</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -39,7 +41,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Bob</gn><fn>Russell</fn></composer>
+     <composer>
+      <name><gn>Bob</gn><fn>Russell</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -55,7 +59,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>John</gn><fn>Hartford</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Hartford</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -71,7 +77,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Lee</gn><fn>Ross</fn></composer>
+     <composer>
+      <name><gn>Lee</gn><fn>Ross</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -87,8 +95,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Curly</gn><fn>Putnam</fn></composer>
-     <composer><gn>Billy</gn><fn>Sherrill</fn></composer>
+     <composer>
+      <name><gn>Curly</gn><fn>Putnam</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Billy</gn><fn>Sherrill</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -104,7 +116,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Glen</gn><fn>Campbell</fn></composer>
+     <composer>
+      <name><gn>Glen</gn><fn>Campbell</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -120,7 +134,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Bobbie</gn><fn>Gentry</fn></composer>
+     <composer>
+      <name><gn>Bobbie</gn><fn>Gentry</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -136,7 +152,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Billy</gn><fn>Mize</fn></composer>
+     <composer>
+      <name><gn>Billy</gn><fn>Mize</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -152,7 +170,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Margo</gn><fn>Guryan</fn></composer>
+     <composer>
+      <name><gn>Margo</gn><fn>Guryan</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -168,8 +188,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Mann</gn><fn>Curtis</fn></composer>
-     <composer><gn>Gilbert</gn><fn>Becaud</fn></composer>
+     <composer>
+      <name><gn>Mann</gn><fn>Curtis</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Gilbert</gn><fn>Becaud</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -185,7 +209,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Paul</gn><fn>Simon</fn></composer>
+     <composer>
+      <name><gn>Paul</gn><fn>Simon</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

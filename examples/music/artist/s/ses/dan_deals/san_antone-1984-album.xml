@@ -24,7 +24,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+     <composer>
+      <name><gn>Dan</gn><fn>Seals</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -40,7 +42,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Gary</gn><fn>Nicholson</fn></composer>
+     <composer>
+      <name><gn>Gary</gn><fn>Nicholson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -56,8 +60,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Bob</gn><fn>McDill</fn></composer>
-     <composer><gn>Charlie</gn><fn>Black</fn></composer>
+     <composer>
+      <name><gn>Bob</gn><fn>McDill</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Charlie</gn><fn>Black</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -73,8 +81,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Bob</gn><fn>McDill</fn></composer>
-     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+     <composer>
+      <name><gn>Bob</gn><fn>McDill</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Dan</gn><fn>Seals</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -90,8 +102,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Kevin</gn><fn>McKnelly</fn></composer>
-     <composer><gn>Don</gn><fn>Stirling</fn></composer>
+     <composer>
+      <name><gn>Kevin</gn><fn>McKnelly</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Don</gn><fn>Stirling</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -107,7 +123,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+     <composer>
+      <name><gn>Dan</gn><fn>Seals</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -123,7 +141,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Thom</gn><fn>Schuyler</fn></composer>
+     <composer>
+      <name><gn>Thom</gn><fn>Schuyler</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -139,7 +159,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Dickey</gn><fn>Lee</fn></composer>
+     <composer>
+      <name><gn>Dickey</gn><fn>Lee</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -155,8 +177,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Dan</gn><fn>Seals</fn></composer>
-     <composer><gn>Bob</gn><fn>McDill</fn></composer>
+     <composer>
+      <name><gn>Dan</gn><fn>Seals</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Bob</gn><fn>McDill</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -172,8 +198,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Dan</gn><fn>Seals</fn></composer>
-     <composer><gn>Rafe</gn><fn>Van Hoy</fn></composer>
+     <composer>
+      <name><gn>Dan</gn><fn>Seals</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Rafe</gn><fn>Van Hoy</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -189,7 +219,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+     <composer>
+      <name><gn>Dan</gn><fn>Seals</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

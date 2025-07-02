@@ -23,8 +23,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Joe</gn><fn>Perry</fn></composer>
-     <composer><gn>Desmong</gn><fn>Child</fn></composer>
+     <composer>
+      <name><gn>Joe</gn><fn>Perry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Desmong</gn><fn>Child</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -40,9 +44,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Steven</gn><fn>Tyler</fn></composer>
-     <composer><gn>Joe</gn><fn>Perry</fn></composer>
-     <composer><gn>Jim</gn><fn>Vallance</fn></composer>
+     <composer>
+      <name><gn>Steven</gn><fn>Tyler</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Joe</gn><fn>Perry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jim</gn><fn>Vallance</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -58,10 +68,18 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Steven</gn><fn>Tyler</fn></composer>
-     <composer><gn>Joe</gn><fn>Perry</fn></composer>
-     <composer><gn>Jim</gn><fn>Vallance</fn></composer>
-     <composer><gn>Holly</gn><fn>Knight</fn></composer>
+     <composer>
+      <name><gn>Steven</gn><fn>Tyler</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Joe</gn><fn>Perry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jim</gn><fn>Vallance</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Holly</gn><fn>Knight</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -77,9 +95,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Steven</gn><fn>Tyler</fn></composer>
-     <composer><gn>Joe</gn><fn>Perry</fn></composer>
-     <composer><gn>Jim</gn><fn>Vallance</fn></composer>
+     <composer>
+      <name><gn>Steven</gn><fn>Tyler</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Joe</gn><fn>Perry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jim</gn><fn>Vallance</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -95,9 +119,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Steven</gn><fn>Tyler</fn></composer>
-     <composer><gn>Joe</gn><fn>Perry</fn></composer>
-     <composer><gn>Desmond</gn><fn>Child</fn></composer>
+     <composer>
+      <name><gn>Steven</gn><fn>Tyler</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Joe</gn><fn>Perry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Desmond</gn><fn>Child</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -113,7 +143,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Steven</gn><fn>Tyler</fn></composer>
+     <composer>
+      <name><gn>Steven</gn><fn>Tyler</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -129,9 +161,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Steven</gn><fn>Tyler</fn></composer>
-     <composer><gn>Joe</gn><fn>Perry</fn></composer>
-     <composer><gn>Jim</gn><fn>Vallance</fn></composer>
+     <composer>
+      <name><gn>Steven</gn><fn>Tyler</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Joe</gn><fn>Perry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jim</gn><fn>Vallance</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -147,8 +185,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Steven</gn><fn>Tyler</fn></composer>
-     <composer><gn>Joe</gn><fn>Perry</fn></composer>
+     <composer>
+      <name><gn>Steven</gn><fn>Tyler</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Joe</gn><fn>Perry</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -164,8 +206,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Steven</gn><fn>Tyler</fn></composer>
-     <composer><gn>Desmond</gn><fn>Child</fn></composer>
+     <composer>
+      <name><gn>Steven</gn><fn>Tyler</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Desmond</gn><fn>Child</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -181,8 +227,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Steven</gn><fn>Tyler</fn></composer>
-     <composer><gn>Brad</gn><fn>Whitdord</fn></composer>
+     <composer>
+      <name><gn>Steven</gn><fn>Tyler</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Brad</gn><fn>Whitdord</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -198,8 +248,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>John</gn><fn>Lennon</fn></composer>
-     <composer><gn>Paul</gn><fn>McCartney</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Lennon</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Paul</gn><fn>McCartney</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -215,11 +269,21 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Steven</gn><fn>Tyler</fn></composer>
-     <composer><gn>Joe</gn><fn>Perry</fn></composer>
-     <composer><gn>Brad</gn><fn>Whitford</fn></composer>
-     <composer><gn>Tom</gn><fn>Hamilton</fn></composer>
-     <composer><gn>Joey</gn><fn>Kramer</fn></composer>
+     <composer>
+      <name><gn>Steven</gn><fn>Tyler</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Joe</gn><fn>Perry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Brad</gn><fn>Whitford</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Tom</gn><fn>Hamilton</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Joey</gn><fn>Kramer</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

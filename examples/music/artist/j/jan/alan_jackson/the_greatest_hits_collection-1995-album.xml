@@ -24,8 +24,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
-     <composer><gn>Jim</gn><fn>McBride</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jim</gn><fn>McBride</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -41,7 +45,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Bob</gn><fn>McDill</fn></composer>
+     <composer>
+      <name><gn>Bob</gn><fn>McDill</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -57,8 +63,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
-     <composer><gn>Randy</gn><fn>Travis</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Randy</gn><fn>Travis</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -74,8 +84,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
-     <composer><gn>Don</gn><fn>Sampson</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Don</gn><fn>Sampson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -91,8 +105,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>George</gn><fn>Jones</fn></composer>
-     <composer><gn>Roger</gn><fn>Miller</fn></composer>
+     <composer>
+      <name><gn>George</gn><fn>Jones</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Roger</gn><fn>Miller</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -108,8 +126,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
-     <composer><gn>Jim</gn><fn>McBride</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jim</gn><fn>McBride</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -125,7 +147,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -141,9 +165,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
-     <composer><gn>Roger</gn><fn>Murrah</fn></composer>
-     <composer><gn>Keith</gn><fn>Stegall</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Roger</gn><fn>Murrah</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Keith</gn><fn>Stegall</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -159,7 +189,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -175,8 +207,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Eddie</gn><fn>Cochran</fn></composer>
-     <composer><gn>Jerry</gn><fn>Capehart</fn></composer>
+     <composer>
+      <name><gn>Eddie</gn><fn>Cochran</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jerry</gn><fn>Capehart</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -192,8 +228,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Keith</gn><fn>Stegall</fn></composer>
-     <composer><gn>Carson</gn><fn>Chamberlain</fn></composer>
+     <composer>
+      <name><gn>Keith</gn><fn>Stegall</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Carson</gn><fn>Chamberlain</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -209,8 +249,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
-     <composer><gn>Jim</gn><fn>McBride</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jim</gn><fn>McBride</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -226,7 +270,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -242,8 +288,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
-     <composer><gn>Charlie</gn><fn>Craig</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Charlie</gn><fn>Craig</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -259,9 +309,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
-     <composer><gn>Ron</gn><fn>Jackson</fn></composer>
-     <composer><gn>Andy</gn><fn>Loftin</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Ron</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Andy</gn><fn>Loftin</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -277,8 +333,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
-     <composer><gn>Keith</gn><fn>Stegall</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Keith</gn><fn>Stegall</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -294,8 +354,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
-     <composer><gn>Mark</gn><fn>Irwin</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Mark</gn><fn>Irwin</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -311,8 +375,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
-     <composer><gn>Jim</gn><fn>McBride</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jim</gn><fn>McBride</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -328,8 +396,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Robert</gn><mn>L.</mn><fn>Geddins</fn></composer>
-     <composer><pgn>K.C.</pgn><fn>Douglas</fn></composer>
+     <composer>
+      <name><gn>Robert</gn><mn>L.</mn><fn>Geddins</fn></name>
+     </composer>
+     <composer>
+      <name><pgn>K.C.</pgn><fn>Douglas</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -345,7 +417,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Jackson</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Jackson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

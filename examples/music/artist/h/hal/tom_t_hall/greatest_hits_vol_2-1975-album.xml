@@ -7,7 +7,9 @@
    <artist><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></artist>
   </artists>
   <composers>
-   <composer><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></composer>
+   <composer>
+    <name><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></name>
+   </composer>
   </composers>
   <copyright>
    <year>1975</year>

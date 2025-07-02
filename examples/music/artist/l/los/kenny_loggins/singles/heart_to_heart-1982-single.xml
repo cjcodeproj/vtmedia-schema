@@ -17,7 +17,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Kenny</gn><fn>Loggins</fn></composer>
+     <composer>
+      <name><gn>Kenny</gn><fn>Loggins</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
