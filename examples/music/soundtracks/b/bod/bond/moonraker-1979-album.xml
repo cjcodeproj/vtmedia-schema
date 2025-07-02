@@ -8,7 +8,9 @@
    <artist><gn>John</gn><fn>Barry</fn></artist>
   </artists>
   <composers>
-   <composer><gn>John</gn><fn>Barry</fn></composer>
+   <composer>
+    <name><gn>John</gn><fn>Barry</fn></name>
+   </composer>
   </composers>
   <copyright>
    <year>1979</year>
@@ -32,8 +34,12 @@
     <artist><gn>Shirley</gn><fn>Bassey</fn></artist>
    </artists>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-    <lyricist><gn>Hal</gn><fn>David</fn></lyricist>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
+    <lyricist>
+     <name><gn>Hal</gn><fn>David</fn></name>
+    </lyricist>
    </composers>
    </catalog>
    <technical>
@@ -149,8 +155,12 @@
     <artist><gn>Shirley</gn><fn>Bassey</fn></artist>
    </artists>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-    <lyricist><gn>Hal</gn><fn>David</fn></lyricist>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
+    <lyricist>
+     <name><gn>Hal</gn><fn>David</fn></name>
+    </lyricist>
    </composers>
    </catalog>
    <technical>

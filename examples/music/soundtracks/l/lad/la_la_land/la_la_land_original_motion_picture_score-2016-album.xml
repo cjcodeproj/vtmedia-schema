@@ -7,7 +7,9 @@
    <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
   </artists>
   <composers>
-   <composer><gn>Justin</gn><fn>Hurwitz</fn></composer>
+   <composer>
+    <name><gn>Justin</gn><fn>Hurwitz</fn></name>
+   </composer>
   </composers>
   <copyright>
    <year>2016</year>
@@ -115,8 +117,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Justin</gn><fn>Hurwitz</fn></composer>
-     <composer><gn>Damien</gn><fn>Chazelle</fn></composer>
+     <composer>
+      <name><gn>Justin</gn><fn>Hurwitz</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Damien</gn><fn>Chazelle</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -187,8 +193,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Justin</gn><fn>Hurwitz</fn></composer>
-     <composer><gn>Damien</gn><fn>Chazelle</fn></composer>
+     <composer>
+      <name><gn>Justin</gn><fn>Hurwitz</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Damien</gn><fn>Chazelle</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -230,9 +240,15 @@
      <artist><gn>Emma</gn><fn>Stone</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hurwitz</fn></composer>
-     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
-     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+     <composer>
+      <name><gn>Justin</gn><fn>Hurwitz</fn></name>
+     </composer>
+     <lyricist>
+      <name><gn>Benj</gn><fn>Pasek</fn></name>
+     </lyricist>
+     <lyricist>
+      <name><gn>Justin</gn><fn>Paul</fn></name>
+     </lyricist>
     </composers>
    </catalog>
    <technical>
@@ -325,8 +341,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Justin</gn><fn>Hurwitz</fn></composer>
-     <composer><gn>Damien</gn><fn>Chazelle</fn></composer>
+     <composer>
+      <name><gn>Justin</gn><fn>Hurwitz</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Damien</gn><fn>Chazelle</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

@@ -29,8 +29,12 @@
     <artist><gn>Rita</gn><fn>Coolidge</fn></artist>
    </artists>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-    <lyricist><gn>Tim</gn><fn>Rice</fn></lyricist>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
+    <lyricist>
+     <name><gn>Tim</gn><fn>Rice</fn></name>
+    </lyricist>
    </composers>
    </catalog>
    <technical>
@@ -47,7 +51,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -87,7 +93,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -104,7 +112,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -121,7 +131,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -160,7 +172,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -177,7 +191,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -217,7 +233,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -234,7 +252,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -251,7 +271,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -271,8 +293,12 @@
     <artist><gn>Rita</gn><fn>Coolidge</fn></artist>
    </artists>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-    <lyricist><gn>Tim</gn><fn>Rice</fn></lyricist>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
+    <lyricist>
+     <name><gn>Tim</gn><fn>Rice</fn></name>
+    </lyricist>
    </composers>
    </catalog>
    <technical>

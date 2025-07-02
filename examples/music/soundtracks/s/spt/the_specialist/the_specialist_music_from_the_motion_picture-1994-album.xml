@@ -29,8 +29,12 @@
      <artist><gn>Gloria</gn><fn>Estefan</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Peter</gn><fn>Jacson</fn></composer>
-     <composer><gn>Gerald</gn><fn>Jacson</fn></composer>
+     <composer>
+      <name><gn>Peter</gn><fn>Jacson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Gerald</gn><fn>Jacson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -50,9 +54,15 @@
      <artist><grp>Miami Sound Machine</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Emilio</gn><fn>Estefan</fn><suffix>Jr.</suffix></composer>
-     <composer><gn>Jorge</gn><fn>Casas</fn></composer>
-     <composer><gn>Clay</gn><fn>Ostwald</fn></composer>
+     <composer>
+      <name><gn>Emilio</gn><fn>Estefan</fn><suffix>Jr.</suffix></name>
+     </composer>
+     <composer>
+      <name><gn>Jorge</gn><fn>Casas</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Clay</gn><fn>Ostwald</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -72,8 +82,12 @@
      <artist><gn>Donna</gn><fn>Allen</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Jon</gn><fn>Secada</fn></composer>
-     <composer><gn>Donna</gn><fn>Allen</fn></composer>
+     <composer>
+      <name><gn>Jon</gn><fn>Secada</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Donna</gn><fn>Allen</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -93,7 +107,9 @@
      <artist><grp>Miami Sound Machine</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Hector</gn><fn>Garrido</fn></composer>
+     <composer>
+      <name><gn>Hector</gn><fn>Garrido</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -114,8 +130,12 @@
      <artist><pcn>Lagaylia</pcn></artist>
     </artists>
     <composers>
-     <composer><gn>Jon</gn><fn>Secada</fn></composer>
-     <composer><gn>Lawrence</gn><mn>P.</mn><fn>Dermer</fn></composer>
+     <composer>
+      <name><gn>Jon</gn><fn>Secada</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Lawrence</gn><mn>P.</mn><fn>Dermer</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -135,7 +155,9 @@
      <artist><pcn>Cheito</pcn></artist>
     </artists>
     <composers>
-     <composer><gn>Juanito</gn><mn>R.</mn><fn>Marquez</fn></composer>
+     <composer>
+      <name><gn>Juanito</gn><mn>R.</mn><fn>Marquez</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -155,7 +177,9 @@
      <artist><pcn>Lagaylia</pcn></artist>
     </artists>
     <composers>
-     <composer><gn>Lawrence</gn><mn>P.</mn><fn>Dermer</fn></composer>
+     <composer>
+      <name><gn>Lawrence</gn><mn>P.</mn><fn>Dermer</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -175,7 +199,9 @@
      <artist><grp>Tony Tatis Y Su Merengue Sound</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Demetrio</gn><fn>Tatis</fn></composer>
+     <composer>
+      <name><gn>Demetrio</gn><fn>Tatis</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -195,8 +221,12 @@
      <artist><gn>Jon</gn><fn>Secada</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Jon</gn><fn>Cecada</fn></composer>
-     <composer><gn>Miguel</gn><mn>A.</mn><fn>Morejon</fn></composer>
+     <composer>
+      <name><gn>Jon</gn><fn>Cecada</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Miguel</gn><mn>A.</mn><fn>Morejon</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -216,7 +246,9 @@
      <artist><pcn>Albita</pcn></artist>
     </artists>
     <composers>
-     <composer><gn>Luis</gn><fn>Rios</fn></composer>
+     <composer>
+      <name><gn>Luis</gn><fn>Rios</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -236,7 +268,9 @@
      <artist><gn>Donna</gn><fn>Allen</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Lawrence</gn><mn>P.</mn><fn>Dermer</fn></composer>
+     <composer>
+      <name><gn>Lawrence</gn><mn>P.</mn><fn>Dermer</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -256,8 +290,12 @@
      <artist><gn>Azúcar</gn><fn>Moreno</fn></artist>
     </artists>
     <composers>
-     <composer><pgn>F. "Estefano"</pgn><fn>Salgado</fn></composer>
-     <composer><gn>Kike</gn><fn>Santander</fn></composer>
+     <composer>
+      <name><pgn>F. "Estefano"</pgn><fn>Salgado</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Kike</gn><fn>Santander</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -277,7 +315,9 @@
      <artist><gn>John</gn><fn>Barry</fn></artist>
     </artists>
     <composers>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -297,7 +337,9 @@
      <artist><gn>John</gn><fn>Barry</fn></artist>
     </artists>
     <composers>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

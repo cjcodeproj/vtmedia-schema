@@ -8,7 +8,9 @@
    <artist><gn>John</gn><fn>Barry</fn></artist>
   </artists>
   <composers>
-   <composer><gn>John</gn><fn>Barry</fn></composer>
+   <composer>
+    <name><gn>John</gn><fn>Barry</fn></name>
+   </composer>
   </composers>
   <copyright>
    <year>1994</year>
@@ -90,7 +92,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><unkn>John Barry</unkn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
