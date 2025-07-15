@@ -86,6 +86,7 @@
   </xs:annotation>
   <xs:sequence>
    <xs:group ref='ComposerGroup' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:element name='year' type='xs:gYear' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 
@@ -99,7 +100,7 @@
   </xs:annotation>
   <xs:sequence>
    <xs:element name='name' type='CrewPersonOrGroupType' minOccurs='1' maxOccurs='1'/>
-   <xs:element name='publisher' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='publisher' type='xs:string' minOccurs='0' maxOccurs='5'/>
    <xs:element name='rights' type='xs:string' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
