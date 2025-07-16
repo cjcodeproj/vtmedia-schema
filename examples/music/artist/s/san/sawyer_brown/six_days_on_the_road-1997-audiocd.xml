@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3scan (2024-06-30 13:05:23.818934) -->
+ <media>
+  <title>
+   <main>Six Days On The Road</main>
+  </title>
+  <medium>
+   <release>
+    <type><audiocd/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <xi:include href='six_days_on_the_road-1997-cd01-index.xml'/>
+  </index>
+  <contents>
+   <xi:include href='six_days_on_the_road-1997-album.xml'/>
+  </contents>
+ </media>
+</medialist>
