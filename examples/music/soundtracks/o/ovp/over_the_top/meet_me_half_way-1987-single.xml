@@ -26,7 +26,9 @@
      <artist><gn>Kenny</gn><fn>Loggins</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Kenny</gn><fn>Loggins</fn></composer>
+     <composer>
+      <name><gn>Kenny</gn><fn>Loggins</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -45,7 +47,9 @@
      <artist><gn>Giorgio</gn><fn>Moroder</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Giorgio</gn><fn>Moroder</fn></composer>
+     <composer>
+      <name><gn>Giorgio</gn><fn>Moroder</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

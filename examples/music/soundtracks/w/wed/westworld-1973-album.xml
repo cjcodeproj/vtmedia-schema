@@ -6,7 +6,9 @@
    <artist><gn>Fred</gn><fn>Karlin</fn></artist>
   </artists>
   <composers>
-   <composer><gn>Fred</gn><fn>Karlin</fn></composer>
+   <composer>
+    <name><gn>Fred</gn><fn>Karlin</fn></name>
+   </composer>
   </composers>
   <copyright>
    <year>1973</year>

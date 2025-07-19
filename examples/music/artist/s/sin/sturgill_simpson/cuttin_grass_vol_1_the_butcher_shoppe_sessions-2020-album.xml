@@ -7,7 +7,9 @@
    <artist><gn>Sturgill</gn><fn>Simpson</fn></artist>
   </artists>
   <composers>
-   <composer><gn>Sturgill</gn><fn>Simpson</fn></composer>
+   <composer>
+    <name><gn>Sturgill</gn><fn>Simpson</fn></name>
+   </composer>
   </composers>
   <copyright>
    <year>2020</year>
@@ -127,7 +129,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Buford</gn><fn>Abner</fn></composer>
+     <composer>
+      <name><gn>Buford</gn><fn>Abner</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

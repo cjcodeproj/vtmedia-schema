@@ -26,8 +26,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
-     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+     <composer>
+      <name><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Randy</gn><fn>Scruggs</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -43,8 +47,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
-     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+     <composer>
+      <name><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Randy</gn><fn>Scruggs</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -60,8 +68,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
-     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+     <composer>
+      <name><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Randy</gn><fn>Scruggs</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -77,8 +89,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
-     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+     <composer>
+      <name><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Randy</gn><fn>Scruggs</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -94,8 +110,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
-     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+     <composer>
+      <name><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Randy</gn><fn>Scruggs</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -111,8 +131,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
-     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+     <composer>
+      <name><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Randy</gn><fn>Scruggs</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -128,8 +152,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Bob</gn><fn>McDill</fn></composer>
-     <composer><gn>Paul</gn><fn>Harrison</fn></composer>
+     <composer>
+      <name><gn>Bob</gn><fn>McDill</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Paul</gn><fn>Harrison</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -145,8 +173,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Walt</gn><fn>Aldridge</fn></composer>
-     <composer><gn>Tom</gn><fn>Brasfield</fn></composer>
+     <composer>
+      <name><gn>Walt</gn><fn>Aldridge</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Tom</gn><fn>Brasfield</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -162,8 +194,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Tom</gn><fn>Brasfield</fn></composer>
-     <composer><gn>Robert</gn><fn>Byrne</fn></composer>
+     <composer>
+      <name><gn>Tom</gn><fn>Brasfield</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Robert</gn><fn>Byrne</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -179,8 +215,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Tim</gn><fn>Nichols</fn></composer>
-     <composer><gn>Jimmy</gn><mn>Alan</mn><fn>Stewart</fn></composer>
+     <composer>
+      <name><gn>Tim</gn><fn>Nichols</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jimmy</gn><mn>Alan</mn><fn>Stewart</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -196,9 +236,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Elaine</gn><fn>Lifton</fn></composer>
-     <composer><gn>Gloria</gn><fn>Nissenson</fn></composer>
-     <composer><gn>Lee</gn><fn>Ritenour</fn></composer>
+     <composer>
+      <name><gn>Elaine</gn><fn>Lifton</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Gloria</gn><fn>Nissenson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Lee</gn><fn>Ritenour</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -214,8 +260,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Robert</gn><fn>Byrne</fn></composer>
-     <composer><gn>Will</gn><fn>Robinson</fn></composer>
+     <composer>
+      <name><gn>Robert</gn><fn>Byrne</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Will</gn><fn>Robinson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -231,7 +281,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
+     <composer>
+      <name><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -247,8 +299,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></composer>
-     <composer><gn>Randy</gn><fn>Scruggs</fn></composer>
+     <composer>
+      <name><gn>Earl</gn><mn>Thomas</mn><fn>Conley</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Randy</gn><fn>Scruggs</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -264,8 +320,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Robert</gn><fn>Byrne</fn></composer>
-     <composer><gn>Tom</gn><fn>Wopat</fn></composer>
+     <composer>
+      <name><gn>Robert</gn><fn>Byrne</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Tom</gn><fn>Wopat</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -281,8 +341,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Robert</gn><fn>Byrne</fn></composer>
-     <composer><gn>Rick</gn><fn>Bowles</fn></composer>
+     <composer>
+      <name><gn>Robert</gn><fn>Byrne</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Rick</gn><fn>Bowles</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

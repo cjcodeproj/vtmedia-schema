@@ -5,7 +5,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2024, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -65,13 +65,13 @@
  <xs:group name='ComposerGroup'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
-    One of many possible values to identify composers.
+    Possible elements for composers, arrangers, or lyricists.
    </xs:documentation>
   </xs:annotation>
   <xs:choice>
-   <xs:element name='composer' type='CrewPersonOrGroupType'/>
-   <xs:element name='arranger' type='CrewPersonOrGroupType'/>
-   <xs:element name='lyricist' type='CrewPersonOrGroupType'/>
+   <xs:element name='composer' type='ComplexComposerType'/>
+   <xs:element name='arranger' type='ComplexComposerType'/>
+   <xs:element name='lyricist' type='ComplexComposerType'/>
   </xs:choice>
  </xs:group>
 
@@ -86,9 +86,24 @@
   </xs:annotation>
   <xs:sequence>
    <xs:group ref='ComposerGroup' minOccurs='1' maxOccurs='unbounded'/>
+   <xs:element name='year' type='xs:gYear' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 
+ <xs:complexType name='ComplexComposerType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A full record of a single composer of a song, which
+    includes a complete name, and optionally a publisher,
+    and a rights organization for licensing.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='name' type='CrewPersonOrGroupType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='publisher' type='xs:string' minOccurs='0' maxOccurs='5'/>
+   <xs:element name='rights' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
 
  <xs:complexType name='AudioAlbumCatalogType'>
   <xs:annotation>

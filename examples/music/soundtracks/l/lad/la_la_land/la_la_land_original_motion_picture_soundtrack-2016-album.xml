@@ -27,9 +27,15 @@
      <artist><grp>La La Land Cast</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
-     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
-     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
+     <lyricist>
+      <name><gn>Benj</gn><fn>Pasek</fn></name>
+     </lyricist>
+     <lyricist>
+      <name><gn>Justin</gn><fn>Paul</fn></name>
+     </lyricist>
     </composers>
    </catalog>
    <technical>
@@ -51,9 +57,15 @@
      <artist><gn>Jessica</gn><fn>Rothe</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
-     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
-     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
+     <lyricist>
+      <name><gn>Benj</gn><fn>Pasek</fn></name>
+     </lyricist>
+     <lyricist>
+      <name><gn>Justin</gn><fn>Paul</fn></name>
+     </lyricist>
     </composers>
    </catalog>
    <technical>
@@ -72,7 +84,9 @@
      <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -92,9 +106,15 @@
      <artist><gn>Emma</gn><fn>Stone</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
-     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
-     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
+     <lyricist>
+      <name><gn>Benj</gn><fn>Pasek</fn></name>
+     </lyricist>
+     <lyricist>
+      <name><gn>Justin</gn><fn>Paul</fn></name>
+     </lyricist>
     </composers>
    </catalog>
    <technical>
@@ -113,7 +133,9 @@
      <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -132,9 +154,15 @@
      <artist><gn>Ryan</gn><fn>Gosling</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
-     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
-     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
+     <lyricist>
+      <name><gn>Benj</gn><fn>Pasek</fn></name>
+     </lyricist>
+     <lyricist>
+      <name><gn>Justin</gn><fn>Paul</fn></name>
+     </lyricist>
     </composers>
    </catalog>
    <technical>
@@ -153,7 +181,9 @@
      <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -189,9 +219,15 @@
      <artist><gn>Emma</gn><fn>Stone</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
-     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
-     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
+     <lyricist>
+      <name><gn>Benj</gn><fn>Pasek</fn></name>
+     </lyricist>
+     <lyricist>
+      <name><gn>Justin</gn><fn>Paul</fn></name>
+     </lyricist>
     </composers>
    </catalog>
    <technical>
@@ -210,8 +246,12 @@
      <artist><gn>John</gn><fn>Legend</fn></artist>
     </artists>
     <composers>
-     <composer><gn>John</gn><fn>Stephens</fn></composer>
-     <composer><gn>Angélique</gn><fn>Cinélu</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Stephens</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Angélique</gn><fn>Cinélu</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -230,7 +270,9 @@
      <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -249,9 +291,15 @@
      <artist><gn>Emma</gn><fn>Stone</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
-     <lyricist><gn>Benj</gn><fn>Pasek</fn></lyricist>
-     <lyricist><gn>Justin</gn><fn>Paul</fn></lyricist>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
+     <lyricist>
+      <name><gn>Benj</gn><fn>Pasek</fn></name>
+     </lyricist>
+     <lyricist>
+      <name><gn>Justin</gn><fn>Paul</fn></name>
+     </lyricist>
     </composers>
    </catalog>
    <technical>
@@ -270,7 +318,9 @@
      <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -289,7 +339,9 @@
      <artist><gn>Justin</gn><fn>Hurwitz</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -309,7 +361,9 @@
      <featuredArtist><gn>Emma</gn><fn>Stone</fn></featuredArtist>
     </artists>
     <composers>
-     <composer><gn>Justin</gn><fn>Hutwitz</fn></composer>
+     <composer>
+      <name><gn>Justin</gn><fn>Hutwitz</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

@@ -5,7 +5,9 @@
    <artist><gn>Waylon</gn><fn>Jennings</fn></artist>
   </artists>
   <composers>
-   <composer><gn>Waylon</gn><fn>Jennings</fn></composer>
+   <composer>
+    <name><gn>Waylon</gn><fn>Jennings</fn></name>
+   </composer>
   </composers>
  </catalog>
  <classification>

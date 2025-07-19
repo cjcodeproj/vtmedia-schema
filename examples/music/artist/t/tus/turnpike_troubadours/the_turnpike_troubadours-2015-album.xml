@@ -1,0 +1,289 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2025-03-06 22:06:38.977615) -->
+ <title>The Turnpike Troubadours</title>
+ <catalog>
+  <artists>
+   <artist><grp>Turnpike Troubadours</grp></artist>
+  </artists>
+  <copyright>
+   <year>2015</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='tbh01'>
+   <title>
+    <main>The Bird Hunters</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Evan</gn><fn>Felker</fn></name>
+      <publisher>Game Rooster Music</publisher>
+      <rights>BMI</rights>
+    </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT5M11S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tm01'>
+   <title>
+    <main>The Mercury</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Evan</gn><fn>Felker</fn></name>
+      <publisher>Game Rooster Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M43S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='dh01'>
+   <title>
+    <main>Down Here</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Evan</gn><fn>Felker</fn></name>
+      <publisher>Game Rooster Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+     <composer>
+      <name><gn>Kyle</gn><mi>S</mi><fn>Weiters</fn></name>
+      <rights>BMI</rights>
+     </composer>
+     <composer>
+      <name><gn>Jonny</gn><fn>Burke</fn></name>
+      <publisher>Dedpan Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M9S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tod01'>
+   <title>
+    <main>Time Of Day</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Evan</gn><fn>Felker</fn></name>
+      <publisher>Game Rooster Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+     <composer>
+      <name><gn>John</gn><fn>Fullbright</fn></name>
+      <publisher>Blue Dirt Songs</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M23S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rit01'>
+   <title>
+    <main>Ringing In The Year</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Evan</gn><fn>Felker</fn></name>
+      <publisher>Game Rooster Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M15S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ls01'>
+   <title>
+    <main>A Little Song</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Evan</gn><fn>Felker</fn></name>
+      <publisher>Game Rooster Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+     <composer>
+      <name><gn>Rhett</gn><fn>Miller</fn></name>
+      <publisher>BMI Gold Songs</publisher>
+      <publisher>Burgermeister Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M44S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ldh01'>
+   <title>
+    <main>Long Drive Home</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Evan</gn><fn>Felker</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jonny</gn><fn>Burke</fn></name>
+      <publisher>Dedpan Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M10S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='em01'>
+   <title>
+    <main>Easton &amp; Main</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><pgn>RC</pgn><fn>Edwards</fn></name>
+      <publisher>A Possum Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M57S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='n7-01'>
+   <title>
+    <main>7 Oaks</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><pgn>RC</pgn><fn>Edwards</fn></name>
+      <publisher>A Possum Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='d01'>
+   <title>
+    <main>Doreen</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Rhett</gn><fn>Miller</fn></name>
+      <publisher>BMG Gold Songs</publisher>
+      <publisher>Burgermeister Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+     <composer>
+      <name><gn>Murry</gn><fn>Hammond</fn></name>
+      <publisher>Pennycost Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M10S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='foo01'>
+   <title>
+    <main>Fall Out Of Love</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><pgn>RC</pgn><fn>Edwards</fn></name>
+      <publisher>A Possum Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M27S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bc01'>
+   <title>
+    <main>Bossier City</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Evan</gn><fn>Felker</fn></name>
+      <publisher>Game Rooster Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M18S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

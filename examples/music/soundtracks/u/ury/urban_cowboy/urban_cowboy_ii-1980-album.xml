@@ -29,7 +29,9 @@
      <artist><gn>Johnny</gn><fn>Lee</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Marshall</gn><fn>Chapman</fn></composer>
+     <composer>
+      <name><gn>Marshall</gn><fn>Chapman</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -48,7 +50,9 @@
      <artist><grp>The Charlie Daniels Band</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Charlie</gn><fn>Daniels</fn></composer>
+     <composer>
+      <name><gn>Charlie</gn><fn>Daniels</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -68,8 +72,12 @@
      <artist><gn>Johnny</gn><fn>Lee</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Ed</gn><fn>Bruce</fn></composer>
-     <composer><gn>Patsy</gn><fn>Bruce</fn></composer>
+     <composer>
+      <name><gn>Ed</gn><fn>Bruce</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Patsy</gn><fn>Bruce</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -88,7 +96,9 @@
      <artist><grp>The Bayou City Beats</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Robert</gn><fn>Herridge</fn></composer>
+     <composer>
+      <name><gn>Robert</gn><fn>Herridge</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -107,7 +117,9 @@
      <artist><gn>Mickey</gn><fn>Gilley</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Mack</gn><fn>Vickery</fn></composer>
+     <composer>
+      <name><gn>Mack</gn><fn>Vickery</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -126,7 +138,9 @@
      <artist><pgn>J.D.</pgn><fn>Souther</fn></artist>
     </artists>
     <composers>
-     <composer><pgn>J.D.</pgn><fn>Souther</fn></composer>
+     <composer>
+      <name><pgn>J.D.</pgn><fn>Souther</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -145,7 +159,9 @@
      <artist><gn>Mickey</gn><fn>Gilley</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Mack</gn><fn>Vickery</fn></composer>
+     <composer>
+      <name><gn>Mack</gn><fn>Vickery</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -164,7 +180,9 @@
      <artist><gn>Mickey</gn><fn>Gilley</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Gary</gn><fn>Nicholson</fn></composer>
+     <composer>
+      <name><gn>Gary</gn><fn>Nicholson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -183,7 +201,9 @@
      <artist><grp>The Charlie Daniels Band</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Ervin</gn><mn>T.</mn><fn>Rouse</fn></composer>
+     <composer>
+      <name><gn>Ervin</gn><mn>T.</mn><fn>Rouse</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
