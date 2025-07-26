@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2025, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   XML elements to describe different versions of a movie,
+   such as an unrated edition or a director's cut.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   <component>
+    <name>mediaschema/media/visual/variants</name>
+   </component>
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:complexType name='VariantsType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    The element sequence can be either of the following.
+
+     One original, followed by one or more variants.
+     Two or more variants.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:sequence>
+    <xs:element name='original' type='OriginalVariantType' minOccurs='1' maxOccurs='1'/>
+    <xs:element name='variant' type='VariantType' minOccurs='1' maxOccurs='unbounded'/>
+   </xs:sequence>
+   <xs:sequence>
+    <xs:element name='variant' type='VariantType' minOccurs='2' maxOccurs='unbounded'/>
+   </xs:sequence>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:complexType name='OriginalVariantType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    The original is considered the first wide theatrical release;
+    the movie that came out before any other variants.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='name' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='notes' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attribute name='id' type='xs:NCName' use='required'/>
+ </xs:complexType>
+
+ <xs:complexType name='VariantType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    The variant is considered a version of a movie that is distinct
+    from another released version of the same movie.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='name' type='xs:token' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='notes' type='xs:string' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attribute name='id' type='xs:NCName' use='required'/>
+ </xs:complexType>
+
+</xs:schema>

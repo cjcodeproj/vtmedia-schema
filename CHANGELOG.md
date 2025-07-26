@@ -3,6 +3,7 @@ vtmedia-schema CHANGELOG
 
 ## CURRENT
 
+ - [schema-180](https://github.com/cjcodeproj/vtmedia-schema/issues/180) Movies: Variants
  - [schema-181](https://github.com/cjcodeproj/vtmedia-schema/issues/181) Change song composer element to also handle representation
  - [schema-148](https://github.com/cjcodeproj/vtmedia-schema/issues/148) Music singles
  - [schema-187](https://github.com/cjcodeproj/vtmedia-schema/issues/187) Support unplayable record side

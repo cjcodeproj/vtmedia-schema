@@ -26,6 +26,7 @@
  <xs:include schemaLocation='vtm-mod-visual-crew.xsd'/>
  <xs:include schemaLocation='vtm-mod-visual-classification.xsd'/>
  <xs:include schemaLocation='vtm-mod-visual-story.xsd'/>
+ <xs:include schemaLocation='vtm-mod-visual-variants.xsd'/>
  <xs:include schemaLocation='vtm-content-all.xsd'/>
 
  <xs:annotation>
@@ -44,6 +45,7 @@
     <xs:element name='description' type='StoryType' minOccurs='0' maxOccurs='1'/>
     <xs:element name='story' type='StoryType' minOccurs='0' maxOccurs='1'/>
    </xs:choice>
+   <xs:element name='variants' type='VariantsType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='analysis' type='AnalysisType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='crew' type='CrewType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
