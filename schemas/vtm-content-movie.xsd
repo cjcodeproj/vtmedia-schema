@@ -40,7 +40,7 @@
    <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
    <xs:element name='catalog' type='CatalogType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='classification' type='ClassificationType' minOccurs='0' maxOccurs='1'/>
-   <xs:element name='technical' type='TechnicalType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='technical' type='VisualTechnicalType' minOccurs='0' maxOccurs='1'/>
    <xs:choice>
     <xs:element name='description' type='StoryType' minOccurs='0' maxOccurs='1'/>
     <xs:element name='story' type='StoryType' minOccurs='0' maxOccurs='1'/>
