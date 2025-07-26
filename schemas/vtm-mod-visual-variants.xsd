@@ -18,6 +18,9 @@
   </xs:documentation>
  </xs:annotation>
 
+ <xs:include schemaLocation='vtm-mod-visual-technical.xsd'/>
+
+
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
    XML elements to describe different versions of a movie,
@@ -78,6 +81,7 @@
   <xs:sequence>
    <xs:element name='name' type='xs:token' minOccurs='1' maxOccurs='1'/>
    <xs:element name='notes' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='technical' type='VisualTechnicalType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
   <xs:attribute name='id' type='xs:NCName' use='required'/>
  </xs:complexType>

@@ -3,6 +3,7 @@ vtmedia-schema CHANGELOG
 
 ## CURRENT
 
+ - [schema-193](https://github.com/cjcodeproj/vtmedia-schema/issues/193) Variants: Technical attributes
  - [schema-195](https://github.com/cjcodeproj/vtmedia-schema/issues/195) Rename TechnicalType
  - [schema-194](https://github.com/cjcodeproj/vtmedia-schema/issues/194) Support Clue and Battleship
  - [schema-180](https://github.com/cjcodeproj/vtmedia-schema/issues/180) Movies: Variants
