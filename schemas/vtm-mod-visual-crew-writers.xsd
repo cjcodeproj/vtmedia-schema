@@ -64,6 +64,8 @@
    <xs:element name='characters' type='SourceType'/>
    <xs:element name='movie' type='SourceType'/>
    <xs:element name='videoGame' type='SourceType'/>
+   <xs:element name='game' type='SourceType'/>
+   <xs:element name='boardGame' type='SourceType'/>
    <xs:element name='graphicNovel' type='SourceType'/>
    <xs:element name='shortFilm' type='SourceType'/>
    <xs:element name='teleplay' type='SourceType'/>
