@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<essay xmlns='http://vectortron.com/xml/media/written'>
+ <title>Cast And Crew Biographies</title>
+ <description>
+  <summary>
+   Biographies of cast and crew.
+  </summary>
+  <keywords>
+   <properNoun><person><gn>Steven</gn><fn>Spielberg</fn></person></properNoun>
+   <properNoun><person><gn>Francois</gn><fn>Trouffat</fn></person></properNoun>
+   <properNoun><person><gn>Richard</gn><fn>Dreyfuss</fn></person></properNoun>
+   <properNoun><person><gn>Teri</gn><fn>Garr</fn></person></properNoun>
+   <properNoun><person><gn>Melinda</gn><fn>Dillon</fn></person></properNoun>
+   <properNoun><person><gn>Bob</gn><fn>Balaban</fn></person></properNoun>
+   <properNoun><person><gn>John</gn><fn>Williams</fn></person></properNoun>
+   <properNoun><person><gn>Vilmos</gn><fn>Zsigmond</fn></person></properNoun>
+  </keywords>
+ </description>
+</essay>

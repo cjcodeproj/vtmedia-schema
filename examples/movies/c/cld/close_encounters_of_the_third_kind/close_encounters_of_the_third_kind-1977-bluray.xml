@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Close Encounters Of The Third Kind</main>
+   <edition>30th Anniversary Ultime Edition</edition>
+  </title>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>043396228597</barcode>
+    <barcode type='isbn' scanlines='false'>1-4248-8695-3</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray id='br01'/>
+      <bluray id='br02'/>
+      <booklet/>
+      <poster/>
+     </case>
+   </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <blurayIndex ref='uhd01'>
+    <title>
+     <content ref='close_encounters' group='main'>
+      <variants>orig special director</variants>
+     </content>
+    </title>
+   </blurayIndex>
+  </index>
+  <contents>
+   <xi:include href='close_encounters_of_the_third_kind-1977-movie.xml'/>
+   <xi:include href='cast_and_crew_biographies-essay.xml'/>
+   <xi:include href='behind_the_scenes-essay.xml'/>
+   <xi:include href='special_effects-essay.xml'/>
+   <xi:include href='a_view_from_above-essay.xml'/>
+  </contents>
+ </media>
+</medialist>

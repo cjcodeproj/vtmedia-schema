@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<essay xmlns='http://vectortron.com/xml/media/written'>
+ <title>Minotaur Noir: The Art Of Dark City</title>
+ <catalog>
+  <authors>
+   <author><gn>Sabina</gn><fn>Stent</fn></author>
+  </authors>
+ </catalog>
+ <description>
+  <summary>
+   An essay on the metaphor and imagery of Dark City.
+  </summary>
+  <keywords>
+   <properNoun><person><gn>Alex</gn><fn>Proyas</fn></person></properNoun>
+   <properNoun><art type='movie'>The Crow</art></properNoun>
+   <properNoun><person><gn>Dariusz</gn><fn>Wolski</fn></person></properNoun>
+   <properNoun><art type='movie'>The Maltese Falcon</art></properNoun>
+   <properNoun><art type='story'>The Killers</art></properNoun> <!-- (hemmingway) -->
+   <properNoun><person><gn>Edward</gn><fn>Hoopers</fn></person></properNoun>
+   <properNoun><art type='movie' year='1942'>Nighthawks</art></properNoun>
+   <generic>maze</generic>
+   <generic>labrynth</generic>
+   <generic>minotaur</generic>
+   <properNoun><art type='book'>Seduction Of The Minotaur</art></properNoun>
+   <properNoun><art type='movie'>The Matrix</art></properNoun>
+  </keywords>
+ </description>
+</essay>

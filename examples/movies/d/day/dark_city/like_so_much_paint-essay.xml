@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<essay xmlns='http://vectortron.com/xml/media/written'>
+ <title>Like So Much Paint: Dark City's Comic Book Style</title>
+ <catalog>
+  <authors>
+   <author><gn>Martyn</gn><fn>Pedler</fn></author>
+  </authors>
+ </catalog>
+ <description>
+  <summary>
+   An essay on the comic book art style as used in the movie Dark City.
+  </summary>
+  <keywords>
+   <generic>comic books</generic>
+   <properNoun><person><gn>James</gn><fn>O'Barr</fn></person></properNoun>
+   <properNoun><art type='movie' year='1989'>Batman</art></properNoun>
+   <properNoun><art type='movie'>Metropolis</art></properNoun>
+   <properNoun><art type='movie'>The Truman Show</art></properNoun>
+   <properNoun><art type='movie' year='2003'>Hulk</art></properNoun>
+   <properNoun><art type='movie'>Scott Pilgrim vs. The World</art></properNoun>
+   <properNoun><art type='book'>The Aesthetics Of Comics</art></properNoun>
+   <properNoun><place><cn>Australia</cn></place></properNoun>
+  </keywords>
+ </description>
+</essay>
