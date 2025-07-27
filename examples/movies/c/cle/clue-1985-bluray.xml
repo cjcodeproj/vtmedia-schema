@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Clue</main>
+  </title>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>883929310401</barcode>
+    <barcode type='upc'>097361470344</barcode>
+    <barcode type='isbn' scanlines='false'>1-4157-6424-7</barcode>
+    <other>
+     <name>Proof Of Purchase</name>
+     <value>14703</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray id='br01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <blurayIndex ref='br01'>
+    <title>
+     <content ref='clue' group='main'>
+      <variants>trilogy end_a end_b end_c</variants>
+     </content>
+    </title>
+   </blurayIndex>
+  </index>
+  <contents>
+   <xi:include href='clue-1985-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<essay xmlns='http://vectortron.com/xml/media/written'>
+ <title>A Tuned Reality: What Dark City Can Tell Us About Modi's India</title>
+ <catalog>
+  <authors>
+   <author><gn>Virat</gn><fn>Nehru</fn></author>
+  </authors>
+ </catalog>
+ <description>
+  <summary>
+   A political essay on how Dark City is a metaphor for how
+   politicians shape reality by changing people's perceptions
+   of it.
+  </summary>
+  <keywords>
+   <properNoun><place><cn>India</cn></place></properNoun>
+   <generic>hegemony</generic>
+   <generic>pluralism</generic>
+   <generic>romanticism</generic>
+  </keywords>
+ </description>
+</essay>

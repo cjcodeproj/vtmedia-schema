@@ -4,7 +4,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -115,7 +115,7 @@
   </xs:sequence>
  </xs:complexType>
 
- <xs:complexType name='TechnicalType'>
+ <xs:complexType name='VisualTechnicalType'>
   <xs:sequence>
    <xs:element name='runtime' type='RuntimeType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='visualFormat' type='VisualFormatType' minOccurs='0' maxOccurs='1'/>

@@ -1,0 +1,273 @@
+<?xml version='1.0'?>
+   <movie id='clue' xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Clue</title>
+    <catalog>
+     <copyright>
+      <year>1985</year>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Mystery</primary>
+      <secondary>Comedy</secondary>
+      <subgenres>
+       <subgenre>based on a board game</subgenre>
+       <subgenre>whodunit</subgenre>
+      </subgenres>
+     </genres>
+     <certifications>
+      <certificate ref=''>
+       <rating code='PG'>Parental Guidance Suggested</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <technical>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      Six strangers meet up for dinner at a remote mansion, not realizing they
+      will soon meet the one person that has been blackmailing them.
+     </plot>
+     <settings>
+      <primary>
+       <where>
+        <place><name>New England</name></place>
+       </where>
+       <!-- time est, 1950s -->
+      </primary>
+     </settings>
+     <keywords>
+      <group>
+       <generic>dinner party</generic>
+       <generic>party guests</generic>
+      </group>
+      <group>
+       <generic>gun</generic>
+       <generic>lead pipe</generic>
+       <generic>candlestick</generic>
+       <generic>wrench</generic>
+       <generic>knife</generic>
+       <generic>rope</generic>
+      </group>
+      <group relevance='4'>
+       <properNoun><place><ci>Washington</ci><st abbrv='DC'>District of Columbia</st></place></properNoun>
+       <generic>escort</generic>
+       <generic>psychatrist</generic>
+       <generic>widow</generic>
+       <generic>maid</generic>
+       <generic>cook</generic>
+       <generic>butler</generic>
+       <properNoun><entity>US Senate</entity></properNoun>
+       <properNoun><entity>US Army</entity></properNoun>
+       <properNoun><entity>US State Department</entity></properNoun>
+       <properNoun><entity acronym='WHO'>World Health Organization</entity></properNoun>
+      </group>
+      <group>
+       <generic>murder</generic>
+       <generic>blackmail</generic>
+       <generic>evidence</generic>
+       <generic>confrontation</generic>
+       <generic>informant</generic>
+       <generic>accomplice</generic>
+      </group>
+      <group>
+       <generic>mansion</generic>
+       <generic>secret passage</generic>
+       <generic>chandelier</generic>
+      </group>
+      <group>
+       <generic>police</generic>
+       <generic>cop</generic>
+       <properNoun><entity acronym='FBI'>Federal Bureau of Investigation</entity></properNoun>
+      </group>
+     </keywords>
+    </story>
+    <variants>
+     <variant id='trilogy'>
+      <name>Triology Endings</name>  <!-- home media release only -->  <!-- most popular ?? variant -->
+      <technical>
+       <runtime>
+        <overall>PT1H36M51S</overall>
+       </runtime>
+      </technical>
+     </variant>
+     <variant id='end_a'>
+      <name>Ending A</name>
+      <technical>
+       <runtime>
+        <overall>PT1H27M34S</overall>
+       </runtime>
+      </technical>
+     </variant>
+     <variant id='end_b'>
+      <name>Ending B</name>
+      <technical>
+       <runtime>
+        <overall>PT1H27M45S</overall>
+       </runtime>
+      </technical>
+     </variant>
+     <variant id='end_c'>
+      <name>Ending C</name>
+      <technical>
+       <runtime>
+        <overall>PT1H26M22S</overall>
+       </runtime>
+      </technical>
+     </variant>
+    </variants>
+    <crew>
+     <directors>
+      <director><gn>Jonathan</gn><fn>Lynn</fn></director>
+     </directors>
+     <writers>
+      <writer role='story'><gn>John</gn><fn>Landis</fn></writer>
+      <writer role='story'><gn>Jonathan</gn><fn>Lynn</fn></writer>
+      <writer role='screenplay'><gn>Jonathan</gn><fn>Lynn</fn></writer>
+      <sources>
+       <game>
+        <title>Cluedo</title>
+        <authors>
+         <author uncredited='true'><gn>Anthony</gn><mi>E.</mi><fn>Pratt</fn></author>
+        </authors>
+       </game>
+      </sources>
+     </writers>
+     <editors>
+      <editor><gn>David</gn><fn>Bretherton</fn></editor>
+      <editor><gn>Richard</gn><fn>Haines</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Victor</gn><mn>J.</mn><fn>Kemper</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <music>
+      <composer><gn>John</gn><fn>Morris</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>John</gn><mn>Robert</mn><fn>Lloyd</fn></productionDesigner>
+      <setDecorator><gn>Thomas</gn><mn>L.</mn><fn>ROysden</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Michael</gn><fn>Caplan</fn></costumeDesigner>
+     </wardrobe>
+     <casting>
+      <casting><gn>Janet</gn><fn>Hirshenson</fn></casting>
+      <casting><gn>Jane</gn><fn>Jenkins</fn></casting>
+     </casting>
+     <cast>
+      <role>
+       <actor><gn>Eileen</gn><fn>Brennan</fn></actor>
+       <character>
+        <name><prefix>Mrs.</prefix><fn>Peacock</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Tim</gn><fn>Curry</fn></actor>
+       <character>
+        <name><fn>Wadsworth</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Madeline</gn><fn>Kahn</fn></actor>
+       <character>
+        <name><prefix>Mrs.</prefix><fn>White</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Christopher</gn><fn>Lloyd</fn></actor>
+       <character>
+        <name><prefix>Professor</prefix><fn>Plum</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Michael</gn><fn>McKean</fn></actor>
+       <character>
+        <name><prefix>Mr.</prefix><fn>Green</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Martin</gn><fn>Mull</fn></actor>
+       <character>
+        <name><prefix>Colonel</prefix><fn>Mustard</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Lesley Ann</gn><fn>Warren</fn></actor>
+       <character>
+        <name><prefix>Miss</prefix><fn>Scarlet</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Colleen</gn><fn>Camp</fn></actor>
+       <character>
+        <name><gn>Yvette</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Lee</gn><fn>Ving</fn></actor>
+       <character>
+        <name><prefix>Mr.</prefix><fn>Boddy</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Bill</gn><fn>Henderson</fn></actor>
+       <character>
+        <unnamed>The Cop</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Jane</gn><fn>Wiedlin</fn></actor>
+       <character>
+        <unnamed>The Singing Telegram Girl</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Jeffrey</gn><fn>Kramer</fn></actor>
+       <character>
+        <unnamed>The Motorist</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Kellye</gn><fn>Nakahara</fn></actor>
+       <character>
+        <name><prefix>Mrs.</prefix><fn>Ho</fn><addendum>The Cook</addendum></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Will</gn><fn>Nye</fn></actor>
+       <character>
+        <unnamed>Cop #1</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Rick</gn><fn>Goldman</fn></actor>
+       <character>
+        <unnamed>Cop #2</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Don</gn><fn>Camp</fn></actor>
+       <character>
+        <unnamed>Cop #3</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Howard</gn><fn>Hesseman</fn></actor>
+       <character uncredited='true'>
+        <unnamed>The Chief</unnamed>
+       </character>
+      </role>
+     </cast>
+    </crew>
+   </movie>

@@ -62,6 +62,12 @@
    <td>[FICTION] Action/Thriller/Drama "Reopening War Wounds"</td>
   </tr>
   <tr>
+   <td>Logan</td>
+   <td>2017</td>
+   <td>2:17:23</td>
+   <td>[FICTION] Action/Sci-Fi</td>
+  </tr>
+  <tr>
    <td>Mad Max</td>
    <td>1979</td>
    <td>1:33:00</td>
@@ -194,6 +200,12 @@
    <th colspan='4'>Mystery</th>
   </tr>
   <tr>
+   <td>Clue</td>
+   <td>1985</td>
+   <td>0:00:00</td>
+   <td>[FICTION] Mystery/Comedy</td>
+  </tr>
+  <tr>
    <td>The Pelican Brief</td>
    <td>1993</td>
    <td>2:21:05</td>
@@ -211,10 +223,22 @@
    <th colspan='4'>Sci-Fi</th>
   </tr>
   <tr>
+   <td>Close Encounters Of The Third Kind</td>
+   <td>1977</td>
+   <td>2:14:45</td>
+   <td>[FICTION] Sci-Fi/Adventure</td>
+  </tr>
+  <tr>
    <td>Contact</td>
    <td>1997</td>
    <td>2:30:00</td>
    <td>[FICTION] Sci-Fi/Drama "Alien Contact"</td>
+  </tr>
+  <tr>
+   <td>Dark City</td>
+   <td>1998</td>
+   <td>1:40:32</td>
+   <td>[FICTION] Sci-Fi/Thriller</td>
   </tr>
   <tr>
    <td>The Last Starfighter</td>
@@ -259,4 +283,3 @@
   </tr>
  </tbody>
 </table>
-

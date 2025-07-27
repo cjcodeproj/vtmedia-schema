@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Close Encounters Of The Third Kind</main>
+   <edition>40th Anniversary Edition</edition>
+  </title>
+  <medium>
+   <release>
+    <type><ultrahd/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>94339651389</barcode>
+    <sku retailer='amzn'>B073WMDDG6</sku>
+   </productId>
+   <productSpecs>
+    <inventory>
+    <box>
+     <case slipcover='true'>
+      <ultrahd id='uhd01'/>
+      <bluray id='br01'/>
+      <bluray id='br02'/>
+      <codesheet/>
+     </case>
+     <booklet/>
+    </box>
+   </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <ultrahdIndex ref='uhd01'>
+    <title>
+     <content ref='close_encounters' group='main'>
+      <variants>orig special director</variants>
+     </content>
+    </title>
+   </ultrahdIndex>
+   <blurayIndex ref='uhd01'>
+    <title>
+     <content ref='close_encounters' group='main'>
+      <variants>orig special director</variants>
+     </content>
+    </title>
+   </blurayIndex>
+  </index>
+  <contents>
+   <xi:include href='close_encounters_of_the_third_kind-1977-movie.xml'/>
+   <xi:include href='visual_history-essay.xml'/>
+   <xi:include href='a_view_from_above-essay.xml'/>
+  </contents>
+ </media>
+</medialist>

@@ -1,0 +1,288 @@
+<?xml version='1.0'?>
+   <movie id='darkcity' xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Dark City</title>
+    <catalog>
+     <copyright>
+      <year>1998</year>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Sci-Fi</primary>
+      <secondary>Thriller</secondary>
+      <subgenres>
+       <subgenre>cult classic</subgenre>
+       <subgenre>noir</subgenre>
+      </subgenres>
+     </genres>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT1H40M32S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      A man discovers he is part of an elaborate experiment where
+      aliens manipulate all the humans around him in order
+      to better understand their behaviors.
+     </plot>
+     <!-- setting is unnamed city in contemporary time -->
+     <keywords>
+      <group>
+       <generic>city</generic>
+       <generic>night</generic>
+       <generic>beach</generic>
+      </group>
+      <group>
+       <generic>maze</generic>
+       <generic>labrynth</generic>
+      </group>
+      <group>
+       <generic>police department</generic>
+       <generic>police detective</generic>
+       <generic>murder investigation</generic>
+       <generic>serial killer</generic>
+      </group>
+      <group>
+       <generic>alien abduction</generic>
+       <generic>aliens</generic>
+       <generic>hypnosis</generic>
+       <generic>implanted memories</generic>
+       <generic>shared reality</generic>
+       <generic>amnesia</generic>
+       <generic>doctor</generic>
+      </group>
+      <group>
+       <generic>night club</generic>
+       <generic>movie theater</generic>
+       <generic>hotel</generic>
+       <generic>bath house</generic>
+       <generic>subway station</generic>
+       <properNoun><thing>Automat</thing></properNoun>
+      </group>
+     </keywords>
+    </story>
+    <variants>
+     <original id='theatrical'>
+      <name>Theatrical Cut</name>
+     </original>
+     <variant id='directors'>
+      <name>Director's Cut</name>
+      <technical>
+       <runtime>
+        <overall>PT1H51M49S</overall>
+       </runtime>
+      </technical>
+     </variant>
+    </variants>
+    <crew>
+     <directors>
+      <director><gn>Alex</gn><fn>Proyas</fn></director>
+     </directors>
+     <writers>
+      <writer role='screenplay'><gn>Firstname</gn><fn>Lastname</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Dov</gn><fn>Hoenig</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>Dariusz</gn><fn>Wolski</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <music>
+      <composer><gn>Trevor</gn><fn>Jones</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>George</gn><fn>Liddle</fn></productionDesigner>
+      <productionDesigner><gn>Patrick</gn><fn>Tatopoulos</fn></productionDesigner>
+      <artDirector><gn>Richard</gn><fn>Hobbs</fn></artDirector>
+      <artDirector><gn>Michelle</gn><fn>McGahey</fn></artDirector>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Liz</gn><fn>Koegh Palmer</fn></costumeDesigner>
+     </wardrobe>
+     <casting>
+      <director><gn>Valerie</gn><fn>McCaffrey</fn></director>
+      <director><gn>Vanessa</gn><fn>Pereira</fn></director>
+      <director><gn>Shauna</gn><fn>Wolifson</fn></director>
+     </casting>
+     <cast>
+      <role>
+       <actor><gn>Rufus</gn><fn>Sewell</fn></actor>
+       <character>
+        <name><gn>John</gn><fn>Murdoch</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>William</gn><fn>Hurt</fn></actor>
+       <character>
+        <name><prefix>Inspector</prefix><gn>Frank</gn><fn>Bumstead</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Kiefer</gn><fn>Sutherland</fn></actor>
+       <character>
+        <name><prefix>Dr.</prefix><gn>Daniel</gn><fn>Schreber</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Jennifer</gn><fn>Connelly</fn></actor>
+       <character>
+        <name><gn>Emma</gn><fn>Murdoch</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Richard</gn><fn>O'Brien</fn></actor>
+       <character>
+        <name><prefix>Mr.</prefix><fn>Hand</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Ian</gn><fn>Richardson</fn></actor>
+       <character>
+        <name><prefix>Mr.</prefix><fn>Book</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Bruce</gn><fn>Spence</fn></actor>
+       <character>
+        <name><prefix>Mr.</prefix><fn>Wall</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Colin</gn><fn>Friels</fn></actor>
+       <character>
+        <name><fn>Walenski</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>John</gn><fn>Bluthal</fn></actor>
+       <character>
+        <name><gn>Karl</gn><fn>Harris</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Mitchell</gn><fn>Butel</fn></actor>
+       <character>
+        <name><fn>Hasselbeck</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Melissa</gn><fn>George</fn></actor>
+       <character>
+        <name><gn>May</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Frank</gn><fn>Gallacher</fn></actor>
+       <character>
+        <name><fn>Stomboli</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Ritchie</gn><fn>Singer</fn></actor>
+       <character>
+        <unnamed>Hotel Manager/Vendor</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Justin</gn><fn>Monjo</fn></actor>
+       <character>
+        <unnamed>Taxi Driver</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Nicholas</gn><fn>Bell</fn></actor>
+       <character>
+        <name><prefix>Mr.</prefix><fn>Rain</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Satya</gn><fn>Gumbert</fn></actor>
+       <character>
+        <name><prefix>Mr.</prefix><fn>Sleep</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Noah</gn><fn>Gumbert</fn></actor>
+       <character>
+        <name><prefix>Mr.</prefix><fn>Sleep</fn></name>
+        <aspect>filming double</aspect>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Frederick</gn><fn>Miragliotta</fn></actor>
+       <character>
+        <name><prefix>Mr.</prefix><fn>Quick</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Peter</gn><fn>Sommerfeld</fn></actor>
+       <character>
+        <unnamed>Stranger</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Timothy</gn><fn>Jones</fn></actor>
+       <character>
+        <unnamed>Stranger</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Jeanette</gn><fn>Cronin</fn></actor>
+       <character>
+        <unnamed>Stranger</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Paul</gn><fn>Livingston</fn></actor>
+       <character>
+        <unnamed>Assistant Stranger</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Michael</gn><fn>Lake</fn></actor>
+       <character>
+        <unnamed>Assistant Stranger</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>David</gn><fn>Wenham</fn></actor>
+       <character>
+        <unnamed>Schreber's Assistant</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Alan</gn><fn>Cinis</fn></actor>
+       <character>
+        <unnamed>Automat Cop</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Bill</gn><fn>Highfield</fn></actor>
+       <character>
+        <unnamed>Automat Cop</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Terry</gn><fn>Bader</fn></actor>
+       <character>
+        <name><prefix>Mr.</prefix><fn>Goodwin</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Rosie</gn><fn>Traynor</fn></actor>
+       <character>
+        <name><prefix>Mrs.</prefix><fn>Goodwin</fn></name>
+       </character>
+      </role>
+     </cast>
+    </crew>
+   </movie>

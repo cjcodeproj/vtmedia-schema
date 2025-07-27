@@ -1,0 +1,316 @@
+<?xml version='1.0'?>
+   <movie id='logan' xmlns='http://vectortron.com/xml/media/movie'>
+    <title>Logan</title>
+    <catalog>
+     <copyright>
+      <year>2017</year>
+      <holders>
+       <holder>Twentieth Century Fox Film Corporation</holder>
+       <holder>TSG Entertainment Finance, LLC</holder>
+      </holders>
+     </copyright>
+    </catalog>
+    <classification>
+     <category><fiction/></category>
+     <genres>
+      <primary>Action</primary>
+      <secondary>Sci-Fi</secondary>
+      <subgenres>
+       <subgenre>based on a comic book</subgenre>
+       <subgenre>future noir</subgenre>
+      </subgenres>
+     </genres>
+     <certifications>
+      <certificate ref='50700'>
+       <rating code='R'>Restricted</rating>
+       <agency>
+        <name>MPAA</name>
+        <country>US</country>
+       </agency>
+      </certificate>
+     </certifications>
+    </classification>
+    <technical>
+     <runtime>
+      <overall>PT2H17M23S</overall>
+     </runtime>
+     <visualFormat>
+      <liveAction/>
+      <palette>
+       <color/>
+      </palette>
+     </visualFormat>
+    </technical>
+    <story>
+     <plot>
+      It's 2029, and mutants are almost extinct.  Logan is entrusted to take
+      a mutant girl (Laura) north, where she will meet up with other mutant
+      kids who have escaped from a biotech corporation and cross the border
+      into Canada where they will be granted asylum.  But the people that
+      created Laura want her back, and will do anything to stop them.
+     </plot>
+     <settings>
+      <primary>
+       <where>
+        <place><st abbrv='TX'>Texas</st></place>
+       </where>
+       <when>
+        <year>2029</year>
+       </when>
+      </primary>
+      <secondary>
+       <where>
+        <place><st abbrv='ND'>North Dakota</st></place>
+       </where>
+      </secondary>
+     </settings>
+     <keywords>
+      <group>
+       <generic>mutant</generic>
+       <generic>genetic engineering</generic>
+      </group>
+      <group>
+       <generic>evil corporation</generic>
+       <generic>private army</generic>
+      </group>
+      <group>
+       <generic>limousine</generic>
+       <generic>limo driver</generic>
+      </group>
+      <group>
+       <generic>road trip</generic>
+       <generic>cross country chase</generic>
+      </group>
+      <group>
+       <properNoun><place><cn>Canada</cn></place></properNoun>
+       <generic>border crossing</generic>
+      </group>
+      <group>
+       <properNoun><art type='comicBook'>The Uncanny X-Men</art></properNoun>
+       <properNoun><art type='movie'>Shane</art></properNoun>
+      </group>
+     </keywords>
+     <themes>
+      <theme> </theme>
+      <theme> </theme>
+     </themes>
+    </story>
+    <variants>
+     <original id='orig'/>
+     <variant id='noir'>
+      <name>Noir</name>
+      <technical>
+       <visualFormat>
+        <liveAction/>
+        <palette>
+         <blackAndWhite/>
+        </palette>
+       </visualFormat>
+      </technical>
+     </variant>
+    </variants>
+    <crew>
+     <directors>
+      <director><gn>James</gn><fn>Mangold</fn></director>
+     </directors>
+     <writers>
+      <writer role='story'><gn>James</gn><fn>Mangold</fn></writer>
+      <writer role='screenplay'><gn>Scott</gn><fn>Frank</fn></writer>  <!-- amp and -->
+      <writer role='screenplay'><gn>James</gn><fn>Mangold</fn></writer>
+      <writer role='screenplay'><gn>Michael</gn><fn>Green</fn></writer>
+     </writers>
+     <editors>
+      <editor><gn>Michael</gn><fn>McCusker</fn></editor>
+      <editor><gn>Dirk</gn><fn>Westervelt</fn></editor>
+     </editors>
+     <cinemaphotographers>
+      <cinemaphotographer><gn>John</gn><fn>Mathieson</fn></cinemaphotographer>
+     </cinemaphotographers>
+     <music>
+      <composer><gn>Marco</gn><fn>Beltrami</fn></composer>
+     </music>
+     <artDept>
+      <productionDesigner><gn>François</gn><fn>Audouy</fn></productionDesigner>
+      <artDirector><gn>Chris</gn><fn>Farmer</fn></artDirector>  <!-- supervising art director -->
+      <artDirector><gn>Jordan</gn><fn>Ferrer</fn></artDirector>
+      <artDirector><gn>Luke</gn><fn>Freeborn</fn></artDirector>
+      <artDirector><gn>Scott</gn><fn>Plauche</fn></artDirector>
+      <setDecorator><gn>Peter</gn><fn>Lando</fn></setDecorator>
+     </artDept>
+     <wardrobe>
+      <costumeDesigner><gn>Daniel</gn><fn>Orlandi</fn></costumeDesigner>
+     </wardrobe>
+     <casting>
+      <casting><gn>Lisa</gn><fn>Beach</fn></casting>
+      <casting><gn>Priscilla</gn><fn>John</fn></casting>
+      <casting><gn>Sarah</gn><fn>Katzzman</fn></casting>
+     </casting>
+     <cast>
+      <role>
+       <actor><gn>Hugh</gn><fn>Jackman</fn></actor>
+       <character>
+        <name><gn>Logan</gn></name>
+       </character>
+       <character>
+        <name><pcn>X-24</pcn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Patrick</gn><fn>Stewart</fn></actor>
+       <character>
+        <name><gn>Charles</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Dafne</gn><fn>Keen</fn></actor>
+       <character>
+        <name><gn>Laura</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Boyd</gn><fn>Holbrook</fn></actor>
+       <character>
+        <name><gn>Pierce</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Stephen</gn><fn>Merchant</fn></actor>
+       <character>
+        <name><gn>Caliban</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Elizabeth</gn><fn>Rodriguez</fn></actor>
+       <character>
+        <name><gn>Gabriela</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Richard</gn><mi>E.</mi><fn>Grant</fn></actor>
+       <character>
+        <name><prefix>Dr.</prefix><fn>Rice</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Eriq</gn><fn>La Salle</fn></actor>
+       <character>
+        <name><gn>Will</gn><fn>Munson</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Elise</gn><fn>Neal</fn></actor>
+       <character>
+        <name><gn>Kathryn</gn><fn>Munson</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Quincy</gn><fn>Fouse</fn></actor>
+       <character>
+        <name><gn>Nate</gn><fn>Munson</fn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Al</gn><fn>Coronel</fn></actor>
+       <character>
+        <unnamed>Federale Commander</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Frank</gn><fn>Gallegos</fn></actor>
+       <character>
+        <unnamed>Federale Lieutenant</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Anthony</gn><fn>Escobar</fn></actor>
+       <character>
+        <unnamed>Federale</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Reynaldo</gn><fn>Gallegos</fn></actor>
+       <character>
+        <name><gn>Rey</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Krzysztof</gn><fn>Soszynski</fn></actor>
+       <character>
+        <name><nick>Mowhawk</nick></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Stephen</gn><fn>Dunlevy</fn></actor>
+       <character>
+        <name><gn>Macon</gn></name>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Daniel</gn><fn>Bernhardt</fn></actor>
+       <character>
+        <unnamed>Bone Breaker</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Ryan</gn><fn>Sturz</fn></actor>
+       <character>
+        <unnamed>Pretty Boy</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Brandon</gn><fn>Melendy</fn></actor>
+       <character>
+        <unnamed>Reaver</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Luke</gn><fn>Hawx</fn></actor>
+       <character>
+        <unnamed>Reaver</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Paul</gn><mn>Andrew</mn><fn>O'Connor</fn></actor>
+       <character>
+        <unnamed>Reaver</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Jean</gn><mn>Claude</mn><fn>Leuyer</fn></actor>
+       <character>
+        <unnamed>Reaver</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Jef</gn><fn>Groff</fn></actor>
+       <character>
+        <unnamed>Reaver</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Jeremy</gn><fn>Fitzgerald</fn></actor>
+       <character>
+        <unnamed>Reaver</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Chris</gn><fn>Palermo</fn></actor>
+       <character>
+        <unnamed>Reaver</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Keith</gn><fn>Jardine</fn></actor>
+       <character>
+        <unnamed>Reaver</unnamed>
+       </character>
+      </role>
+      <role>
+       <actor><gn>Andrew</gn><fn>Arrabito</fn></actor>
+       <character>
+        <unnamed>Reaver</unnamed>
+       </character>
+      </role>
+     </cast>
+    </crew>
+   </movie>

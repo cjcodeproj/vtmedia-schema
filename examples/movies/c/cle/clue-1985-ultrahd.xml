@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Clue</main>
+  </title>
+  <medium>
+   <release>
+    <type><ultrahd/></type>
+    <publisher>Shout Factory</publisher>
+   </release>
+   <productId>
+    <barcode type='upc'>826663242829</barcode>
+    <sku retailer='bby'>6561854</sku>
+    <other>
+     <name>Shout Select Spine Number</name>
+     <value>152</value>
+    </other>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case slipcover='true'>
+      <ultrahd id='uhd01'/>
+      <bluray id='br01'/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <ultrahdIndex ref='uhd01'>
+    <title>
+     <content ref='clue' group='main'>
+      <variants>trilogy end_a end_b end_c</variants>
+     </content>
+    </title>
+   </ultrahdIndex>
+   <blurayIndex ref='br01'>
+    <title>
+     <content ref='clue' group='main'>
+      <variants>trilogy end_a enn_b end_c</variants>
+     </content>
+    </title>
+    <!-- also includes featurettes -->
+   </blurayIndex>
+  </index>
+  <contents>
+   <xi:include href='clue-1985-movie.xml'/>
+  </contents>
+ </media>
+</medialist>
