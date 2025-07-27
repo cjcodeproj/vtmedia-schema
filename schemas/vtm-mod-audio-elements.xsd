@@ -33,6 +33,15 @@
  <xs:include schemaLocation='vtm-mod-audio-technical.xsd'/>
  <xs:include schemaLocation='vtm-mod-audio-elements-song.xsd'/>
 
+ <xs:attributeGroup name='ElementAttributeGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Common attributes shared by any element.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:attribute name='id' type='xs:NCName' use='required'/>
+ </xs:attributeGroup>
+
  <xs:complexType name='AudioDialogueType'>  <!-- dialogue -->
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>

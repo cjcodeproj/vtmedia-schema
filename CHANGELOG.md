@@ -3,6 +3,7 @@ vtmedia-schema CHANGELOG
 
 ## CURRENT
 
+ - [schema-191](https://github.com/cjcodeproj/vtmedia-schema/issues/191) ElementAttributeGroup should be moved
  - [schema-192](https://github.com/cjcodeproj/vtmedia-schema/issues/192) Variant index entries
  - [schema-193](https://github.com/cjcodeproj/vtmedia-schema/issues/193) Variants: Technical attributes
  - [schema-195](https://github.com/cjcodeproj/vtmedia-schema/issues/195) Rename TechnicalType

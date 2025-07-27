@@ -46,9 +46,6 @@
   </xs:sequence>
  </xs:complexType>
 
- <xs:attributeGroup name='ElementAttributeGroup'>
-  <xs:attribute name='id' type='xs:NCName' use='required'/>
- </xs:attributeGroup>
 
  <xs:complexType name='AudioSongType'>  <!-- song -->
   <xs:annotation>
