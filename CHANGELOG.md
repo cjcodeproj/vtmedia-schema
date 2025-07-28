@@ -1,8 +1,9 @@
 vtmedia-schema CHANGELOG
 =========================
 
-## CURRENT
+## RELEASE 2025.07
 
+ - [schema-197](https://github.com/cjcodeproj/vtmedia-schema/issues/197) Release 2025.07
  - [schema-191](https://github.com/cjcodeproj/vtmedia-schema/issues/191) ElementAttributeGroup should be moved
  - [schema-192](https://github.com/cjcodeproj/vtmedia-schema/issues/192) Variant index entries
  - [schema-193](https://github.com/cjcodeproj/vtmedia-schema/issues/193) Variants: Technical attributes
