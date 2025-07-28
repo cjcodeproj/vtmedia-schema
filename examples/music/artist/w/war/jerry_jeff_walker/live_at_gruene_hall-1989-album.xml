@@ -1,0 +1,228 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-08-18 13:40:51.022240) -->
+ <title>Live At Gruene Hall</title>
+ <catalog>
+  <artists>
+   <artist><gn>Jerry</gn><mn>Jeff</mn><fn>Walker</fn></artist>
+  </artists>
+  <copyright>
+   <year>1989</year>
+   <holders>
+    <holder>Rykodisc</holder>
+    <holder>Tried &amp; True Music</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+  <livePerformance/>
+ </classification>
+ <elements>
+  <song id='lml01'>
+   <title>
+    <main>Lovin' Makes Livin' Worthwhile</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Jerry</gn><mn>Jeff</mn><fn>Walker</fn></name>
+      <publisher>Groper Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M40S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='pts01'>
+   <title>
+    <main>Pickup Truck Song</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Jerry</gn><mn>Jeff</mn><fn>Walker</fn></name>
+      <publisher>Groper Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT4M19S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='llt01'>
+   <title>
+    <main>Long, Long Time</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Gary</gn><fn>White</fn></name>
+      <publisher>MCA Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M48S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ifl01'>
+   <title>
+    <main>I Feel Like Hank Williams Tonight</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Chris</gn><fn>Wall</fn></name>
+      <publisher>Rhythm Wrangler</publisher>
+      <publisher>Groper Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT4M18S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='mwt01'>
+   <title>
+    <main>Man With The Big Hat</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Steven</gn><fn>Fromholz</fn></name>
+      <publisher>MCA Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT6M1S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='qfo01'>
+   <title>
+    <main>Quiet Faith Of Man</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Bill</gn><fn>Staines</fn></name>
+      <publisher>Mineral River Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT5M22S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='lbl01'>
+   <title>
+    <main>Little Bird</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Jerry</gn><mn>Jeff</mn><fn>Walker</fn></name>
+      <publisher>Cotillion Music, Inc</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT3M34S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wit01'>
+   <title>
+    <main>Woman In Texas</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Jerry</gn><mn>Jeff</mn><fn>Walker</fn></name>
+      <publisher>Groper Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT4M41S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='rwl01'>
+   <title>
+    <main>Rodeo Wind</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Chris</gn><fn>Wall</fn></name>
+      <publisher>Rhythm Wrangler</publisher>
+      <publisher>Groper Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT4M49S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='twl01'>
+   <title>
+    <main>Trashy Women</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Chris</gn><fn>Wall</fn></name>
+      <publisher>Rhythm Wrangler</publisher>
+      <publisher>Groper Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <liveRecording/>
+    <runtime>
+      <overall>PT4M37S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

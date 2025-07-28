@@ -26,8 +26,12 @@
      <artist><grp>John Barry Orchestra</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Monty</gn><fn>Norman</fn></composer>
-     <arranger><gn>John</gn><fn>Barry</fn></arranger>
+     <composer>
+      <name><gn>Monty</gn><fn>Norman</fn></name>
+     </composer>
+     <arranger>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </arranger>
     </composers>
    </catalog>
    <classification>
@@ -53,7 +57,9 @@
      <artist><gn>Matt</gn><fn>Monro</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Lionel</gn><fn>Bart</fn></composer>
+     <composer>
+      <name><gn>Lionel</gn><fn>Bart</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -79,9 +85,15 @@
      <artist><gn>Shirley</gn><fn>Bassey</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Anthony</gn><fn>Newley</fn></composer>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
-     <composer><gn>Leslie</gn><fn>Bricusse</fn></composer>
+     <composer>
+      <name><gn>Anthony</gn><fn>Newley</fn></name>
+     </composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Leslie</gn><fn>Bricusse</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -107,8 +119,12 @@
      <artist><gn>Tom</gn><fn>Jones</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Don</gn><fn>Black</fn></composer>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer>
+      <name><gn>Don</gn><fn>Black</fn></name>
+     </composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -134,8 +150,12 @@
      <artist><gn>Nancy</gn><fn>Sinatra</fn></artist>
     </artists>
     <composers>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
-     <composer><gn>Leslie</gn><fn>Bricusse</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Leslie</gn><fn>Bricusse</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -161,7 +181,9 @@
      <artist><grp>John Barry Orchestra</grp></artist>
     </artists>
     <composers>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -187,8 +209,12 @@
      <artist><gn>Louis</gn><fn>Armstrong</fn></artist>
     </artists>
     <composers>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
-     <composer><gn>Hal</gn><fn>David</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Hal</gn><fn>David</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -214,8 +240,12 @@
      <artist><gn>Shirley</gn><fn>Bassey</fn></artist>
     </artists>
     <composers>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
-     <composer><gn>Don</gn><fn>Black</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Don</gn><fn>Black</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -241,8 +271,12 @@
      <artist><grp>Paul McCartney &amp; Wings</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Paul</gn><fn>McCartney</fn></composer>
-     <composer><gn>Linda</gn><fn>McCartney</fn></composer>
+     <composer>
+      <name><gn>Paul</gn><fn>McCartney</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Linda</gn><fn>McCartney</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -268,8 +302,12 @@
      <artist><pcn>Lulu</pcn></artist>
     </artists>
     <composers>
-     <composer><gn>Don</gn><fn>Black</fn></composer>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
+     <composer>
+      <name><gn>Don</gn><fn>Black</fn></name>
+     </composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -295,8 +333,12 @@
      <artist><gn>Carly</gn><fn>Simon</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Marvin</gn><fn>Hamlisch</fn></composer>
-     <composer><gn>Carole</gn><fn>Bayer Sager</fn></composer>
+     <composer>
+      <name><gn>Marvin</gn><fn>Hamlisch</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Carole</gn><fn>Bayer Sager</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -322,8 +364,12 @@
      <artist><gn>Shirley</gn><fn>Bassey</fn></artist>
     </artists>
     <composers>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
-     <composer><gn>Hal</gn><fn>David</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Hal</gn><fn>David</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -349,8 +395,12 @@
      <artist><gn>Sheena</gn><fn>Easton</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Michael</gn><fn>Lesson</fn></composer>
-     <composer><gn>Bill</gn><fn>Conti</fn></composer>
+     <composer>
+      <name><gn>Michael</gn><fn>Lesson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Bill</gn><fn>Conti</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -376,8 +426,12 @@
      <artist><gn>Rita</gn><fn>Coolidge</fn></artist>
     </artists>
     <composers>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
-     <composer><gn>Tim</gn><fn>Rice</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Tim</gn><fn>Rice</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -403,12 +457,24 @@
      <artist><grp>Duran Duran</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Nick</gn><fn>Rhodes</fn></composer>
-     <composer><gn>Simon</gn><fn>Lebon</fn></composer>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
-     <composer><gn>John</gn><fn>Taylor</fn></composer>
-     <composer><gn>Roger</gn><fn>Taylor</fn></composer>
-     <composer><gn>Andy</gn><fn>Taylor</fn></composer>
+     <composer>
+      <name><gn>Nick</gn><fn>Rhodes</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Simon</gn><fn>Lebon</fn></name>
+     </composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>John</gn><fn>Taylor</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Roger</gn><fn>Taylor</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Andy</gn><fn>Taylor</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -434,8 +500,12 @@
      <artist><grp>a-ha</grp></artist>
     </artists>
     <composers>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
-     <composer><gn>Pål</gn><fn>Waaktaar</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Pål</gn><fn>Waaktaar</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -461,12 +531,24 @@
      <artist><gn>Gladys</gn><fn>Knight</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Anthony</gn><fn>Newley</fn></composer>
-     <composer><gn>Jeffrey</gn><mi>A.</mi><fn>Cohen</fn></composer>
-     <composer><gn>Narada</gn><mn>Michael</mn><fn>Walden</fn></composer>
-     <composer><gn>John</gn><fn>Barry</fn></composer>
-     <composer><gn>Walter</gn><fn>Afanasieff</fn></composer>
-     <composer><gn>Leslie</gn><fn>Bricusse</fn></composer>
+     <composer>
+      <name><gn>Anthony</gn><fn>Newley</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jeffrey</gn><mi>A.</mi><fn>Cohen</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Narada</gn><mn>Michael</mn><fn>Walden</fn></name>
+     </composer>
+     <composer>
+      <name><gn>John</gn><fn>Barry</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Walter</gn><fn>Afanasieff</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Leslie</gn><fn>Bricusse</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -492,8 +574,12 @@
      <artist><gn>Tina</gn><fn>Turner</fn></artist>
     </artists>
     <composers>
-     <composer><gn>David</gn><fn>Evans</fn></composer>  <!-- the edge -->
-     <composer><gn>Paul</gn><fn>Hewson</fn></composer>  <!-- bono -->
+     <composer>
+      <name><gn>David</gn><fn>Evans</fn></name>  <!-- the edge -->
+     </composer>
+     <composer>
+      <name><gn>Paul</gn><fn>Hewson</fn></name>  <!-- bono -->
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -519,8 +605,12 @@
      <artist><gn>Sheryl</gn><fn>Crow</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Mitchell</gn><fn>Froom</fn></composer>
-     <composer><gn>Sheryl</gn><fn>Crow</fn></composer>
+     <composer>
+      <name><gn>Mitchell</gn><fn>Froom</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Sheryl</gn><fn>Crow</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -546,8 +636,12 @@
      <artist><grp>Garbage</grp></artist>
     </artists>
     <composers>
-     <composer><gn>David</gn><fn>Arnold</fn></composer>
-     <composer><gn>Don</gn><fn>Black</fn></composer>
+     <composer>
+      <name><gn>David</gn><fn>Arnold</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Don</gn><fn>Black</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -573,8 +667,12 @@
      <artist><pcn>Madonna</pcn></artist>
     </artists>
     <composers>
-     <composer><gn>Mirwais</gn><fn>Ahmadzaï</fn></composer>
-     <composer><pcn>Madonna</pcn></composer>
+     <composer>
+      <name><gn>Mirwais</gn><fn>Ahmadzaï</fn></name>
+     </composer>
+     <composer>
+      <name><pcn>Madonna</pcn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -600,8 +698,12 @@
      <artist><gn>Chris</gn><fn>Cornell</fn></artist>
     </artists>
     <composers>
-     <composer><gn>David</gn><fn>Arnold</fn></composer>
-     <composer><gn>Chris</gn><fn>Cornell</fn></composer>
+     <composer>
+      <name><gn>David</gn><fn>Arnold</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Chris</gn><fn>Cornell</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -628,7 +730,9 @@
      <artist><gn>Jack</gn><fn>White</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Jack</gn><fn>White</fn></composer>
+     <composer>
+      <name><gn>Jack</gn><fn>White</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -654,8 +758,12 @@
      <artist><pcn>Adele</pcn></artist>
     </artists>
     <composers>
-     <composer><gn>Adele</gn><fn>Adkins</fn></composer>
-     <composer><gn>Paul</gn><fn>Epworth</fn></composer>
+     <composer>
+      <name><gn>Adele</gn><fn>Adkins</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Paul</gn><fn>Epworth</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -681,8 +789,12 @@
      <artist><gn>Sam</gn><fn>Smith</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Sam</gn><fn>Smith</fn></composer>
-     <composer><gn>James</gn><fn>Napier</fn></composer>
+     <composer>
+      <name><gn>Sam</gn><fn>Smith</fn></name>
+     </composer>
+     <composer>
+      <name><gn>James</gn><fn>Napier</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>
@@ -708,8 +820,12 @@
      <artist><gn>Billie</gn><fn>Eilish</fn></artist>
     </artists>
     <composers>
-     <composer><pcn>Finneas</pcn></composer>
-     <composer><gn>Billie</gn><fn>Eilish</fn></composer>
+     <composer>
+      <name><pcn>Finneas</pcn></name>
+     </composer>
+     <composer>
+      <name><gn>Billie</gn><fn>Eilish</fn></name>
+     </composer>
     </composers>
    </catalog>
    <classification>

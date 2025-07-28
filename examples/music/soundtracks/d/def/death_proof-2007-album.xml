@@ -58,7 +58,9 @@
      <artist><gn>Ennio</gn><fn>Morricone</fn></artist>
     </artists>
    <composers>
-    <composer><gn>Ennio</gn><fn>Morricone</fn></composer>
+    <composer>
+     <name><gn>Ennio</gn><fn>Morricone</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>

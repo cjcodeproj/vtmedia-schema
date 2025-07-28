@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Logan</main>
+  </title>
+  <medium>
+   <release>
+    <type><bluray/></type>
+   </release>
+   <productId>
+    <barcode type='upc'>024543284383</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <bluray id='br01'/>
+      <bluray id='br02'/>
+      <dvd id='dvd01'/>
+      <codesheet><service> </service></codesheet>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <blurayIndex ref='br01'>
+    <title>
+     <content ref='logan'/>
+    </title>
+   </blurayIndex>
+   <blurayIndex ref='br02'>
+    <title>
+     <content ref='logan'/>
+    </title>
+   </blurayIndex>
+   <dvdIndex ref='dvd01'>
+    <title>
+     <content ref='logan'/>
+    </title>
+   </dvdIndex>
+  </index>
+  <contents>
+   <xi:include href='logan-2017-movie.xml'/>
+  </contents>
+ </media>
+</medialist>

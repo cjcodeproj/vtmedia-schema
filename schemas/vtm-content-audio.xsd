@@ -5,7 +5,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2024, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -54,6 +54,26 @@
   <xs:attributeGroup ref='ContentAttributeGroup'/>
  </xs:complexType>
 
+ <xs:complexType name='SingleType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     An album is a completed work of one or more songs
+     (or various audio clips) released on different forms of
+     physical or digital media.  It is a completed work from
+     an one or more artists designed to be appreciated
+     either as a whole work, or individual elements of the work.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='title' type='xs:string' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='catalog' type='AudioAlbumCatalogType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='classification' type='AudioAlbumClassificationType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='elements' type='AudioAlbumElementsType' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+  <xs:attributeGroup ref='ContentAttributeGroup'/>
+ </xs:complexType>
+
  <xs:element name='album' type='AlbumType'/>
+ <xs:element name='single' type='SingleType'/>
 
 </xs:schema>

@@ -21,8 +21,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>David</gn><fn>Paich</fn></composer>
-     <composer><gn>Jeffrey</gn><fn>Parcaro</fn></composer>
+     <composer>
+      <name><gn>David</gn><fn>Paich</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jeffrey</gn><fn>Parcaro</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -38,9 +42,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Christopher</gn><mn>Merrick</mn><fn>Hughes</fn></composer>
-     <composer><gn>Ian</gn><fn>Stanley</fn></composer>
-     <composer><gn>Roland</gn><fn>Orzabal</fn></composer>
+     <composer>
+      <name><gn>Christopher</gn><mn>Merrick</mn><fn>Hughes</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Ian</gn><fn>Stanley</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Roland</gn><fn>Orzabal</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -56,8 +66,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Annie</gn><fn>Lennox</fn></composer>
-     <composer><gn>Dave</gn><fn>Stewart</fn></composer>
+     <composer>
+      <name><gn>Annie</gn><fn>Lennox</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Dave</gn><fn>Stewart</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -73,9 +87,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Magne</gn><fn>Furuholmen</fn></composer>
-     <composer><gn>Marten</gn><fn>Harket</fn></composer>
-     <composer><gn>Pål</gn><fn>Waakktaar</fn></composer>
+     <composer>
+      <name><gn>Magne</gn><fn>Furuholmen</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Marten</gn><fn>Harket</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Pål</gn><fn>Waakktaar</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -91,8 +111,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Alan</gn><fn>Gordon</fn></composer>
-     <composer><gn>Garry</gn><fn>Bonner</fn></composer>
+     <composer>
+      <name><gn>Alan</gn><fn>Gordon</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Garry</gn><fn>Bonner</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -108,9 +132,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Ozzy</gn><fn>Osbourne</fn></composer>
-     <composer><gn>Terence</gn><mn>Michael</mn><fn>Butler</fn></composer>
-     <composer><gn>Tony</gn><fn>Iommi</fn></composer>
+     <composer>
+      <name><gn>Ozzy</gn><fn>Osbourne</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Terence</gn><mn>Michael</mn><fn>Butler</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Tony</gn><fn>Iommi</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -126,7 +156,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Jeff</gn><fn>Lynn</fn></composer>
+     <composer>
+      <name><gn>Jeff</gn><fn>Lynn</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -142,9 +174,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Kevin</gn><fn>Briggs</fn></composer>
-     <composer><gn>Kandi</gn><fn>Burruss</fn></composer>
-     <composer><gn>Tameka</gn><fn>Cottle</fn></composer>
+     <composer>
+      <name><gn>Kevin</gn><fn>Briggs</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Kandi</gn><fn>Burruss</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Tameka</gn><fn>Cottle</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -160,7 +198,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Michael</gn><fn>Jackson</fn></composer>
+     <composer>
+      <name><gn>Michael</gn><fn>Jackson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -176,9 +216,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Ben</gn><mn>E.</mn><fn>King</fn></composer>
-     <composer><gn>Jerry</gn><fn>Leiber</fn></composer>
-     <composer><gn>Mike</gn><fn>Stoller</fn></composer>
+     <composer>
+      <name><gn>Ben</gn><mn>E.</mn><fn>King</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jerry</gn><fn>Leiber</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Mike</gn><fn>Stoller</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

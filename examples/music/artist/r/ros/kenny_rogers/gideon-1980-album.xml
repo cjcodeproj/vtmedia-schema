@@ -6,8 +6,12 @@
    <artist><gn>Kenny</gn><fn>Rogers</fn></artist>
   </artists>
   <composers>
-   <composer><gn>Kim</gn><fn>Carnes</fn></composer>
-   <composer><gn>David</gn><mn>M.</mn><fn>Ellingson</fn></composer>
+   <composer>
+    <name><gn>Kim</gn><fn>Carnes</fn></name>
+   </composer>
+   <composer>
+    <name><gn>David</gn><mn>M.</mn><fn>Ellingson</fn></name>
+   </composer>
   </composers>
   <copyright>
    <year>1980</year>

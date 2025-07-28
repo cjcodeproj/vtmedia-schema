@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<cdIndex ref='cd01' xmlns='http://vectortron.com/xml/media/media'>
+ <!-- created by id3scan (2024-06-30 13:05:23.819169) -->
+ <track no='1'>
+  <index no='01'>
+   <content ref='as01'/>   <!-- TITLE Another Side -->
+  </index>
+ </track>
+ <track no='2'>
+  <index no='01'>
+   <content ref='tby01'/>   <!-- TITLE Talkin' Bout You -->
+  </index>
+ </track>
+ <track no='3'>
+  <index no='01'>
+   <content ref='tnw01'/>   <!-- TITLE This Night Won't Last Forever -->
+  </index>
+ </track>
+ <track no='4'>
+  <index no='01'>
+   <content ref='sdo01'/>   <!-- TITLE Six Days On The Road -->
+  </index>
+ </track>
+ <track no='5'>
+  <index no='01'>
+   <content ref='st01'/>   <!-- TITLE Small Talk -->
+  </index>
+ </track>
+ <track no='6'>
+  <index no='01'>
+   <content ref='wtr01'/>   <!-- TITLE With This Ring -->
+  </index>
+ </track>
+ <track no='7'>
+  <index no='01'>
+   <content ref='tr01'/>   <!-- TITLE Transistor Rodeo -->
+  </index>
+ </track>
+ <track no='8'>
+  <index no='01'>
+   <content ref='nad01'/>   <!-- TITLE Night And Day -->
+  </index>
+ </track>
+ <track no='9'>
+  <index no='01'>
+   <content ref='hah01'/>   <!-- TITLE Half A Heart -->
+  </index>
+ </track>
+ <track no='10'>
+  <index no='01'>
+   <content ref='bya01'/>   <!-- TITLE Between You And Paradise -->
+  </index>
+ </track>
+ <track no='11'>
+  <index no='01'>
+   <content ref='llt01'/>   <!-- TITLE A Love Like This -->
+  </index>
+ </track>
+ <track no='12'>
+  <index no='01'>
+   <content ref='eta01'/>   <!-- TITLE Every Twist And Turn -->
+  </index>
+ </track>
+ <track no='18'>
+  <index no='01'>
+   <content ref='tns01'/>   <!-- TITLE The Nebraska Song -->
+  </index>
+ </track>
+</cdIndex>

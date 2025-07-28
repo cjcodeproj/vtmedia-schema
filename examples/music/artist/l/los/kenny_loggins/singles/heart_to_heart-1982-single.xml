@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<single xmlns='http://vectortron.com/xml/media/audio'>
+ <catalog>
+  <artists>
+   <artist><gn>Kenny</gn><fn>Loggins</fn></artist>
+  </artists>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Popular</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='hth01'>
+   <title>
+    <main>Heart To Heart</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Kenny</gn><fn>Loggins</fn></name>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M55S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</single>

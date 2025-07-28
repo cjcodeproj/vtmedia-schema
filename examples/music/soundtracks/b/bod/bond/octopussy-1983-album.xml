@@ -29,8 +29,12 @@
     <artist><gn>Rita</gn><fn>Coolidge</fn></artist>
    </artists>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-    <lyricist><gn>Tim</gn><fn>Rice</fn></lyricist>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
+    <lyricist>
+     <name><gn>Tim</gn><fn>Rice</fn></name>
+    </lyricist>
    </composers>
    </catalog>
    <technical>
@@ -47,7 +51,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -67,9 +73,11 @@
     <artist><gn>Roger</gn><fn>Moore</fn></artist>
     <artist><gn>Lois</gn><fn>Maxwell</fn></artist>
    </artists>
+   <!-- remove this chunk
    <composers>
     <composer><gn>Richard</gn><fn>Maibaum</fn></composer>
    </composers>
+    -->
    </catalog>
    <technical>
     <studioRecording/>
@@ -85,7 +93,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -102,7 +112,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -119,7 +131,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -138,9 +152,11 @@
    <artists>
     <artist><gn>Roger</gn><fn>Moore</fn></artist>
    </artists>
+    <!-- remove this chunk
    <composers>
     <composer><gn>Richard</gn><fn>Maibaum</fn></composer>
    </composers>
+    -->
    </catalog>
    <technical>
     <studioRecording/>
@@ -156,7 +172,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -173,7 +191,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -193,9 +213,11 @@
     <artist><gn>Desmond</gn><fn>Llewelyn</fn></artist>
     <artist><gn>Roger</gn><fn>Moore</fn></artist>
    </artists>
+   <!-- remove this chunk
    <composers>
     <composer><gn>Richard</gn><fn>Maibaum</fn></composer>
    </composers>
+    -->
    </catalog>
    <technical>
     <studioRecording/>
@@ -211,7 +233,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -228,7 +252,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -245,7 +271,9 @@
   </title>
   <catalog>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -265,8 +293,12 @@
     <artist><gn>Rita</gn><fn>Coolidge</fn></artist>
    </artists>
    <composers>
-    <composer><gn>John</gn><fn>Barry</fn></composer>
-    <lyricist><gn>Tim</gn><fn>Rice</fn></lyricist>
+    <composer>
+     <name><gn>John</gn><fn>Barry</fn></name>
+    </composer>
+    <lyricist>
+     <name><gn>Tim</gn><fn>Rice</fn></name>
+    </lyricist>
    </composers>
    </catalog>
    <technical>

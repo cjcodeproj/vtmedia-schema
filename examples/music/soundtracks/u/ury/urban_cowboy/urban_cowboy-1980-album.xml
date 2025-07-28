@@ -31,8 +31,12 @@
      <artist><gn>Jimmy</gn><fn>Buffett</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Robby</gn><fn>Canpbell</fn></composer>
-     <composer><gn>Brian</gn><fn>Collins</fn></composer>
+     <composer>
+      <name><gn>Robby</gn><fn>Canpbell</fn></name>
+     </composer>
+    <composer>
+      <name><gn>Brian</gn><fn>Collins</fn></name>
+    </composer>
     </composers>
    </catalog>
    <technical>
@@ -51,7 +55,9 @@
      <artist><gn>Joe</gn><fn>Walsh</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Joe</gn><fn>Walsh</fn></composer>
+     <composer>
+      <name><gn>Joe</gn><fn>Walsh</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -70,7 +76,9 @@
      <artist><gn>Dan</gn><fn>Fogelberg</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Dan</gn><fn>Fogelberg</fn></composer>
+     <composer>
+      <name><gn>Dan</gn><fn>Fogelberg</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -89,7 +97,9 @@
      <artist><grp>Bob Seger &amp; The Silver Bullet Band</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Bob</gn><fn>Seger</fn></composer>
+     <composer>
+      <name><gn>Bob</gn><fn>Seger</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -108,9 +118,15 @@
      <artist><gn>Mickey</gn><fn>Gilley</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Ben</gn><mn>E.</mn><fn>King</fn></composer>
-     <composer><gn>Mike</gn><fn>Stoller</fn></composer>
-     <composer><gn>Jerry</gn><fn>Lieber</fn></composer>
+     <composer>
+      <name><gn>Ben</gn><mn>E.</mn><fn>King</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Mike</gn><fn>Stoller</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jerry</gn><fn>Lieber</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -129,7 +145,9 @@
      <artist><gn>Johnny</gn><fn>Lee</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Michael</gn><fn>Murphy</fn></composer>
+     <composer>
+      <name><gn>Michael</gn><fn>Murphy</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -148,8 +166,12 @@
      <artist><gn>Anne</gn><fn>Murray</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Wayland</gn><fn>Holyfield</fn></composer>
-     <composer><gn>Bob</gn><fn>House</fn></composer>
+     <composer>
+      <name><gn>Wayland</gn><fn>Holyfield</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Bob</gn><fn>House</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -168,8 +190,12 @@
      <artist><grp>Eagles</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Glenn</gn><fn>Frey</fn></composer>
-     <composer><gn>Dan</gn><fn>Henley</fn></composer>
+     <composer>
+      <name><gn>Glenn</gn><fn>Frey</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Dan</gn><fn>Henley</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -188,8 +214,12 @@
      <artist><gn>Johnny</gn><fn>Lee</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Roy</gn><fn>Orbison</fn></composer>
-     <composer><gn>Joe</gn><fn>Nelson</fn></composer>
+     <composer>
+      <name><gn>Roy</gn><fn>Orbison</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Joe</gn><fn>Nelson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -208,7 +238,9 @@
      <artist><gn>Bonnie</gn><fn>Raitt</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Rusty</gn><fn>Wier</fn></composer>
+     <composer>
+      <name><gn>Rusty</gn><fn>Wier</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -227,12 +259,24 @@
      <artist><grp>The Charlie Daniels Band</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Charlie</gn><fn>Daniels</fn></composer>
-     <composer><gn>Charlie</gn><fn>Hayward</fn></composer>
-     <composer><gn>Tom</gn><fn>Crain</fn></composer>
-     <composer><gn>James</gn><fn>Marshall</fn></composer>
-     <composer><gn>Taz</gn><fn>DiGregoria</fn></composer>
-     <composer><gn>Fred</gn><fn>Edwards</fn></composer>
+     <composer>
+      <name><gn>Charlie</gn><fn>Daniels</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Charlie</gn><fn>Hayward</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Tom</gn><fn>Crain</fn></name>
+     </composer>
+     <composer>
+      <name><gn>James</gn><fn>Marshall</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Taz</gn><fn>DiGregoria</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Fred</gn><fn>Edwards</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -251,8 +295,12 @@
      <artist><gn>Mickey</gn><fn>Gilley</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Jerry</gn><fn>Foster</fn></composer>
-     <composer><gn>Bill</gn><fn>Rice</fn></composer>
+     <composer>
+      <name><gn>Jerry</gn><fn>Foster</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Bill</gn><fn>Rice</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -271,7 +319,9 @@
      <artist><grp>Urban Cowboy Band</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Ervin</gn><fn>Rouse</fn></composer>
+     <composer>
+      <name><gn>Ervin</gn><fn>Rouse</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -290,7 +340,9 @@
      <artist><gn>Kenny</gn><fn>Rogers</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Bruce</gn><fn>Torrey</fn></composer>
+     <composer>
+      <name><gn>Bruce</gn><fn>Torrey</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -309,7 +361,9 @@
      <artist><grp>The Charlie Daniels Band</grp></artist>
     </artists>
     <composers>
-     <composer><gn>Charlie</gn><fn>Daniels</fn></composer>
+     <composer>
+      <name><gn>Charlie</gn><fn>Daniels</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -328,7 +382,9 @@
      <artist><gn>Bonnie</gn><fn>Raitt</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Oscar</gn><fn>Blandemer</fn></composer>
+     <composer>
+      <name><gn>Oscar</gn><fn>Blandemer</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -347,8 +403,12 @@
      <artist><gn>Boz</gn><fn>Scaggs</fn></artist>
     </artists>
     <composers>
-     <composer><gn>David</gn><fn>Foster</fn></composer>
-     <composer><gn>Boz</gn><fn>Scaggs</fn></composer>
+     <composer>
+      <name><gn>David</gn><fn>Foster</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Boz</gn><fn>Scaggs</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -368,7 +428,9 @@
      <artist><pgn>J.D.</pgn><fn>Souther</fn></artist>
     </artists>
     <composers>
-     <composer><pgn>J.D.</pgn><fn>Souther</fn></composer>
+     <composer>
+      <name><pgn>J.D.</pgn><fn>Souther</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

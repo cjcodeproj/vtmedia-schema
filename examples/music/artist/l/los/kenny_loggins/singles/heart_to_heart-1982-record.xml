@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Heart To Heart</main>
+  </title>
+  <library>
+   <instances>
+    <instance>
+     <acquisition>
+      <date><exact>2025-04-12</exact></date>
+      <purchase>
+       <retailer>Down In The Valley</retailer>
+       <price>1.00</price>
+      </purchase>
+      <quality><new/></quality>
+     </acquisition>
+     <condition>
+      <status><fine/></status>
+     </condition>
+    </instance>
+   </instances>
+  </library>
+  <medium>
+   <release>
+    <type><record/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <jacket>
+      <record id='vr01'/>
+     </jacket>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <recordIndex ref='vr01' xmlns='http://vectortron.com/xml/media/media'>
+    <side label='A'>
+     <track no='01'>
+      <content ref='hth01'/>
+     </track>
+    </side>
+    <side label='B'>
+     <unplayable/>
+    </side>
+   </recordIndex>
+  </index>
+  <contents>
+   <xi:include href='heart_to_heart-1982-single.xml'/>
+  </contents>
+ </media>
+</medialist>

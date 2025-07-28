@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<cdIndex ref='cd01' xmlns='http://vectortron.com/xml/media/media'>
+ <!-- created by id3scan (2024-08-18 13:40:51.021997) -->
+ <track no='1'>
+  <index no='01'>
+   <content ref='lml01'/>
+  </index>
+ </track>
+ <track no='2'>
+  <index no='01'>
+   <content ref='pts01'/>
+  </index>
+ </track>
+ <track no='3'>
+  <index no='01'>
+   <content ref='llt01'/>
+  </index>
+ </track>
+ <track no='4'>
+  <index no='01'>
+   <content ref='ifl01'/>
+  </index>
+ </track>
+ <track no='5'>
+  <index no='01'>
+   <content ref='mwt01'/>
+  </index>
+ </track>
+ <track no='6'>
+  <index no='01'>
+   <content ref='qfo01'/>
+  </index>
+ </track>
+ <track no='7'>
+  <index no='01'>
+   <content ref='lbl01'/>
+  </index>
+ </track>
+ <track no='8'>
+  <index no='01'>
+   <content ref='wit01'/>
+  </index>
+ </track>
+ <track no='9'>
+  <index no='01'>
+   <content ref='rwl01'/>
+  </index>
+ </track>
+ <track no='10'>
+  <index no='01'>
+   <content ref='twl01'/>
+  </index>
+ </track>
+</cdIndex>

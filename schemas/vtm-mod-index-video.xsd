@@ -5,7 +5,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -28,6 +28,16 @@
   </xs:documentation>
  </xs:annotation>
 
+ <xs:simpleType name='VariantRefListType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Special references to identify which variant(s)
+    of specific content are on a disc.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:list itemType='xs:NCName'/>
+ </xs:simpleType>
+
  <xs:complexType name='VideoPartialRangeType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
@@ -46,6 +56,7 @@
 
  <xs:complexType name='LargeDiscContentType'>
   <xs:sequence>
+   <xs:element name='variants' type='VariantRefListType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='partialRange' type='VideoPartialRangeType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
   <xs:attribute name='ref' type='xs:NCName' use='required'/>

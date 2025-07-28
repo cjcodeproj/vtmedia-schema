@@ -1,0 +1,340 @@
+<?xml version='1.0'?>
+<album xmlns='http://vectortron.com/xml/media/audio'>
+ <!-- created by id3scan (2024-06-30 13:05:23.819396) -->
+ <title>Six Days On The Road</title>
+ <catalog>
+  <artists>
+   <artist><grp>Sawyer Brown</grp></artist>
+  </artists>
+  <copyright>
+   <year>1997</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+  </genres>
+ </classification>
+ <elements>
+  <song id='as01'>
+  <!-- POSITION: Disc 1 Track: 1 -->
+   <title>
+    <main>Another Side</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Mark</gn><mi>A</mi><fn>Miller</fn></name>
+      <publisher>Travelin' Zoo Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+     <year>1997</year>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M11.05S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tby01'>
+  <!-- POSITION: Disc 1 Track: 2 -->
+   <title>
+    <main>Talkin' Bout You</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Mark</gn><mn>Alan</mn><fn>Springer</fn></name>
+      <publisher>EMI Mark Alan Springer Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+     <year>1997</year>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M39.45S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tnw01'>
+  <!-- POSITION: Disc 1 Track: 3 -->
+   <title>
+    <main>This Night Won't Last Forever</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Bill</gn><fn>LaBounty</fn></name>
+      <publisher>BMI Music Publishing Inc.</publisher>
+      <rights>BMI</rights>
+     </composer>
+     <composer>
+      <name><gn>Roy</gn><fn>Freeland</fn></name>
+      <publisher>BMI Music Publishing Inc.</publisher>
+      <rights>BMI</rights>
+     </composer>
+     <year>1979</year>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M56.94S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='sdo01'>
+  <!-- POSITION: Disc 1 Track: 4 -->
+   <title>
+    <main>Six Days On The Road</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Earl</gn><fn>Green</fn></name>
+      <publisher>Southern Arts Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+     <composer>
+      <name><gn>Carl</gn><fn>Montgomery</fn></name>
+      <publisher>Tune Publishing Co</publisher>
+      <rights>BMI</rights>
+     </composer>
+     <year>1961</year>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M53.43S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='st01'>
+  <!-- POSITION: Disc 1 Track: 5 -->
+   <title>
+    <main>Small Talk</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Mark</gn><mi>A</mi><fn>Miller</fn></name>
+      <publisher>Travelin' Zoo Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+     <composer>
+      <name><gn>Mac</gn><fn>MacAnally</fn></name>
+      <publisher>Beginner Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+     <year>1997</year>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M42.21S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='wtr01'>
+  <!-- POSITION: Disc 1 Track: 6 -->
+   <title>
+    <main>With This Ring</main>
+   </title>
+   <!-- EDIT FLAGS: possible_featured_artist  -->
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Mac</gn><fn>McAnally</fn></name>
+      <publisher>Beginner Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M12.86S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='tr01'>
+  <!-- POSITION: Disc 1 Track: 7 -->
+   <title>
+    <main>Transistor Rodeo</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Mark</gn><mi>A</mi><fn>Miller</fn></name>
+      <publisher>Travelin' Zoo Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M6.53S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='nad01'>
+  <!-- POSITION: Disc 1 Track: 8 -->
+   <title>
+    <main>Night And Day</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Mac</gn><fn>McAnally</fn></name>
+      <publisher>Beginner Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M35.30S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='hah01'>
+  <!-- POSITION: Disc 1 Track: 9 -->
+   <title>
+    <main>Half A Heart</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Gregg</gn><fn>Hubbard</fn></name>
+      <publisher>Myrt &amp; Chuck's Boy Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+     <composer>
+      <name><gn>Mark</gn><mi>A</mi><fn>Miller</fn></name>
+      <publisher>Travelin' Zoo Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+     <year>1997</year>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M2.53S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='bya01'>
+  <!-- POSITION: Disc 1 Track: 10 -->
+   <title>
+    <main>Between You And Paradise</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Neal</gn><fn>Coty</fn></name>
+      <publisher>Murrah Music Corp</publisher>
+      <rights>BMI</rights>
+     </composer>
+     <composer>
+      <name><gn>Mark</gn><mn>Alan</mn><fn>Springer</fn></name>
+      <publisher>EMI Mark Alan Springer Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+     <year>1996</year>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT4M14.28S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='llt01'>
+  <!-- POSITION: Disc 1 Track: 11 -->
+   <title>
+    <main>A Love Like This</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Mark</gn><mi>A</mi><fn>Miller</fn></name>
+      <publisher>Travelin' Zoo Music</publisher>
+      <rights>ASSCAP</rights>
+     </composer>
+     <composer>
+      <name><gn>Bill</gn><fn>Shore</fn></name>
+      <publisher>Club Zoo Music</publisher>
+      <rights>BMI</rights>
+     </composer>
+     <year>1996</year>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M50.78S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='eta01'>
+  <!-- POSITION: Disc 1 Track: 12 -->
+   <title>
+    <main>Every Twist And Turn</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Mark</gn><mi>A</mi><fn>Miller</fn></name>
+      <publisher>Travelin' Zoo Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+     <composer>
+      <name><gn>Gregg</gn><fn>Hubbard</fn></name>
+      <publisher>Myrt &amp; Chuck's Boy Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+     <year>1996</year>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT3M11.19S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <!-- tracks 13 through 17 are blank -->
+  <song id='tns01'>
+  <!-- POSITION: Disc 1 Track: 18 -->
+   <title>
+    <main>The Nebraska Song</main>
+   </title>
+   <catalog>
+    <composers>
+     <composer>
+      <name><gn>Mark</gn><mi>A</mi><fn>Miller</fn></name>
+      <publisher>Travelin' Zoo Music</publisher>
+      <rights>ASCAP</rights>
+     </composer>
+     <year>1996</year>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+      <overall>PT2M53.34S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</album>

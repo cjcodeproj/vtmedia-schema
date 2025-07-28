@@ -25,7 +25,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Dennis</gn><fn>Linde</fn></composer>
+     <composer>
+      <name><gn>Dennis</gn><fn>Linde</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -41,7 +43,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Mark</gn><fn>Miller</fn></composer>
+     <composer>
+      <name><gn>Mark</gn><fn>Miller</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -57,7 +61,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Gary</gn><fn>Burr</fn></composer>
+     <composer>
+      <name><gn>Gary</gn><fn>Burr</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -73,7 +79,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Jon</gn><fn>Ims</fn></composer>
+     <composer>
+      <name><gn>Jon</gn><fn>Ims</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -89,7 +97,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Dennis</gn><fn>Linde</fn></composer>
+     <composer>
+      <name><gn>Dennis</gn><fn>Linde</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -105,9 +115,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Pat</gn><fn>Bunch</fn></composer>
-     <composer><gn>Jaime</gn><fn>Kyle</fn></composer>
-     <composer><gn>Will</gn><fn>Rambeaux</fn></composer>
+     <composer>
+      <name><gn>Pat</gn><fn>Bunch</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jaime</gn><fn>Kyle</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Will</gn><fn>Rambeaux</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -123,8 +139,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Kix</gn><fn>Brooks</fn></composer>
-     <composer><gn>Don</gn><fn>Cook</fn></composer>
+     <composer>
+      <name><gn>Kix</gn><fn>Brooks</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Don</gn><fn>Cook</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -140,7 +160,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Mary Chapin</gn><fn>Carpenter</fn></composer>
+     <composer>
+      <name><gn>Mary Chapin</gn><fn>Carpenter</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -156,8 +178,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Tim</gn><fn>Nichols</fn></composer>
-     <composer><gn>Mark</gn><mn>O.</mn><fn>Sanders</fn></composer>
+     <composer>
+      <name><gn>Tim</gn><fn>Nichols</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Mark</gn><mn>O.</mn><fn>Sanders</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -173,7 +199,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Toby</gn><fn>Keith</fn></composer>
+     <composer>
+      <name><gn>Toby</gn><fn>Keith</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

@@ -7,7 +7,9 @@
    <artist><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></artist>
   </artists>
   <composers>
-   <composer><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></composer>
+   <composer>
+    <name><gn>Tom</gn><mn>T.</mn><fn>Hall</fn></name>
+   </composer>
   </composers>
   <copyright>
    <year>2006</year>
@@ -207,7 +209,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Tony</gn><fn>Hazzard</fn></composer>
+     <composer>
+      <name><gn>Tony</gn><fn>Hazzard</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -289,8 +293,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Gordon</gn><fn>Jenkins</fn></composer>
-     <composer><gn>Johnny</gn><fn>Mercer</fn></composer>
+     <composer>
+      <name><gn>Gordon</gn><fn>Jenkins</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Johnny</gn><fn>Mercer</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

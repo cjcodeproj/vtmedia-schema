@@ -21,7 +21,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -37,7 +39,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -53,7 +57,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -69,7 +75,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -85,7 +93,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -101,7 +111,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -117,7 +129,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Brian</gn><fn>Bell</fn></composer>
+     <composer>
+      <name><gn>Brian</gn><fn>Bell</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -133,8 +147,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
-     <composer><gn>Scott</gn><fn>Shriner</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Scott</gn><fn>Shriner</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -150,7 +168,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Patrick</gn><fn>Wilson</fn></composer>
+     <composer>
+      <name><gn>Patrick</gn><fn>Wilson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -166,7 +186,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -182,7 +204,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -198,7 +222,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -214,7 +240,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -230,7 +258,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Rivers</gn><fn>Cuomo</fn></composer>
+     <composer>
+      <name><gn>Rivers</gn><fn>Cuomo</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

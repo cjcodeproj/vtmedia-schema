@@ -22,8 +22,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Diane</gn><fn>Johnston</fn></composer>
-     <composer><gn>Thomas</gn><fn>Camfield</fn></composer>
+     <composer>
+      <name><gn>Diane</gn><fn>Johnston</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Thomas</gn><fn>Camfield</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -39,7 +43,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Bobby</gn><fn>Troupe</fn></composer>
+     <composer>
+      <name><gn>Bobby</gn><fn>Troupe</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -55,9 +61,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Johnny</gn><fn>Lowe</fn></composer>
-     <composer><gn>Hank</gn><fn>Thompson</fn></composer>
-     <composer><gn>Dick</gn><fn>Hart</fn></composer>
+     <composer>
+      <name><gn>Johnny</gn><fn>Lowe</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Hank</gn><fn>Thompson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Dick</gn><fn>Hart</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -73,7 +85,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Ray</gn><fn>Benson</fn></composer>
+     <composer>
+      <name><gn>Ray</gn><fn>Benson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -89,8 +103,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Robert</gn><fn>Fletcher</fn></composer>
-     <composer><gn>Cole</gn><fn>Porter</fn></composer>
+     <composer>
+      <name><gn>Robert</gn><fn>Fletcher</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Cole</gn><fn>Porter</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -106,8 +124,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Vivian</gn><fn>Keith</fn></composer>
-     <composer><gn>Ben</gn><fn>Peters</fn></composer>
+     <composer>
+      <name><gn>Vivian</gn><fn>Keith</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Ben</gn><fn>Peters</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -123,7 +145,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Ray</gn><fn>Benson</fn></composer>
+     <composer>
+      <name><gn>Ray</gn><fn>Benson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -139,8 +163,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>John</gn><fn>Whitney</fn></composer>
-     <composer><gn>Alex</gn><fn>Kramer</fn></composer>
+     <composer>
+      <name><gn>John</gn><fn>Whitney</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Alex</gn><fn>Kramer</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -156,8 +184,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Paul</gn><mn>Alexander</mn><fn>Fraser</fn></composer>
-     <composer><gn>Terry</gn><fn>Stafford</fn></composer>
+     <composer>
+      <name><gn>Paul</gn><mn>Alexander</mn><fn>Fraser</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Terry</gn><fn>Stafford</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -173,8 +205,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Bob</gn><fn>Wills</fn></composer>
-     <composer><gn>Tommy</gn><fn>Duncan</fn></composer>
+     <composer>
+      <name><gn>Bob</gn><fn>Wills</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Tommy</gn><fn>Duncan</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -190,7 +226,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Cindy</gn><fn>Walker</fn></composer>
+     <composer>
+      <name><gn>Cindy</gn><fn>Walker</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -206,7 +244,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Townes</gn><fn>Van Zandt</fn></composer>
+     <composer>
+      <name><gn>Townes</gn><fn>Van Zandt</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -222,7 +262,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Ray</gn><fn>Benson</fn></composer>
+     <composer>
+      <name><gn>Ray</gn><fn>Benson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -238,7 +280,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><unkn>Public Domain</unkn></composer>
+     <composer>
+      <name><unkn>Public Domain</unkn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -254,7 +298,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Nix</gn><fn>Hoyle</fn></composer>
+     <composer>
+      <name><gn>Nix</gn><fn>Hoyle</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

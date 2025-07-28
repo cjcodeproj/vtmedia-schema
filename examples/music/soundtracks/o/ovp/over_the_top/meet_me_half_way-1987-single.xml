@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<single xmlns='http://vectortron.com/xml/media/audio'>
+ <catalog>
+  <artists>
+   <variousArtists/>
+  </artists>
+  <copyright>
+   <year>1987</year>
+  </copyright>
+ </catalog>
+ <classification>
+  <soundtrack>
+   <movie>
+    <title>Over The Top</title>
+    <year>1987</year>
+   </movie>
+  </soundtrack>
+ </classification>
+ <elements>
+  <song id='mmh01'>
+   <title>
+    <main>Meet Me Half Way</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Kenny</gn><fn>Loggins</fn></artist>
+    </artists>
+    <composers>
+     <composer>
+      <name><gn>Kenny</gn><fn>Loggins</fn></name>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M31S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='s01'>
+   <title>
+    <main>Semifinal</main>
+   </title>
+   <catalog>
+    <artists>
+     <artist><gn>Giorgio</gn><fn>Moroder</fn></artist>
+    </artists>
+    <composers>
+     <composer>
+      <name><gn>Giorgio</gn><fn>Moroder</fn></name>
+     </composer>
+    </composers>
+   </catalog>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT3M45S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</single>

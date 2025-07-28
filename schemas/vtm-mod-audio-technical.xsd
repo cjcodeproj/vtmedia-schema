@@ -4,7 +4,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2023, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -93,10 +93,10 @@
  </xs:complexType>
 
 
- <xs:complexType name='AudioTechnicalType'>
+ <xs:complexType name='AudioSongTechnicalType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
-    A simple type for recording technical details of a song,
+    A complex type for recording technical details of a song,
     like the type of recording, the runtime, and the tempo.
    </xs:documentation>
   </xs:annotation>
@@ -104,6 +104,18 @@
    <xs:group ref='AudioRecordingGroup' minOccurs='1' maxOccurs='1'/>
    <xs:element name='runtime' type='AudioRuntimeType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='tempo' type='AudioTempoType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='AudioNonSongTechnicalType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A record of technical details of an audio track, that is NOT a song.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:group ref='AudioRecordingGroup' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='runtime' type='AudioRuntimeType' minOccurs='1' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 </xs:schema>

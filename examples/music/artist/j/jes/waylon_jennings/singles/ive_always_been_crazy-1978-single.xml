@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<single xmlns='http://vectortron.com/xml/media/audio'>
+ <catalog>
+  <artists>
+   <artist><gn>Waylon</gn><fn>Jennings</fn></artist>
+  </artists>
+  <composers>
+   <composer>
+    <name><gn>Waylon</gn><fn>Jennings</fn></name>
+   </composer>
+  </composers>
+ </catalog>
+ <classification>
+  <genres>
+   <primary>Country</primary>
+   <subgenres>
+    <subgenre>outlaw country</subgenre>
+   </subgenres>
+  </genres>
+ </classification>
+ <elements>
+  <song id='iab01'>
+   <title>
+    <main>I've Always Been Crazy</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT4M11S</overall>
+    </runtime>
+   </technical>
+  </song>
+  <song id='ins01'>
+   <title>
+    <main>I Never Said It Would Be Easy</main>
+   </title>
+   <technical>
+    <studioRecording/>
+    <runtime>
+     <overall>PT2M42S</overall>
+    </runtime>
+   </technical>
+  </song>
+ </elements>
+</single>

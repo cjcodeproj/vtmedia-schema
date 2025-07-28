@@ -27,7 +27,9 @@
      <artist><gn>Meredith</gn><fn>Monk</fn></artist>
     </artists>
    <composers>
-    <composer><gn>Meredith</gn><fn>Monk</fn></composer>
+    <composer>
+     <name><gn>Meredith</gn><fn>Monk</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -46,7 +48,9 @@
      <artist><gn>David</gn><fn>Byrne</fn></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -65,7 +69,9 @@
      <artist><gn>David</gn><fn>Byrne</fn></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -84,8 +90,12 @@
      <artist><grp>Terry Allen &amp; The Panhandle Mystery Band</grp></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
-    <composer><gn>Terry</gn><fn>Allen</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
+    <composer>
+     <name><gn>Terry</gn><fn>Allen</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -104,7 +114,9 @@
      <artist><grp>Talking Heads</grp></artist>
     </artists>
    <composers>
-    <composer><grp>David Byrne</grp></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -123,7 +135,9 @@
      <artist><grp>Talking Heads</grp></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -142,7 +156,9 @@
      <artist><gn>Carl</gn><fn>Finch</fn></artist>
     </artists>
    <composers>
-    <composer><gn>Carl</gn><fn>Finch</fn></composer>
+    <composer>
+     <name><gn>Carl</gn><fn>Finch</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -162,7 +178,9 @@
      <featuredArtist><gn>Annie</gn><fn>McEnroe</fn></featuredArtist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -181,7 +199,9 @@
      <artist><gn>David</gn><fn>Byrne</fn></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -200,7 +220,9 @@
      <artist><gn>David</gn><fn>Byrne</fn></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -220,7 +242,9 @@
      <artist><grp>Kronos Quartet</grp></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -240,7 +264,9 @@
      <featuredArtist><grp>John Ingle &amp; The Bert Cross Choir</grp></featuredArtist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -259,7 +285,9 @@
      <artist><gn>David</gn><fn>Byrne</fn></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -279,7 +307,9 @@
      <featuredArtist><grp>St. Thomas Aquinas Elementary School Choir</grp></featuredArtist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -298,7 +328,9 @@
      <artist><gn>David</gn><fn>Byrne</fn></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -317,7 +349,9 @@
      <artist><grp>Talking Heads</grp></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -336,7 +370,9 @@
      <artist><gn>Esteban</gn><nick>Steve</nick><fn>Jordan</fn></artist>
     </artists>
    <composers>
-    <composer><gn>Esteban</gn><nick>Steve</nick><fn>Jordan</fn></composer>
+    <composer>
+     <name><gn>Esteban</gn><nick>Steve</nick><fn>Jordan</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -355,7 +391,9 @@
      <artist><gn>Carl</gn><fn>Finch</fn></artist>
     </artists>
    <composers>
-    <composer><gn>Carl</gn><fn>Finch</fn></composer>
+    <composer>
+     <name><gn>Carl</gn><fn>Finch</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -374,7 +412,9 @@
      <artist><grp>Banda Eclipse</grp></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -395,7 +435,9 @@
      <featuredArtist><grp>Steve Jordan &amp; Los Vampiros</grp></featuredArtist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -415,7 +457,9 @@
      <featuredArtist><gn>Roebuck</gn><nick>Pops</nick><fn>Staples</fn></featuredArtist>
     </artists>
    <composers>
-    <composer><gn>Davidxi</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -435,7 +479,9 @@
      <featuredArtist><gn>John</gn><fn>Goodman</fn></featuredArtist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>
@@ -454,7 +500,9 @@
      <artist><grp>Talking Heads</grp></artist>
     </artists>
    <composers>
-    <composer><gn>David</gn><fn>Byrne</fn></composer>
+    <composer>
+     <name><gn>David</gn><fn>Byrne</fn></name>
+    </composer>
    </composers>
    </catalog>
    <technical>

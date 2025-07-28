@@ -7,7 +7,9 @@
    <artist><gn>Sturgill</gn><fn>Simpson</fn></artist>
   </artists>
   <composers>
-   <composer><gn>Sturgill</gn><fn>Simpson</fn></composer>
+   <composer>
+    <name><gn>Sturgill</gn><fn>Simpson</fn></name>
+   </composer>
   </composers>
   <copyright>
    <year>2020</year>
@@ -149,8 +151,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Merle</gn><fn>Haggard</fn></composer>
-     <composer><gn>Sturgill</gn><fn>Simpson</fn></composer>
+     <composer>
+      <name><gn>Merle</gn><fn>Haggard</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Sturgill</gn><fn>Simpson</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

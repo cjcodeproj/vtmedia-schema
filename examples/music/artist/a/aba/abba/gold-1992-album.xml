@@ -7,9 +7,15 @@
    <artist><grp>ABBA</grp></artist>
   </artists>
   <composers>
-   <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-   <composer><gn>Stig</gn><fn>Anderson</fn></composer>
-   <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+   <composer>
+    <name><gn>Benny</gn><fn>Andersson</fn></name>
+   </composer>
+   <composer>
+    <name><gn>Stig</gn><fn>Anderson</fn></name>
+   </composer>
+   <composer>
+    <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+   </composer>
   </composers>
   <copyright>
    <year>1992</year>
@@ -27,9 +33,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Stig</gn><fn>Anderson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Stig</gn><fn>Anderson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -48,9 +60,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Stig</gn><fn>Anderson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Stig</gn><fn>Anderson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -69,8 +87,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -89,9 +111,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Stig</gn><fn>Anderson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Stig</gn><fn>Anderson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -110,8 +138,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -130,8 +162,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -150,8 +186,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -170,8 +210,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -190,8 +234,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -210,9 +258,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Stig</gn><fn>Anderson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Stig</gn><fn>Anderson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -231,8 +285,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -251,9 +309,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Stig</gn><fn>Anderson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Stig</gn><fn>Anderson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -272,8 +336,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -292,8 +360,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -312,8 +384,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -332,8 +408,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -352,9 +432,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Stig</gn><fn>Anderson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Stig</gn><fn>Anderson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -373,8 +459,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -393,9 +483,15 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Benny</gn><fn>Andersson</fn></composer>
-     <composer><gn>Stig</gn><fn>Anderson</fn></composer>
-     <composer><gn>Björn</gn><fn>Ulvaeus</fn></composer>
+     <composer>
+      <name><gn>Benny</gn><fn>Andersson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Stig</gn><fn>Anderson</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Björn</gn><fn>Ulvaeus</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

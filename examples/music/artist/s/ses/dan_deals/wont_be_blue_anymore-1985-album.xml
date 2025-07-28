@@ -24,7 +24,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+     <composer>
+      <name><gn>Dan</gn><fn>Seals</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -40,7 +42,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Dan</gn><fn>Seals</fn></composer>
+     <composer>
+      <name><gn>Dan</gn><fn>Seals</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -56,8 +60,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Dan</gn><fn>Seals</fn></composer>
-     <composer><gn>Bob</gn><fn>McDill</fn></composer>
+     <composer>
+      <name><gn>Dan</gn><fn>Seals</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Bob</gn><fn>McDill</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -73,7 +81,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>John</gn><mn>D.</mn><fn>Loudermilk</fn></composer>
+     <composer>
+      <name><gn>John</gn><mn>D.</mn><fn>Loudermilk</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -89,8 +99,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Tommy</gn><fn>Rocco</fn></composer>
-     <composer><gn>Becky</gn><fn>Foster</fn></composer>
+     <composer>
+      <name><gn>Tommy</gn><fn>Rocco</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Becky</gn><fn>Foster</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -106,8 +120,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Wendy</gn><fn>Waldman</fn></composer>
-     <composer><gn>Donny</gn><fn>Lowery</fn></composer>
+     <composer>
+      <name><gn>Wendy</gn><fn>Waldman</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Donny</gn><fn>Lowery</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -123,8 +141,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Walker</gn><fn>Ingleheart</fn></composer>
-     <composer><gn>Jim</gn><fn>Scott</fn></composer>
+     <composer>
+      <name><gn>Walker</gn><fn>Ingleheart</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Jim</gn><fn>Scott</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -144,7 +166,9 @@
      <artist><gn>Marie</gn><fn>Osmond</fn></artist>
     </artists>
     <composers>
-     <composer><gn>Paul</gn><fn>Davis</fn></composer>
+     <composer>
+      <name><gn>Paul</gn><fn>Davis</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -160,8 +184,12 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Jennifer</gn><fn>Kimball</fn></composer>
-     <composer><gn>Paul</gn><fn>Davis</fn></composer>
+     <composer>
+      <name><gn>Jennifer</gn><fn>Kimball</fn></name>
+     </composer>
+     <composer>
+      <name><gn>Paul</gn><fn>Davis</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -177,7 +205,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>John</gn><mn>Porter</mn><fn>McMeans</fn></composer>
+     <composer>
+      <name><gn>John</gn><mn>Porter</mn><fn>McMeans</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>
@@ -193,7 +223,9 @@
    </title>
    <catalog>
     <composers>
-     <composer><gn>Robert</gn><fn>Gundry</fn></composer>
+     <composer>
+      <name><gn>Robert</gn><fn>Gundry</fn></name>
+     </composer>
     </composers>
    </catalog>
    <technical>

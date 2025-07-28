@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>Dark City</main>
+  </title>
+  <medium>
+   <release>
+    <type><ultrahd/></type>
+    <publisher>Arrow Films</publisher>
+   </release>
+   <productId>
+    <barcode type='upc'>760137175766</barcode>
+    <sku retailer='amzn'>B0F2TXNQGH</sku>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <box>
+      <case>
+       <ultrahd id='uhd01'/>
+       <ultrahd id='uhd02'/>
+       <!-- postcards -->
+       <!-- business card -->
+      </case>
+      <booklet/>
+      <poster/>
+     </box>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <ultrahdIndex ref='uhd01'>
+    <title>
+     <content ref='darkcity'>
+      <variants>directors</variants>
+     </content>
+    </title>
+   </ultrahdIndex>
+   <ultrahdIndex ref='uhd01'>
+    <title>
+     <content ref='darkcity'>
+      <variants>theatrical</variants>
+     </content>
+    </title>
+   </ultrahdIndex>
+  </index>
+  <contents>
+   <xi:include href='dark_city-1998-movie.xml'/>
+   <xi:include href='a_tuned_reality-essay.xml'/>
+   <xi:include href='fear_and_longing_in_dark_city-essay.xml'/>
+   <xi:include href='like_so_much_paint-essay.xml'/>
+   <xi:include href='minotaur_noir_the_art_of_dark_city-essay.xml'/>
+  </contents>
+ </media>
+</medialist>

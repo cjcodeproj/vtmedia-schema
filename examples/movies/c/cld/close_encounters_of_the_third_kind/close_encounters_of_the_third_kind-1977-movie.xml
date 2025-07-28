@@ -1,0 +1,285 @@
+<?xml version='1.0'?>
+<movie id='close_encounters' xmlns='http://vectortron.com/xml/media/movie'>
+ <title>Close Encounters Of The Third Kind</title>
+ <catalog>
+  <copyright>
+   <year>1977</year>
+   <holders>
+    <holder>Columbia Pictures Industries, Inc.</holder>
+   </holders>
+  </copyright>
+ </catalog>
+ <classification>
+  <category><fiction/></category>
+  <genres>
+   <primary>Sci-Fi</primary>
+   <secondary>Adventure</secondary>
+  </genres>
+  <certifications>
+   <certificate ref='25062'>
+    <rating code='PG'>Parental Guidance Suggested</rating>
+    <agency>
+     <name>MPAA</name>
+     <country>US</country>
+    </agency>
+   </certificate>
+  </certifications>
+ </classification>
+ <technical>
+  <runtime>
+   <overall>PT2H14M45S</overall>
+  </runtime>
+  <visualFormat>
+   <liveAction/>
+   <palette>
+    <color/>
+   </palette>
+  </visualFormat>
+ </technical>
+ <story>
+  <plot>
+   A man's life changes after seeing a UFO and becoming inexplicably obsessed with visions of a
+   future rendevous site.  Joined with a woman searching for her kid who was abducted by a UFO,
+   the pair travel to Devil's Tower Wyoming, all the while evading an international team that is also
+   preparing for first contact with an alien race.
+  </plot>
+  <settings>
+   <primary>
+    <where>
+     <place><ci>Muncie</ci><st abbrv='IN'>Indiana</st></place>
+    </where>
+    <when>
+     <contemporary/>
+    </when>
+   </primary>
+   <secondary>
+    <where>
+     <place><ci>Moorcroft</ci><st abbrv='WY'>Wyoming</st></place>
+    </where>
+   </secondary>
+  </settings>
+  <keywords>
+   <properNoun><place><name>Devil's Tower</name><st abbrv='WY'>Wyoming</st></place></properNoun>
+   <group>
+    <generic>scientists</generic>
+    <generic>radio telescope</generic>
+    <generic>cover up</generic>
+    <generic>conspiracy</generic>
+    <generic>map coordinates</generic>
+    <properNoun><entity acronym='USAF'>United States Air Force</entity></properNoun>
+    <properNoun><entity>United States Army</entity></properNoun>
+   </group>
+   <group>
+    <generic>suburban family</generic>
+    <generic>electrical lineman</generic>
+   </group>
+   <group>
+    <generic>unidentified flying object</generic>
+    <generic>alien abductions</generic>
+    <generic>extraterrestrials</generic>
+    <generic>ufo sighting</generic>
+    <generic>time travel</generic>
+    <properNoun><thing>Theory of Relativity</thing></properNoun>
+   </group>
+   <group relevance='4'>
+    <generic>music</generic>
+    <generic>hand gestures</generic>
+    <properNoun><person><gn>Zoltán</gn><fn>Kodály</fn></person></properNoun>
+   </group>
+  </keywords>
+ </story>
+ <variants>
+  <original id='orig'>
+   <name>Original Theatrical Version</name>
+  </original>
+  <variant id='special'>
+   <name>Special Edition</name>
+   <technical>
+    <runtime>
+     <overall>PT2H12M29S</overall>
+    </runtime>
+   </technical>
+  </variant>
+  <variant id='director'>
+   <name>Director's Cut</name>
+   <technical>
+    <runtime>
+     <overall>PT2H17M14S</overall>
+    </runtime>
+   </technical>
+  </variant>
+ </variants>
+ <crew>
+  <directors>
+   <director><gn>Steven</gn><fn>Spielberg</fn></director>
+  </directors>
+  <writers>
+   <writer><gn>Steven</gn><fn>Spielberg</fn></writer>
+   <writer><gn>Hal</gn><fn>Barwood</fn></writer>
+   <writer><gn>Jerry</gn><fn>Belson</fn></writer>
+   <writer><gn>John</gn><fn>Hill</fn></writer>
+   <writer><gn>Matthew</gn><fn>Robbins</fn></writer>
+  </writers>
+  <editors>
+   <editor><gn>Vilmos</gn><fn>Zsigmond</fn></editor>
+  </editors>
+  <cinemaphotographers>
+   <cinemaphotographer><gn>Michael</gn><fn>Kahn</fn></cinemaphotographer>
+  </cinemaphotographers>
+  <music>
+   <composer><gn>John</gn><fn>Williams</fn></composer>
+  </music>
+  <artDept>
+   <productionDesigner><gn>Joe</gn><fn>Albes</fn></productionDesigner>
+   <artDirector><gn>Daniel</gn><mi>A.</mi><fn>Lomino</fn></artDirector>
+   <setDecorator><gn>Phil</gn><fn>Abramson</fn></setDecorator>
+  </artDept>
+  <wardrobe>
+   <wardrobe><gn>James</gn><fn>Linn</fn></wardrobe>
+  </wardrobe>
+  <casting>
+   <director><gn>Shari</gn><fn>Rhodes</fn></director>
+   <director><gn>Juliet</gn><fn>Taylor</fn></director>
+  </casting>
+  <cast>
+   <role>
+    <actor><gn>Richard</gn><fn>Dreyfuss</fn></actor>
+    <character>
+     <name><gn>Roy</gn><fn>Neary</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>François</gn><fn>Truffaut</fn></actor>
+    <character>
+     <name><gn>Claude</gn><fn>Lacombe</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Teri</gn><fn>Garr</fn></actor>
+    <character>
+     <name><gn>Ronnie</gn><fn>Neary</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Melinda</gn><fn>Dillon</fn></actor>
+    <character>
+     <name><gn>Jillian</gn><fn>Guiler</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Bob</gn><fn>Balaban</fn></actor>
+    <character>
+     <name><gn>David</gn><fn>Laughlin</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><pgn>J. Patrick</pgn><gn>J</gn><mn>Patrick</mn><fn>McNamara</fn></actor>
+    <character>
+     <unnamed>Project Leader</unnamed>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Warren</gn><mn>J</mn><fn>Kemmerling</fn></actor>
+    <character>
+     <name><nick>Wild Bill</nick></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Robert</gn><fn>Blossom</fn></actor>
+    <character>
+     <unnamed>Farmer</unnamed>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Phillip</gn><fn>Dodds</fn></actor>
+    <character>
+     <name><gn>Jean</gn><fn>Claude</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Cary</gn><fn>Guffey</fn></actor>
+    <character>
+     <name><gn>Barry</gn><fn>Guller</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Adrienne</gn><fn>Campbell</fn></actor>
+    <character>
+     <name><gn>Silvia</gn><fn>Neary</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Justin</gn><fn>Dreyfuss</fn></actor>
+    <character>
+     <name><gn>Toby</gn><fn>Neary</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Lance</gn><fn>Henriksen</fn></actor>
+    <character>
+     <name><gn>Robert</gn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Merrill</gn><fn>Connally</fn></actor>
+    <character>
+     <unnamed>Team Leader</unnamed>
+    </character>
+   </role>
+   <role>
+    <actor><gn>George</gn><fn>DiCenzo</fn></actor>
+    <character>
+     <name><prefix>Major</prefix><fn>Benchley</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Amy</gn><fn>Douglass</fn></actor>
+    <character>
+     <unnamed>Implantee</unnamed>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Alexander</gn><fn>Lockwood</fn></actor>
+    <character>
+     <unnamed>Implantee</unnamed>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Gene</gn><fn>Dynarski</fn></actor>
+    <character>
+     <name><gn>Ike</gn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Norman</gn><fn>Bartold</fn></actor>
+    <character>
+     <unnamed>Ohio Tolls</unnamed>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Josef</gn><fn>Sommer</fn></actor>
+    <character>
+     <name><gn>Larry</gn><fn>Butler</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Michael</gn><mi>J.</mi><fn>Dyer</fn></actor>
+    <character>
+     <name><prefix>Rev.</prefix><gn>Michael</gn><mi>J.</mi><fn>Dyer</fn></name>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Roger</gn><fn>Ernest</fn></actor>
+    <character>
+     <unnamed>Highway Patrolman</unnamed>
+    </character>
+   </role>
+   <role>
+    <actor><gn>Carl</gn><fn>Weathers</fn></actor>
+    <character>
+     <unnamed>Military Police</unnamed>
+    </character>
+   </role>
+  </cast>
+ </crew>
+</movie>

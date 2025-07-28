@@ -62,6 +62,7 @@ FILES= $(SD)/media-schema.xsd \
 	$(SD)/vtm-mod-visual-crew.xsd \
 	$(SD)/vtm-mod-visual-story.xsd \
 	$(SD)/vtm-mod-visual-technical.xsd \
+	$(SD)/vtm-mod-visual-variants.xsd \
 
 
 all: $(MAINSCHEMA) $(SD)/xml.xsd $(SD)/xlink.xsd

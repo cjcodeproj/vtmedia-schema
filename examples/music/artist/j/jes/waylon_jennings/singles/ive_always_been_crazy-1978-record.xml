@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <media>
+  <title>
+   <main>I've Always Been Crazy</main>
+  </title>
+  <medium>
+   <release>
+    <type><record/></type>
+   </release>
+   <productSpecs>
+    <inventory>
+     <jacket>
+      <record id='vr01'/>
+     </jacket>
+    </inventory>
+   </productSpecs>
+  </medium>
+  <index>
+   <recordIndex ref='vr01'>
+    <side label='A'>
+     <track no='01'>
+      <content ref='iab01'/>
+     </track>
+    </side>
+    <side label='B'>
+     <track no='01'>
+      <content ref='ins01'/>
+     </track>
+    </side>
+   </recordIndex>
+  </index>
+  <contents>
+   <xi:include href='ive_always_been_crazy-1978-single.xml'/>
+  </contents>
+ </media>
+</medialist>
