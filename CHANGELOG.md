@@ -1,6 +1,10 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## CURRENT
+
+ - [schema-200](https://github.com/cjcodeproj/vtmedia-schema/issues/200) Type error on visual crew
+
 ## RELEASE 2025.07
 
  - [schema-197](https://github.com/cjcodeproj/vtmedia-schema/issues/197) Release 2025.07

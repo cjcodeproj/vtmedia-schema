@@ -3,7 +3,7 @@
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
-    Copyright 2024, Chris Josephes
+    Copyright 2025, Chris Josephes
 
     This work is licensed under the Creative Commons Attribution-ShareAlike
     4.0 International License.
@@ -53,16 +53,16 @@
 
  <xs:complexType name='ArtDeptType'>
   <xs:sequence minOccurs='1'>
-   <xs:element name='productionDesigner' minOccurs='0' maxOccurs='unbounded'/>
-   <xs:element name='artDirector' minOccurs='0' maxOccurs='unbounded'/>
-   <xs:element name='setDecorator' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='productionDesigner' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='artDirector' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='setDecorator' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 
  <xs:complexType name='WardrobeDeptType'>
   <xs:sequence minOccurs='1'>
-   <xs:element name='costumeDesigner' minOccurs='0' maxOccurs='unbounded'/>
-   <xs:element name='wardrobe' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='costumeDesigner' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:element name='wardrobe' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 
