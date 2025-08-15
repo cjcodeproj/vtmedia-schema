@@ -131,7 +131,7 @@
      </music>
      <artDept>
       <productionDesigner><gn>François</gn><fn>Audouy</fn></productionDesigner>
-      <artDirector><gn>Chris</gn><fn>Farmer</fn></artDirector>  <!-- supervising art director -->
+      <supervisingArtDirector><gn>Chris</gn><fn>Farmer</fn></supervisingArtDirector>
       <artDirector><gn>Jordan</gn><fn>Ferrer</fn></artDirector>
       <artDirector><gn>Luke</gn><fn>Freeborn</fn></artDirector>
       <artDirector><gn>Scott</gn><fn>Plauche</fn></artDirector>

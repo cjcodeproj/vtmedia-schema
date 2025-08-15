@@ -51,10 +51,23 @@
   </xs:sequence>
  </xs:complexType>
 
+ <xs:group name='ArtDirectorGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Job structure for art directors.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='artDirector' type='CrewNameType'/>
+   <xs:element name='supervisingArtDirector' type='CrewNameType'/>
+   <xs:element name='seniorArtDirector' type='CrewNameType'/>
+  </xs:choice>
+ </xs:group>
+
  <xs:complexType name='ArtDeptType'>
   <xs:sequence minOccurs='1'>
    <xs:element name='productionDesigner' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
-   <xs:element name='artDirector' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
+   <xs:group ref='ArtDirectorGroup' minOccurs='0' maxOccurs='unbounded'/>
    <xs:element name='setDecorator' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>

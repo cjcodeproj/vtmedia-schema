@@ -3,6 +3,7 @@ vtmedia-schema CHANGELOG
 
 ## CURRENT
 
+ - [schema-100](https://github.com/cjcodeproj/vtmedia-schema/issues/100) movie credit: supervising art director
  - [schema-200](https://github.com/cjcodeproj/vtmedia-schema/issues/200) Type error on visual crew
 
 ## RELEASE 2025.07
