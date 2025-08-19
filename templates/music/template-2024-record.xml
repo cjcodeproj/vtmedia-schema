@@ -5,9 +5,7 @@
    <main>Album Title</main>
   </title>
   <medium>
-   <release>
-    <type><record/></type>
-   </release>
+   <record/>
    <productSpecs>
     <inventory>
      <jacket>

@@ -39,7 +39,10 @@
 
  <xs:complexType name='MediumType'>
   <xs:sequence>
-   <xs:element name='release' type='ReleaseType' minOccurs='0'/>
+   <xs:choice minOccurs='0'>
+    <xs:group ref='MediumTypeGroup' maxOccurs='1'/>
+    <xs:element name='release' type='ReleaseType' maxOccurs='1'/>  <!-- FUTURE DEPRECATION -->
+   </xs:choice>
    <xs:element name='productId' type='ProductIdType' minOccurs='0'/>
    <xs:element name='productSpecs' type='ProductSpecsType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>

@@ -21,7 +21,6 @@
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
    Module for product inventory of physical media, and physical dimensions.
-   Containing elements contain details on publisher, release date, dimensions and inventory.
   </xs:documentation>
  </xs:annotation>
 
