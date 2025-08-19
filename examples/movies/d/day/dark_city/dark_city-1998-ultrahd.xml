@@ -5,10 +5,11 @@
    <main>Dark City</main>
   </title>
   <medium>
-   <release>
-    <type><ultrahd/></type>
-    <publisher>Arrow Films</publisher>
-   </release>
+   <ultrahd>
+    <publisher>
+     <name>Arrow Films</name>
+    </publisher>
+   </ultrahd>
    <productId>
     <barcode type='upc'>760137175766</barcode>
     <sku retailer='amzn'>B0F2TXNQGH</sku>

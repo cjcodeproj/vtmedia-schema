@@ -6,9 +6,7 @@
    <edition>Collector's Edition</edition>
   </title>
   <medium>
-   <release>
-    <type><dvd/></type>
-   </release>
+   <dvd/>
    <productId>
     <barcode type='upc'>025192330421</barcode>
     <barcode type='isbn' scanlines='false'>0783280688</barcode>

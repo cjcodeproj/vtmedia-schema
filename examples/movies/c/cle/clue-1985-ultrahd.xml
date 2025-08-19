@@ -5,10 +5,11 @@
    <main>Clue</main>
   </title>
   <medium>
-   <release>
-    <type><ultrahd/></type>
-    <publisher>Shout Factory</publisher>
-   </release>
+   <ultrahd>
+    <publisher>
+     <name>Shout Factory</name>
+    </publisher>
+   </ultrahd>
    <productId>
     <barcode type='upc'>826663242829</barcode>
     <sku retailer='bby'>6561854</sku>

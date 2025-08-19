@@ -5,9 +5,7 @@
    <main>San Antone</main>
   </title>
   <medium>
-   <release>
-    <type><record/></type>
-   </release>
+   <record/>
    <productSpecs>
     <inventory>
      <jacket>

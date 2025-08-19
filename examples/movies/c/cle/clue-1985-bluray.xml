@@ -5,9 +5,7 @@
    <main>Clue</main>
   </title>
   <medium>
-   <release>
-    <type><bluray/></type>
-   </release>
+   <bluray/>
    <productId>
     <barcode type='upc'>883929310401</barcode>
     <barcode type='upc'>097361470344</barcode>

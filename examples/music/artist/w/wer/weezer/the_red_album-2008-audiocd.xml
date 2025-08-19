@@ -6,9 +6,7 @@
    <main>The Red Album</main>
   </title>
   <medium>
-   <release>
-    <type><audiocd/></type>
-   </release>
+   <audiocd/>
    <productId>
     <barcode type='upc'>602517726451</barcode>
    </productId>

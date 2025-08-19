@@ -6,9 +6,7 @@
    <main>The Greatest Hits Collection</main>
   </title>
   <medium>
-   <release>
-    <type><audiocd/></type>
-   </release>
+   <audiocd/>
    <productId>
     <barcode type='upc'>07822188012</barcode>
    </productId>

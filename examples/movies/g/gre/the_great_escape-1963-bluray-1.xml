@@ -15,10 +15,11 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><bluray/></type>
-    <publisher>MGM</publisher>
-   </release>
+   <bluray>
+    <publisher>
+     <name>MGM</name>
+    </publisher>
+   </bluray>
    <productId>
     <barcode type='upc'>883904228479</barcode>
     <sku retailer='bned'>0883904228479</sku>

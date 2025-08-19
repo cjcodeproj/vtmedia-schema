@@ -6,9 +6,7 @@
    <main>The Definitive Collection</main>
   </title>
   <medium>
-   <release>
-    <type><audiocd/></type>
-   </release>
+   <audiocd/>
    <productSpecs>
     <inventory>
      <case>

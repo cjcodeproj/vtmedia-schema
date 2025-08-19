@@ -24,9 +24,7 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><bluray/></type>
-   </release>
+   <bluray/>
    <productId>
     <barcode type='upc'> </barcode>
     <sku retailer='abc'> </sku>

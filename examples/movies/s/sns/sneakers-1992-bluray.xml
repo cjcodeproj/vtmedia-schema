@@ -5,9 +5,7 @@
    <main>Sneakers</main>
   </title>
   <medium>
-   <release>
-    <type><bluray/></type>
-   </release>
+   <bluray/>
    <productId>
     <barcode type='upc'>025192231568</barcode>
    </productId>

@@ -24,9 +24,7 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><ultrahd/></type>
-   </release>
+   <ultrahd/>
    <productId>
     <barcode type='upc'>786936868258</barcode>
     <sku retailer='target'>058518320</sku>

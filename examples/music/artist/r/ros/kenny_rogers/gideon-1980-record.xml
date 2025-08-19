@@ -23,9 +23,7 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><record/></type>
-   </release>
+   <record/>
    <!-- no barcode -->
    <productSpecs>
     <inventory>

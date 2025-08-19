@@ -5,9 +5,7 @@
    <main>Logan</main>
   </title>
   <medium>
-   <release>
-    <type><bluray/></type>
-   </release>
+   <bluray/>
    <productId>
     <barcode type='upc'>024543284383</barcode>
    </productId>

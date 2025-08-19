@@ -15,10 +15,12 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><bluray/></type>
-    <publisher>Criterion</publisher>
-   </release>
+   <bluray>
+    <publisher xmlns:xlink='http://www.w3.org/1999/xlink'>
+     <name>Criterion</name>
+     <productPage xlink:href='https://www.criterion.com/films/29149-the-great-escape'/>
+    </publisher>
+   </bluray>
    <productId>
     <barcode type='upc'>715515245814</barcode>
     <sku retailer='bned'>0715515245814</sku>

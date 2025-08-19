@@ -5,9 +5,7 @@
    <main>Coco</main>
   </title>
   <medium>
-   <release>
-    <type><ultrahd/></type>
-   </release>
+   <ultrahd/>
    <productId>
     <barcode type='upc'>786936856811</barcode>
     <sku retailer='bby'>6151306</sku>

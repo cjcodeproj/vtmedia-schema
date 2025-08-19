@@ -22,11 +22,14 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><bluray/></type>
-    <releaseDate>2011-02-15</releaseDate>
-    <publisher>Warner Bros.</publisher>
-   </release>
+   <bluray>
+    <publisher>
+     <name>Warner Bros.</name>
+     <release>
+      <streetDate>2011-02-15</streetDate>
+     </release>
+    </publisher>
+   </bluray>
    <productId>
     <barcode type='upc'>883929157976</barcode>
     <barcode type='isbn' scanlines='false'>0780665805</barcode>

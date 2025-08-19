@@ -6,9 +6,7 @@
    <edition>30th Anniversary Ultime Edition</edition>
   </title>
   <medium>
-   <release>
-    <type><bluray/></type>
-   </release>
+   <bluray/>
    <productId>
     <barcode type='upc'>043396228597</barcode>
     <barcode type='isbn' scanlines='false'>1-4248-8695-3</barcode>
