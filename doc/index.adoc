@@ -1,0 +1,17 @@
+= Media Schema
+
+== Contents
+
+* Introduction
+** xref:introduction/quick_examples[Quick Examples]
+* Getting Started
+** Schema Installation
+** Repository Setup
+** Additional Software Installation
+* Creating Records
+** Media Devices
+*** DVDs and Visual Media
+*** CDs and Audio Media
+** Contents
+*** Movies
+*** Albums
