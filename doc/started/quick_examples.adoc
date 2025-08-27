@@ -88,8 +88,8 @@ Both examples also have the same top level XML element structure.
 <?xml version='1.0'?>
 <medialist xmlns='http://vectortron.com/xml/media/media'>
  <media>
-   <title/>
-   <medium/>
+  <title/>
+  <medium/>
  </media>
 </medialist>
 ----
@@ -106,11 +106,11 @@ The `<media/>` element actually has five child elements, three of which are opti
 <?xml version='1.0'?>
 <medialist xmlns='http://vectortron.com/xml/media/media'>
  <media>
-   <title/>
-   <library/>
-   <medium/>
-   <index/>
-   <contents/>
+  <title/>
+  <library/>
+  <medium/>
+  <index/>
+  <contents/>
  </media>
 </medialist>
 ----
@@ -119,48 +119,3 @@ The `<media/>` element actually has five child elements, three of which are opti
 We already know that `<title/>` and `<medium/>` describe the title of the media, and the physical parameters.
 The optional elements, `<library/>`, `<index/>`, and `<contents/>` describe ownership traits, content layout
 and descriptions of the media content.
-
-== Ownership Records
-
-The schema can also record ownership information.
-
-[,xml]
-----
-<?xml version='1.0'?>
-<medialist xmlns='http://vectortron.com/xml/media/media'>
- <media>
-  <title>
-   <main>The Love Bug</main>
-   <edition>Special Edition</special>
-  </title>
-  <library>
-   <instances>
-    <instance>
-     <acquisition>
-      <date>
-       <exact>2021-02-01</exact>
-      </date>
-      <purchase/>
-     </aquisition>
-    </instance>
-   </instances>
-  </library>
-  <medium>
-   <dvd/>
-   <productId>
-    <barcode type='upc'>786936192445</barcode>
-   </productId>
-   <productSpecs>
-     <inventory>
-       <case>
-        <dvd/>
-        <dvd/>
-       </case>
-     </inventory>
-   </productSpecs>
-  </medium>
- </media>
-</medialist>
-----
-
-The same record now reflects that the user owns a single copy of the DVD, and it was purchased on February 1st, 2021.

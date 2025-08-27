@@ -2,9 +2,8 @@
 
 == Contents
 
-* Introduction
-** xref:introduction/quick_examples[Quick Examples]
 * Getting Started
+** xref:started/quick_examples.adoc[Quick Examples]
 ** Schema Installation
 ** Repository Setup
 ** Additional Software Installation
