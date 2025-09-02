@@ -3,6 +3,7 @@ vtmedia-schema CHANGELOG
 
 ## CURRENT
 
+ - [schema-203](https://github.com/cjcodeproj/vtmedia-schema/issues/203) Tribute should not fall under compilation
  - [schema-201](https://github.com/cjcodeproj/vtmedia-schema/issues/201) New documentation framework
  - [schema-202](https://github.com/cjcodeproj/vtmedia-schema/issues/202) Deprecate the genre/setting element
  - [schema-150](https://github.com/cjcodeproj/vtmedia-schema/issues/150) Re-evaluate release element

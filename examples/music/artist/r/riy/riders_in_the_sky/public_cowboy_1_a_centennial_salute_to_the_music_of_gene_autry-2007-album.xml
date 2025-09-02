@@ -16,9 +16,9 @@
    <primary>Country</primary>
    <secondary>Western</secondary>
   </genres>
-  <compilation>
-   <tribute/>
-  </compilation>
+  <tribute>
+   <to><gn>Gene</gn><fn>Autry</fn></to>
+  </tribute>
  </classification>
  <elements>
   <song id='bit01'>

@@ -66,7 +66,7 @@
   </xs:annotation>
  </xs:complexType>
 
- <xs:complexType name='AlbumTributeCompilationType'>
+ <xs:complexType name='AlbumTributeType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
     A tribute album typically contains covers of
@@ -132,7 +132,6 @@
   <xs:choice>
    <xs:element name='greatestHits' type='AlbumGenericCompilationType'/>
    <xs:element name='anthology' type='AlbumGenericCompilationType'/>
-   <xs:element name='tribute' type='AlbumGenericCompilationType'/>
   </xs:choice>
  </xs:complexType>
 
@@ -169,7 +168,10 @@
   <xs:choice>
    <xs:sequence>
     <xs:element name='genres' type='AudioGenresType' minOccurs='1' maxOccurs='1'/>
-    <xs:element name='compilation' type='AlbumCompilationType' minOccurs='0' maxOccurs='1'/>
+    <xs:choice minOccurs='0' maxOccurs='1'>
+     <xs:element name='compilation' type='AlbumCompilationType'/>
+     <xs:element name='tribute' type='AlbumTributeType'/>
+    </xs:choice>
     <xs:element name='livePerformance' type='AlbumLivePerformanceType' minOccurs='0' maxOccurs='1'/>
    </xs:sequence>
    <xs:sequence>
