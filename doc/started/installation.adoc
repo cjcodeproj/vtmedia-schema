@@ -1,23 +1,33 @@
 = Installation
 
+== Contents
+
+* xref:#overview[Overview]
+* xref:#installation[Installation]
+** xref:#install_paths[Installation Paths]
+** xref:#install_auto[Automatic Installation]
+** xref:#install_manual[Manual Installation]
+* xref:#validation_tools[Using Validation Tools]
+
+[[overview]]
 == Overview
 
 Installation of the schema files and the catalog file make the resources available to multiple users.   It isn't a requirement, but
 it makes working with the schema easier.  Installing the schema also preserves a copy of a known working version compared to
 a development version that may not be ready for production use.
 
+[[installation]]
 == Installation
 
+[[install_paths]]
 === Installation Paths
 
 For your own personal use, the recommended installation path is `~/.local/share/xml/vtmedia/`.  If you have root access to the host,
 and if the schema is going to be used by multiple users, you could also install the files in `/usr/share/xml/vtmedia/`
 
-All of the schema files would located in the `vtmedia/` path, and the `xml/catalog.xml` file would be under the `xml/` path.
-
-The actual installation path doesn't matter, as long as it's referenced in the `catalog.xml` file.
-
-If you're using **xmllint**, you will need to set the `XML_CATALOG_FILES` environmental variable to the path of the file.
+If you're using **xmllint**, you will need to add the schema to the standard `catalog` file, or create a new catalog file
+and reference it with the `XML_CATALOG_FILES` environmental variable.  The automated installation will generate a 
+`catalog.xml` file that can be referenced directly, or merged into the system catalog file.
 
 If you're using **Visual Studio Code** with the RedHat XML plugin, you will need to set the path of the catalog file in
 the `settings.json` file.  The easiest way to edit that file, is to open the command pallette and type in
@@ -34,7 +44,8 @@ the `settings.json` file.  The easiest way to edit that file, is to open the com
 
 There may be other settings in the file, make changes to them as you wish.
 
-=== Installation From The Makefile
+[[install_auto]]
+=== Automatic Installation
 
 To install the schema, run `make install` from the command line.
 
@@ -54,6 +65,7 @@ make manual changes to an existing catalog file you can also use this command:
 $ make install-no-catalog
 ----
 
+[[install_manual]]
 === Manual Installation
 
 Manual installation can be acheived with the following commands.
@@ -66,7 +78,21 @@ $ cp schemas/*.xsd $DST/vtmedia/
 $ cp catalog/catalog.xml $DST/
 ----
 
-=== Validation After Installation
+The schema also includes the XML schema and the XLink schema, which are found here.
+
+* https://www.w3.org/2009/01/xml.xsd
+* https://www.w3.org/1999/xlink.xsd
+
+[source,console]
+----
+$ curl https://www.w3.org/2009/01/xml.xsd > $DST/vtmedia/xml.xsd
+$ curl https://www.w3.org/1999/xlink.xsd > $DST/vtmedia/xlink.xsd
+----
+
+The sample `catalog.xml` file has entries for the XML and XLink namespaces.
+
+[[validation_tools]]
+== Using Validation Tools
 
 Assume you have two files:
 
@@ -91,27 +117,9 @@ $ xmllint --xinclude --schema http://vectortron.com/xml/media/media oppenheimer-
 The command successfully checks the XML syntax, and confirms that the file adheres to the rules of the schema.  Since
 the `catalog.xml` file contains references to the schemas installed locally on the host, no network request is made.
 
-
-== Non-Installation
-
-If you don't want to install the schema, it's possible to still validate using the files in the repository.
-
-=== Validation Without Installation
-
-Assume you have two files from the previous example:
-
-[source,console]
-----
-$ ls -1 oppenheimer*.xml
-oppenheimer-2023-ultrahd.xml
-oppenheimer-2023-movie.xml
-----
-
-The following command will perform the same validation operation:
+If you did not install the schema, it's can be tested by manually specifying the schema location.
 
 [source,console]
 ----
 $ xmllint --xinclude --path ./vtmedia-schema/schemas --schema media-schema.xsd oppenheimer-2023-ultrahd.xml
 ----
-
-This tests both the correct syntax of the XML and the adherence to the rules of the schema.

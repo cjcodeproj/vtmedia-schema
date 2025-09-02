@@ -4,8 +4,8 @@
 
 * Getting Started
 ** xref:started/quick_examples.adoc[Quick Examples]
-** Schema Installation
-** Repository Setup
+** xref:started/installation.adoc[Schema Installation]
+** xref:started/repository.adoc[Repository Setup]
 ** Additional Software Installation
 * Creating Records
 ** Media Devices

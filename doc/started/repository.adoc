@@ -1,0 +1,123 @@
+= Repository Setup
+
+== Contents
+
+* xref:#overview[Overview]
+* xref:#directory[Directory Structure Recommendations]
+* xref:#filename[Filename Recommendations]
+** xref:#usecase1[Usage Case:Media Upgrades]
+
+[[overview]]
+== Overview
+
+The repository is just a directory that holds all of the XML files.  It can reside on a dedicated filesystem, or it can be managed by
+a source repository like Git, Mercurial, or Subversion.  Every file can be in a single directory, or they can be split up into
+subdirectories.
+
+Anyone developing a software application to read a repository should be able to handle scanning a directory and identifying a large
+number of XML files, and traversing subdirectories recursively to search for more files.  The name of a file should not affect how
+the program parses the content of the file, but the filename could determine whether or not the file adheres to the schema.
+
+One of the design goals of the repository structure is to allow all of the files in the repository to
+be backed up, compressed into a file, archived, or remotely synched from any tool in the simplest way
+possible.  Any third party tool used to copy the repository just needs to know the directory path.
+
+[[directory]]
+== Directory Structure Recommendations
+
+The following is just suggested guidelines on how to keep a repository organized.
+
+For your new repository, create a single directory named `data/` where the XML files will go.
+
+[source,console]
+----
+$ mkdir my_repository/
+$ cd my_repository/
+$ mkdir data/
+$ cd data/
+----
+
+If you're going to be using Git to manage the files, you could run this.
+
+[source,console]
+----
+$ git init -b main my_repository
+$ cd my_repository/
+$ mkdir data/
+$ cd data/
+----
+
+At this point, any file XML file you create under data/ is in the repository.  Any tool that wants to read the data should just
+navigate the directory path, and read any XML file it encounters.
+
+If you believe the repository is going to be pretty large, you can split movies and music into different subdirectories.
+
+One of the design goals of the directory structure is to allow the entire repository to be backed up, compressed to a file,
+or replicated to a remote host using 
+[source,console]
+----
+$ cd data/
+$ mkdir movies/
+$ mkdir music/
+----
+
+If you think the repository is going to be very large, you can create an alphabetical directory structure.
+
+The following example shows a structure based on the first two letters of the movie's title, followed by the last letter.
+
+[source,console]
+----
+$ cd movies/
+$ mkdir -p g/grs/
+$ ls g/grs
+gremlins-1984-movie.xml
+gremlins-1984-bluray.xml
+the_grifters-1990-movie.xml
+the_grifters-1990-ultrahd.xml
+----
+
+[[filename]]
+== Filename Recommendations
+
+For filenames, it's probably best to use the movie title, the copyright year, and the medium it's released on.
+
+For example
+
+[source,console]
+----
+$ ls data/movies/g/grs/
+gremlins-1984-movie.xml
+gremlins-1984-bluray.xml
+----
+
+The record can be split across multiple files using XInclude.  It's recommened that for a given piece of
+physical media, the content on the media should be recorded in separate files.
+
+[[usecase1]]
+=== Usage Case: Media Upgrades
+
+You successfully catalog a record for the Blu-Ray release of the movie The Goonies.  Two years later, you find
+a copy of The Goonies on UltraHD for a low price, and you decide to buy it.
+
+You can enter the record for the new purchase, but you have a conflict.  Most of the data hasn't changed
+because it's still the same movie.  If you duplicate the data, it becomes much harder to maintain.
+
+The solution is to create a new file recording the details of the UltraHD purchase.
+
+[source,console]
+----
+$ vi gremlins-1984-ultrahd.xml
+----
+
+Both the `gremlins-1984-ultrahd.xml` and the `gremlins-1984-bluray.xml` will contain the following
+XML block.
+
+[source,xml]
+----
+<content>
+  <xi:include href='gremlins-1984-movie.xml'/>
+</content>
+----
+
+Now both records reference the same movie data from a single source, which will make
+it easier to manage.
