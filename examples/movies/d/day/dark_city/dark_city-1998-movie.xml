@@ -90,6 +90,13 @@
      <writers>
       <writer role='screenplay'><gn>Firstname</gn><fn>Lastname</fn></writer>
      </writers>
+     <producers>
+      <execProducer><gn>Michael</gn><fn>De Luca</fn></execProducer>
+      <lineProducer><gn>Barbara</gn><fn>Gibbs</fn></lineProducer>
+      <producer><gn>Andrew</gn><fn>Mason</fn></producer>
+      <producer><gn>Alex</gn><fn>Proyas</fn></producer>
+      <execProducer><gn>Brian</gn><fn>Witten</fn></execProducer>
+     </producers>
      <editors>
       <editor><gn>Dov</gn><fn>Hoenig</fn></editor>
      </editors>

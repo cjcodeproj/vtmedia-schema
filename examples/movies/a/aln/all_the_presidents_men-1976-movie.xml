@@ -108,6 +108,11 @@
        </book>
       </sources>
      </writers>
+     <producers>
+      <assocProducer><gn>Jon</gn><fn>Boorstin</fn></assocProducer>
+      <assocProducer><gn>Michael</gn><fn>Britton</fn></assocProducer>
+      <producer><gn>Walter</gn><fn>Coblenz</fn></producer>
+     </producers>
      <editors>
       <editor><gn>Robert</gn><mn>L</mn><fn>Wolfe</fn></editor>
      </editors>

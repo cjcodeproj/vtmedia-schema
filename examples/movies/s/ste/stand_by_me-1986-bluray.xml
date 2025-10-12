@@ -22,9 +22,7 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><bluray/></type>
-   </release>
+   <bluray/>
    <productId>
     <barcode type='upc'>043396263789</barcode>
    </productId>

@@ -58,9 +58,32 @@
    <xs:element name='catalog' type='AudioSongCatalogType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='classification' type='AudioSongClassificationType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='technical' type='AudioSongTechnicalType' minOccurs='1' maxOccurs='1'/>
-   <!-- performance element goes here (later) -->
+   <xs:element name='composition' type='AudioSongCompositionType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='performance' type='AudioSongPerformanceType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
   <xs:attributeGroup ref='ElementAttributeGroup'/>
+ </xs:complexType>
+
+
+ <xs:complexType name='AudioSongCompositionType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Contains elements that describe the comnposition of the song,
+    which could include lyrics, narrative, reference
+    information to other works.
+   </xs:documentation>
+  </xs:annotation>
+ </xs:complexType>
+
+
+ <xs:complexType name='AudioSongPerformanceType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Contains elements that could describe the
+    recorded performance of the song, including
+    vocalists or musicians.
+   </xs:documentation>
+  </xs:annotation>
  </xs:complexType>
 
 </xs:schema>

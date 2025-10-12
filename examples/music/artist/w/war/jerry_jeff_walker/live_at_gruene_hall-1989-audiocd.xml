@@ -6,9 +6,7 @@
    <main>Live At Gruene Hall</main>
   </title>
   <medium>
-   <release>
-    <type><audiocd/></type>
-   </release>
+   <audiocd/>
    <productSpecs>
     <inventory>
      <case>

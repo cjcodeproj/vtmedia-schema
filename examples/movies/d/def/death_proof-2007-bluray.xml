@@ -18,9 +18,7 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><bluray/></type>
-   </release>
+   <bluray/>
    <productId>
     <barcode type='upc'>796019817179</barcode>
    </productId>
@@ -131,6 +129,18 @@
      <writers>
       <writer><gn>Quentin</gn><fn>Tarantino</fn></writer>
      </writers>
+     <producers>
+      <producer><gn>Elizabeth</gn><fn>Avellan</fn></producer>
+      <execProducer><gn>Shannon</gn><fn>McIntosh</fn></execProducer>
+      <producer><gn>Robert</gn><fn>Rodriguez</fn></producer>
+      <assocProducer><gn>Pilar</gn><fn>Savone</fn></assocProducer>
+      <lineProducer><gn>Bill</gn><fn>Scott</fn></lineProducer>
+      <lineProducer><gn>James</gn><mi>W.</mi><fn>Skotchdopole</fn></lineProducer>
+      <producer><gn>Erica</gn><fn>Steinberg</fn></producer>
+      <producer><gn>Quentin</gn><fn>Tarantino</fn></producer>
+      <execProducer><gn>Bob</gn><fn>Weinstein</fn></execProducer>
+      <execProducer><gn>Harvey</gn><fn>Weinstein</fn></execProducer>
+     </producers>
      <editors>
       <editor><gn>Sally</gn><fn>Menke</fn></editor>
      </editors>

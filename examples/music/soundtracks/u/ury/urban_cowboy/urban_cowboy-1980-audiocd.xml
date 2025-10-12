@@ -6,9 +6,7 @@
    <main>Urban Cowboy</main>
   </title>
   <medium>
-   <release>
-    <type><audiocd/></type>
-   </release>
+   <audiocd/>
    <productSpecs>
     <inventory>
      <case>

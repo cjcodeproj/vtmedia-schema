@@ -6,9 +6,7 @@
    <main>The Best Of Bond... James Bond</main>
   </title>
   <medium>
-   <release>
-    <type><audiocd/></type>
-   </release>
+   <audiocd/>
    <productId>
     <barcode type='upc'>602508731099</barcode>
    </productId>

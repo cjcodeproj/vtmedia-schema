@@ -1,6 +1,8 @@
 <?xml version='1.0'?>
 
-<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'
+	xmlns:xlink='http://www.w3.org/1999/xlink'
+	elementFormDefault='qualified'>
 
  <xs:annotation>
   <xs:documentation xml:lang='en-US'>
@@ -33,16 +35,18 @@
   </xs:documentation>
  </xs:annotation>
 
- <xs:complexType name='ProductType'>
+ <xs:import namespace='http://www.w3.org/1999/xlink' schemaLocation='xlink.xsd'/>
+
+ <xs:complexType name='ProductType'>  <!-- FUTURE DEPRECATION -->
   <xs:sequence>
    <xs:group ref='ProductTypeGroup' minOccurs='1' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 
- <xs:complexType name='SingleProductType'>
+ <xs:complexType name='SingleProductType'>  <!-- FUTURE DEPRECATION -->
  </xs:complexType>
 
- <xs:group name='ProductTypeGroup'>
+ <xs:group name='ProductTypeGroup'>  <!-- FUTURE DEPRECATION -->
   <xs:choice>
    <xs:element name='audiocd' type='SingleProductType'/>
    <xs:element name='casette' type='SingleProductType'/>
@@ -57,12 +61,95 @@
   </xs:choice>
  </xs:group>
 
- <xs:complexType name='ReleaseType'>
+ <xs:complexType name='ReleaseType'>  <!-- FUTURE DEPRECATION -->
   <xs:sequence>
    <xs:element name='type' type='ProductType' minOccurs='1' maxOccurs='1'/>
    <xs:element name='releaseDate' type='xs:date' minOccurs='0' maxOccurs='1'/>
    <xs:element name='publisher' type='xs:token' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+   New schema structure to represent a medium.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:complexType name='PublisherProductPageType'>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute ref='xlink:href' use='required'/>
+    <xs:attribute ref='xlink:title' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='PublisherReleasePressType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Element for press release links.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute ref='xlink:href' use='required'/>
+    <xs:attribute ref='xlink:title' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='PublisherReleaseType'>
+  <xs:sequence>
+   <xs:element name='streetDate' type='xs:date' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='press' type='PublisherReleasePressType' minOccurs='0' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='MediumPublisherType'>
+  <xs:sequence>
+   <xs:element name='name' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='productPage' type='PublisherProductPageType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='release' type='PublisherReleaseType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='MediumDevType'>
+  <xs:sequence>
+   <xs:element name='publisher' type='MediumPublisherType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:group name='MediumTypeGroup'>
+  <xs:choice>
+   <xs:group ref='MediumAudioTypeGroup'/>
+   <xs:group ref='MediumVideoDiscTypeGroup'/>
+   <xs:group ref='MediumVideoTapeTypeGroup'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:group name='MediumAudioTypeGroup'>
+  <xs:choice>
+   <xs:element name='audiocd' type='MediumDevType'/>
+   <xs:element name='casette' type='MediumDevType'/>
+   <xs:element name='record' type='MediumDevType'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:group name='MediumVideoDiscTypeGroup'>
+  <xs:choice>
+   <xs:element name='dvd' type='MediumDevType'/>
+   <xs:element name='bluray' type='MediumDevType'/>
+   <xs:element name='bluray3d' type='MediumDevType'/>
+   <xs:element name='hddvd' type='MediumDevType'/>
+   <xs:element name='ultrahd' type='MediumDevType'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:group name='MediumVideoTapeTypeGroup'>
+  <xs:choice>
+   <xs:element name='vhs' type='MediumDevType'/>
+   <xs:element name='betamax' type='MediumDevType'/>
+  </xs:choice>
+ </xs:group>
 
 </xs:schema>

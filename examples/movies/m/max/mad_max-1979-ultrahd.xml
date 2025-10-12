@@ -24,11 +24,13 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><ultrahd/></type>
-    <releaseDate>2020-11-24</releaseDate>
-    <publisher></publisher>
-   </release>
+   <ultrahd>
+    <publisher>
+     <release>
+      <streetDate>2020-11-24</streetDate>
+     </release>
+    </publisher>
+   </ultrahd>
    <productId>
     <barcode type='upc'>738329251604</barcode>
     <sku retailer='abc'> </sku>

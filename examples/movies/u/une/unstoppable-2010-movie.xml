@@ -85,6 +85,24 @@
      <writers>
       <writer><gn>Mark</gn><fn>Bomback</fn></writer>
      </writers>
+     <producers>
+      <team>
+       <coProducer><gn>Skip</gn><fn>Chaisson</fn></coProducer>
+       <coProducer><gn>Diane</gn><mi>L.</mi><fn>Sabatini</fn></coProducer>
+       <coProducer><gn>Adam</gn><fn>Somner</fn></coProducer>
+       <coProducer><gn>Lee</gn><fn>Trink</fn></coProducer>
+      </team>
+      <execProducer><gn>Chris</gn><fn>Ciaffa</fn></execProducer>
+      <execProducer><gn>Jeff</gn><fn>Kwatinetz</fn></execProducer>
+      <producer><gn>Eric</gn><fn>McLeod</fn></producer>
+      <assocProducer><gn>Tom</gn><fn>Moran</fn></assocProducer>
+      <assocProducer><gn>Janice</gn><fn>Polley</fn></assocProducer>
+      <producer><gn>Mimi</gn><fn>Rogers</fn></producer>
+      <producer><gn>Tony</gn><fn>Scott</fn></producer>
+      <producer><gn>Julie</gn><fn>Yorn</fn></producer>
+      <execProducer><gn>Rick</gn><fn>Yorn</fn></execProducer>
+      <producer><gn>Alex</gn><fn>Young</fn></producer>
+     </producers>
      <editors>
       <editor><gn>Robert</gn><fn>Duffy</fn></editor>
       <editor><gn>Chris</gn><fn>Lebenzon</fn></editor>

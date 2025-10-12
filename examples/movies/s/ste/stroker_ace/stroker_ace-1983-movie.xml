@@ -89,6 +89,11 @@
        </novel>
       </sources>
      </writers>
+     <producers>
+      <producer><gn>Laurel</gn><fn>Goodwin</fn></producer>
+      <producer><gn>Hank</gn><fn>Moonjean</fn></producer>
+      <assocProducer><gn>Kathleen</gn><mi>M.</mi><fn>Shea</fn></assocProducer>
+     </producers>
      <editors>
       <editor><gn>William</gn><mn>D</mn><fn>Gordean</fn></editor>
       <editor><gn>Carl</gn><fn>Kress</fn></editor>

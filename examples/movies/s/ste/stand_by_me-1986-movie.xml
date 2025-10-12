@@ -86,6 +86,11 @@
        </novel>
       </sources>
      </writers>
+     <producers>
+      <producer><gn>Bruce</gn><mi>A.</mi><fn>Evans</fn></producer>
+      <producer><gn>Raynold</gn><fn>Gideon</fn></producer>
+      <producer><gn>Andrew</gn><fn>Scheinman</fn></producer>
+     </producers>
      <editors>
       <editor><gn>Robert</gn><fn>Leighton</fn></editor>
      </editors>

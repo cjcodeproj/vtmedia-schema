@@ -6,9 +6,7 @@
    <main>Six Days On The Road</main>
   </title>
   <medium>
-   <release>
-    <type><audiocd/></type>
-   </release>
+   <audiocd/>
    <productSpecs>
     <inventory>
      <case>

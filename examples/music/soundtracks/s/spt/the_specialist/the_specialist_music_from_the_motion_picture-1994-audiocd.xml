@@ -23,9 +23,7 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><audiocd/></type>
-   </release>
+   <audiocd/>
    <productId>
     <barcode type='upc'>074646638422</barcode>
    </productId>

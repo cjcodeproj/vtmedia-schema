@@ -23,9 +23,7 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><bluray/></type>
-   </release>
+   <bluray/>
    <productId>
     <barcode type='upc'>715515223713</barcode>
     <sku retailer='bned'>715515223713</sku>

@@ -54,6 +54,23 @@
      <writers>
       <writer><gn>Rodrigo</gn><fn>Cortés</fn></writer>
      </writers>
+     <producers>
+      <assocProducer><gn>Attitude</gn><fn>Asesores</fn></assocProducer>
+      <lineProducer><gn>Daniel</gn><fn>Bekerman</fn></lineProducer>
+      <producer><gn>Rodrigo</gn><fn>Cortés</fn></producer>
+      <execProducer><gn>Cindy</gn><fn>Cowan</fn></execProducer>
+      <execProducer><gn>Irving</gn><fn>Cowan</fn></execProducer>
+      <assocProducer><gn>Sara</gn><fn>Giles</fn></assocProducer>
+      <producer><gn>Adrían</gn><fn>Guerra</fn></producer>
+      <team>
+       <coProducer><gn>Manuel</gn><fn>Monzón</fn></coProducer>
+       <coProducer><gn>Christina</gn><fn>Piovesan</fn></coProducer>
+      </team>
+      <assistProducer><gn>Jordi</gn><fn>Muñoz</fn></assistProducer>
+      <assistProducer><gn>Miki</gn><fn>Nadal</fn></assistProducer>
+      <lineProducer><gn>Toni</gn><fn>Novella</fn></lineProducer>
+      <execProducer><gn>Lisa</gn><fn>Wilson</fn></execProducer>
+     </producers>
      <editors>
       <editor><gn>Rodrigo</gn><fn>Cortés</fn></editor>
      </editors>

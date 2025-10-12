@@ -23,10 +23,11 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><bluray/></type>
-    <publisher>Arrow Video</publisher>
-   </release>
+   <bluray>
+    <publisher>
+     <name>Arrow Video</name>
+    </publisher>
+   </bluray>
    <productId>
     <barcode type='upc'>760137408987</barcode>
    </productId>

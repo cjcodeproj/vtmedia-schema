@@ -5,9 +5,7 @@
    <main>Wargames</main>
   </title>
   <medium>
-   <release>
-    <type><bluray/></type>
-   </release>
+   <bluray/>
    <productId>
     <barcode type='upc'>88390436218</barcode>
     <sku retailer='amazon' type='asin'>B0089J2818</sku>

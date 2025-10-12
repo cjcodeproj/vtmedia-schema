@@ -25,7 +25,6 @@
   <xs:sequence>
    <xs:element name='primary' type='xs:token' minOccurs='1' maxOccurs='1'/>
    <xs:element name='secondary' type='xs:token' minOccurs='0' maxOccurs='unbounded'/>
-   <xs:element name='setting' type='xs:token' minOccurs='0' maxOccurs='1'/>
    <xs:element name='specific' type='xs:token' minOccurs='0' maxOccurs='1'/>
    <xs:element name='subgenres' type='SubgenresType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>

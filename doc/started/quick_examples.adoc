@@ -1,0 +1,121 @@
+= Introduction To The Media Schema
+
+The media schema is an XML schema designed to document physical media libraries by recording the physical
+characteristics of a media, and the contents contained within.
+
+== Simple Movie Example
+
+The following example is a record for a DVD release of the movie "The Love Bug (1968)".
+
+The DVD is packaged in a simple keepcase, contains 2 DVD disks, and has a UPC barcode for
+identification.
+
+[,xml]
+----
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media'>
+ <media>
+  <title>
+   <main>The Love Bug</main>
+   <edition>Special Edition</special>
+  </title>
+  <medium>
+   <dvd/>
+   <productId>
+    <barcode type='upc'>786936192445</barcode>
+   </productId>
+   <productSpecs>
+     <inventory>
+       <case>
+        <dvd/>
+        <dvd/>
+       </case>
+     </inventory>
+   </productSpecs>
+  </medium>
+ </media>
+</medialist>
+----
+
+The file is 100% valid XML, and the element structure can be tested by any XML parser.  If the schema is downloaded, 
+it will also verify the element order and validity of the element values.
+
+== Simple Music Example
+
+The record below identifies a music CD for the "The Red Album (2008)" by the band Weezer.
+
+[source,xml]
+----
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <!-- created by id3scan (2024-03-10 09:53:41.968781) -->
+ <media>
+  <title>
+   <main>The Red Album</main>
+  </title>
+  <medium>
+   <audiocd/>
+   <productId>
+    <barcode type='upc'>602517726451</barcode>
+   </productId>
+   <productSpecs>
+    <inventory>
+     <case>
+      <cd id='cd01'/>
+      <booklet/>
+     </case>
+    </inventory>
+   </productSpecs>
+  </medium>
+ </media>
+</medialist>
+----
+
+The file is nearly identical to the music example, except it contains references to the XInclude schema, which can be 
+used to embed XML from another file, and it contains a comment generated from a Python tool called id3scam that generated
+the XML by scanning the ID3 tags from the M4A files that were stored in an iTunes library.
+
+The medialist element can contain one or more `<media/>` child elements, but in most cases, we only want to record information on
+a single piece of media.
+
+In both of these examples, we're only recording the physical details of the media, and not the actual contents contained
+in the media.  If a user is maintaining a record of a media library, this is enough to record the details of the physical object.
+
+Both examples also have the same top level XML element structure.
+
+[,xml]
+----
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media'>
+ <media>
+  <title/>
+  <medium/>
+ </media>
+</medialist>
+----
+
+The `<medialist/>` element is capable of holding one more more `<media/>` elements, and each of those
+elements is used to describe a type of physical media, like a movie on a DVD, or an album on a CD.
+
+If two different users were to describe the same DVD or CD, the records would likely be identical.
+
+The `<media/>` element actually has five child elements, three of which are optional.
+
+[,xml]
+----
+<?xml version='1.0'?>
+<medialist xmlns='http://vectortron.com/xml/media/media'>
+ <media>
+  <title/>
+  <library/>
+  <medium/>
+  <index/>
+  <contents/>
+ </media>
+</medialist>
+----
+
+
+We already know that `<title/>` and `<medium/>` describe the title of the media, and the physical parameters.
+The optional elements, `<library/>`, `<index/>`, and `<contents/>` describe ownership traits, content layout
+and descriptions of the media content.

@@ -1,5 +1,7 @@
 <?xml version='1.0'?>
-<medialist xmlns='http://vectortron.com/xml/media/media' xmlns:xi='http://www.w3.org/2001/XInclude'>
+<medialist xmlns='http://vectortron.com/xml/media/media'
+	xmlns:xlink='http://www.w3.org/1999/xlink'
+	xmlns:xi='http://www.w3.org/2001/XInclude'>
  <media>
   <title>
    <main>Blood Simple</main>
@@ -16,11 +18,15 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><bluray/></type>
-    <releaseDate>2016-09-20</releaseDate>
-    <publisher>Criterion</publisher>
-   </release>
+   <bluray>
+    <publisher>
+     <name>Criterion</name>
+     <productPage xlink:href='https://www.criterion.com/films/28852-blood-simple'/>
+     <release>
+      <streetDate>2016-09-20</streetDate>
+     </release>
+    </publisher>
+   </bluray>
    <productId>
     <barcode type='upc'>71551186216</barcode>
     <sku retailer='amazon' type='asin'>B01H66WATO</sku>

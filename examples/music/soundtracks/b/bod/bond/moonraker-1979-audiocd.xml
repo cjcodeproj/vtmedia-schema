@@ -5,10 +5,8 @@
   <title>
    <main>Moonraker</main>
  </title>
-  <medium>
-  <release>
-   <type><audiocd/></type>
-  </release>
+ <medium>
+  <audiocd/>
   <productSpecs>
    <inventory>
     <case>

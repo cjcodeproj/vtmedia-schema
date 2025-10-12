@@ -22,9 +22,7 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><ultrahd/></type>
-   </release>
+   <ultrahd/>
    <productId>
     <barcode type='upc'>456</barcode>
     <sku retailer='retailer'>123</sku>

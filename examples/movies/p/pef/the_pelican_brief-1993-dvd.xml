@@ -5,9 +5,7 @@
    <main>The Pelican Brief</main>
   </title>
   <medium>
-   <release>
-    <type><dvd/></type>
-   </release>
+   <dvd/>
    <productId>
     <barcode type='upc'>085391298922</barcode>
     <barcode type='isbn' scanlines='false'>0-7907-3125-5</barcode>

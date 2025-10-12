@@ -75,6 +75,11 @@
        </book>
       </sources>
      </writers>
+     <producers>
+      <producer><gn>Peter</gn><fn>Hyams</fn></producer>
+      <assocProducer><gn>Neil</gn><mi>A.</mi><fn>Machlis</fn></assocProducer>
+      <assocProducer><gn>Jonathan</gn><mi>A.</mi><fn>Zimbert</fn></assocProducer>
+     </producers>
      <editors>
       <editor><gn>Mia</gn><fn>Goldman</fn></editor>
       <editor><gn>James</gn><fn>Mitchell</fn></editor>

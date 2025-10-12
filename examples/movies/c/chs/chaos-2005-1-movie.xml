@@ -45,6 +45,14 @@
      <writers>
       <writer><gn>Tony</gn><fn>Giglio</fn></writer>
      </writers>
+     <producers>
+      <execProducer><gn>David</gn><fn>Bergstein</fn></execProducer>
+      <execProducer><gn>Steven</gn><fn>Chasman</fn></execProducer>
+      <producer><gn>Michael</gn><fn>Derbas</fn></producer>
+      <producer><gn>Huw</gn><fn>Penallt Jones</fn></producer>
+      <coProducer><gn>Michael</gn><mi>A.</mi><fn>Pierce</fn></coProducer>
+      <producer><gn>Gavin</gn><fn>Wilding</fn></producer>
+     </producers>
      <editors>
       <editor><gn>Sean</gn><fn>Barton</fn></editor>
      </editors>

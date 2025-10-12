@@ -14,7 +14,6 @@
      </copyright>
      <extRefs>
       <website xlink:href='https://catalog.afi.com/Film/67010-BLOOD-SIMPLE' xlink:title='AFI'/>
-      <website xlink:href='https://www.criterion.com/films/28852-blood-simple' xlink:title='Criterion'/>
       <website xlink:href='https://history.sundance.org/films/1214/blood_simple' xlink:title='Sundance Archive'/>
      </extRefs>
     </catalog>
@@ -79,6 +78,12 @@
       <writer><gn>Joel</gn><fn>Coen</fn></writer>
       <writer><gn>Ethan</gn><fn>Coen</fn></writer>
      </writers>
+     <producers>
+      <execProducer><gn>Daniel</gn><mi>F.</mi><fn>Bacaner</fn></execProducer>
+      <producer><gn>Ethan</gn><fn>Coen</fn></producer>
+      <producer uncredited='true'><gn>Joel</gn><fn>Coen</fn></producer>
+      <assocProducer><gn>Mark</gn><fn>Silverman</fn></assocProducer>
+     </producers>
      <editors>
       <editor><gn>Joel</gn><fn>Coen</fn></editor>
       <editor><gn>Ethan</gn><fn>Coen</fn></editor>

@@ -1,6 +1,18 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## CURRENT
+
+ - [schema-205](https://github.com/cjcodeproj/vtmedia-schema/issues/205) The Producers (not the movie)
+ - [schema-149](https://github.com/cjcodeproj/vtmedia-schema/issues/149) Song: composition and performance structures
+ - [schema-204](https://github.com/cjcodeproj/vtmedia-schema/issues/204) Documentation for repository setup
+ - [schema-203](https://github.com/cjcodeproj/vtmedia-schema/issues/203) Tribute should not fall under compilation
+ - [schema-201](https://github.com/cjcodeproj/vtmedia-schema/issues/201) New documentation framework
+ - [schema-202](https://github.com/cjcodeproj/vtmedia-schema/issues/202) Deprecate the genre/setting element
+ - [schema-150](https://github.com/cjcodeproj/vtmedia-schema/issues/150) Re-evaluate release element
+ - [schema-100](https://github.com/cjcodeproj/vtmedia-schema/issues/100) movie credit: supervising art director
+ - [schema-200](https://github.com/cjcodeproj/vtmedia-schema/issues/200) Type error on visual crew
+
 ## RELEASE 2025.07
 
  - [schema-197](https://github.com/cjcodeproj/vtmedia-schema/issues/197) Release 2025.07

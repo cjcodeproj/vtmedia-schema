@@ -73,6 +73,11 @@
        </book>
       </sources>
      </writers>
+     <producers>
+      <execProducer><gn>Dino</gn><fn>De Laurentiis</fn></execProducer>
+      <producer uncredited='true'><gn>Sydney</gn><fn>Pollack</fn></producer>
+      <producer><gn>Stanley</gn><fn>Schneider</fn></producer>
+     </producers>
      <editors>
       <editor><gn>Don</gn><fn>Guidce</fn></editor>
      </editors>

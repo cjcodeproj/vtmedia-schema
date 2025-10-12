@@ -26,10 +26,16 @@
    </filing>
   </library>
   <medium>
-   <release>
-    <type><bluray/></type>
-    <publisher>Shout Factory</publisher>
-   </release>
+   <bluray>
+    <publisher xmlns:xlink='http://www.w3.org/1999/xlink'>
+     <name>Shout Factory</name>
+     <productPage xlink:href='https://shoutfactory.com/products/midnight-run-collectors-edition-blu-ray'/>
+     <release>
+      <streetDate>2016-08-23</streetDate>
+      <press xlink:href='https://www.blu-ray.com/news/?id=19174'/>
+     </release>
+    </publisher>
+   </bluray>
    <productId>
     <barcode type='upc'>926663164794</barcode>
     <sku retailer='bby'>4771602</sku>
@@ -169,7 +175,7 @@
       <composer><gn>Danny</gn><fn>Elfman</fn></composer>
      </music>
      <artDept>
-      <productionDesigner><gn>Angelo</gn><mn>P.</mn>><fn>Graham</fn></productionDesigner>
+      <productionDesigner><gn>Angelo</gn><mn>P.</mn><fn>Graham</fn></productionDesigner>
       <artDirector><gn>James</gn><mn>J.</mn><fn>Murakami</fn></artDirector>
       <setDecorator><gn>George</gn><mi>R.</mi><fn>Nelson</fn></setDecorator>
      </artDept>

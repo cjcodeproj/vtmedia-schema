@@ -19,9 +19,7 @@
    </instances>
   </library>
   <medium>
-   <release>
-    <type><dvd/></type>
-   </release>
+   <dvd/>
    <productId>
     <barcode type='upc'>012569750616</barcode>
     <barcode type='isbn' scanlines='false'>1419823426</barcode>
