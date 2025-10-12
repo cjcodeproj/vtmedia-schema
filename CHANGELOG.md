@@ -3,6 +3,7 @@ vtmedia-schema CHANGELOG
 
 ## CURRENT
 
+ - [schema-149](https://github.com/cjcodeproj/vtmedia-schema/issues/149) Song: composition and performance structures
  - [schema-204](https://github.com/cjcodeproj/vtmedia-schema/issues/204) Documentation for repository setup
  - [schema-203](https://github.com/cjcodeproj/vtmedia-schema/issues/203) Tribute should not fall under compilation
  - [schema-201](https://github.com/cjcodeproj/vtmedia-schema/issues/201) New documentation framework
