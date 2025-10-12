@@ -144,6 +144,14 @@
        </game>
       </sources>
      </writers>
+     <producers>
+      <assocProducer><gn>Jeffrey</gn><fn>Chernov</fn></assocProducer>
+      <execProducer><gn>George</gn><fn>Folsey</fn><suffix>Jr.</suffix></execProducer>
+      <execProducer><gn>Peter</gn><fn>Gruber</fn></execProducer>
+      <producer><gn>Debra</gn><fn>Hill</fn></producer>
+      <execProducer><gn>John</gn><fn>Landis</fn></execProducer>
+      <execProducer><gn>Jon</gn><fn>Peters</fn></execProducer>
+     </producers>
      <editors>
       <editor><gn>David</gn><fn>Bretherton</fn></editor>
       <editor><gn>Richard</gn><fn>Haines</fn></editor>

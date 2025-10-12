@@ -94,6 +94,11 @@
        </book>
       </sources>
      </writers>
+     <producers>
+      <producer uncredited='true'><gn>James</gn><fn>Clavell</fn></producer>
+      <execProducer uncredited='true'><gn>Walter</gn><fn>Mirisch</fn></execProducer>
+      <producer><gn>John</gn><fn>Sturges</fn></producer>
+     </producers>
      <editors>
       <editor><gn>Ferris</gn><fn>Webster</fn></editor>
      </editors>

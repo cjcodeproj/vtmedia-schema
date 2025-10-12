@@ -149,6 +149,18 @@
        </story>
       </sources>
      </writers>
+     <producers>
+      <execProducer><gn>Joan</gn><fn>Bradshaw</fn></execProducer>
+      <execProducer><gn>Lynda</gn><fn>Obst</fn></execProducer>
+      <producer><gn>Steve</gn><fn>Starkey</fn></producer>
+      <producer><gn>Robert</gn><fn>Zemeckis</fn></producer>
+      <assocProducer><gn>Steven</gn><mi>J.</mi><fn>Boyd</fn></assocProducer>
+      <assocProducer><gn>Rick</gn><fn>Porras</fn></assocProducer>
+      <team>
+       <coProducer><gn>Ann</gn><fn>Druyan</fn></coProducer>
+       <coProducer><gn>Carl</gn><fn>Sagan</fn></coProducer>
+      </team>
+     </producers>
      <editors>
       <editor><gn>Authur</gn><fn>Schmidt</fn></editor>
      </editors>

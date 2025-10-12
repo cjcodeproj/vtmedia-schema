@@ -101,6 +101,13 @@
       <writer><gn>Ethan</gn><fn>Coen</fn></writer>
       <writer><gn>Joel</gn><fn>Coen</fn></writer>
      </writers>
+     <producers>
+      <producer><gn>Ethan</gn><fn>Coen</fn></producer>
+      <producer uncredited='true'><gn>Joel</gn><fn>Coen</fn></producer>
+      <execProducer><gn>James</gn><fn>Jacks</fn></execProducer>
+      <assocProducer><gn>Deborah</gn><fn>Reinisch</fn></assocProducer>
+      <coProducer><gn>Mark</gn><fn>Silverman</fn></coProducer>
+     </producers>
      <editors>
       <editor><gn>Michael</gn><mn>R.</mn><fn>Miller</fn></editor>
      </editors>

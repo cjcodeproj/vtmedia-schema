@@ -55,6 +55,25 @@
      <writers>
       <writer><gn>Evan</gn><fn>Daugherty</fn></writer>
      </writers>
+     <producers>
+      <producer><gn>Paul</gn><fn>Breuls</fn></producer>
+      <producer><gn>Ed</gn><fn>Cathell</fn><suffix>III</suffix></producer>
+      <execProducer><gn>Boaz</gn><fn>Davidson</fn></execProducer>
+      <execProducer><gn>Danny</gn><fn>Dimbort</fn></execProducer>
+      <team>
+       <coExecProducer><gn>Anson</gn><fn>Downes</fn></coExecProducer>
+       <coExecProducer><gn>Linda</gn><fn>Favila</fn></coExecProducer>
+      </team>
+      <coProducer><gn>Veronique</gn><fn>Huyghebaert</fn></coProducer>
+      <execProducer><gn>Avi</gn><fn>Lerner</fn></execProducer>
+      <execProducer><gn>Danny</gn><fn>Lerner</fn></execProducer>
+      <producer><gn>Anthony</gn><fn>Rhulen</fn></producer>
+      <execProducer><gn>Guy</gn><fn>Tannahill</fn></execProducer>
+      <producer><gn>John</gn><fn>Thompson</fn></producer>
+      <assistProducer><gn>Emelie</gn><fn>Vervecken</fn></assistProducer>
+      <execProducer><gn>Jake</gn><fn>Wagner</fn></execProducer>
+      <coExecProducer><gn>Lonnie</gn><fn>Ramati</fn></coExecProducer>
+     </producers>
      <editors>
       <editor><gn>Sean</gn><fn>Albertson</fn></editor>
      </editors>

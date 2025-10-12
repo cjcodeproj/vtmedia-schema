@@ -83,6 +83,11 @@
        </book>
       </sources>
      </writers>
+     <producers>
+      <producer><gn>Frank</gn><fn>Capra</fn><suffix>Jr.</suffix></producer>
+      <execProducer uncredited='true'><gn>Dino</gn><fn>De Laurentiis</fn></execProducer>
+      <assocProducer><gn>Martha</gn><fn>De Laurentiis</fn></assocProducer>
+     </producers>
      <editors>
       <editor><gn>David</gn><fn>Rawlins</fn></editor>
       <editor><gn>Ronald</gn><fn>Sanders</fn></editor>

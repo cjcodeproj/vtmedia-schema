@@ -58,6 +58,10 @@
        </novel>
       </sources>
      </writers>
+     <producers>
+      <producer><gn>Hank</gn><fn>Moonjean</fn></producer>
+      <assocProducer><gn>Edward</gn><fn>Teets</fn></assocProducer>
+     </producers>
      <editors>
       <editor><gn>William</gn><mn>D</mn><fn>Gordean</fn></editor>
       <editor><gn>Dennis</gn><fn>Virkler</fn></editor>

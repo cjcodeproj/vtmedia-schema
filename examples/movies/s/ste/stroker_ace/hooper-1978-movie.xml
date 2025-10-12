@@ -51,6 +51,11 @@
       <writer role='story'><gn>Walter</gn><mn>S</mn><fn>Herndon</fn></writer>
       <writer><gn>James</gn><fn>Best</fn></writer>
      </writers>
+     <producers>
+      <execProducer><gn>Lawrence</gn><fn>Gordon</fn></execProducer>
+      <producer><gn>Hank</gn><fn>Moonjean</fn></producer>
+      <producer uncredited='true'><gn>Burt</gn><fn>Raynolds</fn></producer>
+     </producers>
      <editors>
       <editor><gn>Donn</gn><fn>Cambern</fn></editor>
      </editors>

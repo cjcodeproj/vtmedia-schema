@@ -148,6 +148,11 @@
       <writer><gn>Larry</gn><fn>Gross</fn></writer>
       <writer><gn>Steven</gn><mn>E</mn><fn>de Souza</fn></writer>
      </writers>
+     <producers>
+      <execProducer><pgn>D. Constantine</pgn><fn>Conte</fn></execProducer>
+      <producer><gn>Lawrence</gn><fn>Gordon</fn></producer>
+      <producer><gn>Joel</gn><fn>Silver</fn></producer>
+     </producers>
      <editors>
       <editor><gn>Freeman</gn><mn>A</mn><fn>Davies</fn></editor>
       <editor><gn>Mark</gn><fn>Warner</fn></editor>
@@ -439,6 +444,15 @@
        </characters>
       </sources>
      </writers>
+     <producers>
+      <coProducer><pgn>D. Constantine</pgn><fn>Conte</fn></coProducer>
+      <assocProducer><gn>Kenneth</gn><mi>H.</mi><fn>Frith</fn><suffix>Jr.</suffix></assocProducer>
+      <producer><gn>Lawrence</gn><fn>Gordon</fn></producer>
+      <execProducer><gn>Mark</gn><fn>Lipsky</fn></execProducer>
+      <assocProducer><gn>Ray</gn><fn>Murphy</fn><suffix>Jr.</suffix></assocProducer>
+      <execProducer><gn>Ralph</gn><mi>S.</mi><fn>Singleton</fn></execProducer>
+      <producer><gn>Robert</gn><mi>D.</mi><fn>Wachs</fn></producer>
+     </producers>
      <editors>
       <editor><gn>Donn</gn><fn>Aron</fn></editor>
       <editor><gn>Carmel</gn><fn>Davies</fn></editor>

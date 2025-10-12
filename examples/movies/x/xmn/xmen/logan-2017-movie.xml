@@ -119,6 +119,19 @@
       <writer role='screenplay'><gn>James</gn><fn>Mangold</fn></writer>
       <writer role='screenplay'><gn>Michael</gn><fn>Green</fn></writer>
      </writers>
+     <producers>
+      <team>
+       <coProducer><gn>Dana</gn><fn>Robin</fn></coProducer>
+       <coProducer><gn>Kurt</gn><fn>Williams</fn></coProducer>
+      </team>
+      <execProducer><gn>Stan</gn><fn>Lee</fn></execProducer>
+      <execProducer><gn>James</gn><fn>Mangold</fn></execProducer>
+      <execProducer><gn>Joseph</gn><fn>Caracciolo</fn><suffix>Jr.</suffix></execProducer>
+      <execProducer><gn>Josh</gn><fn>McLaglen</fn></execProducer>
+      <producer><gn>Hutch</gn><fn>Parker</fn></producer>
+      <producer><gn>Simon</gn><fn>Kinberg</fn></producer>
+      <producer><gn>Lauren</gn><fn>Shuler Donner</fn></producer>
+     </producers>
      <editors>
       <editor><gn>Michael</gn><fn>McCusker</fn></editor>
       <editor><gn>Dirk</gn><fn>Westervelt</fn></editor>

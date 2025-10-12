@@ -120,6 +120,11 @@
    <writer><gn>John</gn><fn>Hill</fn></writer>
    <writer><gn>Matthew</gn><fn>Robbins</fn></writer>
   </writers>
+  <producers>
+   <producer><gn>Julia</gn><fn>Phillips</fn></producer>
+   <producer><gn>Michael</gn><fn>Phillips</fn></producer>
+   <assocProducer><gn>Clark</gn><mi>L.</mi><fn>Paylow</fn></assocProducer>
+  </producers>
   <editors>
    <editor><gn>Vilmos</gn><fn>Zsigmond</fn></editor>
   </editors>
