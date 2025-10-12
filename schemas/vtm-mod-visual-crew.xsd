@@ -28,17 +28,6 @@
   </xs:sequence>
  </xs:complexType>
 
- <xs:complexType name='ProducersType'>
-  <!-- UNSTABLE INTERFACE - DO NOT USE -->
-  <xs:choice minOccurs='1' maxOccurs='unbounded'>
-   <xs:element name='producer' type='CrewNameType'/>
-   <xs:element name='execProducer' type='CrewNameType'/>
-   <xs:element name='suprProducer' type='CrewNameType'/>
-   <xs:element name='asscProducer' type='CrewNameType'/>
-   <xs:element name='lineProducer' type='CrewNameType'/>
-  </xs:choice>
- </xs:complexType>
-
  <xs:complexType name='EditorsType'>
   <xs:sequence>
    <xs:element name='editor' type='CrewNameType' minOccurs='1' maxOccurs='unbounded'/>
@@ -49,6 +38,48 @@
   <xs:sequence>
    <xs:element name='cinemaphotographer' type='CrewNameType' minOccurs='1' maxOccurs='unbounded'/>
   </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='TeamProducersType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A grouping of either co-producers or co-executive producers.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='coProducer' type='CrewNameType' minOccurs='2' maxOccurs='unbounded'/>
+   <xs:element name='coExecProducer' type='CrewNameType' minOccurs='2' maxOccurs='unbounded'/>
+  </xs:choice>
+ </xs:complexType>
+
+ <xs:group name='ProducersGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    The producers credit group.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='execProducer' type='CrewNameType'/>
+   <xs:element name='coExecProducer' type='CrewNameType'/>
+   <xs:element name='producer' type='CrewNameType'/>
+   <xs:element name='assocProducer' type='CrewNameType'/>
+   <xs:element name='assistProducer' type='CrewNameType'/>
+   <xs:element name='lineProducer' type='CrewNameType'/>
+   <xs:element name='coProducer' type='CrewNameType'/>
+   <xs:element name='team' type='TeamProducersType'/>
+  </xs:choice>
+ </xs:group>
+
+ <xs:complexType name='ProducersType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Contains at least one of any of the elements in the
+    Producers group.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:group ref='ProducersGroup' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:choice>
  </xs:complexType>
 
  <xs:group name='ArtDirectorGroup'>
