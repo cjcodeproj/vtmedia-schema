@@ -1,7 +1,7 @@
 vtmedia-schema CHANGELOG
 =========================
 
-## CURRENT
+## RELEASE 2025.10
 
  - [schema-205](https://github.com/cjcodeproj/vtmedia-schema/issues/205) The Producers (not the movie)
  - [schema-149](https://github.com/cjcodeproj/vtmedia-schema/issues/149) Song: composition and performance structures
