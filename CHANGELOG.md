@@ -3,6 +3,8 @@ vtmedia-schema CHANGELOG
 
 ## CURRENT
 
+ - [schema-213](https://github.com/cjcodeproj/vtmedia-schema/issues/213) Album technical element
+ - [schema-139](https://github.com/cjcodeproj/vtmedia-schema/issues/139) Music: identify live performance locations and dates
  - [schema-211](https://github.com/cjcodeproj/vtmedia-schema/issues/211) Address record
  - [schema-212](https://github.com/cjcodeproj/vtmedia-schema/issues/212) Consolidate geo data types
 
