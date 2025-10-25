@@ -1,6 +1,11 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## CURRENT
+
+ - [schema-212](https://github.com/cjcodeproj/vtmedia-schema/issues/212) Consolidate geo data types
+
+ 
 ## RELEASE 2025.10
 
  - [schema-205](https://github.com/cjcodeproj/vtmedia-schema/issues/205) The Producers (not the movie)

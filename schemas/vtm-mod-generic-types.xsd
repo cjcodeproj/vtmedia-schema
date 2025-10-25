@@ -47,6 +47,7 @@
   </xs:restriction>
  </xs:simpleType>
 
+ <!--
  <xs:simpleType name='CountryCodeType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
@@ -59,6 +60,7 @@
    <xs:maxLength value='6'/>
   </xs:restriction>
  </xs:simpleType>
+   -->
 
  <xs:simpleType name='CurrencyCodeType'>
   <xs:annotation>
