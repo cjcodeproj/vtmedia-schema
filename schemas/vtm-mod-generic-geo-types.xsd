@@ -54,4 +54,51 @@
   </xs:restriction>
  </xs:simpleType>
 
+ <xs:complexType name='FederatedStateType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A custom token type for a state or province.
+    including an attribute to support an abbreviation value.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='abbrv' type='xs:token' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+ <xs:complexType name='CountryType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A data type for a country name, including
+    an attribute to support an abbreviation.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:simpleContent>
+   <xs:extension base='xs:token'>
+    <xs:attribute name='abbrv' type='xs:token' use='optional'/>
+   </xs:extension>
+  </xs:simpleContent>
+ </xs:complexType>
+
+
+ <xs:complexType name='FullAddressType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    A full address.
+    The value in this element should reflect a direct location
+    with enough information to pinpoint on a map.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='name' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='address' type='xs:token' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='ci' type='xs:token' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='st' type='FederatedStateType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='cn' type='CountryType' minOccurs='1' maxOccurs='1'/>
+   <xs:element name='zip' type='xs:token' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
 </xs:schema>

@@ -3,6 +3,7 @@ vtmedia-schema CHANGELOG
 
 ## CURRENT
 
+ - [schema-211](https://github.com/cjcodeproj/vtmedia-schema/issues/211) Address record
  - [schema-212](https://github.com/cjcodeproj/vtmedia-schema/issues/212) Consolidate geo data types
 
  
