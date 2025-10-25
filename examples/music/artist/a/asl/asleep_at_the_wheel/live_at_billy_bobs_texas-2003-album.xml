@@ -15,6 +15,18 @@
   </genres>
   <livePerformance/>
  </classification>
+ <technical>
+  <liveRecording>
+   <where>
+    <name>Billy Bob's Texas</name>
+    <address>2520 Rodeo Plz</address>
+    <ci>Fort Worth</ci>
+    <st abbrv='TX'>Texas</st>
+    <cn>United States</cn>
+    <zip>76164</zip>
+   </where>
+  </liveRecording>
+ </technical>
  <elements>
   <song id='mam01'>
    <title>
@@ -31,7 +43,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT3M38.38S</overall>
     </runtime>
@@ -49,7 +60,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT3M27.52S</overall>
     </runtime>
@@ -73,7 +83,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT3M6.20S</overall>
     </runtime>
@@ -91,7 +100,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT2M47.65S</overall>
     </runtime>
@@ -112,7 +120,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT3M6.60S</overall>
     </runtime>
@@ -133,7 +140,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT3M39.78S</overall>
     </runtime>
@@ -151,7 +157,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT3M56.59S</overall>
     </runtime>
@@ -172,7 +177,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT3M25.31S</overall>
     </runtime>
@@ -193,7 +197,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT3M11.89S</overall>
     </runtime>
@@ -214,7 +217,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT3M52.04S</overall>
     </runtime>
@@ -232,7 +234,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT2M56.17S</overall>
     </runtime>
@@ -250,7 +251,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT3M56.56S</overall>
     </runtime>
@@ -268,7 +268,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT3M53.76S</overall>
     </runtime>
@@ -286,7 +285,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT4M27.66S</overall>
     </runtime>
@@ -304,7 +302,6 @@
     </composers>
    </catalog>
    <technical>
-    <liveRecording/>
     <runtime>
      <overall>PT4M20.11S</overall>
     </runtime>

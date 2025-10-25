@@ -364,7 +364,8 @@
   </song>
   <song id='tlr01'>
    <title>
-    <main>The Last Roundup [Live At The Birchmere, Alexandria, VA / March 5-6, 1983]</main>
+    <main>The Last Roundup</main>
+    <!-- note: [Live At The Birchmere, Alexandria, VA / March 5-6, 1983]-->
    </title>
 <!-- EDIT FLAGS: detected_square_brackets possible_live_performance  -->
   <catalog>
@@ -378,7 +379,16 @@
    <bonusTrack/>
   </classification>
    <technical>
-    <liveRecording/>
+    <liveRecording>
+     <where>
+      <name>The Birchmere</name>
+      <address>3701 Mount Vernon Ave</address>
+      <ci>Alexandria</ci>
+      <st abbrv='VA'>Virginia</st>
+      <cn>United States</cn>
+      <zip>22305-2408</zip>
+     </where>
+    </liveRecording>
     <runtime>
       <overall>PT2M33.07S</overall>
     </runtime>
