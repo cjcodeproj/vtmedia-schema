@@ -18,6 +18,7 @@
   </xs:documentation>
  </xs:annotation>
 
+ <xs:include schemaLocation='vtm-mod-generic-types.xsd'/>
  <xs:include schemaLocation='vtm-mod-generic-geo-types.xsd'/>
 
  <xs:annotation>
@@ -38,17 +39,39 @@
   </xs:annotation>
  </xs:complexType>
 
- <xs:complexType name='LiveAudioRecordingType'>
+ <xs:complexType name='RecordingDatesType'>
   <xs:annotation>
    <xs:documentation xml:lang='en-US'>
-    Generic empty element to identify a type of
-    recording.  The 3 elements, studio/live/demo will
-    actually be turned into different types in
-    the future.
+    Date of a live or studio recording.  In most cases,
+    the child elements will either be 'exact' or 'from'/'to'.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='dates' type='VariableDateType' minOccurs='1' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='StudioAudioRecordingType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Identifies a studio recording session.
    </xs:documentation>
   </xs:annotation>
   <xs:sequence>
    <xs:element name='where' type='FullAddressType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='when' type='RecordingDatesType' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name='LiveAudioRecordingType'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     Identifies a live recording sesssion.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='where' type='FullAddressType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='when' type='RecordingDatesType' minOccurs='0' maxOccurs='1'/>
   </xs:sequence>
  </xs:complexType>
 
@@ -62,7 +85,7 @@
    </xs:documentation>
   </xs:annotation>
   <xs:choice>
-   <xs:element name='studioRecording' type='AudioRecordingType'/>
+   <xs:element name='studioRecording' type='StudioAudioRecordingType'/>
    <xs:element name='liveRecording' type='LiveAudioRecordingType'/>
    <xs:element name='demoRecording' type='AudioRecordingType'/>
   </xs:choice>

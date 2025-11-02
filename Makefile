@@ -45,6 +45,7 @@ FILES= $(SD)/media-schema.xsd \
 	$(SD)/vtm-mod-audio-elements-song.xsd \
 	$(SD)/vtm-mod-audio-technical.xsd \
 	$(SD)/vtm-mod-generic-crew-types.xsd \
+	$(SD)/vtm-mod-generic-geo-types.xsd \
 	$(SD)/vtm-mod-generic-pnouns-keywords.xsd \
 	$(SD)/vtm-mod-generic-story.xsd \
 	$(SD)/vtm-mod-generic-types.xsd \

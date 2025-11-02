@@ -388,6 +388,9 @@
       <cn>United States</cn>
       <zip>22305-2408</zip>
      </where>
+     <when>
+      <dates><from>1983-03-05</from><to>1983-03-06</to></dates>
+     </when>
     </liveRecording>
     <runtime>
       <overall>PT2M33.07S</overall>
