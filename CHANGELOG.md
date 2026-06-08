@@ -3,6 +3,7 @@ vtmedia-schema CHANGELOG
 
 ## CURRENT
 
+ - [schema-220](https://github.com/cjcodeproj/vtmedia-schema/issues/220) Modify target audience
  - [schema-223](https://github.com/cjcodeproj/vtmedia-schema/issues/223) Support song lyrics
  - [schema-213](https://github.com/cjcodeproj/vtmedia-schema/issues/213) Album technical element
  - [schema-139](https://github.com/cjcodeproj/vtmedia-schema/issues/139) Music: identify live performance locations and dates
