@@ -90,6 +90,7 @@
   </xs:annotation>
   <xs:choice>
    <xs:element name='artDirector' type='CrewNameType'/>
+   <xs:element name='assistArtDirector' type='CrewNameType'/>
    <xs:element name='supervisingArtDirector' type='CrewNameType'/>
    <xs:element name='seniorArtDirector' type='CrewNameType'/>
   </xs:choice>
