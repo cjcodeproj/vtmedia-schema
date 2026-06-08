@@ -43,6 +43,7 @@ FILES= $(SD)/media-schema.xsd \
 	$(SD)/vtm-mod-audio-classification.xsd \
 	$(SD)/vtm-mod-audio-elements.xsd \
 	$(SD)/vtm-mod-audio-elements-song.xsd \
+	$(SD)/vtm-mod-audio-elements-song-composition.xsd \
 	$(SD)/vtm-mod-audio-technical.xsd \
 	$(SD)/vtm-mod-generic-crew-types.xsd \
 	$(SD)/vtm-mod-generic-geo-types.xsd \

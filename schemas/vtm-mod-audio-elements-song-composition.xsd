@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' elementFormDefault='qualified'>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Copyright 2026, Chris Josephes
+
+    This work is licensed under the Creative Commons Attribution-ShareAlike
+    4.0 International License.
+
+    To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-sa/4.0/ or
+    send a letter to
+    Creative Commons
+    PO Box 1866
+    Mountain View, CA 94042, USA.
+  </xs:documentation>
+ </xs:annotation>
+
+ <xs:annotation>
+  <xs:documentation xml:lang='en-US'>
+    Songs: Description information for song composition elements
+  </xs:documentation>
+ </xs:annotation>
+
+
+ <xs:complexType name='AudioSongCompositionRawLyrics'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+     The lyrics of a song, in a barebones format,
+     suitable for song data that may have been imported
+     from a webpage or from ID3 metadata.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:element name='line' type='xs:string' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+ </xs:complexType>
+
+</xs:schema>
+

@@ -28,7 +28,7 @@
  <xs:include schemaLocation='vtm-mod-audio-catalog.xsd'/>
  <xs:include schemaLocation='vtm-mod-audio-classification.xsd'/>
  <xs:include schemaLocation='vtm-mod-audio-technical.xsd'/>
-
+ <xs:include schemaLocation='vtm-mod-audio-elements-song-composition.xsd'/>
 
  <xs:complexType name='AudioContentSongTitleType'>   <!-- song -->
   <xs:annotation>
@@ -73,6 +73,9 @@
     information to other works.
    </xs:documentation>
   </xs:annotation>
+  <xs:sequence>
+   <xs:element name='rawLyrics' type='AudioSongCompositionRawLyrics' minOccurs='0' maxOccurs='1'/>
+  </xs:sequence>
  </xs:complexType>
 
 
