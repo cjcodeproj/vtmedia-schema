@@ -3,6 +3,7 @@ vtmedia-schema CHANGELOG
 
 ## CURRENT
 
+ - [schema-98](https://github.com/cjcodeproj/vtmedia-schema/issues/98) crew/music: child elements should not be mandated to follow a specific order
  - [schema-224](https://github.com/cjcodeproj/vtmedia-schema/issues/224) Add job role Assistant Art Director
  - [schema-220](https://github.com/cjcodeproj/vtmedia-schema/issues/220) Modify target audience
  - [schema-223](https://github.com/cjcodeproj/vtmedia-schema/issues/223) Support song lyrics
