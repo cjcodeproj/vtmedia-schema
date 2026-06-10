@@ -1,8 +1,9 @@
 vtmedia-schema CHANGELOG
 =========================
 
-## CURRENT
+## RELEASE 2026.06
 
+ - [schema-225](https://github.com/cjcodeproj/vtmedia-schema/issues/225) Release 2026.06
  - [schema-98](https://github.com/cjcodeproj/vtmedia-schema/issues/98) crew/music: child elements should not be mandated to follow a specific order
  - [schema-224](https://github.com/cjcodeproj/vtmedia-schema/issues/224) Add job role Assistant Art Director
  - [schema-220](https://github.com/cjcodeproj/vtmedia-schema/issues/220) Modify target audience
