@@ -1,6 +1,19 @@
 vtmedia-schema CHANGELOG
 =========================
 
+## RELEASE 2026.06
+
+ - [schema-225](https://github.com/cjcodeproj/vtmedia-schema/issues/225) Release 2026.06
+ - [schema-98](https://github.com/cjcodeproj/vtmedia-schema/issues/98) crew/music: child elements should not be mandated to follow a specific order
+ - [schema-224](https://github.com/cjcodeproj/vtmedia-schema/issues/224) Add job role Assistant Art Director
+ - [schema-220](https://github.com/cjcodeproj/vtmedia-schema/issues/220) Modify target audience
+ - [schema-223](https://github.com/cjcodeproj/vtmedia-schema/issues/223) Support song lyrics
+ - [schema-213](https://github.com/cjcodeproj/vtmedia-schema/issues/213) Album technical element
+ - [schema-139](https://github.com/cjcodeproj/vtmedia-schema/issues/139) Music: identify live performance locations and dates
+ - [schema-211](https://github.com/cjcodeproj/vtmedia-schema/issues/211) Address record
+ - [schema-212](https://github.com/cjcodeproj/vtmedia-schema/issues/212) Consolidate geo data types
+
+ 
 ## RELEASE 2025.10
 
  - [schema-205](https://github.com/cjcodeproj/vtmedia-schema/issues/205) The Producers (not the movie)

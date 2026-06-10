@@ -46,8 +46,8 @@
   <xs:choice>
    <xs:element name='kids' type='IntendedAudienceChoiceType'/>
    <xs:element name='teens' type='IntendedAudienceChoiceType'/>
-   <xs:element name='grownups' type='IntendedAudienceChoiceType'/>
-   <xs:element name='families' type='IntendedAudienceChoiceType'/>
+   <xs:element name='adults' type='IntendedAudienceChoiceType'/>
+   <xs:element name='allAges' type='IntendedAudienceChoiceType'/>
   </xs:choice>
  </xs:group>
 

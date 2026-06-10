@@ -49,6 +49,7 @@
    <xs:element name='title' type='xs:string' minOccurs='1' maxOccurs='1'/>
    <xs:element name='catalog' type='AudioAlbumCatalogType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='classification' type='AudioAlbumClassificationType' minOccurs='0' maxOccurs='1'/>
+   <xs:element name='technical' type='AudioAlbumTechnicalType' minOccurs='0' maxOccurs='1'/>
    <xs:element name='elements' type='AudioAlbumElementsType' minOccurs='1' maxOccurs='1'/>
   </xs:sequence>
   <xs:attributeGroup ref='ContentAttributeGroup'/>

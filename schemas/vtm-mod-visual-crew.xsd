@@ -90,6 +90,7 @@
   </xs:annotation>
   <xs:choice>
    <xs:element name='artDirector' type='CrewNameType'/>
+   <xs:element name='assistArtDirector' type='CrewNameType'/>
    <xs:element name='supervisingArtDirector' type='CrewNameType'/>
    <xs:element name='seniorArtDirector' type='CrewNameType'/>
   </xs:choice>
@@ -118,11 +119,27 @@
   </xs:sequence>
  </xs:complexType>
 
+ <xs:group name='MusicGroup'>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Job selection for the music department.
+   </xs:documentation>
+  </xs:annotation>
+  <xs:choice>
+   <xs:element name='composer' type='CrewPersonOrGroupType'/>
+   <xs:element name='conductor' type='CrewPersonOrGroupType'/>
+   <xs:element name='music' type='CrewPersonOrGroupType'/>
+  </xs:choice>
+ </xs:group>
+
  <xs:complexType name='MusicType'>
-  <xs:sequence minOccurs='1'>
-   <xs:element name='composer' type='CrewPersonOrGroupType' minOccurs='0' maxOccurs='unbounded'/>
-   <xs:element name='conductor' type='CrewNameType' minOccurs='0' maxOccurs='unbounded'/>
-   <xs:element name='music' type='CrewPersonOrGroupType' minOccurs='0' maxOccurs='unbounded'/>
+  <xs:annotation>
+   <xs:documentation xml:lang='en-US'>
+    Crew members from the music department
+   </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+   <xs:group ref='MusicGroup' minOccurs='1' maxOccurs='unbounded'/>
   </xs:sequence>
  </xs:complexType>
 
